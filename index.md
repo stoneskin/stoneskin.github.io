@@ -1,6 +1,6 @@
 # MLCCC Coding class
  
-This is page for <a target="_blank" href="http://mlccc.org">MLCCC</a> coding class
+This is page for <a target="_blank" href="http://mlccc.org">Main Line Chese Culture Center</a> coding class
   
 * <a target="_blank" href="https://1drv.ms/u/s!Avm-0LBz8-Jhg4M4HD4vOYb3PJFYUA?e=2ZGBLU">MLCCC Coding Class Share folder</a>
 * Class scratch studio <a target="_blank"
@@ -16,16 +16,15 @@ This is page for <a target="_blank" href="http://mlccc.org">MLCCC</a> coding cla
 
 ## [3-6 Grade Scratch Programming Camp](./SummerCamp_Scratch/index.md)
 
-<a href="./SummerCamp_Scratch/index.md"> <img src="./images/image11.png" /> </a>
-<br />
+[![scratch](./images/image11.png)](./SummerCamp_Scratch/index.md)
 
 ------
 
 ## [Learn Python With minecraft Camp](./SummerCamp_Python_Minecraft/index.md)
-    
-<a href="./SummerCamp_Python_Minecraft/index.md"><img src="https://stoneskin.github.io/python-minecraft/documents/ProgrammingWithMineCraftPython.png" /></a>
 
-<hr>
+[![python](images/image7.png)](./SummerCamp_Python_Minecraft/index.md)
+
+------
 
 ## My projects
 
