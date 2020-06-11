@@ -19,12 +19,13 @@ This is page for <a target="_blank" href="http://mlccc.org">MLCCC</a> coding cla
 <a href="./SummerCamp_Scratch/index.md"> <img src="./images/image11.png" /> </a>
 <br />
 
+------
+
 ## [Learn Python With minecraft Camp](./SummerCamp_Python_Minecraft/index.md)
     
 <a href="./SummerCamp_Python_Minecraft/index.md"><img src="https://stoneskin.github.io/python-minecraft/documents/ProgrammingWithMineCraftPython.png" /></a>
 
 <hr>
-
 
 ## My projects
 
