@@ -16,13 +16,13 @@ This is page for <a target="_blank" href="http://mlccc.org">Main Line Chese Cult
 
 ## [3-6 Grade Scratch Programming Camp](./SummerCamp_Scratch/index.md)
 
-[![scratch](./images/image11.png)](./SummerCamp_Scratch/index.md)
+[![scratch](./images/image11.png)](./SummerCamp_Scratch/)
 
 ------
 
 ## [Learn Python With minecraft Camp](./SummerCamp_Python_Minecraft/index.md)
 
-[![python](images/image7.png)](./SummerCamp_Python_Minecraft/index.md)
+[![python](images/image7.png)](./SummerCamp_Python_Minecraft/)
 
 ------
 
