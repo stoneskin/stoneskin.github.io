@@ -45,9 +45,22 @@ Students will use Scratch to learn programming conceptes by createing animation 
    - Animation
    - interactive
 2. [7/31] Make a Pet with Scratch
-   -
+   - choose a pet and animate it
+   - Feed you ped
+   - Let your pet say something
+   - Play a toy
+   - Your pet is hungry
 
 ### Session 4
 
 1. [8/7] Chase Game and Pong Game
+   - move and chase
+   - play sound
+   - score and level
+   - you win or game over
 2. [8/14] Jump Game and Catch Game
+   - jump
+   - moving obstace
+   - score
+   - fall down and catch it
+   - bonus point
