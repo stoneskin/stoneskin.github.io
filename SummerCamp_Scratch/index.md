@@ -1,3 +1,5 @@
+For [MLCCC online Summer Camp 2020](http://www.mlccc.org/MlcccV2/Forms/V2/Programs/Camp/SummerCamp.aspx)
+
 # Grade 3-5 Scratch Animation and Game Programming
 
 ![image](../images/image11.png)
