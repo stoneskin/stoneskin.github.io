@@ -11,17 +11,41 @@ Students will use Scratch to learn programming conceptes by createing animation 
 ### Session 1
 
 1. [6/19] Get Start with Scratch
+   - intruduce scratch and mclccc studio
+   - A walking through scratch
+   - Activities: 10 blocks
+   - Demo
+  
 2. [6/20] Animation and Drawing on Scratch
+   - Animation Your Name
+   - Character Animation
+   - Drawing Animation
+   - project
 
 ### Session 2
 
 1. [7/10] Animation with music
+   - Play sound, make rhythem
+   - Animatie the instrument
+   - make a melody, play a chord
+   - Beatbox sound, record sound
+   - Project: build a Band
 2. [7/17] Music video and dance
+   - play song and loop
+   - Cance move
+   - Shadow effect and interactive Dance
+   - Project: Music Video
 
 ### Session 3
 
 1. [7/24] Story Animation
+   - start a story annd conversation
+   - Backdrop and Character
+   - Add your voice, text to voice
+   - Animation
+   - interactive
 2. [7/31] Make a Pet with Scratch
+   -
 
 ### Session 4
 
