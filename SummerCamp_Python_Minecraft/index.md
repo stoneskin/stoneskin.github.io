@@ -7,7 +7,7 @@
 Students will learn programming by writing Python code that runs within the Minecraft Game. Class content will include basic Python programming knowledge and network knowledge. Students will set up their own Minecraft Server, install modules, then write Python code to run in the Minecraft world. Our goal is to learn programming while having fun in Minecraft.
 
 
-## Session 1: [6/19,6/20] Get start with Python and Minecraft
+## Session 1: [6/19,6/26] Get start with Python and Minecraft
 
 1. Demo and installation
     * Demo what python could do in Minecraft game
