@@ -22,7 +22,7 @@ Students will learn programming by writing Python code that runs within the Mine
 
 ## Session 1: [6/19,6/26] Get started with Python and Minecraft
 
-1. Demo and installation
+1. [Python and Minecraft installation](./Session1.1.md)
     * Demo what python could do in Minecraft game
     * Setup Minecraft server
     * Install Python and Modules
