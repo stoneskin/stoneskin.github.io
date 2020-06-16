@@ -23,6 +23,7 @@ Go to minecraft website download the Java Edition
 * Install Minecraft Server:
   * Download Java and install it. ([link to download Java](https://java.com/en/download/))
   * Download the [spigot minecraft server](https://stoneskin.github.io/python-minecraft/documents/1_SetUpMineCraftServer/minecraft_spigot-1.15.2.zip) and unzip it.
+  * Run it by double click the "StartMineCraftServer.bat" file.
 * To understand how it works
   - <a target="_blank" href="https://stoneskin.github.io/python-minecraft/documents/1_SetUpMineCraftServer/1.1_HowToSetUpMineCraftServer.html">How to setup a mincraft server (spigot)</a>
   
