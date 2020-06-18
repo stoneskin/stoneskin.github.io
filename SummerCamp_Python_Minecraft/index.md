@@ -32,10 +32,10 @@ Students will learn programming by writing Python code that runs within the Mine
     * Understanding the coordinates of Minecraft
     * Stack Blocks with loop
 
-## Session 2: [7/10,7/17] More about python,conditions and double loop
+## Session 2: [7/10,7/17] Python Data Types, Condition and double loops
 
-1. Data Types
-   * Chat with String
+1. Data Types String and Number
+   * Use PostToChat post String to Minecraft chat
    * Get a Number from input
   
 2. Codition & loops

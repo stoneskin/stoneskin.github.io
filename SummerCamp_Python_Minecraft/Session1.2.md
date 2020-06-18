@@ -115,6 +115,8 @@ for learnning how to use `for` loop, please visit [Python For Loops](https://www
 
 Below mission only need using `for ... range` loop.
 
+![forloop](forloop.jpg)
+
 ### - [Mission-2.1]Stack 5 blocks without loop
 
 You could repeat your code 5 times
@@ -177,6 +179,7 @@ for k in range(0,5):
 
 ### - [Challenge] [Mission-2.5] Build a 10x10X5 pyramid in Minecraft
 
-Modified your code in mission-2.4, build a 10X10X5 pyramid.
+Modified your code in mission-2.4, build a 10X10X? pyramid.
 please show you work.
 
+![pyramid](pyramid.jpg)

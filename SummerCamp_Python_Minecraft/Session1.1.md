@@ -7,7 +7,7 @@
 * A different way to play Minecraft
 * Let Python do the boring tasks for you
 * Change the Minecraft world by put or clear blocks
-* Find the location resource undergroud
+* Find the location resource underground
 * Build small game in the Minecraft
 
 ### 2. Setup Minecraft Client and Server
@@ -25,7 +25,7 @@ Go to minecraft website download the Java Edition
   * Download the [spigot minecraft server](https://stoneskin.github.io/python-minecraft/documents/1_SetUpMineCraftServer/minecraft_spigot-1.15.2.zip) and unzip it.
   * Run it by double click the "StartMineCraftServer.bat" file.
 * To understand how it works
-  - <a target="_blank" href="https://stoneskin.github.io/python-minecraft/documents/1_SetUpMineCraftServer/1.1_HowToSetUpMineCraftServer.html">How to setup a mincraft server (spigot)</a>
+  - <a target="_blank" href="https://stoneskin.github.io/python-minecraft/documents/1_SetUpMineCraftServer/1.1_HowToSetUpMineCraftServer.html">How to setup a minecraft server (spigot)</a>
   
   - <a target="_blank" href="https://stoneskin.github.io/python-minecraft/documents/1_SetUpMineCraftServer/1.2_HowToEnablePythonForMineCraftServer.html">How to enable Python on the Minecraft server by installing the RaspberryJuice plugin</a>
 * Connect to your server
@@ -36,7 +36,7 @@ Go to minecraft website download the Java Edition
   * Go to <a target="_blank" href="https://www.python.org/downloads/">Python download page</a>, download and install **Python 3.8** and up
   * <a href="https://onedrive.live.com/?authkey=%21ABw%2DLzmG9zyRWFA&cid=61E2F373B0D0BEF9&id=61E2F373B0D0BEF9%2150723&parId=61E2F373B0D0BEF9%2150531&o=OneUp" target="_blank">How to Install Python</a>
  
-* **Install Python-Mincraft API module `mcpi-e`** 
+* **Install Python-Minecraft API module `mcpi-e`** 
   * Window
 
     >*input below script in the command line. (from start, search "cmd")*
@@ -58,7 +58,7 @@ Go to minecraft website download the Java Edition
 * **Install a Python  Editor**
  
   - Python IDLE
-    - [IDLD](https://en.wikipedia.org/wiki/IDLE) is commine with Python, Open it by in Start->Search, Input "IDLE"
+    - [IDLE](https://en.wikipedia.org/wiki/IDLE) is commine with Python, Open it by in Start->Search, Input "IDLE"
     - For how to [use IDLE](https://realpython.com/python-idle/)
     
   - PyCharm
@@ -87,5 +87,5 @@ pos = mc.player.getPos()
 print("pos: x:{},y:{},z:{}".format(pos.x,pos.y,pos.z))
 ```
 
-Use your faverate python editor to open the sample1.py file.
+Use your favorite python editor to open the sample1.py file.
 When you install python, it come with a python editor call IDLE.
