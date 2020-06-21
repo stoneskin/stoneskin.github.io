@@ -11,7 +11,7 @@ Students will use Scratch to learn programming conceptes by createing animation 
 ### Session 1
 
 1. [6/19] Get Start with Scratch
-   - intruduce scratch and mclccc studio
+   - Intruduce scratch and [mclccc studio](https://scratch.mit.edu/studios/26931632/)
    - A walking through scratch
    - Tutorials:[Step by Step](1.stepbystep.pdf)
    - Activities: [10 blocks](./2.10blocks.pdf)

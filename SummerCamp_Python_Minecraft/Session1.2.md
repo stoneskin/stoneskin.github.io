@@ -109,7 +109,7 @@ mc.setBlock(x+3,y,z,block.WOOL_BLUE)
 
 ------
 
-### 2. Use Python loop Statck Blocks
+### 2. Use Python loop Stack Blocks
 
 for learnning how to use `for` loop, please visit [Python For Loops](https://www.w3schools.com/python/python_for_loops.asp)
 
@@ -117,7 +117,7 @@ Below mission only need using `for ... range` loop.
 
 ![forloop](forloop.jpg)
 
-### - [Mission-2.1]Stack 5 blocks without loop
+#### - [Mission-1.7]Stack 5 blocks without loop
 
 You could repeat your code 5 times
 
@@ -132,7 +132,7 @@ mc.setBlock(x,y,z,id)
 mc.setBlock(x,y,z,id)
 ```
 
-### - [Mission-2.2] Stack 5 blocks by using `for` loop
+#### - [Mission-1.8] Stack 5 blocks by using `for` loop
 
 Check below `for range` syntax,  please build 5 pillars around you.
 
@@ -146,40 +146,18 @@ for i in range(0,5):
 
 ```
 
-### - [Mission-2.3] Build a 5X5 wall
+### -[Mission 1.9] Try set blocks 
 
-Use another `for` loop outside the loop in mission-2.2, and change the x,y or z, you could build a wall.
-Please try build a 4 wall beside your self.
-
-```python
-x,y,z = pos = mc.player.getTilePos()
-
-id=103
-for j in range(0,5):
-   print("j=",j)
-   for i in range(0,5):
-      print("i=",i)
-      mc.setBlock(x+j,y+i,z,id)
-
-```
-
-### - [Mission-2.4] Build a 5x5x5 Cube
-
-you need 3 layers of loop,  see below example of add 3 layer of loop on mission 2.3.
+to use the setBlocks, you need pass two set of blocks
 
 ```python
-
-id=103
-for k in range(0,5):
-   for j in range(0,5):
-      for i in range(0,5):
-         mc.setBlock(x+j,y+i,z+k,id)
-
+mc.setBlocks(x,y,z,x1,y1,z1,blockId)
 ```
 
-### - [Challenge] [Mission-2.5] Build a 10x10X5 pyramid in Minecraft
+### -[Mission 1.10][Challenge] use what you learn to build a house
 
-Modified your code in mission-2.4, build a 10X10X? pyramid.
-please show you work.
+Please use what you learn in this class to build a room.
+You could use loop or setBlocks with any blockId you like to use.
+Don't forget set some place as windows and door.
+send your code to your teacher for review. stoneskin@gmail.com
 
-![pyramid](pyramid.jpg)

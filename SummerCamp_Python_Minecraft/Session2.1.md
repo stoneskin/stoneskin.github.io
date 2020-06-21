@@ -137,3 +137,14 @@ print("x-distance="+xDistance+"  y-distance="+yDistance+" z-distance="+zDistance
 # Post the results to the chat
 mc.postToChat("x-distance={}  y-distance={} z-distance={}".format(xDistance,yDistance,zDistance))
 ```
+
+#### [Mission-2.7][Homework] Put them together
+
+Write a python script do below:
+
+1. use `for` loop to run this 5 times
+2. In each loop, ask user input a block type between 0 to 250. ([blocktype id list](https://minecraft-ids.grahamedgecombe.com/), some id is not works)
+3. if user give is not a valid number print "please give a valid blocktype" (use `try..except`)
+4. get the user's current tile position, and place block
+5. [charllenge] ask the user input howmany blocks you want to stack, modify the code to build a stacks of block
+6. send your code to the teacher by email (stoneskin@gmail.com)

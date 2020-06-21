@@ -28,7 +28,7 @@ Students will learn programming by writing Python code that runs within the Mine
     * Install Python and Modules
     * Run your first python code in the Minecraft world
 
-2. Learn Programming with Python and Minecraft
+2. [Learn Programming with Python and Minecraft](./Session1.2.md)
     * Understanding the coordinates of Minecraft
     * Stack Blocks with loop
 
