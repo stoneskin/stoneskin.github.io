@@ -196,7 +196,7 @@ you could put some pattern on your wall, add below code to your missiion 2.13 co
 
 ```
 
-### - [Mission-2.15] Build a 5x5x5 Cube
+#### - [Mission-2.15] Build a 5x5x5 Cube
 
 you need 3 layers of loop,  see below example of add 3 layer of loop on mission 2.3.
 
@@ -210,7 +210,21 @@ for k in range(0,5):
 
 ```
 
-### - [Challenge] [Mission-2.16] Build a pyramid in Minecraft
+#### - [Mission-2.16] use double loop to explor the map
+
+create a map, or use a map mods,
+then try to use python code move your player to exploer the map
+x from -1000 to 1000 step 75
+z from -1000 to 1000 step 75
+you need stay each place for 5 sec waiting for the view be loaded
+
+```python
+import time
+for x in range(-1000,1000,75):
+    time.sleep(5)
+```
+
+#### - [Challenge] [Mission-2.17] Build a pyramid in Minecraft
 
 Modified your code in mission-2.15, build a pyramid.
 please show you work by send your pyramid's location and your script to the teacher. stoneskin@gmail.com
