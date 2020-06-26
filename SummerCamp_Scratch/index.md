@@ -13,14 +13,14 @@ Students will use Scratch to learn programming conceptes by createing animation 
 1. [6/19] Get Start with Scratch
    - Intruduce scratch and [mclccc studio](https://scratch.mit.edu/studios/26931632/)
    - A walking through scratch
-   - Tutorials:[Step by Step](1.stepbystep.pdf)
+   - Tutorials:[Step by Step](./1.stepbystep.pdf)
    - Activities: [10 blocks](./2.10blocks.pdf)
   
 2. [6/20] Animation and Drawing on Scratch
-   - Animation Your Name
-   - Character Animation
-   - Drawing Animation
-   - project : About Me
+   - Animation Your Name [pdf](./1.Animation-Name.pdf)
+   - Character Animation [pdf](./5.Animate-character.pdf)
+   - Drawing Animation [pdf](./3.2.OrangeSquarePurpleCircle_v2.pdf)
+   - project : About Me [pdf](./2.3AboutMe.pdf)
 
 ### Session 2
 
