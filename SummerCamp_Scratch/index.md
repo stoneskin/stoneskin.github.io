@@ -16,7 +16,7 @@ Students will use Scratch to learn programming conceptes by createing animation 
    - Tutorials:[Step by Step](./1.stepbystep.pdf)
    - Activities: [10 blocks](./2.10blocks.pdf)
   
-2. [6/20] Animation and Drawing on Scratch
+2. [6/27] Animation and Drawing on Scratch
    - Animation Your Name [pdf](./1.Animation-Name.pdf)
    - Character Animation [pdf](./5.Animate-character.pdf)
    - Drawing Animation [pdf](./3.2.OrangeSquarePurpleCircle_v2.pdf)
