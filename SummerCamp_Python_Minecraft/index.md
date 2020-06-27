@@ -34,13 +34,12 @@ Students will learn programming by writing Python code that runs within the Mine
 
 ## Session 2: [7/10,7/17] Python Data Types, Condition and double loops
 
-1. Data Types String and Number
+1. [Data Types String and Number](./Session2.1.md)
    * Use PostToChat post String to Minecraft chat
-   * Get a Number from input
+   * Get a Number from input string
   
-2. Codition & loops
-   * Are you in air or in water
-   * Find the Ore with loop and condition
+2. [Codition & more loops](./Session2.2.md)
+   * Are you in air or in water (Boolean and condition basic)
    * Build a wall or building with double or triple loop
 
 ## Session 3: [7/24,7/31] Minecraft server, Python Pixel Art
