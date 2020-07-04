@@ -106,7 +106,7 @@ if(not(blockTypeId ==block.WATER.id)):
     mc.postToChat("I am not in water.")
 ```
 
-#### - [Mission 2.11] Check if you are in a build
+#### - [Mission 2.11] Check if you are in some area
 
 Complete the code to check if you are in your home
 
@@ -144,8 +144,8 @@ let's start build a tower with single loop
 from mcpi_e.minecraft import Minecraft
 from mcpi_e import block
 
-serverAddress = "localhost" # change to your minecraft server
-playerName = "stoneskin2020"
+serverAddress = "localhost" # change to your minecraft server if different
+playerName = "yourusername" # change to your name
 pythonApiPort = 4711
 
 mc = Minecraft.create(serverAddress,pythonApiPort,playerName)
@@ -210,7 +210,7 @@ for k in range(0,5):
 
 ```
 
-#### - [Mission-2.16] use double loop to explor the map
+#### - [Mission-2.16] use double loop to explore the map
 
 create a map, or use a map mods,
 then try to use python code move your player to exploer the map
@@ -219,9 +219,13 @@ z from -1000 to 1000 step 75
 you need stay each place for 5 sec waiting for the view be loaded
 
 ```python
+...
 import time
+...
+
 for x in range(-1000,1000,75):
-    time.sleep(5)
+    mc.player.setTilePos(x,y,z)
+    time.sleep(5) #waiting the world data lod
 ```
 
 #### - [Challenge] [Mission-2.17] Build a pyramid in Minecraft

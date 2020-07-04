@@ -142,9 +142,11 @@ mc.postToChat("x-distance={}  y-distance={} z-distance={}".format(xDistance,yDis
 
 Write a python script do below:
 
-1. use `for` loop to run this 5 times
+1. use `for` loop run the code at least 5 times, use `time.sleep` in each loop for waitng some time before next loop.
 2. In each loop, ask user input a block type between 0 to 250. ([blocktype id list](https://minecraft-ids.grahamedgecombe.com/), some id is not works)
 3. if user give is not a valid number print "please give a valid blocktype" (use `try..except`)
 4. get the user's current tile position, and place block
-5. [charllenge] ask the user input howmany blocks you want to stack, modify the code to build a stacks of block
-6. send your code to the teacher by email (stoneskin@gmail.com)
+5. ask the user input howmany blocks you want to stack, modify the code to build a stacks of block
+6. post to the chat for what you have done.
+7. [charllenge] ask the user input what kind of building you want to build, ex, tower, wall, house, blocks etc
+8. send your code to the teacher by email (stoneskin@gmail.com)

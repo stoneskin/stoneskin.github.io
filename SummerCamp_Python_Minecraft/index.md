@@ -15,8 +15,8 @@ Students will learn programming by writing Python code that runs within the Mine
 
 * Send your Minecraft username to the teacher otherwise you may be not in the whitelist.
 * Respect other and help each other. No bully is allowed.
-* Follow the intstruction of Teacher and TAs
-* Do Not Try to attach the server. For complecate python script, please test on you own machine first.
+* Follow the intstructions from Teacher and TAs (Teach Assistances)
+* Do Not Try to attack the server. For complicate python scripts, please test on you own machine first.
 * Do Not Damage other students building
 * Do Not take items from others chaster or home(It's Ok from Villagers/NPCs) .
 
