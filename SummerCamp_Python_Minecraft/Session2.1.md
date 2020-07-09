@@ -40,7 +40,7 @@ mc.postToChat(playerName+" say: Hello, "+name+"!")
 
 #### [Mission-2.3] Try the format function to build a string
 
-Other than user "+" to connect string into a sentense, you could use format function:
+Other than user "+" to connect string into a sentence, you could use format function:
 
 ```python
 yourName ="stoneskin2020"
@@ -50,7 +50,7 @@ print("{} say: Hello {}!".format(yourName,aname))
 
 ### 2 Convert a String to Number with `int()`
 
-String and Intiger is different DataType, for detail please read [Python Data Types](https://www.w3schools.com/python/python_datatypes.asp).
+String and Integer is different DataType, for detail please read [Python Data Types](https://www.w3schools.com/python/python_datatypes.asp).
 Below is the Data Types we possible will used in our class
 
 ![datatypes](datatypes.jpg)
@@ -82,7 +82,7 @@ print("Watermelon block id is "+str(value))
 ```python
 ...
 blockType= #add input() function here
-blockTypeId= # add conver code here
+blockTypeId= # add convert code here transfer string to int
 
 x,y,z=pos=mc.player.getTilePos()
 
@@ -117,7 +117,7 @@ Please finish below code to check how long you move
 ```python
 import time
 from mcpi_e.minecraft import Minecraft
-serverAddress = "the server" # change to your minecraft server
+serverAddress = "the server" # change to your Minecraft server
 playerName = "your user name" # change to your username
 pythonApiPort = 4711
 mc = Minecraft.create(serverAddress,pythonApiPort,playerName)
@@ -128,7 +128,7 @@ time.sleep(15) # change to the second you like to wait
 
 pos2=mc.player.getTilePos()
 
-#compaire the distance
+#compare the distance
 xDistance = pos1.x - pos2.x
 yDistance = pos1.y - pos2.y
 zDistance = pos1.z - pos2.z
@@ -140,13 +140,13 @@ mc.postToChat("x-distance={}  y-distance={} z-distance={}".format(xDistance,yDis
 
 #### [Mission-2.7][Homework] Put them together
 
-Write a python script do below:
+Write a python script do one or more of below:
 
-1. use `for` loop run the code at least 5 times, use `time.sleep` in each loop for waitng some time before next loop.
+1. use `for` loop run the code at least 5 times, use `time.sleep` in each loop for waiting some time before next loop.
 2. In each loop, ask user input a block type between 0 to 250. ([blocktype id list](https://minecraft-ids.grahamedgecombe.com/), some id is not works)
 3. if user give is not a valid number print "please give a valid blocktype" (use `try..except`)
 4. get the user's current tile position, and place block
-5. ask the user input howmany blocks you want to stack, modify the code to build a stacks of block
-6. post to the chat for what you have done.
-7. [charllenge] ask the user input what kind of building you want to build, ex, tower, wall, house, blocks etc
-8. send your code to the teacher by email (stoneskin@gmail.com)
+5. ask the user input how many blocks you want to stack, modify the code to build a stacks of blocks.
+6. post to the chat for when the script running done.
+7. [**challenge**] other than stack block, ask the user input what kind of building you want to build, ex, tower, wall, house etc
+Send your code to the teacher by email (stoneskin@gmail.com)

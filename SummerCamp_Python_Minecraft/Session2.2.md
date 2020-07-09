@@ -132,7 +132,7 @@ else:
 
 ```
 
-### 2 Double loops
+### 2 While loop & Double loops
 
 You could put one loop in another loop, it call double loop.
 
@@ -173,7 +173,7 @@ for h in range(5):
     mc.setBlock(x+4,y+h,z,block.STONE.id)
 ```
 
-#### - [Mission 2.13] Use double loop build a wall
+#### - [Mission 2.13] Using double loop build a wall
 
 Try To use double loop:
 
@@ -210,7 +210,7 @@ for k in range(0,5):
 
 ```
 
-#### - [Mission-2.16] use double loop to explore the map
+#### - [Mission-2.16] Using double loop to explore the map
 
 create a map, or use a map mods,
 then try to use python code move your player to exploer the map
@@ -226,6 +226,35 @@ import time
 for x in range(-1000,1000,75):
     mc.player.setTilePos(x,y,z)
     time.sleep(5) #waiting the world data lod
+```
+
+#### - [Mission-2.17] Using while loop
+
+`while` loop is dangerous than `for` loop, because it possible never ending running.
+
+Check more details about [while loop](https://www.w3schools.com/python/python_while_loops.asp)
+
+Below is a simple while loop, i will increase 1 in each loop, when i=6, the `i<6` is `false`, the `while` loop will stop.
+
+```python
+i = 1
+while i < 6:
+  print(i)
+  i += 1 # this make i increase, and when i <6 is false, the while loop will stop.
+```
+
+Below is a example of a infinity `while` loop, it will running until you close the shell window or press `ctrl + C` to stop it.
+
+```python
+from random import *
+   flower = 38
+   while True:
+      x, y, z = mc.playerEn.getPos()
+      blockId= mc.getBlock(x, y, z)
+      print("current block:" + str(mc.getBlock(x, y, z)))
+      if(blockId==0 or blockId ==78):
+         mc.setBlock(x, y, z, flower,randrange(8))
+      sleep(1) # wait 1 sec to continue
 ```
 
 #### - [Challenge] [Mission-2.17] Build a pyramid in Minecraft

@@ -42,24 +42,26 @@ Students will learn programming by writing Python code that runs within the Mine
    * Are you in air or in water (Boolean and condition basic)
    * Build a wall or building with double or triple loop
 
-## Session 3: [7/24,7/31] Minecraft server, Python Pixel Art
+## Session 3: [7/24,7/31] Python Function, Pixel Art and Minecraft Server
 
-1. Minecraft server network concept
-    * Network, firewall and port
-    * Share your own minecraft server with you friends
-
-2. Python use functions & Make Pixel Art
+1. Python use functions & Make Pixel Art
    * Use function to orgnize your scripts
    * Pixel Art with blocks
 
+2. Minecraft server network concept
+    * Network, firewall and port
+    * Share your own minecraft server with you friends
+
 ## Session 4: [8/7,8/14] Github , Module and Class
 
-1. Github
-   * create a github account
-   * upload your python code to your repository
-   * setup your site
-2. Build a Tree and forest with Class
+1. Build a Tree and forest with Class
    * Tree Class with methods and attributes
    * Different Tree Using Inheritance
    * Build a forest with Class
+ 
+2. Github
+   * create a github account
+   * upload your python code to your repository
+   * setup your site
+
   
