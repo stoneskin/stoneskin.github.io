@@ -150,3 +150,15 @@ Write a python script do one or more of below:
 6. post to the chat for when the script running done.
 7. [**challenge**] other than stack block, ask the user input what kind of building you want to build, ex, tower, wall, house etc
 Send your code to the teacher by email (stoneskin@gmail.com)
+
+#### [Videos of Session 2.1]
+
+1. [python minecraft session 2.1 Development Environment](https://youtu.be/4pyjFvuFkR0)
+2. [python minecraft session 2.1 introduce - Use Python And Idle](https://youtu.be/48J3qUlaU4E)
+3. [python minecraft Session 2.1 mission 2.1](https://youtu.be/Kbx8ZKZXJS0)
+4. [python minecraft session 2.1 mission 2.2](https://youtu.be/asKvk_84xDE)
+5. [python minecraft session 2.1 mission 2.3](https://youtu.be/KKs365TBkqo)
+6. [python minecraft session 2.1 mission 2.4](https://youtu.be/ngD-q4ZLVW4)
+7. [python minecraft session 2.1 mission 2.5](https://youtu.be/S4dIDt-Qu84)
+8. [python minecraft session 2.1 mission 2.6](https://youtu.be/kgDYlXp5tcg)
+9. [python minecraft session 2.1 mission 2.7 homework](https://youtu.be/nh_oDq_Y0m8)

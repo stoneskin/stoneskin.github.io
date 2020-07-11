@@ -33,7 +33,11 @@ This is page for <a target="_blank" href="http://mlccc.org">Main Line Chese Cult
 
 ### mcpi-e:
 <a href="https://stoneskin.github.io/mcpi-e/">A python Api for minecraft RaspberryJuicy Plugin</a>
-<hr>
+
+### mc_stoneskin_welcomeplugin
+<a href="https://stoneskin.github.io/mc_stoneskin_welcomeplugin/">Minecrafte spigot Welcome message plugin </a>
+
+------
 
 ## My Virtual Classroom
 #### CMU CS classroom
