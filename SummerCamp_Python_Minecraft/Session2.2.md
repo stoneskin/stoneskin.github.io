@@ -257,7 +257,12 @@ from random import *
       sleep(1) # wait 1 sec to continue
 ```
 
-#### - [Challenge] [Mission-2.17] Build a pyramid in Minecraft
+#### - [homework] [Mission-2.18] Use double loop and condition refactor build house code
+
+In the session 1 Mission-1.10, if you didn't use double loop in the code, please update the code with double loop. 
+Also try use `if` condition check in your code.
+
+#### - [Challenge] [Mission-2.19] Build a pyramid in Minecraft
 
 Modified your code in mission-2.15, build a pyramid.
 please show you work by send your pyramid's location and your script to the teacher. stoneskin@gmail.com
