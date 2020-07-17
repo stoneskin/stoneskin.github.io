@@ -34,7 +34,7 @@ Students will use Scratch to learn programming concepts by creating animation an
 2. [7/17] Music video and dance
    - Dance move [pdf](./8.Lets-Dance.pdf)
    - Shadow effect and interactive Dance
-   - Project: Music Video [pdf](./4.MakeMusic.pdf)
+   - Project: Music Video [pdf](./3.4.MusicVideo_v2.pdf)
    - Project: [Music Video your favorite song](downloadSongAndMakeMusicVideo.md).
 
 ### Session 3
