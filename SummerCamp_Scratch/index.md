@@ -32,10 +32,10 @@ Students will use Scratch to learn programming concepts by creating animation an
    - Beatbox sound, record sound
    - Project: [build a Band](./3.1.buildABand_v2.pdf) 
 2. [7/17] Music video and dance
-   - play song and loop
-   - Dance move
+   - Dance move [pdf](./8.Lets-Dance.pdf)
    - Shadow effect and interactive Dance
-   - Project: Music Video
+   - Project: Music Video [pdf](./4.MakeMusic.pdf)
+   - Project: [Music Video your favorite song](downloadSongAndMakeMusicVideo.md).
 
 ### Session 3
 
