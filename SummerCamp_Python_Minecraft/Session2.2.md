@@ -264,7 +264,24 @@ Also try use `if` condition check in your code.
 
 #### - [Challenge] [Mission-2.19] Build a pyramid in Minecraft
 
-Modified your code in mission-2.15, build a pyramid.
-please show you work by send your pyramid's location and your script to the teacher. stoneskin@gmail.com
+Modified your code in mission-2.15, build a pyramid, your code should able to build any size of pyramid.
+
+hints:
+
+- need triple loop
+- you could test form small number
+- you could print it out, or add time.sleep(1) to slow down the setBlock see where you block be set.
+
+please show you work by send your pyramid's screenshot and your script to the teacher. stoneskin@gmail.com
 
 ![pyramid](pyramid.jpg)
+
+#### videos
+
+- [2.9 if else condition](https://youtu.be/aZNj7ljeKUk)
+- [2.11 if you are swimming](https://youtu.be/4PqkzZMy2Mc)
+- [2.12 double loop](https://youtu.be/xA2Arfkk2Pw) 
+- [2.14 condition in loop](https://youtu.be/SPGkfY-Fwi0)
+- [2.15-16 triple loop](https://youtu.be/r-si0WUxvoI)
+- [2.17 while loop](https://youtu.be/9JHaesuw2Qc)
+- [homework video](https://youtu.be/BEO5KCe6bJg)
