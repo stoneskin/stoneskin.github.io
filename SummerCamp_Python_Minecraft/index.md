@@ -50,7 +50,9 @@ Students will learn programming by writing Python code that runs within the Mine
 
 2. Minecraft server network concept
     * Network, firewall and port
+    * introduce minecraft plugin
     * Share your own minecraft server with you friends
+  
 
 ## Session 4: [8/7,8/14] Github , Module and Class
 
@@ -58,7 +60,7 @@ Students will learn programming by writing Python code that runs within the Mine
    * Tree Class with methods and attributes
    * Different Tree Using Inheritance
    * Build a forest with Class
- 
+
 2. Github
    * create a github account
    * upload your python code to your repository
