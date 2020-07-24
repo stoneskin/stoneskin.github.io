@@ -44,7 +44,7 @@ Students will learn programming by writing Python code that runs within the Mine
 
 ## Session 3: [7/24,7/31] Python Function, Pixel Art and Minecraft Server
 
-1. Python use functions & Make Pixel Art
+1. [Python use functions & Make Pixel Art](./Session3.1.md)
    * Use function to organize your scripts
    * Pixel Art with blocks
 

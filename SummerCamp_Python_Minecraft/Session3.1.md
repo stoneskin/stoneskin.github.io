@@ -7,7 +7,7 @@
 #### - [Mission-3.1] Define your first Python function
 
 Below is example of a function, for more info, please check [python function](https://www.w3schools.com/python/python_functions.asp)
-![definefunction](./define_function.jpg)
+![define-function](./define_function.jpg)
 
 please try below function:
 
@@ -15,7 +15,7 @@ please try below function:
 
 from mcpi_e.minecraft import Minecraft
 serverAddress="server-address" # change to your Minecraft server
-playerName ="yourname"
+playerName ="your name"
 pythonApiPort=4711
 
 mc=Minecraft.create(serverAddress,pythonApiPort,playerName)
@@ -256,6 +256,9 @@ for row in reversed(pixelArtList ): # we need reverse the list
     y+=1
 ```
 
+example:
+![](pixalArts.jpg)
+
 #### [homework][Mission-3.9] Build your own pixel arts
 
 Please build a happy face or your own pixel arts you want to display.
@@ -278,13 +281,31 @@ for row in range(10):
 print(blocks)
 
 # todo, build the blocks in the minecraft
+
 ```
 
 Please try to build the blocks you crate as a wall in Minecraft.
-*hint: to access the 2D list value, `id=blocks[row][col]`*
+*hint: you could use same code in the example of 3.8. Also you could try to get the value in the 2D list by `blocks[1][0]`*
 
-#### [challenge] Could you build a 3D list, and place in Minecraft?
+
+#### [challenge] [Mission-3.11] Could you build a 3D list, and place in Minecraft?
 
 Since you learn 1D list and 2D list, please build the 3D list yourself.
 and place it in minecraft,  You could use more Air or Glass in your 3D structure so we could see the inside.
 
+```python
+cube = [[[57, 57, 57, 57], [57, 0, 0, 57], [57, 0, 0, 57], [57, 57, 57, 57]],
+        [[57, 0, 0, 57], [0, 0, 0, 0], [0, 0, 0, 0], [57, 0, 0, 57]],
+        [[57, 0, 0, 57], [0, 0, 0, 0], [0, 0, 0, 0], [57, 0, 0, 57]],
+        [[57, 57, 57, 57], [57, 0, 0, 57], [57, 0, 0, 57], [57, 57, 57, 57]]]
+startingX = x
+startingY = y
+
+#todo, try use triple loop to build the cube
+
+```
+
+The cube will looks like below
+![](./cube.png)
+
+Thanks about any building could be save as a 3d list in minecraft

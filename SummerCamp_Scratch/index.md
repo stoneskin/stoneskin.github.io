@@ -39,13 +39,13 @@ Students will use Scratch to learn programming concepts by creating animation an
 
 ### Session 3
 
-1. [7/24] Story Animation
+1. [7/24] [Story Animation](6.CreateStory.pdf) 
    - start a story and conversation
    - Backdrop and Character
    - Add your voice, text to voice
    - Animation
    - interactive
-   - Project: Story
+   - Project: [Story and pass it on](./5.4_PassItOn.pdf)
 2. [7/31] Make a Pet with Scratch
    - choose a pet and animate it
    - Feed you ped
