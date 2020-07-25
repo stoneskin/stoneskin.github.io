@@ -201,7 +201,7 @@ print(blocks)
 #set block stack with loop
 for id in blocks:
     mc.setBlock(x+1,y,z,id)
-    y=y+11
+    y=y+1
 
 #or you could use while loop
 # or you could use while loop
@@ -287,7 +287,6 @@ print(blocks)
 Please try to build the blocks you crate as a wall in Minecraft.
 *hint: you could use same code in the example of 3.8. Also you could try to get the value in the 2D list by `blocks[1][0]`*
 
-
 #### [challenge] [Mission-3.11] Could you build a 3D list, and place in Minecraft?
 
 Since you learn 1D list and 2D list, please build the 3D list yourself.
@@ -306,6 +305,6 @@ startingY = y
 ```
 
 The cube will looks like below
-![](./cube.png)
+![cube](./cube.png)
 
-Thanks about any building could be save as a 3d list in minecraft
+Things about that any structure in Minecraft could be save as a 3d list
