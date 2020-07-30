@@ -48,10 +48,11 @@ Students will learn programming by writing Python code that runs within the Mine
    * Use function to organize your scripts
    * Pixel Art with blocks
 
-2. Minecraft server network concept
+2. [Minecraft server network concept](./Session3.2.md)
     * Network, firewall and port
     * introduce minecraft plugin
     * Share your own minecraft server with you friends
+    * Run python code from MineCraft through MCPI-plugin
   
 
 ## Session 4: [8/7,8/14] Github , Module and Class
