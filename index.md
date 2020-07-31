@@ -10,9 +10,9 @@ This is page for <a target="_blank" href="http://mlccc.org">Main Line Chese Cult
 <hr>
 # MLCCC 2020 online Summer Camp Coding Classes
 
-#### <a href="http://www.mlccc.org/MlcccV2/Forms/V2/Programs/Camp/SummerCamp.aspx"> summer camp info link </a>
+#### <a href="http://www.mlccc.org/MlcccV2/Forms/V2/Programs/Camp/SummerCamp.aspx"  target="_blank"> summer camp info link </a>
 
-#### <a href="https://docs.google.com/document/d/1mQp7h046v4X_VSOHjRN2MO03S4MtN8X5Zs1uUbwksuU/edit?usp=sharing"> class infomation</a>
+#### <a href="https://docs.google.com/document/d/1mQp7h046v4X_VSOHjRN2MO03S4MtN8X5Zs1uUbwksuU/edit?usp=sharing"  target="_blank"> class infomation</a>
 
 ## [3-5 Grade Scratch Programming Camp](./SummerCamp_Scratch/index.md)
 
@@ -29,16 +29,16 @@ This is page for <a target="_blank" href="http://mlccc.org">Main Line Chese Cult
 ## My projects
 
 ### minecraft-python:
-<a href="https://stoneskin.github.io/python-minecraft"> How to learn python programming with playing minecraft</a>
+<a href="https://stoneskin.github.io/python-minecraft"  target="_blank"> How to learn python programming with playing minecraft</a>
 
 ### mcpi-e:
-<a href="https://stoneskin.github.io/mcpi-e/">A python Api for minecraft RaspberryJuicy Plugin</a>
+<a href="https://stoneskin.github.io/mcpi-e/"  target="_blank">A python Api for minecraft RaspberryJuicy Plugin</a>
 
 ### mc_stoneskin_welcomeplugin
-<a href="https://stoneskin.github.io/mc_stoneskin_welcomeplugin/">Minecraft spigot Welcome message plugin </a>
+<a href="https://stoneskin.github.io/mc_stoneskin_welcomeplugin/"  target="_blank">Minecraft spigot Welcome message plugin </a>
 
-### 
-<a href="https://github.com/stoneskin/minecraft_python_mcpi_plugin/">Minecraft spigot Python MCPI  plugin </a>
+### python-MCPI
+<a href="https://github.com/stoneskin/minecraft_python_mcpi_plugin/" target="_blank">Minecraft spigot Python MCPI  plugin </a>
 
 ------
 

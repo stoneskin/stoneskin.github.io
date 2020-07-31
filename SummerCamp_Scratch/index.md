@@ -39,7 +39,7 @@ Students will use Scratch to learn programming concepts by creating animation an
 
 ### Session 3
 
-1. [7/24] [Story Animation](6.CreateStory.pdf) 
+1. [7/24] [Story Animation](6.CreateStory.pdf)
    - start a story and conversation
    - Backdrop and Character
    - Add your voice, text to voice
