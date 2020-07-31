@@ -53,7 +53,7 @@ Students will use Scratch to learn programming concepts by creating animation an
    - Let your pet say something
    - Play a toy
    - Your pet is hungry
-   - Project: [make a click game](https://en.scratch-wiki.info/wiki/How_to_Make_a_Clicker_Game)
+   - Project: [make your pet a click game](https://en.scratch-wiki.info/wiki/How_to_Make_a_Clicker_Game) ([example](https://scratch.mit.edu/projects/415027553/))
 
 ### Session 4
 
