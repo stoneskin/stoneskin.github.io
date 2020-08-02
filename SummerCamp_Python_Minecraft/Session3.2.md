@@ -214,3 +214,12 @@ for i in range(0,size):
 3. Write your own code to implement function want used in minecraft.
 4. **[Challenge]** Write multiple functions in your code, and pass the args from minecraft to choice which function be called.
 
+
+#### 4 Some Students homeworks
+
+![](./homework_session3.png)
+
+- [Angelina's pixel arts](./hw/angelina_session_3.py)
+- [CozmicGamming01 pixel arts](./hw/CozmicGamming01_session3.py)
+- [leo's 3d cube](./hw/leo_session3.py)
+- [Shawn's pixel arts and cube](./hw/shawn_session3.py)
