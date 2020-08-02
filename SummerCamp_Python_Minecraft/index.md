@@ -27,7 +27,7 @@ Students will learn programming by writing Python code that runs within the Mine
     * Setup Minecraft server
     * Install Python and Modules
     * Run your first python code in the Minecraft world
-
+    * download spigot 1.16.1 [2020-08-01 build](./spigot-1.16.1.jar)
 2. [Learn Programming with Python and Minecraft](./Session1.2.md)
     * Understanding the coordinates of Minecraft
     * Stack Blocks with loop
