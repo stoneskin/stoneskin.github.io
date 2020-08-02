@@ -120,7 +120,19 @@ We could get bukkit/spigot plugin from the [curseforge bukkit plugin](https://ww
 
 #### 3.2 How to write python code for MCPI plugin and running on server
 
-In our previous example when we ru a python code,  the command is like
+By default the python mcpi plugin will run the python script in the c:\python\test\ folder.
+you could change it on the \plugins\config.yml files
+
+config in config.yml
+```
+
+py:
+    python_command_template: 'py C:\Python\test\{name}.py'
+```
+
+The {name} will be replace bey the name you input in the game.
+
+In our example when we run a python code,  the command is like
 
 ```python
 py c:\python\test.py
