@@ -221,5 +221,6 @@ for i in range(0,size):
 
 - [Angelina's pixel arts](./hw/angelina_session_3.py)
 - [CozmicGamming01 pixel arts](./hw/CozmicGamming01_session3.py)
-- [leo's 3d cube](./hw/leo_session3.py)
+- [Leo's 3d cube](./hw/leo_session3.py)
+- [Joseh's 3d cube](./hw/joseph_3dcube.py)
 - [Shawn's pixel arts and cube with functions](./hw/shawn_session3.py)
