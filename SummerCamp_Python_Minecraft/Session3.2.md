@@ -120,6 +120,35 @@ We could get bukkit/spigot plugin from the [curseforge bukkit plugin](https://ww
 
 #### 3.2 How to write python code for MCPI plugin and running on server
 
+To see how to use pytho mcpi plugin, could [check this video](https://youtu.be/7igMhkGJn3A)
+
+The test python code in the c:\python\test\ is like below:
+
+```python
+import sys
+import time
+from mcpi_e.minecraft import Minecraft
+
+serverAddress="127.0.0.1" # change to your minecraft server
+pythonApiPort=4711 #default port for RaspberryJuice plugin is 4711, it could be changed in plugins\RaspberryJuice\config.yml
+playerName="your name" # change to your username
+
+#the playerName could come from args or will use default
+if len(sys.argv)-1>0: #if have args
+    playerName=sys.argv[1]
+print(playerName)
+
+mc = Minecraft.create(serverAddress,pythonApiPort,playerName)
+(x,y,z)=pos = mc.player.getTilePos()
+
+print("pos: x:{},y:{},z:{}".format(pos.x,pos.y,pos.z))
+#mc.player.setTilePos(0,0,0)
+mc.postToChat("hi")
+mc.postToChat("{} pos: x:{},y:{},z:{}".format(playerName, pos.x,pos.y,pos.z))
+
+
+```
+
 By default the python mcpi plugin will run the python script in the c:\python\test\ folder.
 you could change it on the \plugins\config.yml files
 
