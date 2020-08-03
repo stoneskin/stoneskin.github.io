@@ -12,7 +12,7 @@
 
 ### 2. Setup Minecraft Client and Server
 
-#### 2.1 Install Minecraft Java edtion Client
+#### 2.1 Install Minecraft Java edition Client
 
 Go to minecraft website download the Java Edition
 
@@ -22,7 +22,7 @@ Go to minecraft website download the Java Edition
 
 * Install Minecraft Server:
   * Download Java and install it. ([link to download Java](https://java.com/en/download/))
-  * Download the [spigot minecraft server](https://stoneskin.github.io/python-minecraft/documents/1_SetUpMineCraftServer/minecraft_spigot-1.15.2.zip) and unzip it.
+  * Download the [spigot minecraft server](https://stoneskin.github.io/SummerCamp_Python_Minecraft/spigot-1.16.1.jar) and unzip it.
   * Run it by double click the "StartMineCraftServer.bat" file.
 * To understand how it works
   - <a target="_blank" href="https://stoneskin.github.io/python-minecraft/documents/1_SetUpMineCraftServer/1.1_HowToSetUpMineCraftServer.html">How to setup a minecraft server (spigot)</a>

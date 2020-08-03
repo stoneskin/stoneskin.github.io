@@ -67,4 +67,6 @@ Students will learn programming by writing Python code that runs within the Mine
    * upload your python code to your repository
    * setup your site
 
-  
+## Minecraft Server and plugins
+
+Click to download the [spigot 1.16.1 with plugin](https://stoneskin.github.io/SummerCamp_Python_Minecraft/spigot-1.16.1.jar)
