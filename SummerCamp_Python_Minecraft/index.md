@@ -18,7 +18,7 @@ Students will learn programming by writing Python code that runs within the Mine
 * Follow the instructions from Teacher and TAs (Teach assistance's)
 * Do Not Try to attack the server. For complicate python scripts, please test on you own machine first.
 * Do Not Damage other students building
-* Do Not take items from others chaster or home(It's Ok from Villagers/NPCs) .
+* Do Not take items from others chest or home(It's Ok from Villagers/NPCs).
 
 ## Session 1: [6/19,6/26] Get started with Python and Minecraft
 
