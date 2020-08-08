@@ -114,12 +114,13 @@ list2=load(myFile)
 
 Change your code and run to see the different.
 
-#### [homework] [Mission 4.4] Refactor you code of you pixel arts
+#### [homework-1] [Mission 4.4] Refactor you code of you pixel arts
 
  For your home work in the last session, please refactor the code, and save the list  to file with pickle.  
  also the cube could be saved as as file name `cube.txt` too.
+ *hint* you need one file to save your list to file with binary mode.  Then modify your previous homework to read the data from the file and build structure in minecraft.
 
-#### [Mission 4.5] Save a building structure to a list and dump to a file
+#### [homework-2] [Mission 4.5] Save a building structure to a list and dump to a file
 
 Let's see the below code example to read the current structure in your game, and save it as file.
 
@@ -297,55 +298,4 @@ class Dog:
 
 please try it in your code.
 
-#### [Mission 4.9] Understand Inheritance of python
-
-Inheritance is the process by which one class takes on the attributes and methods of another. Newly formed classes are called child classes, and the classes that child classes are derived from are called parent classes.
-
-See the example of Animal classes with parent and child relationship:
-![inherit](./inherit.png)
-
-``` python
-class Animal:
-    def __init__(self,name,gender):
-        self.name=name
-        self.gender=gender
-    def __str__(self) -> str:
-        return "class={}: name:{} gender:{}".format(type(self).__name__,self.name,self.gender)
-
-class Bird(Animal):
-    def __init__(self,name,gender):
-        Animal.__init__(self,name,gender)
-    def flying(self):
-        return "birds flying..."  
-
-class Chicken(Bird):
-    def __init__(self,name,gender):
-        super().__init__(name,gender) #python 3 and upper you could use supper() to init parent without self
-        self.gender=gender
-    def flying(self):
-        return "chicken {} can't fly..".format(self.name)
-
-class CanadianGoose(Bird):
-    def __init__(self,name,gender):
-        Bird.__init__(self,name,gender)
-    def swimming(self):
-        return "Canadian Goose floating on the water.."
-
-aHen = Chicken("egg hatcher","F")
-aRooster = Chicken("big Foot","M")
-aGoose = CanadianGoose("wild goose","unknown") 
-
-print(aHen.flying())
-print(aGoose.flying())
-print(aGoose.swimming())
-print(aRooster)
-```
-
-#### [Challenge] [mission 4.10] Rewrite your homeworks with Object Oriented style
-
-1. group your functions as methods of a Classes
-2. make a child class that has all methods of parents class, but has one or two new methods or same methods do different than parents
-3. please send your home work to stoneskin@gmail.com
-
-[hint: you could check the below two options]
-![](mc_inheritence.png)
+** Object Oriented programming will continue in next session **
