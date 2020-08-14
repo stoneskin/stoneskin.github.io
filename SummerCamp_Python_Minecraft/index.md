@@ -62,7 +62,7 @@ Students will learn programming by writing Python code that runs within the Mine
    * Class with methods and attributes
    * Different Classes Using Inheritance
   
-2. Github
+2. [More OOP and Github](./Session4.2.md)
    * create a github account
    * upload your python code to your repository
    * setup your site
