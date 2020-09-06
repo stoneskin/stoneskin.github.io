@@ -1,6 +1,6 @@
 # MLCCC Coding class
  
-This is page for <a target="_blank" href="http://mlccc.org">Main Line Chese Culture Center</a> coding class
+This is page for my Programming Classes for <a target="_blank" href="http://mlccc.org">Main Line Chinese Culture Center</a>
 
 ## 2020-2021
 

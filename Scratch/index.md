@@ -1,6 +1,5 @@
 # Learn programming from Scratch (for 3-6 G)
 
-![title](../images/image11.png)
 
 **This class is for students of grade 3 – 6, who has no programming experience.
 Students will learn through hands-on projects on classes.**
@@ -9,15 +8,16 @@ Students will learn through hands-on projects on classes.**
 
  Each student need  below items for this class**
 
-1. Laptop with at least 4G memory, (make sure your kids have password and able to install app)
-2. A email account, (parents please set up one for your kids, and let them keep the password)
-3. A account of http://Scratch.mit.edu .
-4. Books for reference (for any subject you want to learn)
-   > ![](../images/image3.png) ![](../images/image5.png) ![codeingforkids Scratch3|193x255](../images/image6.png)
+1. A Laptop or iPad with at least 4G memory with internet access.
+2. Another device or screen to show the zoom meeting screen.
+3. A email account, (parents please set up one for your kids, and let them keep the password)
+4. A account of http://Scratch.mit.edu
+5. Books for reference:
+   > ![](../images/image3.png) ![](../images/image5.png) ![](../images/image6.png)
 
 ## Content
 
-1. Introduce scratch(and Join the MLCCC Studio)
+1. [Introduce scratch (and Join the MLCCC Coding Class Studio)](01.Introduce_Scratch.md)
 2. Get start scratch
 3. Animation in scratch
 4. Tell a story by scratch
