@@ -10,27 +10,27 @@ This is page for my Programming Classes for <a target="_blank" href="http://mlcc
 - Where: Zoom meeting
 - Who: For Students of grade 3-6 who has no programming experience
 - What: Scratch Animation and Game programming
-- How: register from [MLCCC website](http://www.mlccc.org/)
+- How: Register from [MLCCC website](http://www.mlccc.org/)
 
 ### [[G6-8 Middle Class] Learn python and web development](./python/index.md)
 
-- When: 2020-9-13 to 2021-05-21 Sunday 3:00pm-3:50pm
+- When: 2020-9-13 to 2021-05-21 Sunday 2:00pm-2:50pm
 - Where: Zoom meeting
 - Who: For Students of grade 6-8 who has little or no programming experience
 - What: Scratch, Python programming and small projects, Basic web programming
-- How: register from [MLCCC website](http://www.mlccc.org/)
+- How: Register from [MLCCC website](http://www.mlccc.org/)
 
-### [G8+ Advance Class] Java programming & Algorithms 
- <!-- 
-* <a target="_blank" href="https://1drv.ms/u/s!Avm-0LBz8-Jhg4M4HD4vOYb3PJFYUA?e=2ZGBLU">MLCCC Coding Class Share folder</a>
-* Class scratch studio <a target="_blank"
-                href="https://scratch.mit.edu/studios/3018337/projects/">https://scratch.mit.edu/studios/3018337/projects/</a>
-* example page of <a target="_blank" href="./samples/index.html">web development</a>
--->
+### [[G8+ Advance Class] Java programming & Algorithms](./java/index.md)
+
+- When: 2020-9-13 to 2021-05-21 Sunday 4:00pm-4:50pm
+- Where: Zoom meeting
+- Who: For Students of grade 8+ who has basic programming experience, and has strong interesting on computer programming.
+- What: Java Programming foundation, Data Structure and algorithms
+- How: Register from [MLCCC website](http://www.mlccc.org/)
+
+
+
 <hr>
-
-
-
 
 <!--
 ## MLCCC 2020 online Summer Camp Coding Classes
@@ -43,6 +43,12 @@ This is page for my Programming Classes for <a target="_blank" href="http://mlcc
 ## Old Class
 [2020 summer camp: 3-5 Grade Scratch Programming Camp](./SummerCamp_Scratch/index.md)
 [2020 summer camp: Learn Python With minecraft Camp](./SummerCamp_Python_Minecraft/index.md)
+
+Class scratch studio <a target="_blank"
+                href="https://scratch.mit.edu/studios/3018337/projects/">https://scratch.mit.edu/studios/3018337/projects/</a>
+example page of <a target="_blank" href="./samples/index.html">web development</a>
+
+<a target="_blank" href="https://1drv.ms/u/s!Avm-0LBz8-Jhg4M4HD4vOYb3PJFYUA?e=2ZGBLU">MLCCC Coding Class Share folder</a>
 
 ------
 

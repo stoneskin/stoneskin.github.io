@@ -6,7 +6,7 @@
 ## Project Planning Guideline
 
 1. [Learn scratch if you not familiar with Scratch](../../SummerCamp_Scratch/index.md)
-2. [Project Planing guild](./ProjectPlaning.pdf)
+2. [Project Planing guide](./ProjectPlaning.pdf)
 3. [Project Planing worksheet](./ProjectPlaning_worksheet.pdf)
 4. [what make s a good game](./What_Makes_A_Good_Game.pdf)
 5. You can remex form starter project from scratch website. <https://scratch.mit.edu/starter_projects/>

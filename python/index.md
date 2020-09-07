@@ -29,10 +29,11 @@ Students will learn Python and web programming, and learn how to completed proje
 5. Conditions: If-Else
 6. String, Characters and Cipher Programming
 7. Python Functions
-8. Pygame -1
-9. Pygame -2
-10. Final project
-
+8. Python Class and Object
+9. Python OOP:inheritance
+10. Introduce Pygame
+11. Python game: TicTacToe
+12. Final project
 
 ### Section 3: Version control with Github
 
