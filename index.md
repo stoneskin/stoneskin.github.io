@@ -4,7 +4,7 @@ This is page for my Programming Classes for <a target="_blank" href="http://mlcc
 
 ## 2020-2021
 
-### [Learn programming from Scratch (for 3-6 G)](Scratch/index.md)
+### [[G3-6 Basic Class] Learn programming with Scratch](Scratch/index.md)
 
 - When: 2020-9-13 to 2021-05-21 Sunday 3:00pm-3:50pm
 - Where: Zoom meeting
@@ -12,16 +12,15 @@ This is page for my Programming Classes for <a target="_blank" href="http://mlcc
 - What: Scratch Animation and Game programming
 - How: register from [MLCCC website](http://www.mlccc.org/)
 
-### Learn python (for 6-8G)
+### [[G6-8 Middle Class] Learn python and web development](./python/index.md)
 
 - When: 2020-9-13 to 2021-05-21 Sunday 3:00pm-3:50pm
 - Where: Zoom meeting
 - Who: For Students of grade 6-8 who has little or no programming experience
-- What: Python programming and small project
+- What: Scratch, Python programming and small projects, Basic web programming
 - How: register from [MLCCC website](http://www.mlccc.org/)
 
-### Java programming (for 8G+)
-
+### [G8+ Advance Class] Java programming & Algorithms 
  <!-- 
 * <a target="_blank" href="https://1drv.ms/u/s!Avm-0LBz8-Jhg4M4HD4vOYb3PJFYUA?e=2ZGBLU">MLCCC Coding Class Share folder</a>
 * Class scratch studio <a target="_blank"
