@@ -20,7 +20,7 @@ This is page for my Programming Classes for <a target="_blank" href="http://mlcc
 - What: Scratch, Python programming and small projects, Basic web programming
 - How: Register from [MLCCC website](http://www.mlccc.org/)
 
-### [[G8+ Advance Class] Java programming & Algorithms](./java/index.md)
+### [[G8+ Advance Class] Java programming & Algorithms](./Java/index.md)
 
 - When: 2020-9-13 to 2021-05-21 Sunday 4:00pm-4:50pm
 - Where: Zoom meeting
