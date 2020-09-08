@@ -18,10 +18,11 @@ Each student need  below items for this class**
    5. <https://codingbat.com/java>
    6. <https://docs.oracle.com/javase/tutorial/>
    7. <https://www.javatpoint.com/java-tutorial>
+   8. <https://www.codecademy.com/learn/learn-java>
 
 ## Content of Class
 
-- Get Start Java programming
+- [Get Start Java programming](Getting_Stared_with_Java_Hello_World.md)
 - Java Fundamental
 - Introduce Object Oriented Programming
 - Basic Data Structure & Algorithm

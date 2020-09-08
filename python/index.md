@@ -13,6 +13,14 @@ Students will learn Python and web programming, and learn how to completed proje
 4. A account of https://github.com/
 5. Books for reference:
    > ![](../images/Coding_for_kids_.jpg) ![](../images/image4.png) ![](../images/image1.png) ![](../images/image8.png)   ![](../images/CreatingAWebSite.jpg)
+6. Online reference
+   - <https://www.learnpython.org/>
+   - <https://www.learn-html.org/>
+   - <https://www.w3schools.com/html/>
+   - <https://www.w3schools.com/python>
+   - <https://www.pygame.org/wiki/tutorials>
+   - <https://www.freecodecamp.org/news/the-beginners-guide-to-git-github/>
+   - <https://codingbat.com/python>
 
 ## Content
 
