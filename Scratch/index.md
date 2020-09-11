@@ -10,8 +10,8 @@ Students will learn through hands-on projects on classes.**
 
 1. A Laptop or iPad with at least 4G memory with internet access.
 2. Another device or screen to show the zoom meeting screen.
-3. A email account, (parents please set up one for your kids, and let them keep the password)
-4. A account of http://Scratch.mit.edu
+3. An email account, (parents please set up one for your kids, and let them keep the password)
+4. An account of http://Scratch.mit.edu
 5. Books for reference:
    > ![](../images/image3.png) ![](../images/image5.png) ![](../images/image6.png)
 
