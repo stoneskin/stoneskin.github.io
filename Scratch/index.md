@@ -4,6 +4,9 @@
 **This class is for students of grade 3 – 6, who has no programming experience.
 Students will learn through hands-on projects on classes.**
 
+Join the wechat group
+![](webwxgetmsgimg.jpg)
+
 ## Requirement
 
  Each student need  below items for this class**
