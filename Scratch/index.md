@@ -21,7 +21,8 @@ Join the wechat group
 ## Content
 
 1. [Introduce scratch (and Join the MLCCC Coding Class Studio)](01.Introduce_Scratch.md)
-2. Get start scratch
+
+2. [Get start scratch](02.Get_Start_Scratch.md)
 
    - Animation in scratch
      - Drawing: Vector and bitmap
@@ -72,7 +73,7 @@ Join the wechat group
    - Multi-threading
    - Project
 
-9. List
+9.  List
     - Defining List
     - project
 

@@ -36,7 +36,7 @@ Join the wechat group
 
 ### Section 2: Python Programming
 
-1. Introduce ange get start with python
+1. Introduce and get start with python
 2. Drawing with Turtle
 3. play With Number and Variables
 4. Loops
