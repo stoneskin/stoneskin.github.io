@@ -24,14 +24,14 @@ Join the wechat group
 
 2. [Get start scratch](02.Get_Start_Scratch.md)
 
+   - Control
+     - Condition: if else
+     - Loop Repeat and forever
    - Animation in scratch
      - Drawing: Vector and bitmap
      - Sprite Costumes
      - Script animation
-   - Control
-     - Condition: if else
-     - Loop Repeat and forever
-   - project
+   - project: about me
   
 3. Variables
 
