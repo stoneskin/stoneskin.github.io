@@ -4,8 +4,6 @@
 **This class is for students of grade 3 – 6, who has no programming experience.
 Students will learn through hands-on projects on classes.**
 
-Join the wechat group
-![](webwxgetmsgimg.jpg)
 
 ## Requirement
 
@@ -33,7 +31,7 @@ Join the wechat group
      - Script animation
    - project: about me
   
-3. Variables
+3. [Variables](03.Variables.md)
 
    - Define and view variables
    - Scope: global and local
