@@ -3,8 +3,6 @@
 **This class is for students of grade 6-8, who has little or no programming experience.
 Students will learn Python and web programming, and learn how to completed projects and through hands-on projects on classes.**
 
-Join the wechat group
-![](webwxgetmsgimg.jpg)
 
 [google class room](https://classroom.google.com/c/MTY0MDUyNDMyMjUx)
 
