@@ -40,10 +40,11 @@ Students will learn through hands-on projects on classes.**
    - Set variable value by input
    - project
 
-4. More loops
-   1. Double loop
-   2. Triple loop
-   3. project
+4. [More loops](04.more_loops.md)
+   1. Looping Types
+   2. Double loop
+   3. Triple loop
+   4. Practice and project
 
 5. More Conditions
 
