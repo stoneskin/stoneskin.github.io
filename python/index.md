@@ -35,7 +35,10 @@ Students will learn Python and web programming, and learn how to completed proje
 ### Section 2: Python Programming
 
 1. [Introduce and get start with python](2_LearnPython/01.GetStartWithPython.md)
-2. Drawing with Turtle
+2. [Drawing with Python Turtle](2_LearnPython/02.DrawingWithPythonTurtle.md)
+   - draw lines
+   - draw cycle and color
+   - more about Turtle
 3. play With Number and Variables
 4. Loops
 5. Conditions: If-Else
