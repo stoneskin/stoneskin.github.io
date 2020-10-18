@@ -46,10 +46,10 @@ Students will learn through hands-on projects on classes.**
    3. Triple loop
    4. Practice and project
 
-5. More Conditions
+5. [More Conditions: Boolean](./05.more_conditions.md)
 
    - Boolean Type
-   - Operator in conditions
+   - Boolean Operator in conditions
    - Project
 
 6. Functions (Blocks)
