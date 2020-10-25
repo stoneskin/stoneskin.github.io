@@ -52,7 +52,7 @@ Students will learn through hands-on projects on classes.**
    - Boolean Operator in conditions
    - Project
 
-6. Functions (Blocks)
+6. [Functions (Blocks)](./06.Functions.md)
    - Defining make a block
    - Creating a Customer Block and Script
    - Passing Data to blocks
