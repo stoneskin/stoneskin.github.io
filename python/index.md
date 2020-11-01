@@ -38,7 +38,11 @@ Students will learn Python and web programming, and learn how to completed proje
 2. [Drawing with Python Turtle](2_LearnPython/02.DrawingWithPythonTurtle.md)
    - [draw lines](2_LearnPython/02.DrawingWithPythonTurtle.md)
    - [draw cycle and color](./2_LearnPython/02.2_Turtle_DrawCycleAndColor.md)
-   - more about Turtle
+   - [more about Turtle](./2_LearnPython/02.4_Turtle_more.md)
+     - shape
+     - fillcolor
+     - goto and stamp
+     - project
 3. play With Number and Variables
 4. Loops
 5. Conditions: If-Else
