@@ -58,7 +58,7 @@ Students will learn through hands-on projects on classes.**
    - Passing Data to blocks
    - project
   
-7. Instances (Clone)
+7. [Instances (Clone)](./07.Create_Instances_With_Clone.md)
 
    - Clones and Clone Blocks
    - Clones and Local Variables
