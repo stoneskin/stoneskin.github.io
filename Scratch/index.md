@@ -65,7 +65,7 @@ Students will learn through hands-on projects on classes.**
    - Sharing Clone Data
    - Project
 
-8. [Events (Broad casting message)](./08.4_another_sprite.png)
+8. [Events (Broad casting message)](./08.Events.md)
    - Event Driven Programming
    - Broadcast Blocks
    - Broadcast and Wait
