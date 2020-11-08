@@ -43,7 +43,7 @@ Students will learn Python and web programming, and learn how to completed proje
      - fillcolor
      - goto and stamp
      - project
-3. play With Number and Variables
+3. [Number, Variables and Type](2_LearnPython/03.Number_and_Variables.md)
 4. Loops
 5. Conditions: If-Else
 6. String, Characters and Cipher Programming
