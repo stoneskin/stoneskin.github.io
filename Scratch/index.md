@@ -72,9 +72,12 @@ Students will learn through hands-on projects on classes.**
    - Multi-threading
    - Project
 
-9. List
-    - Defining List
-    - project
+9. [List](./09_List.md)
+    - List and List Blocks
+    - Create a List
+    - Operate items in List
+    - Example
+    - project: Following Star
 
 10. Projects
     - Holiday theme catch game
