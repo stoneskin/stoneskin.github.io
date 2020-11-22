@@ -80,18 +80,27 @@ Students will learn through hands-on projects on classes.**
     - project: Following Star
 
 10. Projects
-    - Holiday theme catch game
+    - [Project materiels](10.1_ProjectMateriels.md)
+      - Get music
+      - Get images
+      - Backpack
+    - Holiday theme game
+      - Halloween catch game
+      - Thanksgiving
+      - Chinese new year
     - Drawing with rainbow line
     - Jump with gravity
-    - Math with scratch" prime Number
+    - Math with scratch prime Number
+    - Ping Game hit Blocks
     - Maze, two player mode
     - Dinosaur run
-    - Care Race game
+    - Car Race game
     - Scroll game (flap bird)
     - Snake game
     - Space shooting
     - Platform game
     - Two player shooting
+    - Music game
     - more  
   
 11. final projects
