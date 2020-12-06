@@ -45,7 +45,7 @@ Students will learn Python and web programming, and learn how to completed proje
      - project
 3. [Number, Variables and Type](2_LearnPython/03.Number_and_Variables.md)
 4. [Loops](2_LearnPython/04.Loop.md)
-5. Conditions: If-Else
+5. [Conditions: If-Else](./2_LearnPython/05_If_Else.md)
 6. String, Characters and Cipher Programming
 7. Python Functions
 8. Python Class and Object
