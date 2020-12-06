@@ -84,7 +84,7 @@ Students will learn through hands-on projects on classes.**
       - Get music
       - Get images
       - Backpack
-    - Holiday theme game
+    - [Holiday theme games](10.2_HolidayThemeGame.md)
       - Halloween catch game
       - Thanksgiving
       - Chinese new year
