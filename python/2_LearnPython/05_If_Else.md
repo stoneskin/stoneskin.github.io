@@ -2,7 +2,7 @@
 
 ## 5.1 Go Left and Go Right, Make Decision with `if`
 
-![if](5.1.1_if.png)
+![if](05.1.1_if.png)
 
 `if` key work used with comparison check  like below
 
@@ -32,18 +32,21 @@
 Try and give many input with below code:
 
 ```python
-givenCommand4 = input("Which direction you want to go? y/n:")
+givenCommand4 = input("Which direction you want to go? right/left(r/l):")
 
-if givenCommand4 == "left":
-    print("go left")
-elif givenCommand4 == "right":
-    print("go right")
-elif givenCommand4 == "r":
-    print("go right")
-elif givenCommand4 == "l":
-    print("go left")
-else:
-    print ("I don't know where to go!")
+while givenCommand4 != "":
+    if givenCommand4 == "left":
+        print("go left")
+    elif givenCommand4 == "right":
+        print("go right")
+    elif givenCommand4 == "r":
+        print("go right")
+    elif givenCommand4 == "l":
+        print("go left")
+    else:
+        print ("I don't know where to go!")
+    givenCommand4 = input("Which direction you want to go? right/left(r/l):")
+
 
 ```
 
