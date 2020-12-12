@@ -88,7 +88,7 @@ Students will learn through hands-on projects on classes.**
       - Halloween catch game
       - Thanksgiving
       - Chinese new year
-    - Drawing with rainbow line
+    - [Drawing with Pen blocks](10.3_PenDrawing.md)
     - Jump with gravity
     - Math with scratch prime Number
     - Ping Game hit Blocks
