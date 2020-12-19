@@ -89,9 +89,9 @@ Students will learn through hands-on projects on classes.**
       - Thanksgiving
       - Chinese new year
     - [Drawing with Pen blocks](10.3_PenDrawing.md)
+    - [Pong Game hit Blocks](10.4.Pong_block_Game.md)
     - Jump with gravity
     - Math with scratch prime Number
-    - Ping Game hit Blocks
     - Maze, two player mode
     - Dinosaur run
     - Car Race game
