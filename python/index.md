@@ -47,7 +47,7 @@ Students will learn Python and web programming, and learn how to completed proje
 4. [Loops](2_LearnPython/04.Loop.md)
 5. [Conditions: If-Else](./2_LearnPython/05_If_Else.md)
 6. [String, Characters and Cipher Programming](2_LearnPython/06.StringAndCharacter.md)
-7. Python Functions
+7. [Python Functions](2_LearnPython/07.Functions.md)
 8. Python Class and Object
 9. Python OOP:inheritance
 10. Introduce Pygame
