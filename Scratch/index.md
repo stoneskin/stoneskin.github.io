@@ -90,9 +90,10 @@ Students will learn through hands-on projects on classes.**
       - Chinese new year
     - [Drawing with Pen blocks](10.3_PenDrawing.md)
     - [Pong Game hit Blocks](10.4.Pong_block_Game.md)
+    - [Maze](10.5.Maze.md)
+    - Scroll game (flap bird)
     - Jump with gravity
     - Math with scratch prime Number
-    - Maze, two player mode
     - Dinosaur run
     - Car Race game
     - Scroll game (flap bird)
