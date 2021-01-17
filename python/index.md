@@ -49,7 +49,7 @@ Students will learn Python and web programming, and learn how to completed proje
 6. [String, Characters and Cipher Programming](2_LearnPython/06.StringAndCharacter.md)
 7. [Python Functions](2_LearnPython/07.Functions.md)
 8. [Python Class and Object](./2_LearnPython/08_Python_Class_and_Object.md)
-9. Python OOP:inheritance
+9. [Python OOP](./2_LearnPython/09.PythonOOP.md)
 10. Introduce Pygame
 11. Python game: TicTacToe
 12. Final project
