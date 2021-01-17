@@ -91,7 +91,7 @@ Students will learn through hands-on projects on classes.**
     - [Drawing with Pen blocks](10.3_PenDrawing.md)
     - [Pong Game hit Blocks](10.4.Pong_block_Game.md)
     - [Maze](10.5.Maze.md)
-    - Scroll game (flap bird)
+    - [Scroll game (flap bird)](10.6_scrollGame.md)
     - Jump with gravity
     - Math with scratch prime Number
     - Dinosaur run
