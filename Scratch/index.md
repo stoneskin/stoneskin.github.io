@@ -92,7 +92,7 @@ Students will learn through hands-on projects on classes.**
     - [Pong Game hit Blocks](10.4.Pong_block_Game.md)
     - [Maze](10.5.Maze.md)
     - [Scroll game (flap bird)](10.6_scrollGame.md)
-    - Jump with gravity
+    - [Jump with gravity](10.7_JumpWithGravity.md)
     - Math with scratch prime Number
     - Dinosaur run
     - Car Race game
