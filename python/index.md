@@ -68,4 +68,3 @@ Students will learn Python and web programming, and learn how to completed proje
 4. Project: build About Me web page with html
 5. Basic Javascript
 6. Project: Build a simple web page with javascript
-   
