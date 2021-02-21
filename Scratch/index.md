@@ -95,7 +95,7 @@ Students will learn through hands-on projects on classes.**
     - [Jump with gravity](10.7_JumpWithGravity.md)
     - [Math with scratch about Number](10.8_Math_FindNumber.md)
     - [Dinosaur run](10.9_PlatformRunning.md)
-    - Car Race game
+    - [Car Race game](10.10_raceGame.md)
     - Scroll game (flap bird)
     - Snake game
     - Space shooting
