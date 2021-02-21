@@ -53,6 +53,8 @@ Students will learn Python and web programming, and learn how to completed proje
 10. [Introduce Pygame](./2_LearnPython/10.1.PyGame01.md)
     1. [GetStart](./2_LearnPython/10.1.PyGame01.md)
     2. [More PyGame](./2_LearnPython/10.2.PyGame02.md)
+    3. [Build a AirForce Game step by step part1](2_LearnPython/10.3.PyGameStepByStep-1.md)
+    4. Build a AirForce Game step by step part2 (todo)
 11. Python game: TicTacToe
 12. Final project
 
