@@ -4,6 +4,7 @@ import pygame
 #from pygame.locals import *
 #3 import math
 import math
+import random
 
 # 1.2 - Initialize the game 
 pygame.init()
@@ -27,6 +28,12 @@ cargo = pygame.image.load("images/airballoon.png")
 bullets=[]
 bullet = pygame.image.load("images/bullet.png")
 
+#5 enemy
+enemyImg = pygame.image.load("images/enemy2.png")
+enemyCome=False
+enemys=[[640,100]]
+enemySpeed=-0.5
+enemyMaxnumber=5
 
 # 1.4 - use loop to keep the game running 
 while keep_going:
@@ -53,10 +60,9 @@ while keep_going:
     screen.blit(player, player_pos)
     
 #4 - Draw bullet
-    index=0
     for bulletPos in bullets:
-
-        bulletPos[0]=bulletPos[0]+1
+        index=0
+        bulletPos[0]=bulletPos[0]+2
         screen.blit(bullet,bulletPos)
 
         #remove bullet if out the screen
@@ -64,7 +70,22 @@ while keep_going:
             bullets.pop(index)  #remove from list
         index+=1
   
+ #5 Draw enemy
+ 
+    if(random.randint(1,100)<3 and len(enemys)<enemyMaxnumber):
+        #screen.blit(enemy, badguy)
+        enemys.append([640, random.randint(50,430)])
+        print("enemys length"+str(len(enemys)))
     
+    index=0
+    for enemyPos in enemys:               
+        enemyPos[0]+=enemySpeed
+        if enemyPos[0]<50:
+            enemys.pop(index)
+        screen.blit(enemyImg, enemyPos)
+        index+=1   
+#end step 5
+        
     #1.7 - update the screen
     pygame.display.flip() #faster the .update()
     # 1.8 - loop through the events
