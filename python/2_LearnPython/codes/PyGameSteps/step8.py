@@ -1,4 +1,4 @@
-#Step5, Add Enemies
+#step 8 Load sound
 
 import pygame
 #from pygame.locals import *
@@ -8,6 +8,8 @@ import random
 
 # 1.2 - Initialize the game 
 pygame.init()
+pygame.mixer.init()  # for audio 
+
 width, height = 740, 480
 screen=pygame.display.set_mode((width, height))
 keep_going = True
@@ -29,12 +31,32 @@ bullets=[]
 bullet = pygame.image.load("images/bullet.png")
 
 #5 enemy
-enemyImg = pygame.image.load("images/enemy2.png")
+enemyImg = pygame.image.load("images/enemy1.png")
+enemyImg=pygame.transform.scale(enemyImg, (75, 75)).convert_alpha()  #use the convert_alpha() method after loading so that the image has per pixel transparency.
 enemys=[[640,100]]
-enemySpeed=-0.5
+enemySpeed=-0.3
 enemyMaxnumber=5
 
+
+#7 initial load explosion animaton images
+explosions=[] # store explosion location and img index [(x,y),i,t] 
+explosion_anim=[] #store img for animation
+BLACK = (0, 0, 0)
+explosion_time=60
+for i in range(9):
+    filename = 'Explosion0{}.png'.format(i)
+    img = pygame.image.load("images/"+ filename).convert()  # convert will create a copy that will draw more quickly on the screen.
+    img.set_colorkey(BLACK)
+    img= pygame.transform.scale(img, (75, 75))
+    explosion_anim.append(img)
+    
+#8 initial load sound
+shooting_sound = pygame.mixer.Sound('sounds/pew.wav')
+pygame.mixer.music.load('sounds/BG.ogg')
+pygame.mixer.music.play(-1) ## makes the gameplay sound in an endless loop
+
 # 1.4 - use loop to keep the game running 
+
 while keep_going:
     # 1.5 - clear the screen before drawing it again
     screen.fill(0)
@@ -60,14 +82,14 @@ while keep_going:
     
 #4 - Draw bullet
     for bulletPos in bullets:
-        index=0
+        enemy_index=0
         bulletPos[0]=bulletPos[0]+2
         screen.blit(bullet,bulletPos)
 
         #remove bullet if out the screen
         if bulletPos[0]<-64 or bulletPos[0]>640 or bulletPos[1]<-64 or bulletPos[1]>480:
-            bullets.pop(index)  #remove from list
-        index+=1
+            bullets.pop(enemy_index)  #remove from list
+        enemy_index+=1
   
  #5 Draw enemy
  
@@ -76,14 +98,49 @@ while keep_going:
         enemys.append([640, random.randint(50,430)])
         print("enemys length"+str(len(enemys)))
     
-    index=0
+    enemy_index=0
     for enemyPos in enemys:               
         enemyPos[0]+=enemySpeed
         if enemyPos[0]<50:
-            enemys.pop(index)
+            enemys.pop(enemy_index)
         screen.blit(enemyImg, enemyPos)
-        index+=1   
+        
+    # 6 Check for collistions
+        enemyRect=pygame.Rect(enemyImg.get_rect())
+        enemyRect.left=enemyPos[0]
+        enemyRect.top=enemyPos[1]
+        bullet_index=0
+        for bulletPos in bullets:
+            bulletRect=pygame.Rect(bullet.get_rect()) # get rect of bullet image size
+            bulletRect.left=bulletPos[0]
+            bulletRect.top=bulletPos[1]            
+            if bulletRect.colliderect(enemyRect):
+                enemys.pop(enemy_index)
+                bullets.pop(bullet_index)
+                # step7 play explosion in the location of enemy
+                explosions.append([enemyPos,0,explosion_time])
+                                
+            bullet_index+=1
+        enemy_index+=1       
+    # end step 6
+
+    #step 7 plan explosion animation
+    
+    for explosion in explosions:
+        if(explosion[1]<9):
+            screen.blit(explosion_anim[explosion[1]],explosion[0])
+            explosion[2]=explosion[2]-1
+            if(explosion[2]<0):     
+                explosion[1]=explosion[1]+1
+                explosion[2]=explosion_time
+                
+        else:
+            explosions.pop(0) # the first one is always first completed 
+        
 #end step 5
+
+
+
         
     #1.7 - update the screen
     pygame.display.flip() #faster the .update()
@@ -113,7 +170,8 @@ while keep_going:
                 key_right=False
 # use mouse down to fire         
         if event.type==pygame.MOUSEBUTTONDOWN or (event.type==pygame.KEYDOWN and event.key==pygame.K_SPACE):
-            bullets.append([player_pos[0],player_pos[1]])      
+            bullets.append([player_pos[0],player_pos[1]])
+            shooting_sound.play()      # step 8 play the sound when shooting
                 
     #3.4 - Move player base on the key status
     if key_up and player_pos[1]>0:

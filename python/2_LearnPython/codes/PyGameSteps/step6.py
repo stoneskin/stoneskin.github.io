@@ -1,4 +1,4 @@
-#Step5, Add Enemies
+#step 6 check the collision
 
 import pygame
 #from pygame.locals import *
@@ -29,9 +29,10 @@ bullets=[]
 bullet = pygame.image.load("images/bullet.png")
 
 #5 enemy
-enemyImg = pygame.image.load("images/enemy2.png")
+enemyImg = pygame.image.load("images/enemy1.png")
+enemyImg=pygame.transform.scale(enemyImg, (75, 75))
 enemys=[[640,100]]
-enemySpeed=-0.5
+enemySpeed=-0.3
 enemyMaxnumber=5
 
 # 1.4 - use loop to keep the game running 
@@ -60,14 +61,14 @@ while keep_going:
     
 #4 - Draw bullet
     for bulletPos in bullets:
-        index=0
+        enemy_index=0
         bulletPos[0]=bulletPos[0]+2
         screen.blit(bullet,bulletPos)
 
         #remove bullet if out the screen
         if bulletPos[0]<-64 or bulletPos[0]>640 or bulletPos[1]<-64 or bulletPos[1]>480:
-            bullets.pop(index)  #remove from list
-        index+=1
+            bullets.pop(enemy_index)  #remove from list
+        enemy_index+=1
   
  #5 Draw enemy
  
@@ -76,14 +77,34 @@ while keep_going:
         enemys.append([640, random.randint(50,430)])
         print("enemys length"+str(len(enemys)))
     
-    index=0
+    enemy_index=0
     for enemyPos in enemys:               
         enemyPos[0]+=enemySpeed
         if enemyPos[0]<50:
-            enemys.pop(index)
+            enemys.pop(enemy_index)
         screen.blit(enemyImg, enemyPos)
-        index+=1   
+        
+    # 6 Check for collistions
+        enemyRect=pygame.Rect(enemyImg.get_rect())
+        enemyRect.left=enemyPos[0]
+        enemyRect.top=enemyPos[1]
+        bullet_index=0
+        for bulletPos in bullets:
+            bulletRect=pygame.Rect(bullet.get_rect()) # get rect of bullet image size
+            bulletRect.left=bulletPos[0]
+            bulletRect.top=bulletPos[1]            
+            if bulletRect.colliderect(enemyRect):
+                enemys.pop(enemy_index)
+                bullets.pop(bullet_index)
+            bullet_index+=1
+    # end step 6           
+        enemy_index+=1       
+
+
 #end step 5
+
+
+
         
     #1.7 - update the screen
     pygame.display.flip() #faster the .update()
