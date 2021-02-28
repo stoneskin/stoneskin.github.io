@@ -96,7 +96,7 @@ Students will learn through hands-on projects on classes.**
     - [Math with scratch about Number](10.8_Math_FindNumber.md)
     - [Dinosaur run](10.9_PlatformRunning.md)
     - [Car Race game](10.10_raceGame.md)
-    - [Two player game](10.11_bulletcode.png)
+    - [Two player game](10.11_twoplayerGame.md)
     - Snake game
     - Space shooting
     - TicTacToe

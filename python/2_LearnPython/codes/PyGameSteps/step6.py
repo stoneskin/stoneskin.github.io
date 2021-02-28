@@ -1,9 +1,6 @@
 #step 6 check the collision
 
 import pygame
-#from pygame.locals import *
-#3 import math
-import math
 import random
 
 # 1.2 - Initialize the game 

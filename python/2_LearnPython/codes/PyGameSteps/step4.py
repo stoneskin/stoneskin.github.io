@@ -60,7 +60,7 @@ while keep_going:
         screen.blit(bullet,bulletPos)
 
         #remove bullet if out the screen
-        if bulletPos[0]<-64 or bulletPos[0]>640 or bulletPos[1]<-64 or bulletPos[1]>480:
+        if bulletPos[0]<-64 or bulletPos[0]>width or bulletPos[1]<-64 or bulletPos[1]>height:
             bullets.pop(index)  #remove from list
         index+=1
   
@@ -93,7 +93,7 @@ while keep_going:
                 key_right=False
 # use mouse down to fire         
         if event.type==pygame.MOUSEBUTTONDOWN or (event.type==pygame.KEYDOWN and event.key==pygame.K_SPACE):
-            bullets.append([player_pos[0],player_pos[1]])      
+            bullets.append([player_pos[0],player_pos[1]])   # bullets.append([player_pos) 
                 
     #3.4 - Move player base on the key status
     if key_up and player_pos[1]>0:
