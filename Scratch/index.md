@@ -97,7 +97,7 @@ Students will learn through hands-on projects on classes.**
     - [Dinosaur run](10.9_PlatformRunning.md)
     - [Car Race game](10.10_raceGame.md)
     - [Two player game](10.11_twoplayerGame.md)
-    - Snake game
+    - [Snake game](10.12_BuildSnakeGame.md)
     - Space shooting
     - TicTacToe
     - Music game
