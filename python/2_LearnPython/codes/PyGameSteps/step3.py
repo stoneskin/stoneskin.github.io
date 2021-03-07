@@ -17,6 +17,7 @@ background = pygame.image.load("images/sky.jpg")
 cargo = pygame.image.load("images/airballoon.png")
 
 while keep_going:
+   
     screen.fill(0)
     screen.blit(background,(0,0))
     # if you image is small, you need use double loop to fill the background
@@ -30,10 +31,10 @@ while keep_going:
     screen.blit(cargo,(0,345))
 
 #3.2 set player position use player_pos
-    screen.blit(player, player_pos)
-
+    screen.blit(player, player_pos)    
     pygame.display.flip() 
     for event in pygame.event.get():
+
         if event.type==pygame.QUIT:
             keep_going = False
 #3.3 monitor the key down and up
@@ -64,6 +65,7 @@ while keep_going:
         player_pos[0]-=1
     elif key_right:
         player_pos[0]+=1
+
 
 
 pygame.quit()
