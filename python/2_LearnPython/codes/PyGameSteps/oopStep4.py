@@ -1,6 +1,18 @@
-# step 3: Add key event listener for Player Class
+# step 4: Add fire bullets to player class
 
 import pygame
+
+class Bullet:
+    bulletImg = pygame.image.load("images/bullet.png")
+    pos=[0,0]
+    speed=0.5
+    def __init__(self,pos) -> None:
+        self.pos=[pos[0],pos[1]]
+    def update(self,screen):
+        self.move()
+        screen.blit(self.bulletImg,self.pos)
+    def move(self):
+        self.pos[0]+=self.speed
 
 class Player:
     img=pygame.image.load("images/player.png")
@@ -9,13 +21,21 @@ class Player:
     speed=0.3
     max_w:int
     max_h:int
+    bullets:list[Bullet]=[]
     def __init__(self,pos_x,pos_y,screen_W,screen_H) -> None:
        self.pos=[pos_x,pos_y]
        self.max_w=screen_W-100
        self.max_h=screen_H-40
     def update(self,screen):
        self.move()
-       screen.blit(self.img, self.pos)       
+       screen.blit(self.img, self.pos)
+       index=0
+       for bullet in self.bullets:
+           bullet.update(screen)
+           if(bullet.pos[0]>640):
+               self.bullets.pop(index)
+           index+=1
+                      
      
     def onKeyEvent(self,event:any) -> None:
         if event.type == pygame.KEYDOWN:
@@ -36,6 +56,8 @@ class Player:
                 self.key_down=False
             elif event.key==pygame.K_d:
                 self.key_right=False
+        if event.type==pygame.MOUSEBUTTONDOWN or (event.type==pygame.KEYDOWN and event.key==pygame.K_SPACE):
+            self.fire()            
         
     def move(self)->None:
         if self.key_up and self.pos[1]>0:
@@ -46,8 +68,12 @@ class Player:
             self.pos[0]-=self.speed
         elif self.key_right and self.pos[0]<self.max_w:
             self.pos[0]+=self.speed
-             
-         
+    def fire(self)->None:
+        #fire bullets 
+        bullet=Bullet(self.pos)
+        self.bullets.append(bullet)
+              
+       
 # main class of the Game
 class AirForceGame:
     width, height = 640, 480
@@ -63,7 +89,6 @@ class AirForceGame:
         pygame.init()
        
         screen=pygame.display.set_mode((self.width, self.height))
-
         keep_going = True
         self.player=Player(100,100,self.width,self.height)
 
@@ -71,12 +96,9 @@ class AirForceGame:
         # 1.4 - use loop to keep the game running 
         while keep_going:
             screen.fill(0)
-
             screen.blit(self.background,(0,0))
-
             self.player.update(screen)
-            
-            #update the screen
+           
             pygame.display.flip() # will update the contents of the entire display, and faster than .update()
             # 1.8 - loop through the events
             for event in pygame.event.get():
@@ -85,6 +107,7 @@ class AirForceGame:
                     keep_going = False
                 self.player.onKeyEvent(event) #update player for event 
    
+        
         pygame.quit()
 
 my_game=AirForceGame(500,500)

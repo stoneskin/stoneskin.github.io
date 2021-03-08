@@ -15,7 +15,8 @@ class AirForceGame:
     width, height = 640, 480
     player:Player
     def __init__(self,w,h) -> None:
-        self.background = pygame.image.load("images/sky.jpg")
+        bg = pygame.image.load("images/sky.jpg")
+        self.background = pygame.transform.scale(bg, (w, h))
         if(w>100):
             self.width=w
         if(h>100):
