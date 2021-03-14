@@ -55,8 +55,8 @@ Students will learn Python and web programming, and learn how to completed proje
     2. [More PyGame](./2_LearnPython/10.2.PyGame02.md)
     3. [Build a AirForce Game step by step part1](2_LearnPython/10.3.PyGameStepByStep-1.md)
     4. [Build a AirForce Game step by step part2](2_LearnPython/10.4.PyGameStepByStep-2.md)
-11. Python game: TicTacToe
-12. Final project
+11. Python game: [TicTacToe](./2_LearnPython/11.TicTacToe.md)
+12. [Final project](2_LearnPython/12.FinalProject.md)
 
 ### Section 3: Version control with Github
 
