@@ -98,7 +98,7 @@ Students will learn through hands-on projects on classes.**
     - [Car Race game](10.10_raceGame.md)
     - [Two player game](10.11_twoplayerGame.md)
     - [Snake game](10.12_BuildSnakeGame.md)
-    - Space shooting
+    - [Space shooting](10.13.SpaceShooting.md)
     - TicTacToe
     - Music game
     - more  
