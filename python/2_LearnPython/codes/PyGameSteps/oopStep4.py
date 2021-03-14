@@ -1,11 +1,12 @@
 # step 4: Add fire bullets to player class
 
+from typing import Any
 import pygame
 
 class Bullet:
-    bulletImg = pygame.image.load("images/bullet.png")
-    pos=[0,0]
-    speed=0.5
+    bulletImg:Any = pygame.image.load("images/bullet.png")
+    pos:list[float]=[0.0,0.1]
+    speed:float=0.5
     def __init__(self,pos) -> None:
         self.pos=[pos[0],pos[1]]
     def update(self,screen):
@@ -15,10 +16,10 @@ class Bullet:
         self.pos[0]+=self.speed
 
 class Player:
-    img=pygame.image.load("images/player.png")
+    img:Any=pygame.image.load("images/player.png")
     key_up=key_down=key_left=key_right = False
-    pos=[100,100]
-    speed=0.3
+    pos:list[float] =[100,100]
+    speed:float=0.3
     max_w:int
     max_h:int
     bullets:list[Bullet]=[]
@@ -84,13 +85,14 @@ class AirForceGame:
             self.width=w
         if(h>100):
             self.height=h
+        self.player=Player(100,100,self.width,self.height)
     def startGame(self):
         # 1.2 - Initialize the game 
         pygame.init()
        
         screen=pygame.display.set_mode((self.width, self.height))
         keep_going = True
-        self.player=Player(100,100,self.width,self.height)
+        
 
        
         # 1.4 - use loop to keep the game running 

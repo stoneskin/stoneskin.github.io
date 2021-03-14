@@ -1,4 +1,4 @@
-# step 5: Add Enemies and Enemy class
+# step 6: Check the collisions 
 
 from typing import Any
 import pygame,random
@@ -9,11 +9,16 @@ class Bullet:
     speed=0.5
     def __init__(self,pos) -> None:
         self.pos=[pos[0],pos[1]]
+        self.rect=pygame.Rect(self.bulletImg.get_rect())
     def update(self,screen):
         self.move()
         screen.blit(self.bulletImg,self.pos)
     def move(self):
         self.pos[0]+=self.speed
+    def getRect(self):
+        self.rect.left=self.pos[0]
+        self.rect.top=self.pos[1]
+        return self.rect
 
 class Player:
     img=pygame.image.load("images/player.png")
@@ -82,11 +87,16 @@ class Enemy:
         self.pos=[x,y]
         self.speed=random.randint(5,10)*self.speed
         self.img = pygame.transform.scale(Enemy.enemyImg, (75, 75)).convert_alpha()
+        self.rect=pygame.Rect(self.img.get_rect())
     def update(self,screen):
        self.move()
        screen.blit(self.img, self.pos)
     def move(self):
         self.pos[0]+=self.speed
+    def getRect(self):
+        self.rect.left=self.pos[0]
+        self.rect.top=self.pos[1]
+        return self.rect
         
         
 # main class of the Game
@@ -94,6 +104,7 @@ class AirForceGame:
     width, height = 640, 480
     enemies:list[Enemy]=[]
     enemyMaxnumber:int=5
+    
     def __init__(self,w,h) -> None:
         bg = pygame.image.load("images/sky.jpg")
         self.background = pygame.transform.scale(bg, (w, h))
@@ -112,9 +123,22 @@ class AirForceGame:
         index=0
         for enemy in self.enemies:               
             enemy.update(screen)
-            if enemy.pos[0]<0:
+            if(self.checkCollistion(enemy)):
+                self.enemies.pop(index) 
+            elif enemy.pos[0]<0:
                 self.enemies.pop(index)                
             index+=1       
+    
+    def checkCollistion(self,enemy)->bool:
+        enemyRect= enemy.getRect()
+        bullet_index=0
+        for bullet in  self.player.bullets:
+            bulletRect= bullet.getRect()
+            if bulletRect.colliderect(enemyRect):
+                self.player.bullets.pop(bullet_index)
+                return True
+            bullet_index+=1
+        return False 
           
     def startGame(self):
         # 1.2 - Initialize the game 
