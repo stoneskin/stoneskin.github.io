@@ -1,19 +1,17 @@
 # step 2: Create Player Class
 
-# 1.1 - Import library
 import pygame
 
 class Player:
-    img=pygame.image.load("images/player.png")
-    pos=[100,100]
-    def __init__(self,x,y) -> None:
-       self.pos=[x,y]
-    def update(self, screen):
+    img:any=pygame.image.load("images/player.png")
+
+    def __init__(self,x:float,y:float) -> None:
+       self.pos:list[float]=[x,y]
+    def update(self, screen) ->None:
         screen.blit(self.img, self.pos) 
 # main class of the Game
 class AirForceGame:
     width, height = 640, 480
-    player:Player
     def __init__(self,w,h) -> None:
         bg = pygame.image.load("images/sky.jpg")
         self.background = pygame.transform.scale(bg, (w, h))
@@ -21,14 +19,17 @@ class AirForceGame:
             self.width=w
         if(h>100):
             self.height=h
-    def startGame(self):
+        self.player=Player(100,100)
+
+    def startGame(self) -> None:
         # 1.2 - Initialize the game 
         pygame.init()
        
         screen=pygame.display.set_mode((self.width, self.height))
         keep_going = True
-        self.player=Player(100,100)
+        
 
+       
         # 1.4 - use loop to keep the game running 
         while keep_going:
             # 1.5 - clear the screen before drawing it again

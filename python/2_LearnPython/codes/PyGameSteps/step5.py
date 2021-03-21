@@ -59,13 +59,14 @@ while keep_going:
     screen.blit(player, player_pos)
     
 #4 - Draw bullet
+    index=0
     for bulletPos in bullets:
-        index=0
+        
         bulletPos[0]=bulletPos[0]+2
         screen.blit(bullet,bulletPos)
 
         #remove bullet if out the screen
-        if bulletPos[0]<-64 or bulletPos[0]>640 or bulletPos[1]<-64 or bulletPos[1]>480:
+        if bulletPos[0]<-64 or bulletPos[0]>width or bulletPos[1]<-64 or bulletPos[1]>height:
             bullets.pop(index)  #remove from list
         index+=1
   

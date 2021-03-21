@@ -7,7 +7,7 @@ import pygame
 class AirForceGame:
     def __init__(self) -> None:
         pass
-    def startGame(self):
+    def startGame(self) -> None:
         # 1.2 - Initialize the game 
         pygame.init()
         width, height = 640, 480

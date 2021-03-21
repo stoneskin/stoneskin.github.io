@@ -1,18 +1,17 @@
 # step 3: Add key event listener for Player Class
 
+#from typing import Any
 import pygame
 
 class Player:
-    img=pygame.image.load("images/player.png")
+    img:any=pygame.image.load("images/player.png")
     key_up=key_down=key_left=key_right = False
-    pos=[100,100]
-    speed=0.3
-    max_w:int
-    max_h:int
+    speed:float=0.3
+
     def __init__(self,pos_x,pos_y,screen_W,screen_H) -> None:
-       self.pos=[pos_x,pos_y]
-       self.max_w=screen_W-100
-       self.max_h=screen_H-40
+       self.pos:list[float]=[pos_x,pos_y]
+       self.max_w:int=screen_W-100
+       self.max_h:int=screen_H-40
     def update(self,screen):
        self.move()
        screen.blit(self.img, self.pos)       
@@ -39,13 +38,13 @@ class Player:
         
     def move(self)->None:
         if self.key_up and self.pos[1]>0:
-            self.pos[1]-=self.speed
+            self.pos[1]-=Player.speed
         elif self.key_down and self.pos[1]<self.max_h:
-            self.pos[1]+=self.speed
+            self.pos[1]+=Player.speed
         if self.key_left and self.pos[0]>0:
-            self.pos[0]-=self.speed
+            self.pos[0]-=Player.speed
         elif self.key_right and self.pos[0]<self.max_w:
-            self.pos[0]+=self.speed
+            self.pos[0]+=Player.speed
              
          
 # main class of the Game
@@ -58,6 +57,7 @@ class AirForceGame:
             self.width=w
         if(h>100):
             self.height=h
+        self.player=Player(100,100,self.width,self.height)
     def startGame(self):
         # 1.2 - Initialize the game 
         pygame.init()
@@ -65,7 +65,7 @@ class AirForceGame:
         screen=pygame.display.set_mode((self.width, self.height))
 
         keep_going = True
-        self.player=Player(100,100,self.width,self.height)
+        
 
        
         # 1.4 - use loop to keep the game running 

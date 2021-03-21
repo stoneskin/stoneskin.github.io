@@ -99,7 +99,7 @@ Students will learn through hands-on projects on classes.**
     - [Two player game](10.11_twoplayerGame.md)
     - [Snake game](10.12_BuildSnakeGame.md)
     - [Space shooting](10.13.SpaceShooting.md)
-    - TicTacToe
+    - [TicTacToe](10.14_BuildTicTacToe.md)
     - Music game
     - more  
   
