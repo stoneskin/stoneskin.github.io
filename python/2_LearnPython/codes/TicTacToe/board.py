@@ -4,7 +4,7 @@ import pygame
 from pygame import image,mouse,transform
 #from typing import Tuple,List
 
-class CheckerData:
+class CheckerGrid:
     def __init__(self,pos:tuple[int,int]) -> None:
         self.pos:tuple[int,int]=pos
         self.checker:Checker =None
@@ -19,7 +19,7 @@ class Board:
         
         self.currentPlayer:str='x'
         
-        self.checkerPositions:list[list[CheckerData]]=[]
+        self.checkerPositions:list[list[CheckerGrid]]=[]
         self.d_w = int((width-20)/3)
         self.d_h = int ((height-50)/3)     
         print(f"d_w={self.d_w} d_h={self.d_h}")    
@@ -28,7 +28,7 @@ class Board:
             self.checkerPositions.append(row)
             for y in range(3):
                 pos:tuple[int,int]=[(x+0.3)*self.d_w ,(y+0.3)*self.d_h]
-                checkData:CheckerData=CheckerData(pos)
+                checkData:CheckerGrid=CheckerGrid(pos)
                 row.append(checkData)
         
     def display(self,screen) ->None:
@@ -46,7 +46,7 @@ class Board:
             self.setNewChecker(clickPos)
             
     def setNewChecker(self, pos:tuple[int,int]) ->None:
-        checkData:CheckerData= self.findBoardPos(pos)
+        checkData:CheckerGrid= self.findBoardPos(pos)
         if(checkData!=None):
             if(self.currentPlayer == 'x'):
                 checkData.checker= CheckerX(checkData.pos)
@@ -56,7 +56,7 @@ class Board:
                 self.currentPlayer = 'x'        
         
     
-    def findBoardPos(self,pos) ->CheckerData:   
+    def findBoardPos(self,pos) ->CheckerGrid:   
         print(f"click pos: (x:{pos[0]},y:{pos[1]})")     
         for checkerRow in self.checkerPositions:
             for checkerData in checkerRow:
