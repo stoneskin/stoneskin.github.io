@@ -60,7 +60,7 @@ Students will learn Python and web programming, and learn how to completed proje
 
 ### Section 3: Version control with Github
 
-1. Learn to use git for version control
+1. [Learn to use git for version control](../Tools/Git.01-LearnToUseGitForVersionControl.md)
 2. User git-smart as git client
 3. Using GitHub sites
 

@@ -100,13 +100,12 @@ Students will learn through hands-on projects on classes.**
     - [Snake game](10.12_BuildSnakeGame.md)
     - [Space shooting](10.13.SpaceShooting.md)
     - [TicTacToe](10.14_BuildTicTacToe.md)
-    - Music game
+    - [Music game](https://scratch.mit.edu/projects/384792691)
     - more  
   
 11. final projects
     - group project
     - Individual project
-
 
 <!-- 3. Tell a story by scratch
 1. How to build game in scratch
