@@ -2,11 +2,11 @@ from board import Board
 import pygame
 
 pygame.init()
-width, height = 500, 500
+width, height = 480, 480
 screen=pygame.display.set_mode((width,height))
 keep_going = True
 
-board=Board(0,0,480, 480)
+board=Board(0,0,width, height)
 
 
 # 1.4 - use loop to keep the game running 
@@ -19,6 +19,8 @@ while keep_going:
     pygame.display.flip() # will update the contents of the entire display, and faster than .update()
     # 1.8 - loop through the events
     for event in pygame.event.get():
+        board.onEvent(event)
+        
         # check if the event is the X button
         if event.type==pygame.QUIT:
             keep_going = False
