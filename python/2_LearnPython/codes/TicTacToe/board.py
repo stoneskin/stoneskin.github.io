@@ -61,12 +61,12 @@ class Board:
         for checkerRow in self.checkerPositions:
             for checkerData in checkerRow:
                 if checkerData.checker == None:
-                    if( pos[0]> checkerData.pos[0] -self.d_w/2  and pos[0]< checkerData.pos[0] +self.d_w/2):
+                    if( pos[0]> checkerData.pos[0]-20   and pos[0]< checkerData.pos[0] +self.d_w/2+20):
                       
-                        if( pos[1]> checkerData.pos[1] -self.d_h/2  and pos[1]< checkerData.pos[1] +self.d_h/2):
+                        if( pos[1]> checkerData.pos[1] -20  and pos[1]< checkerData.pos[1] +self.d_h/2+20):
                             print(f"checker pos: (x:{checkerData.pos[0]},y:{checkerData.pos[1]})")    
-                            print("x >",(checkerData.pos[0] -self.d_w/2 ), "and <", (checkerData.pos[0] +self.d_w/2))
-                            print("y >",(checkerData.pos[1] -self.d_h/2 ), "and <", (checkerData.pos[1] +self.d_h/2))
+                            print("x >",(checkerData.pos[0] ), "and <", (checkerData.pos[0] +self.d_w/2))
+                            print("y >",(checkerData.pos[1]  ), "and <", (checkerData.pos[1] +self.d_h/2))
                             return checkerData
         return None
     
