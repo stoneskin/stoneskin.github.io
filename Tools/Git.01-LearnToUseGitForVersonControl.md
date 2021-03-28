@@ -3,7 +3,7 @@
 ## 1.1 What is Version Control
 
 - Version control system are software tools that help you manage changes of source code over time.
- ![version local](Git_01_VersonControl.png) 
+ ![version local](Git_01_VersionControl.png) 
 
 ## 1.2. Why I need the Version Control System
 
