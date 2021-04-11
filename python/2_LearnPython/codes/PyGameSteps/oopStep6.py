@@ -4,7 +4,7 @@ from typing import Any
 import pygame,random
 
 class Bullet:
-    bulletImg = pygame.image.load("images/bullet.png")
+    bulletImg = pygame.image.load("images/bullet.png")    
     pos=[0.0,0.1]
     speed=0.5
     def __init__(self,pos) -> None:
