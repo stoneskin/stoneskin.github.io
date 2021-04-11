@@ -66,7 +66,7 @@ Students will learn Python and web programming, and learn how to completed proje
 
 ### Section 4: Web Development
 
-1. Install MSCode for Html editor
+1. Install MS VSCode for Html editor
 2. Build your first web page
 3. Basic HTML
 4. Project: build About Me web page with html
