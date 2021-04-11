@@ -59,4 +59,13 @@
   - Sync is to make local and remote same, both have latest change
   - Push is just send you local change to remote server
 
+- First time you push the code to remote github, you will be asking username and password
+  
+  ![github logoin](installSmartGit/smartgit_16_githublogin.png)
+
+- If you need change username password, got to menu ->Edit ->Preference
+
+  ![update password](installSmartGit/smartgit_17_UpdateAuthentication.png)
+
 - After click Sync or Push, your local committed code will show on the github
+  
