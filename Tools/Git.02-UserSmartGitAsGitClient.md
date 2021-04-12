@@ -33,7 +33,7 @@
 - click next
   ![](Git_02_SmartGitCloneYourProjectStep2.png)
 
-- chose your project position 
+- chose your project position
   ![](Git_02_SmartGitCloneYourProjectStep3.png)
 
 ## 4. Add your code to the Working folder
