@@ -60,10 +60,12 @@
   - Push is just send you local change to remote server
 
 - First time you push the code to remote github, you will be asking username and password
-  
+  - *for security reason, you should not use your password here, you could create a personal access token and use it as password* [create a personal access token](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token)  
   ![github logoin](installSmartGit/smartgit_16_githublogin.png)
 
-- If you need change username password, got to menu ->Edit ->Preference
+
+
+- If you need remove saved credential, got to menu ->Edit ->Preference,remove the github item
 
   ![update password](installSmartGit/smartgit_17_UpdateAuthentication.png)
 
