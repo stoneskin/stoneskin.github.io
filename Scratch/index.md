@@ -102,7 +102,7 @@ Students will learn through hands-on projects on classes.**
     - [TicTacToe](10.14_BuildTicTacToe.md)
     - [Music game](https://scratch.mit.edu/projects/384792691)
     - [DataStructure-stack](10.15_DataStructure_Stack.md)
-    - more  
+    - [Stack Game: Tower Of Hanoi](10.16_Stack_TowerOfHanoi.md)  
   
 11. final projects
     - group project
