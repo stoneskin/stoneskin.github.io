@@ -60,9 +60,9 @@ Students will learn Python and web programming, and learn how to completed proje
 
 ### Section 3: Version control with Github
 
-1. [Learn to use git for version control](https://github.com/stoneskin/stoneskin.github.io/blob/master/Tools/Git.01-LearnToUseGitForVersonControl.md)
+1. [Learn to use git for version control](../Tools/Git.01-LearnToUseGitForVersionControl.md)
 2. [Use smartGit as git client](../Tools/Git.02-UserSmartGitAsGitClient.md)
-3. Using GitHub sites
+3. [Using GitHub sites](../Tools/Git.03-UseGitHubSite.md)
 
 ### Section 4: Web Development
 
