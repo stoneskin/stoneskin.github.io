@@ -105,8 +105,9 @@ Students will learn through hands-on projects on classes.**
     - [Stack Game: Tower Of Hanoi](10.16_Stack_TowerOfHanoi.md)  
   
 11. final projects
-    - group project
-    - Individual project
+    - [Project Plan worksheet](ProjectPlaning_worksheet.pdf)
+    - [Scratch Final project](Scratch_Final_Project.pdf)
+    - [What Make a good game](WhatMakeAGoodGame.pdf)
 
 <!-- 3. Tell a story by scratch
 1. How to build game in scratch
