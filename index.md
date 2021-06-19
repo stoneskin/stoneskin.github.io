@@ -2,6 +2,11 @@
  
 This is page for my Programming Classes for <a target="_blank" href="http://mlccc.org">Main Line Chinese Culture Center</a>
 
+## 2021 Summer Camp
+
+### [2021 summer camp: 3-5 Grade Scratch Programming Camp](./SummerCamp_Scratch/index.md)
+
+
 ## 2020-2021
 
 ### [[G3-6 Basic Class] Learn programming with Scratch](Scratch/index.md)
