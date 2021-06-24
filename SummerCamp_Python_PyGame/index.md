@@ -27,7 +27,7 @@ Session3: Use PyGame to build your Own Game
 
 ## Session 1: Python basics with Turtle
 
-1. [6/25] GetStart with Python
+1. [6/25] [Get Start with Python](1.1_GetStart_With_Python.md)
 
    * What is coding
    * Why Python
@@ -45,7 +45,8 @@ Session3: Use PyGame to build your Own Game
     * What is Loop
     * For Loop
     * While Loop
-    * Double Loop
+    * Double Loops
+    * Nested for loops
 
 ### Session 2: Get started with PyGame
 
