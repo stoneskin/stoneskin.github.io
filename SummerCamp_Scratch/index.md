@@ -11,25 +11,25 @@ Students will use Scratch to learn programming concepts by creating animation an
 ### Session 1
 
 1. [6/25] Get Start with Scratch
-   - Introduce scratch and [MLCCC studio](https://scratch.mit.edu/studios/26931632/)
+   - Introduce scratch and [MLCCC studio](https://scratch.mit.edu/studios/29989025/)
    - A walking through scratch
-   - Tutorials:[Step by Step](./1.stepbystep.pdf)
-   - Activities: [10 blocks](./2.10blocks.pdf)
+   - Tutorials:[Step by Step](./1.1_stepbystep.pdf)
+   - Activities: [10 blocks](./1.2_10blocks.pdf)
   
 2. [7/2] Animation and Drawing on Scratch
-   - Animation Your Name [pdf](./1.Animation-Name.pdf)
-   - Character Animation [pdf](./5.Animate-character.pdf)
-   - Drawing Animation [pdf](./3.2.OrangeSquarePurpleCircle_v2.pdf)
-   - project : About Me [pdf](./2.3AboutMe.pdf)
+   - Animation Your Name [pdf](./2.1_Animation-Name.pdf)
+   - Character Animation [pdf](./2.2_Animate-character.pdf)
+   - Drawing Animation [pdf](./2.3_OrangeSquarePurpleCircle_v2.pdf)
+   - project : About Me [pdf](./2.4_AboutMe.pdf)
 
 3. [7/9] Animation with music
-   [make a music](./4.MakeMusic.pdf)
+   [make a music](./3.1_MakeMusic.pdf)
    - Play sound, make rhythm
    - Animate the instrument
    - make a melody, play a chord
    - Beatbox sound, record sound
-   - Project: [build a Band](./3.1.buildABand_v2.pdf) 
-  
+   - Project: [build a Band](./3.2_buildABand_v2.pdf) 
+<!--
 ### Session 2
 
 1. [7/16] Music video and dance
@@ -80,3 +80,5 @@ Students will use Scratch to learn programming concepts by creating animation an
      - [jump sample 1](https://scratch.mit.edu/projects/416591159/)
      - [jump platform sample](https://scratch.mit.edu/projects/140032947/)
 3. [8/20] tbd
+
+-->
