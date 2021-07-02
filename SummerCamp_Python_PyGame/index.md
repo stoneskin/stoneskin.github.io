@@ -36,7 +36,7 @@ Session3: Use PyGame to build your Own Game
    * Write your first python code
    * Drawing in Turtle
 
-2. [7/2] Basic Python -1: Variables and Types
+2. [7/2] [Basic Python -1: Variables and Types](1.2_Python_Variables_Types.md)
    * Number and String
    * Int and float
    * Boolean and Operator
