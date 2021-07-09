@@ -41,7 +41,7 @@ Session3: Use PyGame to build your Own Game
    * Int and float
    * Boolean and Operator
 
-3. [7/9] Basic Python -2: Loop and repeat
+3. [7/9] [Basic Python -2: Loop and repeat](1.3_Loop.md)
     * What is Loop
     * For Loop
     * While Loop
