@@ -50,7 +50,7 @@ Session3: Use PyGame to build your Own Game
 
 ### Session 2: Get started with PyGame
 
-1. [7/16] Get Start PyGame
+1. [7/16] [Get Start PyGame](2.1_GetStartPyGame.md)
    * Install PIP and PYGame
    * Your first PyGame Code
   
