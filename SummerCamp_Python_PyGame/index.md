@@ -54,7 +54,7 @@ Session3: Use PyGame to build your Own Game
    * Install PIP and PYGame
    * Your first PyGame Code
   
-2. [7/23] Build Smiley Pong Game
+2. [7/23] [Build Smiley Pong Game](2.2_BuildSmileyPoneGame.md)
 
 3. [7/30] Smiley Pong Game continue
 
