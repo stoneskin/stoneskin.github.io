@@ -38,8 +38,14 @@ Students will use Scratch to learn programming concepts by creating animation an
    - Project: Music Video [pdf](./3.4.MusicVideo_v2.pdf) [example halloweenDance](https://onedrive.live.com/?authkey=%21ABw%2DLzmG9zyRWFA&cid=61E2F373B0D0BEF9&id=61E2F373B0D0BEF9%2150778&parId=61E2F373B0D0BEF9%2150523&o=OneUp)
    - Project: [Music Video your favorite song](downloadSongAndMakeMusicVideo.md).
   
-2. [7/23] [Story Animation]
-
+2. [7/23] [Story Animation](6.CreateStory.pdf)
+   - start a story and conversation
+   - Backdrop and Character
+   - Add your voice, text to voice
+   - Animation
+   - interactive
+   - Project: [Story and pass it on](./5.4_PassItOn.pdf)
+   - [Starter project](https://scratch.mit.edu/projects/91519983) (example: [dino](https://scratch.mit.edu/projects/108829088/))
 3. [7/30] [Make a Pet with Scratch]
 
 ### Session 3
