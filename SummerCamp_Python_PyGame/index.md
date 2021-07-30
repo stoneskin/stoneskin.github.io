@@ -56,7 +56,7 @@ Session3: Use PyGame to build your Own Game
   
 2. [7/23] [Build Smiley Pong Game](2.2_BuildSmileyPoneGame.md)
 
-3. [7/30] Smiley Pong Game continue
+3. [7/30] [Smiley Pong Game continue](2.3_BuildSmileyPoneGame-2.md)
 
 ### Session 3: Use PyGame to build your Own Game
 
