@@ -46,7 +46,17 @@ Students will use Scratch to learn programming concepts by creating animation an
    - interactive
    - Project: [Story and pass it on](./5.4_PassItOn.pdf)
    - [Starter project](https://scratch.mit.edu/projects/91519983) (example: [dino](https://scratch.mit.edu/projects/108829088/))
-3. [7/30] [Make a Pet with Scratch]
+  
+3. [7/30] [Make a Pet with Scratch](./10.VirtualPet.pdf)
+   - choose a pet and animate it
+   - Feed you ped
+   - Let your pet say something
+   - Play a toy
+   - Your pet is hungry
+   - Project: [make your pet a click game](https://en.scratch-wiki.info/wiki/How_to_Make_a_Clicker_Game) 
+   - [example of class](https://scratch.mit.edu/projects/415027553/)
+   - [more click game](https://scratch.mit.edu/studios/5828867/)
+
 
 ### Session 3
 
