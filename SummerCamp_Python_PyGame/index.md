@@ -60,7 +60,7 @@ Session3: Use PyGame to build your Own Game
 
 ### Session 3: Use PyGame to build your Own Game
 
-1. [8/6] Build a AirForce PyGame -1
+1. [8/6] [Build a AirForce shooting PyGame -1](3.1_BuildAirForceShootingGame_1.md)
 
 2. [8/13] Build a AirForce PyGame -2
 

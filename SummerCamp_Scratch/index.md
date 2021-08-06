@@ -60,8 +60,14 @@ Students will use Scratch to learn programming concepts by creating animation an
 
 ### Session 3
 
-1. [8/6] [Chase Game]
-
+1. [8/6] [Chase Game](./3.ChaseGame.pdf) and [Pong Game](./7.PongGame.pdf)
+   - [pong](./6.2_pong.pdf)
+   - move and chase
+   - play sound
+   - score and level
+   - you win or game over
+   - [example 1](https://scratch.mit.edu/projects/415401656/)
+   - [example 2](https://scratch.mit.edu/projects/415382877/)
 2. [8/13] [Jump Game]
 
 3. [8/20] [Catch Game]
