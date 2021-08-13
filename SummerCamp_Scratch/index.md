@@ -57,7 +57,6 @@ Students will use Scratch to learn programming concepts by creating animation an
    - [example of class](https://scratch.mit.edu/projects/415027553/)
    - [more click game](https://scratch.mit.edu/studios/5828867/)
 
-
 ### Session 3
 
 1. [8/6] [Chase Game](./3.ChaseGame.pdf) and [Pong Game](./7.PongGame.pdf)
@@ -68,6 +67,19 @@ Students will use Scratch to learn programming concepts by creating animation an
    - you win or game over
    - [example 1](https://scratch.mit.edu/projects/415401656/)
    - [example 2](https://scratch.mit.edu/projects/415382877/)
-2. [8/13] [Jump Game]
-
-3. [8/20] [Catch Game]
+  
+2. [8/13] [Jump Game](./9.JumpingGame.pdf) and [Catch Game](./11.CatchGame.pdf)
+   - [jump and gravity](https://scratch.mit.edu/projects/209231792/)
+   - jump
+   - moving obstacle
+   - score
+   - fall down and catch it
+   - bonus point
+   - examples:
+     - [catch apple](https://scratch.mit.edu/projects/102437891/)
+     - [catch example](https://scratch.mit.edu/projects/416600379/)
+     - [jump and gravity](https://scratch.mit.edu/projects/209231792/)
+     - [jump sample 1](https://scratch.mit.edu/projects/416591159/)
+     - [jump platform sample](https://scratch.mit.edu/projects/140032947/)
+  
+3. [8/20] [more game]

@@ -65,4 +65,4 @@ Session3: Use PyGame to build your Own Game
 2. [8/13] [Build a AirForce PyGame -continue](3.2_buildAirForceShootingGame_2.md)
 
 3. [8/20] [Build a AirForce PyGame -final](3.3_BuildAirForceShottingGame_3.md)
-    Demo your Project
+    * Demo your Project
