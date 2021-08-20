@@ -84,4 +84,6 @@ Students will use Scratch to learn programming concepts by creating animation an
   
 3. [8/20] [more game]
    - [Snake game](https://stoneskin.github.io/Scratch/10.12_BuildSnakeGame.html)
+   - [TicTacToe](https://stoneskin.github.io/Scratch/10.14_BuildTicTacToe.html)
+   - [Tower of Hanoi](https://stoneskin.github.io/Scratch/10.16_Stack_TowerOfHanoi.html)
 
