@@ -83,3 +83,5 @@ Students will use Scratch to learn programming concepts by creating animation an
      - [jump platform sample](https://scratch.mit.edu/projects/140032947/)
   
 3. [8/20] [more game]
+   - [Snake game](https://stoneskin.github.io/Scratch/10.12_BuildSnakeGame.html)
+
