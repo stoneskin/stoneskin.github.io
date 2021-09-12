@@ -7,7 +7,7 @@ This is page for my Programming Classes for <a target="_blank" href="http://mlcc
 
 ### [[G3-6 Basic Class] Learn programming with Scratch](Scratch/index.md)
 
-- When: 2021-9-12 to 2022-05-22 Sunday 3:00pm-3:50pm
+- When: 2021-9-12 to 2022-05-15 Sunday 3:00pm-3:50pm
 - Where: MLCCC GV Room 157
 - Who: For Students of grade 3-6 who has no programming experience
 - What: Scratch Animation and Game programming
@@ -15,7 +15,7 @@ This is page for my Programming Classes for <a target="_blank" href="http://mlcc
 
 ### [[G6-8 Middle Class] Learn python and web development](./python/index.md)
 
-- When: 2021-9-12 to 2022-05-22 Sunday 2:00pm-2:50pm
+- When: 2021-9-12 to 2022-05-15 Sunday 2:00pm-2:50pm
 - Where: MLCCC GV Room 157
 - Who: For Students of grade 6-8 who has little or no programming experience
 - What: Scratch, Python programming and small projects, Basic web programming
