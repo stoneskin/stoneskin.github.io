@@ -2,6 +2,26 @@
  
 This is page for my Programming Classes for <a target="_blank" href="http://mlccc.org">Main Line Chinese Culture Center</a>
 
+
+## 2021-2022
+
+### [[G3-6 Basic Class] Learn programming with Scratch](Scratch/index.md)
+
+- When: 2021-9-12 to 2022-05-22 Sunday 3:00pm-3:50pm
+- Where: MLCCC GV Room 157
+- Who: For Students of grade 3-6 who has no programming experience
+- What: Scratch Animation and Game programming
+- How: Register from [MLCCC website](http://www.mlccc.org/)
+
+### [[G6-8 Middle Class] Learn python and web development](./python/index.md)
+
+- When: 2021-9-12 to 2022-05-22 Sunday 2:00pm-2:50pm
+- Where: MLCCC GV Room 157
+- Who: For Students of grade 6-8 who has little or no programming experience
+- What: Scratch, Python programming and small projects, Basic web programming
+- How: Register from [MLCCC website](http://www.mlccc.org/)
+
+
 ## 2021 Summer Camp
 
 ### [[2021 summer camp] 3-5 Grade Scratch Programming Camp](./SummerCamp_Scratch/index.md)
@@ -14,31 +34,7 @@ This is page for my Programming Classes for <a target="_blank" href="http://mlcc
 - When: 2021-6-25 to 2021-08-20 Friday 10:00AM-11:00AM
 - Where: Zoom Meeting
 
-## 2020-2021
 
-### [[G3-6 Basic Class] Learn programming with Scratch](Scratch/index.md)
-
-- When: 2020-9-13 to 2021-05-21 Sunday 3:00pm-3:50pm
-- Where: Zoom meeting
-- Who: For Students of grade 3-6 who has no programming experience
-- What: Scratch Animation and Game programming
-- How: Register from [MLCCC website](http://www.mlccc.org/)
-
-### [[G6-8 Middle Class] Learn python and web development](./python/index.md)
-
-- When: 2020-9-13 to 2021-05-21 Sunday 2:00pm-2:50pm
-- Where: Zoom meeting
-- Who: For Students of grade 6-8 who has little or no programming experience
-- What: Scratch, Python programming and small projects, Basic web programming
-- How: Register from [MLCCC website](http://www.mlccc.org/)
-
-### [[G8+ Advance Class] Java programming & Algorithms](./Java/index.md)
-
-- When: 2020-9-13 to 2021-05-21 Sunday 4:00pm-4:50pm
-- Where: Zoom meeting
-- Who: For Students of grade 8+ who has basic programming experience, and has strong interesting on computer programming.
-- What: Java Programming foundation, Data Structure and algorithms
-- How: Register from [MLCCC website](http://www.mlccc.org/)
 
 
 
@@ -53,6 +49,14 @@ This is page for my Programming Classes for <a target="_blank" href="http://mlcc
 
 -->
 ## Old Class
+
+[[G8+ Advance Class] Java programming & Algorithms](./Java/index.md)
+
+<!-- - When: 2020-9-13 to 2021-05-21 Sunday 4:00pm-4:50pm
+- Where: Zoom meeting
+- Who: For Students of grade 8+ who has basic programming experience, and has strong interesting on computer programming.
+- What: Java Programming foundation, Data Structure and algorithms
+- How: Register from [MLCCC website](http://www.mlccc.org/) -->
 
 [2020 summer camp: 3-5 Grade Scratch Programming Camp](./SummerCamp_Scratch/index.md)
 
