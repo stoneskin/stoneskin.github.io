@@ -17,16 +17,16 @@
 
 ### Due Date
 
-1. Project plan due at 9/13
-2. Project middle check 9/20
-3. Demo your project 10/4
+1. Project plan due at 9/19
+2. Project middle check 9/26
+3. Demo your project 10/3
 
 ### Main requirements (60pt)
 
 1. (15 pts) Pass and receive message between Object
 2. (15 pts) Use "Clone" in your project to create duplicate object
 3. (15 pts) Use "Modules" and "Variables" in your project for re-useable logic.
-4. (15 pts) Share you project in [MLCCC Coding Class](https://scratch.mit.edu/studios/27471423), and Demo it with Zoom screen sharing.
+4. (15 pts) Share you project in [MLCCC Coding Class](https://scratch.mit.edu/studios/25368240), and Demo it with Zoom screen sharing.
 
 ### Other requirements
 
