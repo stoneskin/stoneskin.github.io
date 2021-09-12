@@ -11,13 +11,12 @@ Students will learn Python and web programming, and learn how to completed proje
  Each student need  below items for this class**
 
 1. A Laptop or iPad with at least 4G memory with internet access.
-2. Another device or screen to show the zoom meeting screen.
-3. An email account, (parents please set up one for your kids, and let them keep the password)
-4. An account of <https://github.com/>
-5. An account of <https://scratch.mit.edu/>
-6. Books for reference:
+2. An email account, (parents please set up one for your kids, and let them keep the password)
+3. An account of <https://github.com/>
+4. An account of <https://scratch.mit.edu/>
+5. Books for reference:
    > ![](../images/Coding_for_kids_.jpg) ![](../images/image4.png) ![](../images/image1.png) ![](../images/image8.png)   ![](../images/CreatingAWebSite.jpg)
-7. Online reference
+6. Online reference
    - <https://www.learnpython.org/>
    - <https://www.learn-html.org/>
    - <https://www.w3schools.com/html/>
