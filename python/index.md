@@ -24,6 +24,9 @@ Students will learn Python and web programming, and learn how to completed proje
    - <https://www.pygame.org/wiki/tutorials>
    - <https://www.freecodecamp.org/news/the-beginners-guide-to-git-github/>
    - <https://codingbat.com/python>
+   - [100 mini python projects](https://github.com/Python-World/python-mini-projects)
+   - [python exercise/challenges/miniProject](https://www.w3resource.com/python-exercises/)
+   - [python practice for fun](https://edabit.com/challenges/python3)
 
 ## Content
 
