@@ -88,6 +88,33 @@ print(p2.name +" = "+str(p2.value))
 
 ```
 
+### 8.2.4 Initial Object pass unknown length arguments
+
+if you want you could create the new object with flexible number of arguments, below is the example:
+
+```python
+# myClass.py
+class MyClass:
+    x=0
+    y=0
+    def __init__(self,*args):
+        if(len(args)>0):
+           self.x=args[0]
+        if(len(args)>1):
+           self.y=args[1]
+    def sum(self):
+        return self.x+self.y
+
+
+# Create a Object with Class
+p1 = MyClass()
+print(p1.sum())
+p1 = MyClass(2)
+print(p1.sum())
+p1 = MyClass(2,3)
+print(p1.sum())
+```
+
 ## 8.3 Methods in Class
 
 Objects can also contain methods. Methods in objects are functions that belong to the object.
