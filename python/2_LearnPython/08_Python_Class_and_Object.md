@@ -2,7 +2,7 @@
 
 A class is a user-defined blueprint or prototype from which objects are created.
 
-![class](https://cs.plu.edu/courses/cs144/spring2018/images/CookieCutter.png)
+![Class and Object](https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/CPT-Class-Object-Modification.svg/1200px-CPT-Class-Object-Modification.svg.png)
 
 ## 8.1 Create a Class and Object
 
