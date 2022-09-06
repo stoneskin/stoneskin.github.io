@@ -30,11 +30,7 @@ Students will learn Python and web programming, and learn how to completed proje
 
 ## Content
 
-### Section 1: Project Planing Practice
-
-- [Project: Plan and build your own Project with scratch](1_projectPlan/index.md)
-
-### Section 2: Python Programming
+### Section 1: Python Programming
 
 1. [Introduce and get start with python](2_LearnPython/01.GetStartWithPython.md)
 2. [Drawing with Python Turtle](2_LearnPython/02.DrawingWithPythonTurtle.md)
@@ -60,13 +56,33 @@ Students will learn Python and web programming, and learn how to completed proje
 11. Python game: [TicTacToe](./2_LearnPython/11.TicTacToe.md)
 12. [Final project and practice](2_LearnPython/12.FinalProject.md)
 
+### Section 2: Basic Data Structure and Algorithms
+
+1. Data Structure
+   - list
+   - Tuples
+   - Dictionaries
+   - Sets
+   - Stacks
+   - Queue
+   - Tree
+   - Linked List
+2. Problem solving with algorithms
+   - Simulation
+   - Basic Complete Search
+   - Search with Recursion
+   - Sorting problem
+
 ### Section 3: Version control with Github
 
 1. [Learn to use git for version control](../Tools/Git.01-LearnToUseGitForVersionControl.md)
 2. [Use smartGit as git client](../Tools/Git.02-UserSmartGitAsGitClient.md)
 3. [Using GitHub sites](../Tools/Git.03-UseGitHubSite.md)
 
-### Section 4: Web Development
+### Section 5: Project Planing Practice
+
+- [Project: Plan and build your own Project with scratch](0_projectPlan/index.md)
+### Section 6: Web Development
 
 1. Install MS VSCode for Html editor
 2. Build your first web page

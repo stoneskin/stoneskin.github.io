@@ -3,42 +3,43 @@
 This is page for my Programming Classes for <a target="_blank" href="http://mlccc.org">Main Line Chinese Culture Center</a>
 
 
-## 2021-2022
+## 2022-2023
 
-### [[G3-6 Basic Class] Learn programming with Scratch](Scratch/index.md)
+### [[G2-5 Basic Class] Learn programming with Scratch](Scratch/index.md)
 
-- When: 2021-9-12 to 2022-05-15 Sunday 3:00pm-3:50pm
+- When: 2022-9-11 to 2023-05-15 Sunday 2:00pm-2:50pm & 3:00pm-3:50pm
 - Where: MLCCC GV Room 157
 - Who: For Students of grade 3-6 who has no programming experience
 - What: Scratch Animation and Game programming
 - How: Register from [MLCCC website](http://www.mlccc.org/)
 
-### [[G6-8 Middle Class] Learn python and web development](./python/index.md)
+### [[G6+ Middle/Advance Class] Python Basic & Advanced programming](./python/index.md)
 
-- When: 2021-9-12 to 2022-05-15 Sunday 2:00pm-2:50pm
+- When: 2022-9-12 to 2023-05-15 Sunday 4:00pm-5:50pm
 - Where: MLCCC GV Room 157
-- Who: For Students of grade 6-8 who has little or no programming experience
-- What: Scratch, Python programming and small projects, Basic web programming
+- Who: For Students of grade 6+ who has little or some programming experience
+- What: [Basic] Python syntax and small programming projects,  
+- What: [Advanced]:Basic Algorithm and practice. Hands-on projects. Basic web programming
 - How: Register from [MLCCC website](http://www.mlccc.org/)
 
+<hr>
 
-## 2021 Summer Camp
+## Old Classes
 
-### [[2021 summer camp] 3-5 Grade Scratch Programming Camp](./SummerCamp_Scratch/index.md)
 
+
+ [[2021 summer camp] 3-5 Grade Scratch Programming Camp](./SummerCamp_Scratch/index.md)
+<!--
 - When: 2021-6-25 to 2021-08-20 Friday 1:00PM-2:00PM
 - Where: Zoom Meeting
+-->
 
-### [[2021 summer camp] 6-8 Grade Python/PyGame Programming Camp](./SummerCamp_Python_PyGame/index.md)
+[[2021 summer camp] 6-8 Grade Python/PyGame Programming Camp](./SummerCamp_Python_PyGame/index.md)
 
+<!--
 - When: 2021-6-25 to 2021-08-20 Friday 10:00AM-11:00AM
 - Where: Zoom Meeting
-
-
-
-
-
-<hr>
+-->
 
 <!--
 ## MLCCC 2020 online Summer Camp Coding Classes
@@ -48,7 +49,7 @@ This is page for my Programming Classes for <a target="_blank" href="http://mlcc
 #### <a href="https://docs.google.com/document/d/1mQp7h046v4X_VSOHjRN2MO03S4MtN8X5Zs1uUbwksuU/edit?usp=sharing"  target="_blank"> class infomation</a>
 
 -->
-## Old Class
+
 
 [[G8+ Advance Class] Java programming & Algorithms](./Java/index.md)
 
