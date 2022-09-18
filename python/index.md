@@ -59,7 +59,7 @@ Students will learn Python and web programming, and learn how to completed proje
 ### Section 2: Basic Data Structure and Algorithms
 
 1. Data Structure
-   - list
+   - [list](3_Algorithm/3.1_list.md)
    - Tuples
    - Dictionaries
    - Sets
