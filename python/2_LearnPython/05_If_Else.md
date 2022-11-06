@@ -124,3 +124,28 @@ Try and give some input number with below code:
 - Try break when loop reach 500
 
 ![challenge](05.10.1_challenge.png)
+
+## 5.11 Practice
+
+1. [Conditional Loop](https://www.w3resource.com/python-exercises/python-conditional-statements-and-loop-exercises.php)
+
+ex.
+Write a Python program to construct the following pattern, using a nested for loop.
+
+```
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+* * * * 
+* * * 
+* * 
+*
+```
+
+2. [Python Loop Quiz](https://pynative.com/python-if-else-and-for-loop-quiz/)
+
+
+[Go to Prev](04.Loop.md)
+[Go to Next](06.tringAndCharacter.md)
