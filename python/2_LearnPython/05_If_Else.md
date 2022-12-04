@@ -148,4 +148,5 @@ Write a Python program to construct the following pattern, using a nested for lo
 
 
 [Go to Prev](04.Loop.md)
-[Go to Next](06.tringAndCharacter.md)
+
+[Go to Next](06.StringAndCharacter.md)
