@@ -207,7 +207,9 @@ from  myclass.person import Person
 your class name and directory name should avoid key works of python
 <https://www.w3schools.com/python/python_ref_keywords.asp>
 
-## 8.5 Home work
+## 8.5 Practice and Home work
 
-please Check you previous code, try to put them into one or more class, and each class be save in one file.
-and use one main python file to import them and run the function in those classes.
+1. Please read below and completed the exercises at the end.
+   <https://www.w3schools.com/python/python_classes.asp>
+
+2. please Check you previous code, try to rewrite some of them into one or more classes. you could try save each class as one file. Then use a main python file to import them and run the function in those classes.
