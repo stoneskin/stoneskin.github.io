@@ -87,6 +87,7 @@ Students will learn through hands-on projects on classes.**
       - Halloween catch game
       - Thanksgiving
       - Chinese new year
+      - Easter
     - [Drawing with Pen blocks](10.3_PenDrawing.md)
     - [Pong Game hit Blocks](10.4.Pong_block_Game.md)
     - [Maze](10.5.Maze.md)
