@@ -77,7 +77,8 @@ Students will learn Python and web programming, and learn how to completed proje
 
 1. [Learn to use git for version control](../Tools/Git.01-LearnToUseGitForVersionControl.md)
 2. [Use smartGit as git client](../Tools/Git.02-UserSmartGitAsGitClient.md)
-3. [Using GitHub sites](../Tools/Git.03-UseGitHubSite.md)
+3. [Use VSCode SourceControl with github](./4_Github/4.1_GithubAndVSCode.md)
+4. [Using GitHub sites](../Tools/Git.03-UseGitHubSite.md)
 
 ### Section 5: Project Planing Practice
 
