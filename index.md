@@ -3,11 +3,11 @@
 This is page for my Programming Classes for <a target="_blank" href="http://mlccc.org">Main Line Chinese Culture Center</a>
 
 
-## 2022-2023
+## 2023-2024
 
 ### [[G2-5 Basic Class] Learn programming with Scratch](Scratch/index.md)
 
-- When: 2022-9-11 to 2023-05-15 Sunday 2:00pm-2:50pm & 3:00pm-3:50pm
+- When: 2023-9-10 to 2024-05-15 Sunday 2:00pm-2:50pm & 4:00pm-4:50pm
 - Where: MLCCC GV Room 157
 - Who: For Students of grade 3-6 who has no programming experience
 - What: Scratch Animation and Game programming
@@ -15,7 +15,7 @@ This is page for my Programming Classes for <a target="_blank" href="http://mlcc
 
 ### [[G6+ Middle/Advance Class] Python Basic & Advanced programming](./python/index.md)
 
-- When: 2022-9-12 to 2023-05-15 Sunday 4:00pm-5:50pm
+- When: 2023-9-10 to 2024-05-15 Sunday 3:00pm-4:50pm
 - Where: MLCCC GV Room 157
 - Who: For Students of grade 6+ who has little or some programming experience
 - What: [Basic] Python syntax and small programming projects,  

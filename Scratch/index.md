@@ -9,10 +9,10 @@ Students will learn through hands-on projects on classes.**
 
  Each student need  below items for this class**
 
-1. A Laptop or iPad with at least 4G memory with internet access.
+1. A Laptop or iPad with at least 4G memory with internet access. (please make sure fully charged or bring a power cord)
 2. An email account, (parents please set up one for your kids, and let them keep the password)
-3. An account of http://Scratch.mit.edu
-4. Books for reference:
+3. An account of http://Scratch.mit.edu,(parents please check your email to confirm your kids acct after it be created)
+4. Books for reference(optional):
    > ![](../images/image3.png) ![](../images/image5.png) ![](../images/image6.png)
 
 ## Content
