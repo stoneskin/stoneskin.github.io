@@ -74,6 +74,9 @@ example page of <a target="_blank" href="./samples/index.html">web development</
 
 ## My projects
 
+### CCRApp
+MLCCC Chinese Characters Recognition App ([Demo of Html Prototype](https://stoneskin.github.io/Demo/CCRApp/login.html))
+
 ### minecraft-python:
 <a href="https://stoneskin.github.io/python-minecraft"  target="_blank"> How to learn python programming with playing minecraft</a>
 
