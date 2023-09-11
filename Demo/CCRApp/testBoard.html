@@ -16,6 +16,7 @@
     var current=0;
     var remain=10;
     var totalTime=0;
+    var timer;
     function previousItem(){
         if(current>0){
            current-=1; 
@@ -37,16 +38,20 @@
         document.getElementById("boxTestword").innerHTML=testList[current];
         document.getElementById("boxCounter").innerHTML= (current+1)+"/"+(testList.length);
         remain=10;
+        if(timer){
+            clearTimeout(timer);
+        }
         setTimer();
     }
     function setTimer(){
         document.getElementById("boxTimer").innerHTML=remain;
-        
+       
+   
         
         if(remain>=0){
             remain-=1
             totalTime+=1
-            setTimeout(setTimer,1000);
+            timer= setTimeout(setTimer,1000);
         }else{
             nextItem()
         }

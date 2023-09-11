@@ -106,7 +106,7 @@
   font-size: 30px;
 }
 .frame-main>.label{
-  text-wrap: balance;
+  text-wrap: wrap;
   font-size: 2.5vw;
   margin: 50px;
 }
@@ -451,7 +451,7 @@ vertical-align: middle;
   padding: 25px 0;
 }
 .main>.center-board>.label{
-  font-size: 155px;
+  font-size: 150px;
   text-align: center;
   width: auto;
   margin-left: auto;
@@ -504,7 +504,12 @@ vertical-align: middle;
     font-size:6vw;
 }
 .main>.center-board>.label{
-  font-size: 125px;
+  font-size: 105px;
+}
+.frame-main>.label{
+  text-wrap: wrap;
+  font-size: 4vw;
+  margin: 50px;
 }
 .two-column-frame>.row>.frame {
     /* background-color: #c3b627; */
@@ -535,7 +540,7 @@ vertical-align: middle;
 
 @media only screen and (max-width:767.5px) {
   .main>.center-board>.label{
-    font-size: 120px;
+    font-size: 100px;
     margin-top: 10px;
   }
   .main>.side-bar>{
