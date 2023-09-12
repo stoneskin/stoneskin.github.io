@@ -258,7 +258,7 @@
 }
 .don-t-have-an-account-sign-up {
   flex-shrink: 0;
-  width: 396px;
+  /* width: 396px; */
   height: 42px;
   position: relative;
 }
@@ -565,7 +565,9 @@ vertical-align: middle;
   /* body {
     background-color: lightblue;
   } */
-
+  .form-title {
+    size: 35px;
+  }
   .main>.center-board>.label{
     font-size: 90px;
     margin-top: 1px;
