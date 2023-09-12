@@ -566,7 +566,7 @@ vertical-align: middle;
     background-color: lightblue;
   } */
   .form-title {
-    size: 35px;
+    font-size: 35px;
   }
   .main>.center-board>.label{
     font-size: 90px;
