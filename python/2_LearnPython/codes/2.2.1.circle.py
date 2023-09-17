@@ -18,3 +18,6 @@ myTurtle.circle(100)
 
 myTurtle.right(90)
 myTurtle.circle(100)
+
+#when you click the screen, exit the python
+turtle.exitonclick()

@@ -2,6 +2,8 @@
 import turtle
 t= turtle.Pen()
 
+turtle.speed(9)
+
 for x in range(0,100): # repeat 100 times
     # Draw line with length 100
     t.forward(100+x)
@@ -16,3 +18,5 @@ for x in range(0,100): # repeat 100 times
     t.left(90)
     t.forward(100+x)
     print(x) # x will be from 0 to 99
+    
+input("Enter any to exit\n")

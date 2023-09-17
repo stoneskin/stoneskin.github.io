@@ -1,5 +1,6 @@
 # Code sample MyFirstTurtle.py
 import turtle,time
+
 t = turtle.Pen()
 t2 = turtle.Pen()
 
@@ -25,6 +26,11 @@ t2.right(90)
 t2.forward(100)
 
 # waiting 10 sec and exit python running window
-time.sleep(10)
+#time.sleep(10)
+
+#turtle.exitonclick()
+
+turtle.textinput("ok!","Click OK to Exit.")
+
 
 
