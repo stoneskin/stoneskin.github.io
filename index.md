@@ -72,12 +72,21 @@ example page of <a target="_blank" href="./samples/index.html">web development</
 
 ------
 
-## My projects
+## My projects:
 
-### CCRApp
+### CCRApp:
+
 MLCCC Chinese Characters Recognition App ([Demo of Html Prototype](https://stoneskin.github.io/Demo/CCRApp/login.html))
 
+Repository:  <https://github.com/MlcccCodingClass/ChineseCharactersRecognitionApp>
+### GetStartPhp:
+
+A site for students to learn MySql and PHP < a href="https://stoneskin.github.io/GetStartPhp/" target="_blank">https://stoneskin.github.io/GetStartPhp</a>
+
+
+
 ### minecraft-python:
+
 <a href="https://stoneskin.github.io/python-minecraft"  target="_blank"> How to learn python programming with playing minecraft</a>
 
 ### mcpi-e:
@@ -92,6 +101,7 @@ MLCCC Chinese Characters Recognition App ([Demo of Html Prototype](https://stone
 ------
 
 ## My Virtual Classroom
+
 #### CMU CS classroom
 <p> click link <a target="_blank" href="https://academy.cs.cmu.edu/splash">CS0 class</a>, Registration Code:
         "DG18-ZM77" </p>
