@@ -81,7 +81,7 @@ MLCCC Chinese Characters Recognition App ([Demo of Html Prototype](https://stone
 Repository:  <https://github.com/MlcccCodingClass/ChineseCharactersRecognitionApp>
 ### GetStartPhp:
 
-A site for students to learn MySql and PHP < a href="https://stoneskin.github.io/GetStartPhp/" target="_blank">https://stoneskin.github.io/GetStartPhp</a>
+A site for students to learn MySql and PHP <a href="https://stoneskin.github.io/GetStartPhp/" target="_blank">https://stoneskin.github.io/GetStartPhp</a>  [repository](https://github.com/stoneskin/GetStartPhp)
 
 
 
