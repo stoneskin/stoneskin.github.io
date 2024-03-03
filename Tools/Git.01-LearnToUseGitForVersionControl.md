@@ -58,3 +58,6 @@ Use GUI client will save you time to remember those command line, but below is s
    `Git config user.name`  
   - Change you current user name
     `git config user.name "myname"`
+
+- config your git acct
+  - <https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup>
