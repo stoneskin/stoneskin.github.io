@@ -30,7 +30,7 @@ This is page for my Programming Classes for <a target="_blank" href="http://mlcc
 - What: Java and AP CSA preparation
 - How: Register from [MLCCC website](http://www.mlccc.org/)
 
-<hr>
+-----
 
 ## Old Classes
 
@@ -75,6 +75,13 @@ Class scratch studio <a target="_blank"
 example page of <a target="_blank" href="./samples/index.html">web development</a>
 
 <a target="_blank" href="https://1drv.ms/u/s!Avm-0LBz8-Jhg4M4HD4vOYb3PJFYUA?e=2ZGBLU">MLCCC Coding Class Share folder</a>
+
+### Learn to use git
+
+- [01-Learn to Use Git](./Tools/Git.01-LearnToUseGitForVersionControl.md)
+- [02-Use smartgit As GitClient](./Tools/Git.02-UserSmartGitAsGitClient.md)
+- [03-Use github site](./Tools/Git.03-UseGitHubSite.md)
+- [04-Github and VSCode](./python/4_Github/4.1_GithubAndVSCode.md)
 
 ------
 
