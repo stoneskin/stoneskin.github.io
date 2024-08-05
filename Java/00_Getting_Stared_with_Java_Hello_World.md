@@ -1,4 +1,4 @@
-# Lesson 01. Getting Started with Java: Hello World
+# Lesson 0. Getting Started with Java: Hello World
 
 ## 1. Introduce yourself and tell us why you want to learn programming?
 
@@ -19,7 +19,7 @@ And answer the question base your understanding at [gist Java_01-2](https://gist
 - Object Oriented Programming
 - Data Structure and Algorithm
 - Java Projects
-- APCS and USACO excise
+- AP CSA practice
 
 ## 4. Found out what is the latest version of Java and how to install it
 
@@ -30,20 +30,22 @@ I will post my answer on [gist Java_01-4](https://gist.github.com/stoneskin/07b1
 ## 5. Found out 5 Java Editors you like to try to use
 
 - Java editor also call Java IDE (Integrated Development Environment)
-- Please install [BlueJ](https://bluej.org) for this class
+- Please install [VS Code](https://code.visualstudio.com/download)
+- (option) Install [BlueJ](https://bluej.org) for OODP part of this class
+- Any other your school pc already installed
 
 Please list 5 Java IDE  ([gist Java_01-05](https://gist.github.com/stoneskin/8e9e26bd04b31c6f2b32d9d05048ebed))
 
 ## 6. Build your first Java Program - "Hello World" with BlueJ
 
 - Hello World ([java get start sample](https://www.w3schools.com/java/java_getstarted.asp))
-- Create and rung Hello World in BlueJ
-  - Create a new Project in BlueJ
-  - Create a new Class with name "HelloWorld" in BlueJ
+- Create and run `Hello World` program
+  - Create a new Project in your IDE
+  - Create a new Class with name "HelloWorld"
   - Add method to print string type variable
-  - Compile your code with BlueJ
-  - Create a instance of your Class "HelloWorld" with " new HelloWorld()" in BlueJ menu
-  - Run the method in the BlueJ
+  - Compile your code
+  - Create a instance of your Class "HelloWorld" with " new HelloWorld()"
+  - Run the code
 - Run the HelloWorld in command line
   - Crate a static main method in the HelloWorld Class
   - Run Java in command line:

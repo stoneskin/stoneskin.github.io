@@ -3,11 +3,11 @@
 This is page for my Programming Classes for <a target="_blank" href="http://mlccc.org">Main Line Chinese Culture Center</a>
 
 
-## 2023-2024
+## 2024-2025
 
-### [[G2-5 Basic Class] Learn programming with Scratch](Scratch/index.md)
+### [[G2-5 Basic Class] Learn programming with Scratch](./Scratch/index.md)
 
-- When: 2023-9-10 to 2024-05-15 Sunday 2:00pm-2:50pm & 4:00pm-4:50pm
+- When: 2024-9-10 to 2025-05-15 Sunday Time: TBD
 - Where: MLCCC GV Room 157
 - Who: For Students of grade 3-6 who has no programming experience
 - What: Scratch Animation and Game programming
@@ -15,18 +15,24 @@ This is page for my Programming Classes for <a target="_blank" href="http://mlcc
 
 ### [[G6+ Middle/Advance Class] Python Basic & Advanced programming](./python/index.md)
 
-- When: 2023-9-10 to 2024-05-15 Sunday 3:00pm-4:50pm
+- When: 2024-9-10 to 2025-05-15 Sunday Time: TBD
 - Where: MLCCC GV Room 157
 - Who: For Students of grade 6+ who has little or some programming experience
 - What: [Basic] Python syntax and small programming projects,  
 - What: [Advanced]:Basic Algorithm and practice. Hands-on projects. Basic web programming
 - How: Register from [MLCCC website](http://www.mlccc.org/)
 
+### [[G9+ Advance Class] Java programming & Algorithms](./Java/index.md)
+
+- When: 2024-9-10 to 2025-05-15 Sunday Time: TBD
+- Where: MLCCC GV Room 157
+- Who: For Students of grade 8+ who has some programming experience
+- What: Java and AP CSA preparation
+- How: Register from [MLCCC website](http://www.mlccc.org/)
+
 <hr>
 
 ## Old Classes
-
-
 
  [[2021 summer camp] 3-5 Grade Scratch Programming Camp](./SummerCamp_Scratch/index.md)
 <!--
