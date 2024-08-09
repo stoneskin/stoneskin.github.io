@@ -1,14 +1,14 @@
-# [G8+ Advance Class] Java programming & Algorithms
+# [G9+ Advance Class] Java programming & Algorithms
 
-This class provides a 30-lesson AP Computer Science A tutoring course designed to support high school students in their independent practice outside of school.
+This class provides a 30-lesson `AP Computer Science A` tutoring course designed to support high school students in their independent practice outside of school.
 
 ## Requirements
 
-Each student need  below items for this class**
+Each student needs below items for this class**
 
 1. A Laptop with at least 8G memory with internet access.
-2. A email account for receive emails.
-3. A account of <https://github.com/>
+2. An email account for receiving emails.
+3. An account of <https://github.com/>
 4. Install VS Code with Java extension
 
 ## Content of Class
