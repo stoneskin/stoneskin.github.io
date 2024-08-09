@@ -15,7 +15,7 @@ Each student needs below items for this class**
 
 ### Part 0: preparation for the class (1 Lesson)
 
-- Lesson 0: [Introduction to AP CSA, Course Overview and Get start Java programming Environment](00_Getting_Stared_with_Java_Hello_World.md)
+- Lesson 0: [Introduction to AP CSA, Course Overview and Get Start Java programming Environment](00_Getting_Stared_with_Java_Hello_World.md)
 
 ### Part 1: Introduction to Programming (6 Lessons)
 
