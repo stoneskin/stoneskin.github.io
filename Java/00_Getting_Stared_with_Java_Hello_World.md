@@ -30,30 +30,34 @@ I will post my answer on [gist Java_01-4](https://gist.github.com/stoneskin/07b1
 ## 5. Found out 5 Java Editors you like to try to use
 
 - Java editor also call Java IDE (Integrated Development Environment)
-- Please install [VS Code](https://code.visualstudio.com/download)
+- Please install [VS Code](https://code.visualstudio.com/download)  
+  - [Getting Started with Java in VSCode](https://code.visualstudio.com/docs/java/java-tutorial)
 - (option) Install [BlueJ](https://bluej.org) for OODP part of this class
 - Any other your school pc already installed
 
 Please list 5 Java IDE  ([gist Java_01-05](https://gist.github.com/stoneskin/8e9e26bd04b31c6f2b32d9d05048ebed))
 
-## 6. Build your first Java Program - "Hello World" with BlueJ
+## 6. Build your first Java Program - "Hello World"
 
 - Hello World ([java get start sample](https://www.w3schools.com/java/java_getstarted.asp))
-- Create and run `Hello World` program
+- BlueJ 
+  - Create and run `Hello World` program
   - Create a new Project in your IDE
   - Create a new Class with name "HelloWorld"
   - Add method to print string type variable
   - Compile your code
   - Create a instance of your Class "HelloWorld" with " new HelloWorld()"
   - Run the code
-- Run the HelloWorld in command line
+- Command line Build and run the HelloWorld  
   - Crate a static main method in the HelloWorld Class
   - Run Java in command line:
     ` java HelloWorld.java`
-  - BlueJ Top Menu:-Project->Create Jar file
-  - Run jar file in command line
-    ` java -jar HelloWorld.jar `
-
+  - Build Java
+    `javac HelloWorld.java`
+  - Run HelloWorld.class file in command line
+    ` java HelloWorld `
+- VS Code set break point for debug
+  ![set breakpoint](./VSCode_BreakPoint.png)
 ## 7 Home Work
 
 - What's the different of BlueJ from others Java IDEs?
