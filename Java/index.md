@@ -8,18 +8,18 @@ Each student needs below items for this class**
 
 1. A Laptop with at least 8G memory with internet access.
 2. An email account for receiving emails.
-3. An account of <https://github.com/>
+3. An account of <https://github.com/>{:target="_blank"}
 4. Install VS Code with Java extension
 
 ## Content of Class
 
 ### Part 0: preparation for the class (1 Lesson)
 
-- Lesson 0: [Introduction to AP CSA, Course Overview and Get Start Java programming Environment](00_Getting_Stared_with_Java_Hello_World.md)
+- Lesson 0: [Introduction to AP CSA, Course Overview and Get Start Java programming Environment](00_Getting_Stared_with_Java_Hello_World.md){:target="_blank"}
 
 ### Part 1: Introduction to Programming (6 Lessons)
 
-- Lesson 1: Java Fundamentals (variables, data types, operators)
+- Lesson 1: [Java Fundamentals (variables, data types, operators)](https://stoneskin.github.io/learnJava/01_JavaFundamentals/){:target="_blank"}
 - Lesson 2: Introduction to Input/Output (using Scanner class)
 - Lesson 3: Control Flow Statements (if-else, switch statements)
 - Lesson 4: Loops (for loop, while loop)
@@ -64,13 +64,13 @@ Each student needs below items for this class**
 
 ### Additional Resources
 
-   1. <https://www.learnjavaonline.org/>
-   2. <https://beginnersbook.com/java-tutorial-for-beginners-with-examples/>
-   3. <https://www.w3schools.com/java/>
-   4. <https://www.tutorialspoint.com/java/>
-   5. <https://codingbat.com/java>
-   6. <https://docs.oracle.com/javase/tutorial/>
-   7. <https://www.javatpoint.com/java-tutorial>
-   8. <https://www.codecademy.com/learn/learn-java>
-   10. <https://apcentral.collegeboard.org/courses/ap-computer-science-a>
+   1. <https://www.learnjavaonline.org/>{:target="_blank"}
+   2. <https://beginnersbook.com/java-tutorial-for-beginners-with-examples/>{:target="_blank"}
+   3. <https://www.w3schools.com/java/>{:target="_blank"}
+   4. <https://www.tutorialspoint.com/java/>{:target="_blank"}
+   5. <https://codingbat.com/java>{:target="_blank"}
+   6. <https://docs.oracle.com/javase/tutorial/>{:target="_blank"}
+   7. <https://www.javatpoint.com/java-tutorial>{:target="_blank"}
+   8. <https://www.codecademy.com/learn/learn-java>{:target="_blank"}
+   10. <https://apcentral.collegeboard.org/courses/ap-computer-science-a>{:target="_blank"}
 
