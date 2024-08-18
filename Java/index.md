@@ -16,11 +16,12 @@ Each student needs below items for this class**
 ### Part 0: preparation for the class (1 Lesson)
 
 - Lesson 0: [Introduction to AP CSA, Course Overview and Get Start Java programming Environment](00_Getting_Stared_with_Java_Hello_World.md){:target="_blank"}
+   Learn Java [HelloWorld Samples](https://stoneskin.github.io/learnJava/00_HelloWorld/){:target="_blank"}
 
 ### Part 1: Introduction to Programming (6 Lessons)
 
 - Lesson 1: [Java Fundamentals (variables, data types, operators)](https://stoneskin.github.io/learnJava/01_JavaFundamentals/){:target="_blank"}
-- Lesson 2: Introduction to Input/Output (using Scanner class)
+- Lesson 2: [Introduction to Input/Output](https://stoneskin.github.io/learnJava/02_Introduction_InputOutput/){:target="_blank"} (using Scanner class)
 - Lesson 3: Control Flow Statements (if-else, switch statements)
 - Lesson 4: Loops (for loop, while loop)
 - Lesson 5: Methods (defining, calling, parameters, return values)
