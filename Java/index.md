@@ -1,3 +1,9 @@
+
+page moved to  
+<https://stoneskin.github.io/learnJava/>
+
+<https://github.com/stoneskin/learnJava/>
+
 # [G9+ Advance Class] Java programming & Algorithms
 
 This class provides a 30-lesson `AP Computer Science A` tutoring course designed to support high school students in their independent practice outside of school.
@@ -74,4 +80,7 @@ Each student needs below items for this class**
    7. <https://www.javatpoint.com/java-tutorial>{:target="_blank"}
    8. <https://www.codecademy.com/learn/learn-java>{:target="_blank"}
    10. <https://apcentral.collegeboard.org/courses/ap-computer-science-a>{:target="_blank"}
+   11. <https://code.org/curriculum/csa>{:target="_blank"}
+   12. <https://help.fiveable.me/article/68-finding-ap-comp-sci-a-content>{:target="_blank"}
+   13. <https://en.wikipedia.org/wiki/AP_Computer_Science_A>{:target="_blank"}
 

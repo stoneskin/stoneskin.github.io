@@ -22,7 +22,7 @@ This is page for my Programming Classes for <a target="_blank" href="http://mlcc
 - What: [Advanced]:Basic Algorithm and practice. Hands-on projects. Basic web programming
 - How: Register from [MLCCC website](http://www.mlccc.org/){:target="_blank"}
 
-### [[G9+ Advance Class] Java programming & Algorithms](./Java/index.md){:target="_blank"}
+### [[G9+ Advance Class] Java programming & Algorithms](https://stoneskin.github.io/learnJava/){:target="_blank"}
 
 - When: 2024-9-10 to 2025-05-15 Sunday Time: TBD
 - Where: MLCCC GV Room 157
