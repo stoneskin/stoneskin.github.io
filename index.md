@@ -7,7 +7,7 @@ This is page for my Programming Classes for <a target="_blank" href="http://mlcc
 
 ### [[G2-5 Basic Class] Learn programming with Scratch](./Scratch/index.md){:target="_blank"}
 
-- When: 2024-9-10 to 2025-05-15 Sunday Time: TBD
+- When: 2024-9-10 to 2025-05-15 Sunday Time: 1PM-2PM/3PM-4PM
 - Where: MLCCC GV Room 157
 - Who: For Students of grade 3-6 who has no programming experience
 - What: Scratch Animation and Game programming
@@ -15,7 +15,7 @@ This is page for my Programming Classes for <a target="_blank" href="http://mlcc
 
 ### [[G6+ Middle/Advance Class] Python Basic & Advanced programming](./python/index.md){:target="_blank"}
 
-- When: 2024-9-10 to 2025-05-15 Sunday Time: TBD
+- When: 2024-9-10 to 2025-05-15 Sunday Time: 4Pm-5Pm
 - Where: MLCCC GV Room 157
 - Who: For Students of grade 6+ who has little or some programming experience
 - What: [Basic] Python syntax and small programming projects,  
@@ -24,7 +24,7 @@ This is page for my Programming Classes for <a target="_blank" href="http://mlcc
 
 ### [[G9+ Advance Class] Java programming & Algorithms](https://stoneskin.github.io/learnJava/){:target="_blank"}
 
-- When: 2024-9-10 to 2025-05-15 Sunday Time: TBD
+- When: 2024-9-10 to 2025-05-15 Sunday Time: 2Pm-3Pm
 - Where: MLCCC GV Room 157
 - Who: For Students of grade 8+ who has some programming experience
 - What: Java and AP CSA preparation

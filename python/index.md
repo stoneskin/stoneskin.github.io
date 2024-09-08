@@ -1,4 +1,4 @@
-# Learn python and web development
+"# Learn python and web development
 
 **This class is for students of grade 6-8, who has little or no programming experience.
 Students will learn Python and web programming, and learn how to completed projects and through hands-on projects on classes.**
@@ -13,21 +13,21 @@ Students will learn Python and web programming, and learn how to completed proje
 1. A Laptop with at least 4G memory with internet access.(please make sure fully charged or bring a power cord)
 2. Please make sure your kids could install software (Python, VsCode) to your computer.
 3. An email account, (parents please set up one for your kids, and let them keep the password)
-4. An account of <https://github.com/>
-5. An account of <https://scratch.mit.edu/>
+4. An account of <https://github.com/>{:target="_blank"}
+5. An account of <https://scratch.mit.edu/>{:target="_blank"}
 6. Books for reference(Optional):
    > ![](../images/Coding_for_kids_.jpg) ![](../images/image4.png) ![](../images/image1.png) ![](../images/image8.png)   ![](../images/CreatingAWebSite.jpg)
 7. Online reference
-   - <https://www.learnpython.org/>
-   - <https://www.learn-html.org/>
-   - <https://www.w3schools.com/html/>
-   - <https://www.w3schools.com/python>
-   - <https://www.pygame.org/wiki/tutorials>
-   - <https://www.freecodecamp.org/news/the-beginners-guide-to-git-github/>
-   - <https://codingbat.com/python>
-   - [100 mini python projects](https://github.com/Python-World/python-mini-projects)
-   - [python exercise/challenges/miniProject](https://www.w3resource.com/python-exercises/)
-   - [python practice for fun](https://edabit.com/challenges/python3)
+   - <https://www.learnpython.org/>{:target="_blank"}
+   - <https://www.learn-html.org/>{:target="_blank"}
+   - <https://www.w3schools.com/html/>{:target="_blank"}
+   - <https://www.w3schools.com/python>{:target="_blank"}
+   - <https://www.pygame.org/wiki/tutorials>{:target="_blank"}
+   - <https://www.freecodecamp.org/news/the-beginners-guide-to-git-github/>{:target="_blank"}
+   - <https://codingbat.com/python>{:target="_blank"}
+   - [100 mini python projects](https://github.com/Python-World/python-mini-projects){:target="_blank"}
+   - [python exercise/challenges/miniProject](https://www.w3resource.com/python-exercises/){:target="_blank"}
+   - [python practice for fun](https://edabit.com/challenges/python3){:target="_blank"}
 
 ## Content
 
@@ -57,6 +57,7 @@ Students will learn Python and web programming, and learn how to completed proje
 11. Python game: [TicTacToe](./2_LearnPython/11.TicTacToe.md)
 12. [Final project and practice](2_LearnPython/12.FinalProject.md)
 
+<!-->
 ### Section 2: Basic Data Structure and Algorithms
 
 1. Data Structure
@@ -73,18 +74,21 @@ Students will learn Python and web programming, and learn how to completed proje
    - Basic Complete Search
    - Search with Recursion
    - Sorting problem
+</-->
 
-### Section 3: Version control with Github
+### Section 2: Version control with Github
 
 1. [Learn to use git for version control](../Tools/Git.01-LearnToUseGitForVersionControl.md)
 2. [Use smartGit as git client](../Tools/Git.02-UserSmartGitAsGitClient.md)
 3. [Use VSCode SourceControl with github](./4_Github/4.1_GithubAndVSCode.md)
 4. [Using GitHub sites](../Tools/Git.03-UseGitHubSite.md)
 
-### Section 5: Project Planing Practice
+<!--### Section 3: Project Planing Practice
 
 - [Project: Plan and build your own Project with scratch](0_projectPlan/index.md)
-### Section 6: Web Development
+</-->
+
+### Section 3: Web Development (Optional)
 
 1. Install MS VSCode for Html editor
 2. Build your first web page
