@@ -1,19 +1,17 @@
 # Learn programming from Scratch (for 3-6 G)
 
+**This class is for students in grades 3-6 who have no programming experience. Students will learn through hands-on projects in class.**
 
-**This class is for students of grade 3 – 6, who has no programming experience.
-Students will learn through hands-on projects on classes.**
+## Requirements
 
+ **Each student need  below items for this class:**
 
-## Requirement
-
- Each student need  below items for this class**
-
-1. A Laptop or iPad with at least 4G memory with internet access. (please make sure fully charged or bring a power cord)
-2. An email account, (parents please set up one for your kids, and let them keep the password)
-3. An account of http://Scratch.mit.edu,(parents please check your email to confirm your kids acct after it be created)
-4. Books for reference(optional):
+1. A Laptop or iPad with at least 4G memory and internet access. (Make sure it's fully charged or bring a power cord.)
+2. An email account. (Parents, please set up one for your child and let them keep the password.)
+3. An account on [Scratch.mit.edu](http://Scratch.mit.edu). (Parents, please check your email to confirm your child's account after it's created.)
+4. Books for reference (optional):
    > ![](../images/image3.png) ![](../images/image5.png) ![](../images/image6.png)
+
 
 ## Content
 
@@ -109,7 +107,7 @@ Students will learn through hands-on projects on classes.**
     
     - [Scratch Final project](11.finalproject.md)
     - [What Make a good game](WhatMakeAGoodGame.pdf)
-    - - [Project Plan worksheet](ProjectPlaning_worksheet.pdf)
+    - [Project Plan worksheet](ProjectPlaning_worksheet.pdf)
 
 <!-- 3. Tell a story by scratch
 1. How to build game in scratch
