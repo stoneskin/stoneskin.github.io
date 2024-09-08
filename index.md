@@ -35,10 +35,11 @@ This is page for my Programming Classes for <a target="_blank" href="http://mlcc
 ## Old Classes
 
  [[2021 summer camp] 3-5 Grade Scratch Programming Camp](./SummerCamp_Scratch/index.md){:target="_blank"}
+
 <!--
 - When: 2021-6-25 to 2021-08-20 Friday 1:00PM-2:00PM
 - Where: Zoom Meeting
--->
+/-->
 
 [[2021 summer camp] 6-8 Grade Python/PyGame Programming Camp](./SummerCamp_Python_PyGame/index.md){:target="_blank"}
 

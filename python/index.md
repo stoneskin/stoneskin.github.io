@@ -1,4 +1,4 @@
-"# Learn python and web development
+# Learn python and web development
 
 **This class is for students of grade 6-8, who has little or no programming experience.
 Students will learn Python and web programming, and learn how to completed projects and through hands-on projects on classes.**
