@@ -88,6 +88,12 @@ example page of <a target="_blank" href="./samples/index.html">web development</
 
 ## My projects:
 
+### AirForce: 
+
+[A simple Python game with Pygame and sample of OOP programming](https://stoneskin.github.io/AirForce/)
+([link to repository](https://github.com/stoneskin/AirForce))
+
+
 ### CCRApp:
 
 MLCCC Chinese Characters Recognition App ([Demo of Html Prototype](https://stoneskin.github.io/Demo/CCRApp/login.html){:target="_blank"})
