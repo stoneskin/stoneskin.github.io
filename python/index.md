@@ -4,8 +4,6 @@
 Students will learn Python and web programming, and learn how to completed projects and through hands-on projects on classes.**
 
 
-[google class room](https://classroom.google.com/c/MTY0MDUyNDMyMjUx)
-
 ## Requirement
 
  Each student need  below items for this class**
@@ -54,6 +52,8 @@ Students will learn Python and web programming, and learn how to completed proje
     2. [More PyGame](./2_LearnPython/10.2.PyGame02.md)
     3. [Build a AirForce Game step by step part1](2_LearnPython/10.3.PyGameStepByStep-1.md)
     4. [Build a AirForce Game step by step part2](2_LearnPython/10.4.PyGameStepByStep-2.md)
+    5. [Rewrite the AirForce game with OOP](https://stoneskin.github.io/AirForce/#part2-rewrite-the-game-with-oop)
+    6. [Build the AirFoce Game use Cursor AI](https://stoneskin.github.io/AirForce/CursorExample/)
 11. Python game: [TicTacToe](./2_LearnPython/11.TicTacToe.md)
 12. [Final project and practice](2_LearnPython/12.FinalProject.md)
 
