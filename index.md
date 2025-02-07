@@ -128,3 +128,4 @@ A site for students to learn MySql and PHP <a href="https://stoneskin.github.io/
 
 ## My Resume
 [wsun_resume](./wsun/resume_c.md)
+[download pdf](./wsun/resume_c.pdf)
