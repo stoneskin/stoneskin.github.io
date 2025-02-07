@@ -17,9 +17,9 @@ Seasoned Software Architect and Tech Leader with 20+ years of experience in .NET
 ### **Core Competencies**  
 ✅ Software Architecture & Cloud Solutions (AWS)  
 ✅ Full-Stack Development (C#, React, Node.js, Python)  
-✅ DevOps & CI/CD Automation (AWS CodePipeline, Jenkins, Docker)
-✅ Team Leadership & Technical Mentorship
-✅ System Integration & Performance Optimization
+✅ DevOps & CI/CD Automation (AWS CodePipeline, Jenkins, Docker)  
+✅ Team Leadership & Technical Mentorship  
+✅ System Integration & Performance Optimization  
 
 ### **Technical Skills**  
 - **Programming**: C#, JavaScript/TypeScript, Python, Java, SQL  
