@@ -93,8 +93,8 @@ Seasoned Software Architect and Tech Leader with 20+ years of experience in .NET
 - Open-sourced the project and mentored multiple high school and college students, guiding their contributions.
 
 🚀**Minecraft-Python** | *2019-2020*
-- Built a turtorial for how to Learn Python by playing Minecraft.
-- Built multiple Minecraft plugins using Python
+- Created a tutorial on learning Python through Minecraft, making programming more engaging and interactive.
+- Developed multiple Minecraft plugins using Python, enhancing gameplay and customization.
 
 ### **Certifications & Education** 
 🏆 **Sun Certified Programmer for Java 2**  
