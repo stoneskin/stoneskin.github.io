@@ -120,8 +120,11 @@ A site for students to learn MySql and PHP <a href="https://stoneskin.github.io/
 
 ------
 
-## My Virtual Classroom
+<!-- ## My Virtual Classroom
 
 #### CMU CS classroom
 <p> click link <a target="_blank" href="https://academy.cs.cmu.edu/splash">CS0 class</a>, Registration Code:
-        "DG18-ZM77" </p>
+        "DG18-ZM77" </p> -->
+
+## My Resume
+[wsun_resume](./wsun/resume_c.md)
