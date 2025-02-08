@@ -1,5 +1,7 @@
 # 08 Python Objects and Classes
 
+View this course from Google colab <https://colab.research.google.com/drive/1RGPuMl6MEUp4uHjKP23G272ogYrygodQ?usp=sharing>
+
 A class is a user-defined blueprint or prototype from which objects are created.
 
 ![Class and Object](./Class-cookieCutter.jpg)
