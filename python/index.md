@@ -56,7 +56,7 @@ Students will learn Python and web programming, and learn how to completed proje
 11. Python game: [TicTacToe](./2_LearnPython/11.TicTacToe.md)
 12. [Final project and practice](2_LearnPython/12.FinalProject.md)
 
-<!-->
+<!--
 ### Section 2: Basic Data Structure and Algorithms
 
 1. Data Structure
@@ -73,7 +73,7 @@ Students will learn Python and web programming, and learn how to completed proje
    - Basic Complete Search
    - Search with Recursion
    - Sorting problem
-</-->
+-->
 
 ### Section 2: Version control with Github
 
