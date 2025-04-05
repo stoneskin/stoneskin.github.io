@@ -99,7 +99,7 @@
     - [big maze(free turkey)](10.11.1_BigMaze.md)
     - [Snake game](10.12_BuildSnakeGame.md)
     - [Space shooting](10.13.SpaceShooting.md)
-    - [Finding Eggs](10.14.4_FindingEggs.md)
+    - [Finding Eggs](10.17.4_findingEgg_easter.md)
     - [Song and Lyric](10.17.3_Song_and_Lyric.md)
     - [Launch Shooting](10.17.5_launchShooting.md)
     - [story telling](10.17.1_story.md)
