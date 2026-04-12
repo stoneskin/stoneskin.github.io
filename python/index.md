@@ -89,9 +89,13 @@ Students will learn Python and web programming, and learn how to completed proje
 
 ### Section 3: Web Development (Optional)
 
-1. Install MS VSCode for Html editor
-2. Build your first web page
-3. Basic HTML
-4. Project: build About Me web page with html
-5. Basic Javascript
-6. Project: Build a simple web page with javascript
+1. [Install MS VSCode for Html editor](5_WebDevelopment/01_VSCodeSetup.md)
+2. [Build your first web page](5_WebDevelopment/02_FirstWebPage.md)
+3. [Basic HTML](5_WebDevelopment/03_BasicHTML.md)
+4. [Project: build About Me web page with html](5_WebDevelopment/04_Project_AboutMe.md)
+5. [Basic Javascript](5_WebDevelopment/06_IntroJavaScript.md)
+6. [Project: Build a simple web page with javascript](5_WebDevelopment/07_Project_WebPage.md)
+
+**Bonus:** [Basic CSS - Make Your Pages Beautiful](5_WebDevelopment/05_BasicCSS.md) (Learn styling before JavaScript!)
+
+**Examples:** [View Working Examples](5_WebDevelopment/examples/index.html)

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interactive Buttons Example</title>
+    <style>
+        body {
+            font-family: Arial;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        
+        h1 {
+            color: #0066cc;
+            text-align: center;
+        }
+        
+        .button-group {
+            margin: 20px 0;
+            text-align: center;
+        }
+        
+        button {
+            padding: 12px 20px;
+            margin: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #0066cc;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        
+        button:hover {
+            background-color: #0052a3;
+        }
+        
+        #message {
+            font-size: 18px;
+            margin: 20px;
+            padding: 15px;
+            background-color: white;
+            border: 2px solid #0066cc;
+            border-radius: 5px;
+            min-height: 30px;
+        }
+        
+        .counter-display {
+            font-size: 36px;
+            font-weight: bold;
+            color: #0066cc;
+            text-align: center;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Interactive Page Demo</h1>
+    
+    <h2 style="text-align: center;">Click the Buttons Below</h2>
+    
+    <div class="button-group">
+        <button onclick="showMessage1()">Button 1</button>
+        <button onclick="showMessage2()">Button 2</button>
+        <button onclick="showMessage3()">Button 3</button>
+        <button onclick="clearMsg()">Clear</button>
+    </div>
+    
+    <div id="message"></div>
+    
+    <h2 style="text-align: center;">Counter Demo</h2>
+    
+    <div class="counter-display">
+        Count: <span id="countDisplay">0</span>
+    </div>
+    
+    <div class="button-group">
+        <button onclick="increase()">➕ Increase</button>
+        <button onclick="decrease()">➖ Decrease</button>
+        <button onclick="resetCounter()">🔄 Reset</button>
+    </div>
+    
+    <h2 style="text-align: center;">Interactive Features</h2>
+    <div class="button-group">
+        <button onclick="changeBgColor()">Change Background Color</button>
+        <button onclick="askName()">Ask for My Name</button>
+        <button onclick="playSound()">Make a Sound (Text Version)</button>
+    </div>
+    
+    <script>
+        // Message Display Functions
+        function showMessage1() {
+            document.getElementById("message").innerHTML = 
+                "✨ You clicked Button 1! Great job!";
+        }
+        
+        function showMessage2() {
+            document.getElementById("message").innerHTML = 
+                "🎉 You clicked Button 2! Awesome!";
+        }
+        
+        function showMessage3() {
+            document.getElementById("message").innerHTML = 
+                "⭐ You clicked Button 3! Fantastic!";
+        }
+        
+        function clearMsg() {
+            document.getElementById("message").innerHTML = "";
+        }
+        
+        // Counter Functions
+        let count = 0;
+        
+        function increase() {
+            count = count + 1;
+            document.getElementById("countDisplay").innerHTML = count;
+            showMessage1();
+        }
+        
+        function decrease() {
+            count = count - 1;
+            document.getElementById("countDisplay").innerHTML = count;
+            showMessage2();
+        }
+        
+        function resetCounter() {
+            count = 0;
+            document.getElementById("countDisplay").innerHTML = count;
+            clearMsg();
+        }
+        
+        // Other Interactive Functions
+        function changeBgColor() {
+            let colors = ["#ffcccc", "#ccffcc", "#ccccff", "#ffffcc", "#ffccff"];
+            let randomColor = colors[Math.floor(Math.random() * colors.length)];
+            document.body.style.backgroundColor = randomColor;
+            document.getElementById("message").innerHTML = 
+                "🎨 Changed background color!";
+        }
+        
+        function askName() {
+            let name = prompt("What's your name?");
+            if (name) {
+                document.getElementById("message").innerHTML = 
+                    "👋 Nice to meet you, <b>" + name + "</b>!";
+            }
+        }
+        
+        function playSound() {
+            document.getElementById("message").innerHTML = 
+                "🔊 Beep Boop! (Sound would play here)";
+        }
+    </script>
+</body>
+</html>
