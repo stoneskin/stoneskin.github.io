@@ -146,6 +146,7 @@ Seasoned Software Architect and Tech Leader with **20+ years** of experience in 
 - Created tutorials on learning Python through Minecraft, making programming engaging and interactive
 - Developed multiple Minecraft plugins using Python
 - Enhanced gameplay and customization for educational purposes
+- 🌐 [Repository](https://github.com/stoneskin/python-minecraft)
 
 ### Programming Classes (MLCCC)
 Teaching programming to K-12 students:
