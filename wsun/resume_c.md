@@ -1,4 +1,4 @@
-# Mr Sun
+# Mr. Sun
 
 **AI Solutions Architect | Tech Lead | AWS Cloud Specialist**
 
