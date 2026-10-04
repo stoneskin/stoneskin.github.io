@@ -2,7 +2,7 @@
 
 **AI Solutions Architect | Tech Lead | AWS Cloud Specialist**
 
-Seasoned software architect and tech leader with **20+ years** of experience in .NET web development, system architecture, and cloud solutions. Currently **Expert Software Engineer (Tech Lead, Tiger Team)** at iPipeline (a Roper Technologies company), leading the migration of Ping Identity services from on-prem to AWS. Creator of [open-memex](https://github.com/stoneskin/open-memex){:target="_blank"}, a local-first memory layer for AI coding agents.
+Seasoned software architect and tech leader with **20+ years** of experience in .NET web development, system architecture, and cloud solutions. Currently **Expert Software Engineer (Tech Lead, Tiger Team)** at iPipeline (a Roper Technologies company), leading the migration of Ping Identity services from on-prem to AWS. Creator of [open-memex](./open-memex/), a local-first memory layer for AI coding agents.
 
 📧 stoneskin@gmail.com · 💻 [GitHub](https://github.com/stoneskin){:target="_blank"} · 🔗 [LinkedIn](https://www.linkedin.com/in/stoneskin/){:target="_blank"} · 📄 [Resume](./wsun/resume_c.md){:target="_blank"} ([PDF](./wsun/resume_c.pdf){:target="_blank"})
 
@@ -11,7 +11,7 @@ Seasoned software architect and tech leader with **20+ years** of experience in 
 ## Current Focus
 
 - **Tiger Team – Ping Identity AWS Migration (iPipeline, 2025–2026):** technical lead for lifting PingAccess, PingFederate, PingDirectory and PingDelegatedAdmin into a dedicated AWS account — CloudFormation IaC, GitHub Actions CI/CD with OIDC (no long-lived keys), blue/green zero-downtime cut-over, 500-concurrent-user load-test harness.
-- **open-memex:** open-source, local-first memory layer for AI coding agents — Markdown as source of truth, SQLite FTS5 search, MCP server + CLI + editor integrations. Published on npm. ([repo](https://github.com/stoneskin/open-memex){:target="_blank"})
+- **open-memex:** open-source, local-first memory layer for AI coding agents — Markdown as source of truth, SQLite FTS5 search, MCP server + CLI + editor integrations. Published on npm. ([project page](./open-memex/) · [repo](https://github.com/stoneskin/open-memex){:target="_blank"})
 - **iPipeline's Ping/OAuth identity expert** — go-to resource for PingFederate, PingAccess, PingDirectory and enterprise SSO (SAML/OAuth) integrations.
 
 ## Tech Stack
@@ -28,7 +28,7 @@ Seasoned software architect and tech leader with **20+ years** of experience in 
 
 | Project | Description |
 |---------|-------------|
-| [open-memex](https://github.com/stoneskin/open-memex){:target="_blank"} | Local-first memory layer for AI coding agents (MCP server + CLI, published on npm) |
+| [open-memex](./open-memex/) | Local-first memory layer for AI coding agents (MCP server + CLI, published on npm) |
 | [python-minecraft](https://github.com/stoneskin/python-minecraft){:target="_blank"} | Learn Python through Minecraft — tutorials & code samples (★41) |
 | [mcpi-e](https://github.com/stoneskin/mcpi-e){:target="_blank"} | Python API for Minecraft: Pi Edition / RaspberryJuicy plugin (★15) |
 | [ChineseCharactersRecognitionApp](https://github.com/MlcccCodingClass/ChineseCharactersRecognitionApp){:target="_blank"} | Chinese character recognition web app, donated to Main Line Chinese Culture Center; mentored student contributors |
