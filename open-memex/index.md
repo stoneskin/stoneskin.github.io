@@ -11,6 +11,8 @@ description: open-memex gives AI coding agents a persistent local memory. Markdo
 
 ![Terminal demo: two memories saved on Monday, recalled by search in a fresh session on Friday](./open-memex-demo.svg)
 
+![open-memex at a glance: say it once in VS Code, find it days later in Cursor — one local memory in plain Markdown, shared by every agent](open-memex-promo-card.png)
+
 Every AI coding session starts from zero: you re-explain the project, the agent rediscovers the same gotchas, and yesterday's decisions vanish when the chat ends. open-memex gives your agents a memory that survives the session.
 
 Say "remember: we deploy on Fridays" once. Next week, Copilot, Cursor, opencode, or Claude Code already knows — because they read and write the same local memory on your machine.
@@ -36,6 +38,8 @@ Then ask your agent what it remembers. `open-memex init` auto-detects supported 
 - **Teams share through Git.** Project knowledge can move from a personal draft to a reviewed project memory through the normal branch / pull-request workflow instead of a separate sync service.
 
 ## How it works
+
+![open-memex architecture: editors connect through the MCP server or the opencode native plugin to one local store — Markdown files as the source of truth with an SQLite FTS5 index; personal memory stays on the machine, project memory is shared through git PRs](open-memex-architecture-en.png)
 
 1. **Capture** — Save a decision, constraint, preference, lesson, or project fact through your agent, the CLI, or supported keyword triggers.
 2. **Store** — open-memex writes a structured Markdown memory and updates its local SQLite keyword index.
