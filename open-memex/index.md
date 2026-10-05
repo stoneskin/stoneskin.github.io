@@ -7,7 +7,7 @@ description: open-memex gives AI coding agents a persistent local memory. Markdo
 
 **Persistent memory for AI coding agents — on your machine, in plain Markdown, shared by every tool you code with.**
 
-[GitHub repository](https://github.com/stoneskin/open-memex){:target="_blank"} · [npm package](https://www.npmjs.com/package/open-memex){:target="_blank"} · [Documentation](https://github.com/stoneskin/open-memex#readme){:target="_blank"} · [Releases](https://github.com/stoneskin/open-memex/releases){:target="_blank"}
+[GitHub repository](https://github.com/stoneskin/open-memex){:target="_blank"} · [npm package](https://www.npmjs.com/package/open-memex){:target="_blank"} · [Glama score](https://glama.ai/mcp/servers/stoneskin/open-memex){:target="_blank"} · [Documentation](https://github.com/stoneskin/open-memex#readme){:target="_blank"} · [Releases](https://github.com/stoneskin/open-memex/releases){:target="_blank"}
 
 ![Terminal demo: two memories saved on Monday, recalled by search in a fresh session on Friday](./open-memex-demo.svg)
 
