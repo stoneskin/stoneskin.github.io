@@ -29,6 +29,7 @@ Seasoned software architect and tech leader with **20+ years** of experience in 
 | Project | Description |
 |---------|-------------|
 | [open-memex](./open-memex/) | Local-first memory layer for AI coding agents (MCP server + CLI, published on npm) |
+| [muse-thinktank](https://github.com/stoneskin/muse-thinktank){:target="_blank"} | Multi-model deliberation orchestrator — one question to N models in parallel, dual judges cross-validate, synth merges into a verdict (zero dependencies, Apache-2.0) |
 | [python-minecraft](https://github.com/stoneskin/python-minecraft){:target="_blank"} | Learn Python through Minecraft — tutorials & code samples (★41) |
 | [mcpi-e](https://github.com/stoneskin/mcpi-e){:target="_blank"} | Python API for Minecraft: Pi Edition / RaspberryJuicy plugin (★15) |
 | [ChineseCharactersRecognitionApp](https://github.com/MlcccCodingClass/ChineseCharactersRecognitionApp){:target="_blank"} | Chinese character recognition web app, donated to Main Line Chinese Culture Center; mentored student contributors |
