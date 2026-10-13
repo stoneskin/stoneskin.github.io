@@ -38,6 +38,13 @@ Seasoned software architect and tech leader with **20+ years** of experience in 
 | [minecraft_python_mcpi_plugin](https://github.com/stoneskin/minecraft_python_mcpi_plugin){:target="_blank"} | Spigot MCPI plugin — control Minecraft with Python |
 | [StockPredictor](https://github.com/stoneskin/StockPredictor){:target="_blank"} | Stock price prediction experiments with machine learning |
 
+## Writings
+
+| Article | Description |
+|---------|-------------|
+| [我给 Muse 写了个智囊团](./writings/i-built-muse-a-think-tank-zh.md) / [I Built Muse a Think Tank](./writings/i-built-muse-a-think-tank-en.md) | 给 Muse 接入多模型智囊团：分歧即信号，人的直觉无法外包 (2026-10) |
+| [人与 AI 的关系 —— 使用经验与感受](./writings/human-ai-relationship-notes.md) | 长期记录：AI 取代苦力不取代人类、agency × taste 等 (2026-10 起) |
+
 ## Experience
 
 - **iPipeline, Inc. (Roper Technologies), PA** — Expert Software Engineer, Tech Lead R&D, *2013–present* (Lead Developer → Solution Architect → Expert Software Engineer). Lead a team of 6 developers + 2 QA across 40+ applications. AWS serverless architectures, blue-green deployments. Key projects: Quote AI Agent (LLM prototype), Calc-Engine AWS migration (+70% quote speed), iSolve (iPipeline's first cloud-native app), Quote Client & Web API (React/.NET Core).
