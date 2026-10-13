@@ -2,6 +2,8 @@
 
 *2026-10-14 · [English Version](./i-built-muse-a-think-tank-en.md)*
 
+![muse-thinktank](./thinktank-producthunt-cover-1270x760.png)
+
 我想出了一个让我的 AI 助理 Muse 更加强大的办法：给它加一个由不同家族 AI 构成的智囊团。
 
 Meta Muse 是现在很火的 AI 个人助理，它让不懂编程的普通人也能用上真正能干活的 AI agent。但 Muse 自带的模型不够强大，单一模型的输出再流畅也有局限。

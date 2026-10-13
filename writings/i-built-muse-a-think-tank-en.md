@@ -2,6 +2,8 @@
 
 *2026-10-14 · [中文版](./i-built-muse-a-think-tank-zh.md)*
 
+![muse-thinktank](./thinktank-producthunt-cover-1270x760.png)
+
 I figured out a way to make my AI assistant Muse more powerful: give it a think tank made of different AI families.
 
 Meta Muse is a popular AI personal assistant. It lets non-programmers use an AI agent that actually does work. But Muse's built-in model isn't strong enough, and a single model's output has limits, no matter how fluent.
