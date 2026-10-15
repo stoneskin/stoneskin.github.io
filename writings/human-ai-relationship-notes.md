@@ -1,6 +1,6 @@
 # 人与 AI 的关系 —— Stone 的使用经验与感受
 
-*第一笔记录：2026-10-08*
+*第一笔记录：2026-10-08 · [English Version](./human-ai-relationship-notes-en.md)*
 
 ---
 

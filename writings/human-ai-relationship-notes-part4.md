@@ -2,7 +2,7 @@
 
 *看到的案例和文章，精炼后收录，附原文链接。*
 
-[← 返回目录](human-ai-relationship-notes.md)
+[← 返回目录](human-ai-relationship-notes.md) · [English Version](./human-ai-relationship-notes-part4-en.md)
 
 
 ---

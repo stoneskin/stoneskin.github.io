@@ -2,7 +2,7 @@
 
 *总纲之下的四个原点，外加小沐的第一次评价。*
 
-[← 返回目录](human-ai-relationship-notes.md)
+[← 返回目录](human-ai-relationship-notes.md) · [English Version](./human-ai-relationship-notes-part1-en.md)
 
 
 ---

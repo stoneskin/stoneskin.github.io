@@ -2,7 +2,7 @@
 
 *AI 的习性，以及和它打交道的手法。*
 
-[← 返回目录](human-ai-relationship-notes.md)
+[← 返回目录](human-ai-relationship-notes.md) · [English Version](./human-ai-relationship-notes-part2-en.md)
 
 
 ---

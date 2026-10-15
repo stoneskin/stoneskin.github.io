@@ -2,7 +2,7 @@
 
 *人的价值在哪里，手艺怎么保，野心有多大。*
 
-[← 返回目录](human-ai-relationship-notes.md)
+[← 返回目录](human-ai-relationship-notes.md) · [English Version](./human-ai-relationship-notes-part3-en.md)
 
 
 ---
