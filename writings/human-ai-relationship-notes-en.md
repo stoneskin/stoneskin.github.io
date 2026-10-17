@@ -31,6 +31,7 @@ Three things, unpacked: clear intent — know what you want, so you can spot whe
 - 10. Understanding debt and cognitive offloading: never let go of the steering wheel
 - 12. AI slacks off — humans have to play foreman
 - 16. AI's three "human traits": over-eager, lying, and lazy
+- 21. Caught red-handed: Muse said "recorded" but hadn't written a word
 
 **[Part Three: The Human Position — Value, Craft, and Ambition](human-ai-relationship-notes-part3-en.md)** — where human value lies, how to keep your craft, how big to dream.
 
@@ -40,6 +41,7 @@ Three things, unpacked: clear intent — know what you want, so you can spot whe
 - 14. With the grunt work gone, how do young people learn the craft?
 - 15. The programmer as a grandmaster playing five boards at once: placing pieces can be outsourced, reading the board cannot
 - 19. Where does my ambition sit? Three suggestions
+- 20. Beware the "I'm always right" illusion: an assistant shouldn't just be a mirror
 
 **[Part Four: Outside Input — Cases and Readings](human-ai-relationship-notes-part4-en.md)** — cases and articles I've read, distilled, with source links.
 
