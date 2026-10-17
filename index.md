@@ -45,6 +45,7 @@ Seasoned software architect and tech leader with **20+ years** of experience in 
 | [我给 Muse 写了个智囊团](./writings/i-built-muse-a-think-tank-zh.md) / [I Built Muse a Think Tank](./writings/i-built-muse-a-think-tank-en.md) | 给 Muse 接入多模型智囊团：分歧即信号，人的直觉无法外包 (2026-10) |
 | [我给 AI 配了个记忆](./writings/i-gave-my-ai-a-memory-zh.md) / [I Gave My AI a Memory](./writings/i-gave-my-ai-a-memory-en.md) | 给 AI 编程助手加长期记忆：本地 Markdown + 全文索引，烧饼计划的梗 (2026-10) |
 | [人与 AI 的关系](./writings/human-ai-relationship-notes.md) / [The Human-AI Relationship](./writings/human-ai-relationship-notes-en.md) | 长期记录：AI 取代苦力不取代人类、agency × taste 等 (2026-10 起) |
+| [AI 学习资料](./writings/ai-learning/) | 论文详解、方法论文档、工程原则：FDE-Gym、阿里云 Agent 手册、提示词工程、Anthropic 代码评审等 15 份 (2026-10) |
 
 ## Experience
 
