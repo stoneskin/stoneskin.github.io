@@ -45,8 +45,7 @@ Seasoned software architect and tech leader with **20+ years** of experience in 
 | [我给 Muse 写了个智囊团](./writings/i-built-muse-a-think-tank-zh.md) / [I Built Muse a Think Tank](./writings/i-built-muse-a-think-tank-en.md) | 给 Muse 接入多模型智囊团：分歧即信号，人的直觉无法外包 (2026-10) |
 | [我给 AI 配了个记忆](./writings/i-gave-my-ai-a-memory-zh.md) / [I Gave My AI a Memory](./writings/i-gave-my-ai-a-memory-en.md) | 给 AI 编程助手加长期记忆：本地 Markdown + 全文索引，烧饼计划的梗 (2026-10) |
 | [人与 AI 的关系](./writings/human-ai-relationship-notes.md) / [The Human-AI Relationship](./writings/human-ai-relationship-notes-en.md) | 长期记录：AI 取代苦力不取代人类、agency × taste 等 (2026-10 起) |
-| [谈第二大脑](./writings/stone-on-second-brain-2026-10-18.md) / [On the Second Brain](./writings/stone-on-second-brain-2026-10-18-en.md) | 读 Westenberg《删掉第二大脑》有感：极繁极简皆非答案，活跃区与存储区 (2026-10) |
-| [亲手造](./writings/stone-on-building-to-learn-2026-10-19.md) / [Building to Learn](./writings/stone-on-building-to-learn-2026-10-19-en.md) | 研究 ai-memory 后的反思：自己动手做的才是真正能学到的 (2026-10) |
+| [Stone 随想](./writings/stone-musings.md) | 个人随想：第二大脑、亲手造、野心等 (2026-10 起) |
 | [AI 学习资料](./writings/ai-learning/) | 论文详解、方法论文档、工程原则：FDE-Gym、阿里云 Agent 手册、提示词工程、Anthropic 代码评审、ai-memory 等 19 份 (2026-10) |
 
 ## Experience
