@@ -1,6 +1,6 @@
 # AI 学习资料目录
 
-*整理：2026-10-18 · 共 18 份，全部在 `~/workspace/your_files/`*
+*整理：2026-10-18 · 共 19 份，全部在 `~/workspace/your_files/`*
 *文件名链到本地总结，原文链到出处*
 
 ---
@@ -47,11 +47,12 @@
 |---|---|---|
 | [x-worthwhile-reads-2026-10-16.md](./x-worthwhile-reads-2026-10-16.md) | —（小沐筛选） | 值得读的 X 帖子（只收对你有增量的，每篇一句话价值 + 核心观点 + 咬合点） |
 
-## 六、项目方法论（1）
+## 六、项目方法论（2）
 
 | 本地总结 | 原文 | 说明 |
 |---|---|---|
 | [open-memex-boundary-audit-2026-10-16.md](./open-memex-boundary-audit-2026-10-16.md) | —（小沐审计） | open-memex 边界审计：tool description 瘦身、pipeline tools 定位、企业版约束 |
+| [ai-memory-summary.md](./ai-memory-summary.md) | [GitHub akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory) | akitaonrails/ai-memory（10k star，Rust）：跨 agent handoff 杀手功能、20+ harness 集成、零 LLM 记忆老化（access-weighted retention 正是三区换入换出策略的工程答案） |
 
 ---
 
