@@ -256,3 +256,18 @@ Stone 是动手型学习者，这 19 篇全是文章、没有动手项。建议�
 - 这份题单≈你最近三个月在造的东西的目录：RAG（open-memex 检索）/ Skill+MCP（opencode-fuse D18）/ Agent 评测（thinktank Phase 3）/ Harness（Harness² 学习资料）
 - 市场在考的正好是你手里有的——这份题单可以当"能力对标清单"用：每道题问自己"能不能讲清楚"，讲不清的就是学习缺口
 - Harness 从"新概念"变成"1/4 面试官会问的常规题"只用了两个月——佐证了《谈 AI 工程化》里"概念一波波"的判断
+
+## 补：Antonio Gulli《Agentic Design Patterns》（2026-10-19 补）
+
+来源：https://github.com/evoiz/Agentic-Design-Patterns（LanfAI @Huahuazo 推荐，https://x.com/Huahuazo/status/2112037776044749145）
+
+**是什么**：Google Antonio Gulli 写的开源教材，21 章 + 7 个附录，每章配可运行的 Jupyter Notebook。版税全部捐给 Save the Children。
+
+**目录**：
+① Prompt Chain、路由、反思 ② 多 Agent、记忆管理、RAG ③ 安全护栏与 Agent 设计模式
+
+### 跟你的咬合
+
+- 清单里缺"系统教材"这一块——之前全是论文和帖子，这是第一本从基础到进阶的完整教材
+- 可以当"查漏"的底：按目录过一遍，哪章讲的东西你没亲手做过，哪就是缺口
+- 记忆管理那章可以直接对照 open-memex 的三区设计看，看人家怎么讲的
