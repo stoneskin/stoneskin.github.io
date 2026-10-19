@@ -1,0 +1,25 @@
+# Stone 谈 AI 工程化（2026-10-19）
+
+> 起因：读 @UPing123zzz（Ethan 恩宇）推文有感。https://x.com/UPing123zzz/status/2111708069768167751
+
+他说 AI 圈概念一波接一波：Prompt Engineering、Context Engineering、Workflow、Agent、Skills、Loop Engineering、Harness Engineering。但打开 Codex、Claude Code，真正让它们干活的方式依然是输入一段自然语言——说白了，还是在写提示词。
+
+他的结论：Prompt 根本没有过时，其他东西也不是它的替代品。表面上还是只输入一段 Prompt，但背后已经有一整套工程系统在替我们干活。没必要每出一个新概念就追着学，很多时候只是把原来需要人工操作的东西进一步自动化、标准化了。
+
+"大模型负责理解和判断，传统软件工程负责约束和验证。两者结合起来，才有真正能交付的 AI 产品。"
+
+"以前比的是谁更会写 Prompt，以后真正拉开差距的，可能是谁能把一个简单的 Prompt，变成一套稳定运行的生产系统。这才是我理解的 AI 工程化。"
+
+## 我的咬合
+
+这和我一直在做的是一回事，只是他从 practitioner 角度讲的：
+
+- 他说的"背后的一整套工程系统"——就是我的 thinktank wrapper、open-memex 插件干的事
+- "真正难的是稳定性、成本、异常处理和可验证的交付"——就是我的 `done-means-verified`（做完=在线验证通过，不是代码改完了）
+- "大模型负责理解判断、传统工程负责约束验证"——就是我的信任金字塔：第 1 层（改代码库本身）vs 第 3 层（文字 rules 靠自觉）
+
+巧的是，他这条推和 Harness² 论文是同一天（2026-10-18）。论文说"Agent = Model + Harness，harness 是变量"，他说"变化的是 Prompt 背后能够调用的能力"——同一个意思，学院派和工程派各讲了一遍。
+
+我比他多走的一步：**把这套想成了可执行的规矩**。AGENTS.md 里的 build-the-lever（先造工具）、fix-root-causes（修到根因）、incident-to-eval（失败变考题）——他停在"理解"，我把它变成了"制度"。被纠正一次，当晚就变成一条跑在流程里的规矩，这就是我的 AI 工程化。
+
+—— Stone，2026-10-19
