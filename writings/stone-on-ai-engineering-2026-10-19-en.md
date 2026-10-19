@@ -12,7 +12,17 @@ His conclusion: prompts never became obsolete, and the rest are not replacements
 
 ## Where it connects to my work
 
-This is the same thing I've been doing, just told from the practitioner's side:
+He nails all seven concepts in one sentence each, paraphrased here:
+
+A prompt tells the AI what you want; context gives it the information it needs; workflow splits the task into a fixed procedure; a skill packages a mature method for reuse; an agent lets the model decide the next step itself; a loop has it check and fix after executing; a harness provides the tools, environment, and constraints for the whole process.
+
+"They look like all kinds of new technologies, but most of them circle around one question: **how to get AI not just to understand you, but to actually get things done**."
+
+"So prompts never became obsolete, and the rest are not replacements. We used to write a prompt to generate code, check it ourselves, write another to fix it; now with agents, it runs the code, finds the error, fixes it, retests — by itself. On the surface you're still just entering a prompt, but behind it an entire engineering system is doing the work."
+
+"No need to chase every new concept. Most of the time it's just further automation and standardization of what used to be manual."
+
+These three passages describe exactly what I've been doing:
 
 - His "entire engineering system behind the prompt" — that's what my thinktank wrapper and open-memex plugin do
 - "What's really hard is stability, cost, exception handling, and verifiable delivery" — that's my `done-means-verified` (done = verified live, not code changed)
