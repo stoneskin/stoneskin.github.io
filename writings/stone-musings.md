@@ -8,3 +8,4 @@
 | [谈第二大脑](./stone-on-second-brain-2026-10-18.md) / [On the Second Brain](./stone-on-second-brain-2026-10-18-en.md) | 读 Westenberg《删掉第二大脑》有感：极繁极简皆非答案（2026-10-18） |
 | [亲手造](./stone-on-building-to-learn-2026-10-19.md) / [Building to Learn](./stone-on-building-to-learn-2026-10-19-en.md) | 研究 ai-memory 后的反思：自己动手做的才是真正能学到的（2026-10-19） |
 | [谈 AI 工程化](./stone-on-ai-engineering-2026-10-19.md) / [On AI Engineering](./stone-on-ai-engineering-2026-10-19-en.md) | 读 @UPing123zzz 有感：把 Prompt 变成稳定运行的生产系统（2026-10-19） |
+| [谈人机交互](./stone-on-hci-2026-10-19.md) / [On Human-Computer Interaction](./stone-on-hci-2026-10-19-en.md) | 读 InfoQ 有感：不是 HTML/Markdown 二选一，而是分层+转换器（2026-10-19） |
