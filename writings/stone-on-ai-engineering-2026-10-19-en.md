@@ -30,6 +30,6 @@ These three passages describe exactly what I've been doing:
 
 Coincidentally, his tweet landed the same day as the Harness² paper (2026-10-18). The paper says "Agent = Model + Harness, and the harness is the variable"; he says "what changed is the capability behind the prompt" — the same idea, told once by academia and once by engineering.
 
-The step I take beyond him: **I turned this thinking into executable rules**. In my AGENTS.md — build-the-lever (build the tool first), fix-root-causes (fix at the root), incident-to-eval (turn failures into test cases). He stopped at understanding; I turned it into institutions. Corrected once, it becomes a rule running in the process that same night. That's my AI engineering.
+What I'm doing is turning this thinking into executable rules. In my AGENTS.md — build-the-lever (build the tool first), fix-root-causes (fix at the root), incident-to-eval (turn failures into test cases). Corrected once, it becomes a rule running in the process that same night. That's my AI engineering.
 
 — Stone, 2026-10-19

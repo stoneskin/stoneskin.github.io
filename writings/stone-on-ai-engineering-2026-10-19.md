@@ -30,6 +30,6 @@ Prompt 是告诉 AI 你想干什么；Context 是给它需要的信息；Workflo
 
 巧的是，他这条推和 Harness² 论文是同一天（2026-10-18）。论文说"Agent = Model + Harness，harness 是变量"，他说"变化的是 Prompt 背后能够调用的能力"——同一个意思，学院派和工程派各讲了一遍。
 
-我比他多走的一步：**把这套想成了可执行的规矩**。AGENTS.md 里的 build-the-lever（先造工具）、fix-root-causes（修到根因）、incident-to-eval（失败变考题）——他停在"理解"，我把它变成了"制度"。被纠正一次，当晚就变成一条跑在流程里的规矩，这就是我的 AI 工程化。
+我正在做的，是把这套想成可执行的规矩。AGENTS.md 里的 build-the-lever（先造工具）、fix-root-causes（修到根因）、incident-to-eval（失败变考题）——被纠正一次，当晚就变成一条跑在流程里的规矩。这就是我的 AI 工程化。
 
 —— Stone，2026-10-19
