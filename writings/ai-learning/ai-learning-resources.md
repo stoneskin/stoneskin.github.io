@@ -124,7 +124,7 @@ Stone 是动手型学习者，这 19 篇全是文章、没有动手项。建议�
 
 > 原文：https://arxiv.org/abs/2610.22350（2026-10-15，DeepLethe + 清华/上交等）
 > 解读帖：https://x.com/Xudong07452910/status/2111306709318951189
-> 详解：[FDE-Gym论文详解](./fde-gym-paper-summary.md)
+> 详解：~/workspace/your_files/fde-gym-paper-summary.md
 > 一句话：会写代码 ≠ 会交付——在 Terminal-Bench 拿 88% 的模型，真实客户交付只能拿 0.56 分；FDE 的核心（挖隐性约束、把事实变成贴合组织的系统）正是 AI 最弱、人类最强的部分。
 
 ### 测什么
@@ -192,7 +192,7 @@ Stone 是动手型学习者，这 19 篇全是文章、没有动手项。建议�
 ## 补：龙井《2小时从零看懂AI》（2026-10-17 补）
 
 > 原文：https://x.com/long_jingai/status/2111356255889723723（X Article，约2.5万字）
-> 详解：[《2小时从零看懂AI》总结](./longjing-ai-primer-summary.md)
+> 详解：~/workspace/your_files/longjing-ai-primer-summary.md
 > 一句话：8000元/小时企业内训同款公开版——大模型通识→提示词方法→Agent入门→Agent实操，四段式AI认知体系。
 
 ### 四部分要点
@@ -207,3 +207,52 @@ Stone 是动手型学习者，这 19 篇全是文章、没有动手项。建议�
 - **prompt工程缺口清零**：10-16点的5个缺口全部补完（安全/可观测性/HITL/router/prompt工程）
 - 方法论互文："60分先出再迭代"=surgical-edits+breakpoint-feedback；"升维提问"=think-before-code实操版；"真实任务实测"=run-dont-read
 - 企业内训框架可直接借鉴（以后给团队/客户讲AI用）
+
+---
+
+## 补：Karpathy "AI 理解漏斗"（2026-10-18 补）
+
+> 原文：https://x.com/karpathy/status/2109361（2026-10-11 19:12 UTC 发布，4 月旧帖翻新，77 万浏览）
+> 解读参考：https://cellcog.ai/blog/karpathy-llm-understanding-funnel/
+> 一句话：你眼里的 AI 和别人眼里的不是同一个东西——差距不再是"两拨人各说各话"，而是一个四层漏斗，而且在变陡。
+
+### 四层（都是他自称的 napkin math，无出处）
+
+1. **约 60 亿人（75%）**：几乎没接触过 LLM
+2. **10–20 亿（约 20%）**：免费层 casual 用户——把 AI 当"更好用的搜索/写作助手"用，很多高管也在这一层
+3. **约 2000 万（0.2%）**：数学/代码领域的专业用户——亲眼看到 agent 一句话完成过去几周/几个月的工作（Karpathy 把自己放这一层：不到一年前他还在手写代码）
+4. **约 5000 人（0.00006%）**：实验室内部——看到的是"成群的 agent 为大项目连续工作几周"
+
+### 漏斗为什么存在：三个原因
+
+1. **Ambition（问题水位）**："You need a reservoir of big, difficult problems that you really care about." 一段话能答完的问题，测不出系统的上限
+2. **Jaggedness（能力锯齿）**：能力在"数字化、可验证、有经济价值"的领域最先爆发——这就是为什么数学和代码先行（RL on verifiable rewards）
+3. **Access（访问层级）**：免费层 / 付费层 / 内部
+
+### 跟你的咬合
+
+- **你的位置**：第三层，而且是第三层里动手造 harness 的那一小撮（thinktank 陪审团、opencode-fuse 三档路由 = 在造"让 agent 干几周活"的工具链）
+- **第四层是路线图方向**：实验室内部看到的是"agent 群连续工作几周"——thinktank Phase 3 的"judge 低置信追问/降级"、opencode-fuse 的"常驻"形态，都是往这个方向摸
+- **Jaggedness 解释了你的选型**：为什么你的 agent 工具先从代码/评审切入——可验证的领域 RL 效果最好，judge 才有判据
+- 他 4 月说"两拨人各说各话"，10 月改口"漏斗在变陡"：顺带解释了为什么你跟 iPipeline 同事聊 AI 时总觉得鸡同鸭讲——你们字面不在同一层
+- 警句："Meanwhile, human review and comprehension are starting to fall behind."（指 OpenAI/HF 密钥事件 + 数学手稿撤稿）——这正是你 incident-to-eval / mistake-class 机制要挡的东西
+
+## 补：码良《Agent 高频面试题单》（2026-10-19 补）
+
+来源：https://x.com/cxjwin/status/2111644503341953409（X Article，18 分钟）
+
+**是什么**：从牛客网 343 篇 Agent 岗面经（180 作者、~80 家公司，8/18–10/18）统计出的 29 道高频题，每道带作者数、场次数、公司/轮次分布、原帖例问和牛客链接。另有算法岗、低频题、面试结构、月度趋势、方法论/局限性章节。
+
+**考得最多的**：
+1. **RAG pipeline** 和 **"你怎么用 AI Coding 工具"**——各超 1/3 作者被问
+2. **Skill / MCP / Function Calling 边界**、**Agent 评测**——9–10 月热度陡升
+3. **Harness**——1/4 作者被问，已成常规题
+4. 手撕代码基本还是 LeetCode，极少数现场手写 Agent Loop；30% 有项目深挖
+
+**方法论**（作者自述局限）：1818 候选 → 1138 全文精读，排除水军号和合集帖；关键词归类可能有误、发帖日期≠面试日期、纯图片帖和小红书未纳入。
+
+### 跟你的咬合
+
+- 这份题单≈你最近三个月在造的东西的目录：RAG（open-memex 检索）/ Skill+MCP（opencode-fuse D18）/ Agent 评测（thinktank Phase 3）/ Harness（Harness² 学习资料）
+- 市场在考的正好是你手里有的——这份题单可以当"能力对标清单"用：每道题问自己"能不能讲清楚"，讲不清的就是学习缺口
+- Harness 从"新概念"变成"1/4 面试官会问的常规题"只用了两个月——佐证了《谈 AI 工程化》里"概念一波波"的判断
