@@ -42,11 +42,11 @@ Seasoned software architect and tech leader with **20+ years** of experience in 
 
 | Article | Description |
 |---------|-------------|
-| [我给 Muse 写了个智囊团](./writings/i-built-muse-a-think-tank-zh.md) / [I Built Muse a Think Tank](./writings/i-built-muse-a-think-tank-en.md) | 给 Muse 接入多模型智囊团：分歧即信号，人的直觉无法外包 (2026-10) |
-| [我给 AI 配了个记忆](./writings/i-gave-my-ai-a-memory-zh.md) / [I Gave My AI a Memory](./writings/i-gave-my-ai-a-memory-en.md) | 给 AI 编程助手加长期记忆：本地 Markdown + 全文索引，烧饼计划的梗 (2026-10) |
-| [人与 AI 的关系](./writings/human-ai-relationship-notes.md) / [The Human-AI Relationship](./writings/human-ai-relationship-notes-en.md) | 长期记录：AI 取代苦力不取代人类、agency × taste 等 (2026-10 起) |
-| [Stone 随想](./writings/stone-musings.md) | 个人随想：第二大脑、亲手造、野心等 (2026-10 起) |
-| [AI 学习资料](./writings/ai-learning/) | 论文详解、方法论文档、工程原则：FDE-Gym、阿里云 Agent 手册、提示词工程、Anthropic 代码评审、ai-memory 等 19 份 (2026-10) |
+| [我给 Muse 写了个智囊团](./writings/i-built-muse-a-think-tank-zh.md) / [I Built Muse a Think Tank](./writings/i-built-muse-a-think-tank-en.md) | 给 Muse 接入多模型智囊团：分歧即信号，人的直觉无法外包 (2026-10) / Multi-model jury for Muse: disagreement as signal, human intuition can't be outsourced |
+| [我给 AI 配了个记忆](./writings/i-gave-my-ai-a-memory-zh.md) / [I Gave My AI a Memory](./writings/i-gave-my-ai-a-memory-en.md) | 给 AI 编程助手加长期记忆：本地 Markdown + 全文索引 (2026-10) / Long-term memory for AI coding assistants: local Markdown + full-text index |
+| [人与 AI 的关系](./writings/human-ai-relationship-notes.md) / [The Human-AI Relationship](./writings/human-ai-relationship-notes-en.md) | 长期记录：AI 取代苦力不取代人类、agency × taste 等 (2026-10 起) / Ongoing notes: AI replaces toil not humans, agency × taste, and more |
+| [Stone 随想](./writings/stone-musings.md) / [Stone's Musings](./writings/stone-musings-en.md) | 个人随想：第二大脑、亲手造、野心等 (2026-10 起) / Personal musings: second brain, building to learn, ambition, and more |
+| [AI 学习资料](./writings/ai-learning/) / [AI Learning Resources](./writings/ai-learning/) | 论文详解、方法论文档、工程原则：FDE-Gym、阿里云 Agent 手册等 19 份 (2026-10) / Paper deep-dives and methodology docs: FDE-Gym, Alibaba Agent Handbook, 19 in total |
 
 ## Experience
 
