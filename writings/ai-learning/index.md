@@ -1,9 +1,7 @@
 # AI 学习资料目录
 
-*整理：2026-10-19 · 共 22 份，全部在 `~/workspace/your_files/`*
+*整理：2026-10-19 · 共 23 份，全部在 `~/workspace/your_files/`*
 *文件名链到本地总结，原文链到出处*
-
-**[从分散到完整：Agent 能力收敛图](./convergence-map.html)** —— 12 步路线图盘点：已有 8/12，缺口 4/12（01 状态机、03 操作电脑、06 沙箱、07 安全防护）；三个项目（三器官）→ 一个完整 Agent 的收敛方向。
 
 ---
 
@@ -13,7 +11,7 @@
 |---|---|---|
 | [ai-learning-resources.md](sandbox://workspace/your_files/ai-learning-resources.md) | —（自建清单） | **总清单**：19 篇 systemdesign.one 一句话要点 + 小沐评价；另有四个"补"节：Router/调度（kafkaup）、FDE-Gym、阿里云手册、龙井AI入门。5 个缺口已全部补完 |
 
-## 二、论文 / 长文详解（5，近三天新收）
+## 二、论文 / 长文详解（6）
 
 | 本地总结 | 原文 | 说明 |
 |---|---|---|
@@ -21,6 +19,7 @@
 | [aliyun-ai-agent-handbook-summary.md](sandbox://workspace/your_files/aliyun-ai-agent-handbook-summary.md) | [GitHub 仓库](https://github.com/aliyun/ai-agent-handbook) | 阿里云《AI Agent Handbook》总结：30 章企业级 Agent 全生命周期指南；章节结构 + 核心观点 + 和你三个项目的咬合 |
 | [longjing-ai-primer-summary.md](sandbox://workspace/your_files/longjing-ai-primer-summary.md) | [X 长文](https://x.com/long_jingai/status/2111356255889723723) | 龙井《2小时从零看懂AI》总结：2.5 万字企业内训稿；大模型通识 + 提示词六技巧 + Agent 三维度评估 + WorkBuddy 实操 |
 | [opensre-summary.md](sandbox://workspace/your_files/opensre-summary.md) | [GitHub 仓库](https://github.com/Tracer-Cloud/opensre) | OpenSRE 总结：开源 AI SRE agent 工具包（"让 AI 值夜班"）；告警→拉取证据→脱敏→诊断→推 Slack 六步工作流；60+ 工具集成；咬合 Ping 割接 on-call、5070 本地 LLM、incident-to-eval |
+| [generative-agents-smallville.md](sandbox://workspace/your_files/ai-learning-resources.md#补generative-agents--smallville-论文2026-10-20-补) | [arXiv 论文](https://arxiv.org/abs/2304.03442) | Generative Agents / Smallville：Agent 记忆开山之作；Memory Stream 三维检索（recency/importance/relevance）+ Reflection 触发 + Planning 递归分解；Hot/Warm/Cold 是其显式分区版 |
 | [harness2-summary.md](sandbox://workspace/your_files/harness2-summary.md) | [GitHub 仓库](https://github.com/google-research/harness2) · [推文](https://x.com/AISuperDomain/status/2111642569654378716) | Google Harness² 总结：不改模型权重、只优化外围系统，Agent 基准最高 +11.8pp；Propose-Probe-Compose 自博弈；8 个可编辑组件；三个项目咬合点 |
 
 ## 三、方法论文档（9，X 帖提炼）

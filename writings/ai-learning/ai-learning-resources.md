@@ -286,3 +286,22 @@ Stone 是动手型学习者，这 19 篇全是文章、没有动手项。建议�
 12 步中已亲手做过 8 步：04（open-memex 三区记忆）、05（thinktank 陪审团）、10（thinktank PR #23 评测）、08（estimate go/no-go）、11（opencode-fuse fail-closed）、02（open-memex MCP）、12（site 双语写作）、09（升档重跑）。
 
 **两个缺口**：03 操作电脑界面（Playwright/DOM/Set-of-Mark）、06 沙箱执行（E2B/gVisor/Docker-in-Docker）——都是"让 Agent 真正动手"的执行层。
+
+## 补：Generative Agents / Smallville 论文（2026-10-20 补）
+
+来源：https://arxiv.org/abs/2304.03442（Park et al.，Stanford/Google，UIST '23）
+
+**是什么**：Agent 记忆系统的开山之作。25 个 agent 在 Smallville 小镇里生活两天， emergent 出传派对邀请、约会、协调到场等社会行为。
+
+**三件套架构**：
+1. **Memory Stream**：每条记忆 = 自然语言 + 创建时间戳 + 最后访问时间戳；检索 = recency（0.995 指数衰减）+ importance（写入时 LLM 打 1–10 分）+ relevance（embedding 余弦），等权重
+2. **Reflection**：最近事件 importance 总分 >150 触发（一天 2–3 次）；生成问题 → 检索 → 提炼 5 条带引用的高层洞察；可递归成树
+3. **Planning**：一天 5–8 大块 → 每小时 → 每 5–15 分钟递归分解；感知新事件时重排计划
+
+**实验**：派对消息 1→13 人（52%），5/12 到场；消融 TrueSkill 29.89 vs 21.21，Cohen's d = 8.16；代价：两天烧几千美元 token。
+
+### 跟你的咬合
+
+- Hot/Warm/Cold 三区 ≈ 他们的 recency/importance/relevance 三维打分的显式分区版
+- 他们没解决你解决的：importance 每条调一次 LLM 太贵；你的 top 8+5 是更省的工程实现
+- 可借鉴：reflection 触发机制（攒够 importance 分量再批量反思）→ auto-capture 的"攒够分量"触发
