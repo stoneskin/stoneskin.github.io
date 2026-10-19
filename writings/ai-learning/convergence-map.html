@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>从分散到完整：Agent 能力收敛图</title>
+<style>
+  body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; background: #f5f5f5; color: #2d3142; margin: 0; padding: 24px; }
+  .wrap { max-width: 920px; margin: 0 auto; }
+  h1 { font-size: 22px; margin-bottom: 4px; }
+  .sub { color: #666; font-size: 13px; margin-bottom: 20px; }
+  .legend { display: flex; gap: 16px; margin-bottom: 16px; font-size: 13px; }
+  .dot { display: inline-block; width: 12px; height: 12px; border-radius: 50%; margin-right: 6px; vertical-align: middle; }
+  .step { display: flex; align-items: stretch; margin-bottom: 8px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background: #fff; }
+  .num { width: 48px; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 18px; flex-shrink: 0; }
+  .body { flex: 1; padding: 10px 14px; }
+  .name { font-weight: bold; font-size: 15px; }
+  .name .en { font-weight: normal; color: #888; font-size: 12px; margin-left: 8px; }
+  .detail { font-size: 13px; color: #555; margin-top: 4px; }
+  .status { width: 190px; display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: bold; flex-shrink: 0; padding: 10px; text-align: center; line-height: 1.5; }
+  .done { border-left: 4px solid #2e7d32; }
+  .done .num { color: #2e7d32; }
+  .done .status { color: #2e7d32; background: #e8f5e9; }
+  .gap { border-left: 4px solid #bf4520; }
+  .gap .num { color: #bf4520; }
+  .gap .status { color: #bf4520; background: #fff3e0; }
+  .conv { margin-top: 24px; padding: 20px; background: #fff; border: 1px solid #ddd; border-radius: 8px; text-align: center; }
+  .projects { display: flex; justify-content: center; gap: 12px; margin: 12px 0; flex-wrap: wrap; }
+  .proj { border: 2px solid #2d3142; border-radius: 6px; padding: 8px 16px; font-size: 14px; font-weight: bold; }
+  .proj small { display: block; font-weight: normal; font-size: 11px; color: #666; margin-top: 2px; }
+  .arrow { font-size: 28px; color: #bf4520; margin: 4px 0; }
+  .target { display: inline-block; background: #2d3142; color: #fff; border-radius: 6px; padding: 12px 28px; font-size: 15px; font-weight: bold; margin-top: 8px; }
+  .target small { display: block; font-weight: normal; font-size: 12px; opacity: 0.8; margin-top: 4px; }
+  .note { margin-top: 16px; font-size: 12px; color: #888; text-align: center; line-height: 1.8; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>从分散到完整：Agent 能力收敛图</h1>
+  <div class="sub">From Scattered to Complete · 2026-10-20 · 基于 Suraj Sharma 12 步路线图 + Harness² 8 组件盘点</div>
+
+  <div class="legend">
+    <span><span class="dot" style="background:#2e7d32"></span>已有（8/12）</span>
+    <span><span class="dot" style="background:#bf4520"></span>缺口（4/12）</span>
+  </div>
+
+  <div class="step gap">
+    <div class="num">01</div>
+    <div class="body"><div class="name">架构和状态机<span class="en">Architecture & State Machines</span></div><div class="detail">DAG / LangGraph / Temporal / 状态序列化</div></div>
+    <div class="status">🔶 缺口<br><span style="font-weight:normal;font-size:12px">while-True 循环 ≠ 状态机</span></div>
+  </div>
+
+  <div class="step done">
+    <div class="num">02</div>
+    <div class="body"><div class="name">工具调用和 MCP<span class="en">Tool Use & MCP</span></div><div class="detail">JSON-RPC / Pydantic 校验 / MCP 服务端和客户端</div></div>
+    <div class="status">✅ open-memex<br><span style="font-weight:normal;font-size:12px">MCP server</span></div>
+  </div>
+
+  <div class="step gap">
+    <div class="num">03</div>
+    <div class="body"><div class="name">操作电脑界面<span class="en">Computer Use</span></div><div class="detail">DOM 解析 / Set-of-Mark / Playwright</div></div>
+    <div class="status">🔶 缺口<br><span style="font-weight:normal;font-size:12px">"手"还没有</span></div>
+  </div>
+
+  <div class="step done">
+    <div class="num">04</div>
+    <div class="body"><div class="name">记忆和上下文<span class="en">Memory & Context</span></div><div class="detail">三层记忆 / 向量淘汰 / 上下文压缩 / token 预算</div></div>
+    <div class="status">✅ open-memex<br><span style="font-weight:normal;font-size:12px">Hot/Warm/Cold 三区</span></div>
+  </div>
+
+  <div class="step done">
+    <div class="num">05</div>
+    <div class="body"><div class="name">多 Agent 协作<span class="en">Multi-Agent</span></div><div class="detail">A2A 协议 / 带类型状态传递 / 投票共识</div></div>
+    <div class="status">✅ thinktank<br><span style="font-weight:normal;font-size:12px">多模型陪审团</span></div>
+  </div>
+
+  <div class="step gap">
+    <div class="num">06</div>
+    <div class="body"><div class="name">沙箱执行<span class="en">Sandboxed Execution</span></div><div class="detail">E2B / gVisor / Docker-in-Docker / 资源限制</div></div>
+    <div class="status">🔶 缺口<br><span style="font-weight:normal;font-size:12px">"脚"还没有隔离</span></div>
+  </div>
+
+  <div class="step gap">
+    <div class="num">07</div>
+    <div class="body"><div class="name">Agent 安全防护<span class="en">Security & Guardrails</span></div><div class="detail">间接提示词注入 / 工具投毒 / 清洗代理 / 最小权限</div></div>
+    <div class="status">🔶 缺口<br><span style="font-weight:normal;font-size:12px">local-first 是姿态 ≠ 机制</span></div>
+  </div>
+
+  <div class="step done">
+    <div class="num">08</div>
+    <div class="body"><div class="name">人工审批<span class="en">Human-in-the-Loop</span></div><div class="detail">异步审批 / Webhook / 持久化暂停</div></div>
+    <div class="status">✅ thinktank<br><span style="font-weight:normal;font-size:12px">estimate go/no-go</span></div>
+  </div>
+
+  <div class="step done">
+    <div class="num">09</div>
+    <div class="body"><div class="name">自我纠错<span class="en">Self-Correction</span></div><div class="detail">批评者 Agent / 报错堆栈分析 / 带上下文重试</div></div>
+    <div class="status">✅ opencode-fuse<br><span style="font-weight:normal;font-size:12px">升档重跑</span></div>
+  </div>
+
+  <div class="step done">
+    <div class="num">10</div>
+    <div class="body"><div class="name">执行轨迹评测<span class="en">Trajectory Evals</span></div><div class="detail">逐步打分 / 标准路径 / 轨迹距离 / LLM-as-judge</div></div>
+    <div class="status">✅ thinktank<br><span style="font-weight:normal;font-size:12px">PR #23 进行中</span></div>
+  </div>
+
+  <div class="step done">
+    <div class="num">11</div>
+    <div class="body"><div class="name">降级兜底<span class="en">Degradation & Fallbacks</span></div><div class="detail">熔断 / 模型级联 / 成本熔断</div></div>
+    <div class="status">✅ opencode-fuse<br><span style="font-weight:normal;font-size:12px">fail-closed</span></div>
+  </div>
+
+  <div class="step done">
+    <div class="num">12</div>
+    <div class="body"><div class="name">公开复盘<span class="en">Public Teardowns</span></div><div class="detail">架构决策记录 / 单任务成本分析 / 公开基准</div></div>
+    <div class="status">✅ site + AGENTS.md<br><span style="font-weight:normal;font-size:12px">双语写作 /  incident-to-eval</span></div>
+  </div>
+
+  <div class="conv">
+    <div style="font-weight:bold; font-size: 16px;">收敛方向：三个器官 → 一个完整 Agent</div>
+    <div class="projects">
+      <div class="proj">opencode-fuse<small>神经系统：路由 / 降级 / 纠错</small></div>
+      <div class="proj">open-memex<small>记忆系统：三区记忆 / MCP</small></div>
+      <div class="proj">thinktank<small>免疫系统：评测 / 陪审 / 复盘</small></div>
+    </div>
+    <div class="arrow">⬇</div>
+    <div class="target">一个完整的 Agent Harness<small>补上 01 状态机 + 03 操作电脑 + 06 沙箱 + 07 安全防护 = 12/12</small></div>
+  </div>
+
+  <div class="note">
+    4 个缺口都是"让 agent 在真实世界安全跑起来"的基础设施：跑得稳（01）、动手（03）、隔离（06）、不被攻击（07）。<br>
+    已有的 8 步全是"脑子"，缺的全是"身体"。<br>
+    来源：<a href="https://x.com/suraj_sharma14/status/2111789399176335412">Suraj Sharma 原帖</a> · <a href="https://x.com/UPing123zzz/status/2112157681729564861">Ethan 恩宇中文解读</a>
+  </div>
+</div>
+</body>
+</html>
