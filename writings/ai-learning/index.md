@@ -1,6 +1,6 @@
 # AI 学习资料目录
 
-*整理：2026-10-19 · 共 21 份，全部在 `~/workspace/your_files/`*
+*整理：2026-10-19 · 共 22 份，全部在 `~/workspace/your_files/`*
 *文件名链到本地总结，原文链到出处*
 
 ---
@@ -21,7 +21,7 @@
 | [opensre-summary.md](sandbox://workspace/your_files/opensre-summary.md) | [GitHub 仓库](https://github.com/Tracer-Cloud/opensre) | OpenSRE 总结：开源 AI SRE agent 工具包（"让 AI 值夜班"）；告警→拉取证据→脱敏→诊断→推 Slack 六步工作流；60+ 工具集成；咬合 Ping 割接 on-call、5070 本地 LLM、incident-to-eval |
 | [harness2-summary.md](sandbox://workspace/your_files/harness2-summary.md) | [GitHub 仓库](https://github.com/google-research/harness2) · [推文](https://x.com/AISuperDomain/status/2111642569654378716) | Google Harness² 总结：不改模型权重、只优化外围系统，Agent 基准最高 +11.8pp；Propose-Probe-Compose 自博弈；8 个可编辑组件；三个项目咬合点 |
 
-## 三、方法论文档（8，X 帖提炼）
+## 三、方法论文档（9，X 帖提炼）
 
 | 本地总结 | 原文 | 说明 |
 |---|---|---|
@@ -32,6 +32,7 @@
 | [prompt-framework-and-agent-migration.md](sandbox://workspace/your_files/prompt-framework-and-agent-migration.md) | —（AIExplorerTim 帖 + 10-13 方法论） | Prompt 框架与 Agent 迁移手册 |
 | [second-brain-deleted-summary.md](sandbox://workspace/your_files/second-brain-deleted-summary.md) | [原文](https://westenberg.beehiiv.com/p/i-deleted-my-second-brain) | Westenberg 删光第二大脑："forget on purpose"；curation > capture；open-memex 红队（该忘什么是—等公民） |
 | —（见 ai-learning-resources.md"补"节） | [X 长文](https://x.com/cxjwin/status/2111644503341953409) | 码良《Agent 高频面试题单》：343 篇牛客面经统计的 29 道高频题；RAG/AI Coding 工具/Skill-MCP 边界/Agent 评测/Harness；能力对标清单 |
+| —（见 ai-learning-resources.md"补"节） | [英文原帖](https://x.com/suraj_sharma14/status/2111789399176335412) · [中文解读](https://x.com/UPing123zzz/status/2112157681729564861) | Suraj Sharma《AI Agent 工程师 12 步学习路线图》：12 步（学什么/练手/为什么）；已做 8 步，缺口 03 操作电脑界面、06 沙箱执行 |
 | —（见 ai-learning-resources.md"补"节） | [GitHub](https://github.com/evoiz/Agentic-Design-Patterns) · [推荐帖](https://x.com/Huahuazo/status/2112037776044749145) | Antonio Gulli《Agentic Design Patterns》：21 章 + 7 附录开源教材，每章可运行 Jupyter；Prompt Chain/路由/反思、多 Agent/记忆/RAG、安全护栏；清单里第一本系统教材，当"查漏"的底 |
 
 ## 四、工程原则与习惯（4）
