@@ -305,3 +305,23 @@ Stone 是动手型学习者，这 19 篇全是文章、没有动手项。建议�
 - Hot/Warm/Cold 三区 ≈ 他们的 recency/importance/relevance 三维打分的显式分区版
 - 他们没解决你解决的：importance 每条调一次 LLM 太贵；你的 top 8+5 是更省的工程实现
 - 可借鉴：reflection 触发机制（攒够 importance 分量再批量反思）→ auto-capture 的"攒够分量"触发
+
+## 补：Meta《The Thin Orchestrator》（2026-10-20 补）
+
+来源：https://engineering.fb.com/2026/10/19/ml-applications/thin-orchestrator-ai-agent-architecture/（Meta Engineering，2026-10-19）
+本地总结：thin-orchestrator-summary.md
+
+**是什么**：Meta 数据列接入系统的 Agent 架构复盘：第一版"全知单 agent"上生产幻觉（概念互相污染），重构成 1,300 行薄编排器 + 14 个隔离上下文的专家子 agent。
+
+**核心机制**：
+1. 编排器零领域工作：固定 7 步协议（读指令/查存在/收字段/自动发现/可靠性门/委派/处理结果），只有委派那一步涉及 LLM 推理，且发生在子 agent 隔离上下文里
+2. 子 agent 结构统一：知识源（运行时按需加载）+ 预收集清单 + 分步工作流 + 发现模式 + 排错映射，加新专家是模板活
+3. 新用例不造新 agent，只写 workflow template（确定性状态机定义阶段顺序）；Pipeline Migration 全新场景新 agent 代码为零
+
+**数据**：引用研究 80 任务批量下多 agent 65.3% vs 单 agent 16.6%、token 最高降 65 倍；列配置准备 3–4 天 → 不到 1 小时；约 2/3 变更无需人工大改。
+
+### 跟你的咬合
+
+- 12 步路线图缺口 01（状态机）的生产级样本：workflow template = 确定性状态机，编排层不推理恰是可靠性来源
+- thinktank 陪审（隔离推理 + 汇总层只聚合）、opencode-fuse 三档路由（路由器只决定给谁、不替模型想）与此同源
+- 共同思想：harness 层越克制，模型层越自由；可靠性来自边界，不来自更聪明的 prompt

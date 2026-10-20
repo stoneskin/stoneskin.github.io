@@ -1,6 +1,6 @@
 # AI 学习资料目录
 
-*整理：2026-10-19 · 共 23 份，全部在 `~/workspace/your_files/`*
+*整理：2026-10-20 · 共 24 份，全部在 `~/workspace/your_files/`*
 *文件名链到本地总结，原文链到出处*
 
 ---
@@ -11,7 +11,7 @@
 |---|---|---|
 | [ai-learning-resources.md](sandbox://workspace/your_files/ai-learning-resources.md) | —（自建清单） | **总清单**：19 篇 systemdesign.one 一句话要点 + 小沐评价；另有四个"补"节：Router/调度（kafkaup）、FDE-Gym、阿里云手册、龙井AI入门。5 个缺口已全部补完 |
 
-## 二、论文 / 长文详解（6）
+## 二、论文 / 长文详解（7）
 
 | 本地总结 | 原文 | 说明 |
 |---|---|---|
@@ -21,6 +21,7 @@
 | [opensre-summary.md](sandbox://workspace/your_files/opensre-summary.md) | [GitHub 仓库](https://github.com/Tracer-Cloud/opensre) | OpenSRE 总结：开源 AI SRE agent 工具包（"让 AI 值夜班"）；告警→拉取证据→脱敏→诊断→推 Slack 六步工作流；60+ 工具集成；咬合 Ping 割接 on-call、5070 本地 LLM、incident-to-eval |
 | [generative-agents-smallville.md](sandbox://workspace/your_files/ai-learning-resources.md#补generative-agents--smallville-论文2026-10-20-补) | [arXiv 论文](https://arxiv.org/abs/2304.03442) | Generative Agents / Smallville：Agent 记忆开山之作；Memory Stream 三维检索（recency/importance/relevance）+ Reflection 触发 + Planning 递归分解；Hot/Warm/Cold 是其显式分区版 |
 | [harness2-summary.md](sandbox://workspace/your_files/harness2-summary.md) | [GitHub 仓库](https://github.com/google-research/harness2) · [推文](https://x.com/AISuperDomain/status/2111642569654378716) | Google Harness² 总结：不改模型权重、只优化外围系统，Agent 基准最高 +11.8pp；Propose-Probe-Compose 自博弈；8 个可编辑组件；三个项目咬合点 |
+| [thin-orchestrator-summary.md](sandbox://workspace/your_files/thin-orchestrator-summary.md) | [Meta Engineering 博客](https://engineering.fb.com/2026/10/19/ml-applications/thin-orchestrator-ai-agent-architecture/) | Meta《The Thin Orchestrator》：1,300 行确定性编排器 + 14 个隔离上下文专家子 agent；新用例只写 workflow template 不造新 agent；12 步缺口 01 状态机的生产级样本 |
 
 ## 三、方法论文档（9，X 帖提炼）
 
