@@ -47,6 +47,7 @@ Seasoned software architect and tech leader with **20+ years** of experience in 
 | [人与 AI 的关系](./writings/human-ai-relationship-notes.md) / [The Human-AI Relationship](./writings/human-ai-relationship-notes-en.md) | 长期记录：AI 取代苦力不取代人类、agency × taste 等 (2026-10 起) / Ongoing notes: AI replaces toil not humans, agency × taste, and more |
 | [Stone 随想](./writings/stone-musings.md) / [Stone's Musings](./writings/stone-musings-en.md) | 个人随想：第二大脑、亲手造、野心等 (2026-10 起) / Personal musings: second brain, building to learn, ambition, and more |
 | [AI 学习资料](./writings/ai-learning/) / [AI Learning Resources](./writings/ai-learning/) | 论文详解、方法论文档、工程原则：FDE-Gym、阿里云 Agent 手册等 23 份 (2026-10) / Paper deep-dives and methodology docs: FDE-Gym, Alibaba Agent Handbook, 23 in total |
+| [学习笔记](./writings/learning-notes/) / [Learning Notes](./writings/learning-notes/) | 每日学习笔记：三层验收（原理/实现/trade-off）(2026-10 起) / Daily learning notes: the three-layer test (principle/implementation/trade-offs) |
 
 ## Experience
 
