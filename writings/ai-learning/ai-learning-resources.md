@@ -325,3 +325,20 @@ Stone 是动手型学习者，这 19 篇全是文章、没有动手项。建议�
 - 12 步路线图缺口 01（状态机）的生产级样本：workflow template = 确定性状态机，编排层不推理恰是可靠性来源
 - thinktank 陪审（隔离推理 + 汇总层只聚合）、opencode-fuse 三档路由（路由器只决定给谁、不替模型想）与此同源
 - 共同思想：harness 层越克制，模型层越自由；可靠性来自边界，不来自更聪明的 prompt
+
+## 补：决策模型（Decision Models）与 Jev（2026-10-21 补）
+
+来源：https://hamel.dev（Hamel Husain & Antaripa Saha《How To Use Decision Models for Evals》，2026-10-21）；经 @dongxi_nlp 推文 https://x.com/dongxi_nlp/status/2112652766997103016 推荐，扒原文
+本地总结：decision-models-and-jev-summary.md
+
+**是什么**：2026 年 9 月起的新品类——模型不写文本，只输出概率/选项/分数，当 LLM-as-a-Judge 的替代。Jev（TypeSafe，9/15）开创，一个月内 14 个跟进（Perplexity Decider、Cloudflare Clef、OpenAI Decisions API、Microsoft Decision-1 等），多数是小开源模型后训练的"打分头"。
+
+**Hamel 方法论四点**：① 阈值自己调不用默认 0.5（交叉验证 + F1/F-beta，按 precision/recall 要求量出来）② 选型看 Pareto 前沿：Perplexity 最便宜（0.82 美分/100 次，F1 0.79），OpenAI F1 最高（0.87）贵 4.5 倍 ③ 概率当置信度前先验校准（Platt scaling 帮了三家、害了 OpenAI）④ 一个失败模式一个 judge，先调 prompt 再换模型。
+
+**Jev 画像**：输入状态 + 类型化问题（Noul 是非概率 / Choice ≤255 选项 / Score 量表），一次前向并行判完，$0.042/百万输入 token、输出免费；实测校准好（置信 ≥0.9 时对 94–96%）、审核强，但选项顺序敏感（颠倒改 8.5% 答案）、数学与质量评分弱；最佳用法是当大模型的前置过滤器（38–45% 成本打平准确率）。
+
+### 跟你的咬合
+
+- thinktank judge 层新选项：成员出意见 + 决策模型出概率做加权/熔断
+- 冷静派纪律：类别稳定 + 有几千条标注，先训分类器（Banking77 逻辑回归 94.7% 胜零样本决策模型）；决策模型甜区 = 零样本、类别常变、判"以上都不是"
+- 5070 可 DIY：Qwen3.5-0.8B + 决策头 + LoRA，4GB 显存 42 分钟（Unsloth 教程）
