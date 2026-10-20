@@ -61,3 +61,24 @@ DIY 门槛极低：Unsloth 教程给 Qwen3.5-0.8B 加决策头 + LoRA，4GB 显�
 - **12 步路线图第 10 步（执行轨迹评测）**的一线实践样本：Hamel 的阈值调优 + 校准验证就是把评测当正经 ML 工程做
 - **5070 可玩**：12GB 显存足够按 Unsloth 路线自己训一个小决策模型，适合练手理解校准与阈值
 - **选型纪律**（呼应 simplest-first）：类别稳定 + 有标注，先训分类器；零样本、类别多变、要 out-of-scope，才上决策模型
+
+## 六、追问答疑（2026-10-21 Stone 问，小沐查实）
+
+**Q1：Jev 这类模型要自己训练/蒸馏吗？**
+不用。现成三条路：① 托管 API 直接调（TypeSafe 直连、OpenAI Decisions API、Perplexity、Cloudflare、微软），零样本可用；② 开源权重自己跑推理（pplx-decider、Clef 家族、Laya、Strands Decider 均 Apache 2.0），下载即用；③ 自己训只是可选项，不是入场券。
+
+**Q2：OpenRouter 上有吗？**
+有。Jev 已上架：模型名 typesafe/jev-1.14（别名 ~typesafe/jev-latest），OpenRouter key 即可调用、走 OpenRouter 账单。注意它不走普通 chat 接口，有专用 decisions 端点（POST /api/alpha/decisions），因为请求形状是 state + questions 而非 messages。Stone 家里 thinktank / opencode-fuse 本就走 OpenRouter，key 与账户现成。
+
+**Q3：它们是怎么做出来的（一半算蒸馏）？**
+小底座（多为 Qwen 系 2B–27B）+ 把生成头换成/加上决策头，后训练两步：① 用标注判断数据微调（标签很多由大模型当老师生成，这部分算蒸馏）；② 强化学习专攻校准（TypeSafe 称 RLCD），让输出的概率是真概率——这是与"小模型凑合当裁判"的本质区别。
+
+**Q4：什么时候才值得自己训？**
+三条件同时成立：类别很专有、市面模型没见过；手里有成千上万条标注数据；调用量大到 API 费肉疼。
+
+## 七、回国后练手计划（2026-10-21 定，回美后排期）
+
+- **目标**：在 RTX 5070（12GB）上按 Unsloth 路线给 Qwen3.5-0.8B 加决策头 + LoRA，亲手跑通"造一个小决策模型"的全流程（参考基准：4GB 显存 42 分钟，类型化决策准确率 36% 提到 73%）
+- **训练素材**：thinktank 历史评审数据（已有的人工/judge 结论当标签），练完顺带评估能不能给 thinktank 当一道便宜的前置概率门
+- **验收（teach-to-learn）**：Stone 能讲明白三层——原理（决策头与生成头的区别、概率为什么需要校准）、实现（数据怎么标、LoRA 训什么、阈值怎么用交叉验证量出来）、trade-off（什么场景自训胜过调 API、什么场景老实训传统分类器）
+- 状态：待 Stone 回美后启动
