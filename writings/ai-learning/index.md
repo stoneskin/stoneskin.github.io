@@ -1,6 +1,6 @@
 # AI 学习资料目录
 
-*整理：2026-10-21 · 共 26 份，全部在 `~/workspace/your_files/`*
+*整理：2026-10-22 · 共 28 份，全部在 `~/workspace/your_files/`*
 *文件名链到本地总结，原文链到出处*
 
 ---
@@ -60,6 +60,8 @@
 |---|---|---|
 | [open-memex-boundary-audit-2026-10-16.md](sandbox://workspace/your_files/open-memex-boundary-audit-2026-10-16.md) | —（小沐审计） | open-memex 边界审计：tool description 瘦身、pipeline tools 定位、企业版约束 |
 | [ai-memory-summary.md](sandbox://workspace/your_files/ai-memory-summary.md) | [GitHub akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory) | akitaonrails/ai-memory（10k star，Rust）：跨 agent handoff 杀手功能、20+ harness 集成、零 LLM 记忆老化（access-weighted retention 正是三区换入换出策略的工程答案） |
+| [mit-6s950-harness-lecture-summary.md](sandbox://workspace/your_files/mit-6s950-harness-lecture-summary.md)（附海报 mit-6s950-harness-lecture-poster.jpg） | [MIT 讲义原文](https://agencyai.mit.edu/w5/) · [shao__meng 介绍推](https://x.com/shao__meng/status/2112821429121204275) | MIT 6.S950 Lecture 5《The Harness》导读（第 27 份）：Baby Anigans 300 行教学 Agent；可观测性五维检查与厂商封存（正补清单自评缺口）；可控性三原则的经典谱系（1965/1968/1972/1975）；无通用最优 harness 与校准数据（±2%~±5%、成本 2 倍）——Harness² 的反面教材 |
+| [mit-6s950-course-panorama-guide.md](sandbox://workspace/your_files/mit-6s950-course-panorama-guide.md) | [课程官网原文](https://agencyai.mit.edu/) · [shao__meng 全景导读](https://x.com/shao__meng/status/2103461095566676365) | MIT 6.S950《Agency with AI》课程全景（第 28 份，原文 + 导读成对）：Agency = 委托/验证/保留的判断力；官网明列 spec-driven development；Lec 4 "Specs before prompts"；评测即实验设计、审计产出物与评判者；导读 Lec 3–12 解读含作者推断，已标注——与第 27 份配套 |
 
 ---
 
