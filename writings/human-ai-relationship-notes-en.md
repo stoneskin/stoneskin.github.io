@@ -42,6 +42,8 @@ Three things, unpacked: clear intent — know what you want, so you can spot whe
 - 15. The programmer as a grandmaster playing five boards at once: placing pieces can be outsourced, reading the board cannot
 - 19. Where does my ambition sit? Three suggestions
 - 20. Beware the "I'm always right" illusion: an assistant shouldn't just be a mirror
+- 23. In the loop, the human is the correction, not the bottleneck
+- 24. Two AIs, two ways of being wrong
 
 **[Part Four: Outside Input — Cases and Readings](human-ai-relationship-notes-part4-en.md)** — cases and articles I've read, distilled, with source links.
 
