@@ -1,0 +1,3 @@
+# Python bytecode caches (build artifacts, not source)
+__pycache__/
+*.pyc
