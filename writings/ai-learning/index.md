@@ -16,6 +16,7 @@
 | 本地总结 | 原文 | 说明 |
 |---|---|---|
 | [fde-gym-paper-summary.md](sandbox://workspace/your_files/fde-gym-paper-summary.md) | [arXiv 论文](https://arxiv.org/abs/2610.22350) · [解读帖](https://x.com/Xudong07452910/status/2111306709318951189) | FDE-Gym 论文详解：95 个真实交付任务测 AI 能不能干 FDE 的活；最好模型 0.56 分；文摘中文翻译 + 五个发现 + 对职业发展的 5 点启示 |
+| [hedy-fde-knowledge-base-retrospective-work-notes.md](sandbox://workspace/your_files/hedy-fde-knowledge-base-retrospective-work-notes.md) | [X 长文](https://x.com/xiaomanhedy/status/2113174733344673956) | Hedy Zhang（一线 FDE）企业知识库复盘·工作版要点：知识库死于交付后无人运营、不死于检索；立项八步链路、答错先验源头、人工答过的问题五步回流、建设/维护/知识运营/新增需求四分报价；与 FDE-Gym 同为 FDE 主题，一个讲人怎么做、一个测 AI 能不能做 |
 | [aliyun-ai-agent-handbook-summary.md](sandbox://workspace/your_files/aliyun-ai-agent-handbook-summary.md) | [GitHub 仓库](https://github.com/aliyun/ai-agent-handbook) | 阿里云《AI Agent Handbook》总结：30 章企业级 Agent 全生命周期指南；章节结构 + 核心观点 + 和你三个项目的咬合 |
 | [longjing-ai-primer-summary.md](sandbox://workspace/your_files/longjing-ai-primer-summary.md) | [X 长文](https://x.com/long_jingai/status/2111356255889723723) | 龙井《2小时从零看懂AI》总结：2.5 万字企业内训稿；大模型通识 + 提示词六技巧 + Agent 三维度评估 + WorkBuddy 实操 |
 | [opensre-summary.md](sandbox://workspace/your_files/opensre-summary.md) | [GitHub 仓库](https://github.com/Tracer-Cloud/opensre) | OpenSRE 总结：开源 AI SRE agent 工具包（"让 AI 值夜班"）；告警→拉取证据→脱敏→诊断→推 Slack 六步工作流；60+ 工具集成；咬合 Ping 割接 on-call、5070 本地 LLM、incident-to-eval |
