@@ -44,6 +44,8 @@ Three things, unpacked: clear intent — know what you want, so you can spot whe
 - 20. Beware the "I'm always right" illusion: an assistant shouldn't just be a mirror
 - 23. In the loop, the human is the correction, not the bottleneck
 - 24. Two AIs, two ways of being wrong
+- 28. When everyone has an AI trading stocks, what is still worth anything?
+- 29. AI doesn't ask your age — only whether your mind is open
 
 **[Part Four: Outside Input — Cases and Readings](human-ai-relationship-notes-part4-en.md)** — cases and articles I've read, distilled, with source links.
 
