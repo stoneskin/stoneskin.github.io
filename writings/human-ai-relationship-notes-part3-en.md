@@ -140,3 +140,28 @@ Three things I am taking from that night:
 Which closes the loop with #23: that night, two AIs, two failure modes, and the correction came from the human both times. The human can hold the correction seat not only because of judgment, but because **only the human has a stake in the facts**: for an AI, reversing itself costs nothing and being wrong does not hurt; the decisions are the human's and so is the bill — that is why the human remembers, and insists. Correction rests on two materials: an archive, and the insistence on using it — plus one more: ownership. The bill for direction, final calls, and corrections lands on the human; not a burden, but the very reason the correction seat exists.
 
 ---
+
+## 28. When everyone has an AI trading stocks, what is still worth anything? (2026-10-24)
+
+Start with the premise: the question isn't whether everyone has an AI — it's whether everyone's AI looks alike. Hundreds of millions of people using a handful of models, reading the same data, asking the same kinds of questions — homogeneity is the variable.
+
+- **Signals get crowded.** Once a signal is found, everyone is on it instantly, and it dies instantly. Institutional quant already works this way — factor crowding, same-strategy same-exit stampedes. AI just extends the process from a few hundred funds to everyone, and alpha's half-life gets absurdly short.
+- **Markets get more efficient and more fragile at the same time.** Earnings are priced in within seconds; but in extremes, every AI reaches the same conclusion in the same millisecond — sell first. The 2010 flash crash and the 2018 Volmageddon were small-scale rehearsals. Liquidity disappears exactly when it is needed most, because the people providing it have AIs that are pulling out too.
+- **One piece of arithmetic AI can't change.** All investors added together can only earn the market return minus costs — there is no everyone-beats-the-index. AI doesn't produce total alpha, it only redistributes it. And more and more of the research AI reads is written by another AI; the echo chamber makes some narratives self-reinforcing, pushing prices further from fundamentals.
+- **Who ends up making money.** The shovel-sellers — data, compute, platforms that live on trading frequency — plus people with proprietary data and discipline. When every retail investor has an AI, it becomes standard equipment, the way a quote terminal once was; marginal edge goes to zero, and what remains is the old trio: position sizing, discipline, and holding on.
+
+Discipline has to change too. Tactical layer: discount signals everyone can compute — support, RSI, moving averages; lines become bands; volume gets less weight; confirmation windows go in stages. Principles matter more, not less: simple rules, expressing uncertainty through position size, close-based decisions, primary-source verification. Plus new AI-era rules: crowdedness discount, news cooling-off, personal circuit breaker, signal diet, thesis written in advance.
+
+The close: when judgment is outsourced wholesale, independent judgment and correction become scarce goods — taste in life, money in trading. Same line as #23: the human sits in the correction seat, and that holds in trading too.
+
+---
+
+## 29. AI doesn't ask your age — only whether your mind is open (2026-10-24)
+
+Today I taught my dad to use Doubao. Two things: log in on the phone, and you can also log in on the web on the computer — both sides sync; uploading files is easier on the computer. I taught him to get Doubao to chart his heart rate and blood pressure. I had him talk with Doubao, and let Doubao help him think through how to write his memoir.
+
+The point isn't how many features it has, it's how low the bar is: if you can talk, you can use it. Older people don't need to learn typing or learn operations — the material accumulates as they chat. Voice is the most natural bridge between the elderly and AI — technology kept them outside the door for decades, and now the door is open.
+
+The memoir itself changes too: it used to be "want to write but can't"; now it's "talk it out." AI helps him organize scattered memories into structure; the human just tells and decides. What comes out of chatting should be exported and archived regularly — don't leave it only in the app's memory. Memory in your own hands is truly your own.
+
+The close: AI is changing life for people of every generation, and the condition isn't youth or technical skill — it's an open mind toward AI. With an open mind, you can put AI to work at any age; without one, no matter how young you are, you'll only treat it as a toy.
