@@ -49,6 +49,10 @@ Three things, unpacked: clear intent — know what you want, so you can spot whe
 
 - 17. The neo-feudal layering of the AI era (one person's take: pretty framework, dubious predictions)
 - 18. Ambition in four measures: Rieseberg's driver's manual
+- 22. AI native isn't using AI — it's assuming AI is in the room
+- 25. A six-stage framework for agent memory: ask why memory is needed first
+- 26. Four habits of Vibe Coding: models are commodities, harness is the moat
+- 27. The shorter the principle, the smarter the model must be: pstack's "engineering principles" compression
 
 ---
 

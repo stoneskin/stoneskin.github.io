@@ -47,7 +47,7 @@ Two doubts: the author works on Claude, so "models keep reaching higher abstract
 
 ---
 
-## 19. AI native isn't using AI — it's assuming AI is in the room (2026-10-16)
+## 22. AI native isn't using AI — it's assuming AI is in the room (2026-10-16)
 
 
 Reflections on a long post by Kafka (@kafkaup). He argues "AI native" is becoming marketing fluff — just as cloud native isn't "moving software to the cloud," true AI native means redesigning products, workflows, and problem-solving around AI from the start.
@@ -65,7 +65,7 @@ One correction (Stone's own words, 2026-10-16): the "only step in on disagreemen
 
 ---
 
-## 20. A six-stage framework for agent memory: ask why memory is needed first (2026-10-16)
+## 25. A six-stage framework for agent memory: ask why memory is needed first (2026-10-16)
 
 
 Reflections on a long post by Kafka (@kafkaup). He argues that before choosing tech (vector DB, graph DB, stuffing chat history), one should ask why the agent needs memory at all: experience continuity, efficiency, personalization, long-term task tracking, business moat. Memory's core value is continuity across long-term interaction, not remembering everything.
@@ -82,7 +82,7 @@ How it connects to these notes:
 
 ---
 
-## 21. Four habits of Vibe Coding: models are commodities, harness is the moat (2026-10-16)
+## 26. Four habits of Vibe Coding: models are commodities, harness is the moat (2026-10-16)
 
 
 Reflections on a long post by Kxians (@xulijian1994). His thesis: after long use of Vibe Coding, what most affects efficiency isn't how strong the model is, but one's own habits. Four of them: (1) don't reinvent the wheel — have AI search GitHub for mature solutions first; (2) rotate conversation windows — one endless chat leads to compression amnesia and goal drift; switch after 2–3 independent features, prerequisite being docs + persistent memory; (3) don't let AI blindly read whole files — search keywords/directories first, read only what's relevant; (4) periodically "distill" history (he calls this the most valuable) — have AI analyze conversation history, turn frequent tasks into Skills, write recurring mistakes into AGENTS.md, crystallize experience into conventions.
@@ -97,7 +97,7 @@ How it connects to these notes:
 
 ---
 
-## 22. The shorter the principle, the smarter the model must be: pstack's "engineering principles" compression (2026-10-16)
+## 27. The shorter the principle, the smarter the model must be: pstack's "engineering principles" compression (2026-10-16)
 
 
 Reflections on a post by meng shao (@shao__meng) relaying poteto (author of pstack, Cursor's official plugin). Core insight: the stronger the model, the more agent instructions should compress from "lengthy procedures" into "short, named principles" — each 10–20 lines, distilled good practice, not workflow scripts.
