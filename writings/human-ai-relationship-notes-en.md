@@ -47,6 +47,7 @@ Three things, unpacked: clear intent — know what you want, so you can spot whe
 - 28. When everyone has an AI trading stocks, what is still worth anything?
 - 29. AI doesn't ask your age — only whether your mind is open
 - 30. What trading is for: the index handles wealth, the satellite handles trying
+- 31. First principles set the frame, simplest-first searches inside it
 
 **[Part Four: Outside Input — Cases and Readings](human-ai-relationship-notes-part4-en.md)** — cases and articles I've read, distilled, with source links.
 
