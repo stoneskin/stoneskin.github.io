@@ -198,6 +198,8 @@ The close is one sentence: how can be outsourced and borrowed, but why cannot be
 
 ## 32. Clones can copy the gameplay, not why you made it this way (2026-10-26)
 
+![Clones copy the gameplay, not the why.](./essay-32-clones.webp)
+
 Reading the news from Steam Next Fest: October 2026 Edition, my first reaction was a chill too: more than seven thousand demos, a game not yet released, its gameplay video goes viral, and within days a dozen imitations appear on Roblox, reskinned and ready to take money. AI has compressed the time from "understand and replicate" from weeks to days, and it feels as if indie makers are robbed the moment they show their heads.
 
 But after checking the cases one by one, I found I had aimed at the wrong enemy. What gets called "being copied" is actually three different things mixed together.
