@@ -181,3 +181,15 @@ The satellite account is a different matter. The Schwab swing account is under 1
 The aggressive account has one more honest reason: asymmetric bets. Someone who caught Amazon, Tesla, or Nvidia a decade or more ago is sitting on tens of times their money ten years later. That logic holds — with one honest addition: it points to a different structure than "holding winners." Catching the next Amazon means a batch of small positions, most allowed to go to zero, waiting for one 30-bagger — venture math, not concentrated-winner math. Ten positions at 1% each, nine to zero and one to 30x, and the whole sleeve is 3x; but the hit rate on 30-baggers is tiny, and expected value is hit rate times payoff. Both are called aggressive, but they test different things: the first tests holding on, the second tests tolerating zeros.
 
 The close: write the kill criterion in advance. Check the satellite against QQQM and VUG once a year; shrink it or shut it down after a full cycle of trailing. "Learning" without a kill criterion always decays into an excuse for indefinite underperformance. Same line as #23: the human sits in the correction seat — full AI automation doesn't remove the human, it moves the human upstream, to objectives, risk limits, and circuit breakers.
+
+---
+
+## 31. First principles set the frame, simplest-first searches inside it (2026-10-26)
+
+First principles is usually stated as "don't do it because others do it — understand why it is done." I find I am the reverse: I usually know first why I want something and why to do it this way, but I don't know whether others do it the same way, or why they don't. So after I finish a plan, I always ask one more question: how do others do it well, why, and what have we missed?
+
+That is not following the crowd, it is checking for gaps. How others do it is information; why others don't do it is often more important — their premises may differ, their costs may differ, their context may differ. Comparing notes is a good way to test whether my own premises are taken for granted.
+
+The recent simplest-first rule bothered me a little: look at how others do it before starting, which sounds like the order is reversed. Put the two together and the line becomes clear: they are not parallel, they are master and subordinate. First principles set the frame — the problem, the constraints, the acceptance criteria; simplest-first only searches for something ready-made inside that frame, borrowing only the parts whose why matches mine, and rewriting from scratch only when no ready-made solution's premises fit. Looking at others is a way to verify my own thinking, not to skip it. When referencing others, keep some distance too: their approach is a data point, not the correct answer.
+
+The close is one sentence: how can be outsourced and borrowed, but why cannot be outsourced to "others do it too." This idea later became a rule I gave Muse, called first-principles.
