@@ -1,5 +1,7 @@
 # Stone 谈人机交互（2026-10-19）
 
+[← 返回目录](stone-musings.md)
+
 > 起因：读 InfoQ《Anthropic Lead: HTML Increasingly Better Than Markdown at Keeping Humans Engaged in Agentic Loops》有感。https://www.infoq.com/news/2026/06/anthropic-html-markdown-agent/
 
 Anthropic 的 Thariq Shihipar 说 HTML 比 Markdown 更能让人保持在智能体循环里，Simon Willison 附和，反对者说这是倒退。两边都有道理，但我觉得**这个问题本身被问小了**。

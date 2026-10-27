@@ -1,6 +1,8 @@
 
 # AI 工程学习资源（2026-10-16，来自 @0xSilver_Time 推文整理）
 
+[← 返回目录](index.md)
+
 > 来源：https://x.com/0xSilver_Time/status/2110546705838117326
 > 19 篇 systemdesign.one 深度文章，每篇一句话要点，不用点进去就知道讲什么
 

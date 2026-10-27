@@ -1,5 +1,7 @@
 # Stone 谈野心（2026-10-15）
 
+[← 返回目录](stone-musings.md)
+
 > 从"人与 AI 的关系"系列移出，归入「Stone 随想」。
 
 ## 野心的四种刻度：Rieseberg 的驾驭者手册

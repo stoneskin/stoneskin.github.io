@@ -1,5 +1,7 @@
 # Stone 谈 AI 工程化（2026-10-19）
 
+[← 返回目录](stone-musings.md)
+
 > 起因：读 @UPing123zzz（Ethan 恩宇）推文有感。https://x.com/UPing123zzz/status/2111708069768167751
 
 他说 AI 圈概念一波接一波：Prompt Engineering、Context Engineering、Workflow、Agent、Skills、Loop Engineering、Harness Engineering。但打开 Codex、Claude Code，真正让它们干活的方式依然是输入一段自然语言——说白了，还是在写提示词。

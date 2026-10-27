@@ -1,5 +1,7 @@
 # The Human-AI Relationship — Stone's Notes from Practice
 
+[← Back to home](../index.md)
+
 *First entry: 2026-10-08 · [中文版](./human-ai-relationship-notes.md)*
 
 ---

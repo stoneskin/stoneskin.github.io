@@ -1,5 +1,7 @@
 # Stone's Musings
 
+[← Back to home](../index.md)
+
 Personal musings: learning, thinking, ambition. No grand system — written as they come.
 
 | Article | Description |

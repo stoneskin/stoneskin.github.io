@@ -1,5 +1,7 @@
 # Stone on Human-Computer Interaction (2026-10-19)
 
+[← Back to index](stone-musings-en.md)
+
 > Prompted by the InfoQ piece "Anthropic Lead: HTML Increasingly Better Than Markdown at Keeping Humans Engaged in Agentic Loops." https://www.infoq.com/news/2026/06/anthropic-html-markdown-agent/
 
 Anthropic's Thariq Shihipar argues HTML keeps humans better engaged in agentic loops than Markdown; Simon Willison agrees; opponents call it a regression. Both sides have a point, but I think **the question itself is framed too small**.

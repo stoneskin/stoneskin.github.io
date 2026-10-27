@@ -1,5 +1,7 @@
 # 《Spec-Driven Production Grade Development in the Age of Vibe Coding》总结
 
+[← 返回目录](index.md)
+
 *作者：Lee Boonstra（Google），2026 年 5 月。来源：Stone 的 Google Drive（Day_5_v3.pdf）。小沐总结 + 缺口分析，2026-10-16。*
 
 ## 一句话

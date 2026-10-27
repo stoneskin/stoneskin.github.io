@@ -1,5 +1,7 @@
 # Stone 随想 / Stone's Musings
 
+[← 返回首页](../index.md)
+
 个人随想：学习、思考、野心。不求体系，想到哪写到哪。
 Personal musings: learning, thinking, ambition. No grand system — written as they come.
 

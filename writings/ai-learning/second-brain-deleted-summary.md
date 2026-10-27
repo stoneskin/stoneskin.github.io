@@ -1,5 +1,7 @@
 # 《I Deleted My Second Brain》总结
 
+[← 返回目录](index.md)
+
 > 原文：https://westenberg.beehiiv.com/p/i-deleted-my-second-brain
 > 作者：Westenberg（beehiiv 博主）
 > 发表：2025-06-17

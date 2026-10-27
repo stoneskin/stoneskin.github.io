@@ -1,5 +1,7 @@
 # 学习笔记 / Learning Notes
 
+[← 返回首页](../index.md)
+
 Stone 的每日学习笔记：导读 + 三层验收（原理 / 实现 / trade-off）。每篇记录一个知识点的完整学习过程。
 
 Daily learning notes: guided reading plus the three-layer test (principle / implementation / trade-offs). Each note captures one concept's full learning arc.

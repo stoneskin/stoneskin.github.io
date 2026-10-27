@@ -1,5 +1,7 @@
 # Stone on Ambition (2026-10-15)
 
+[← Back to index](stone-musings-en.md)
+
 > Moved from the "Human-AI Relationship" series into "Stone's Musings."
 
 ## Ambition in four measures: Rieseberg's driver's manual

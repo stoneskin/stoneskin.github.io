@@ -1,5 +1,7 @@
 # Prompt 框架与 Agent 迁移手册
 
+[← 返回目录](index.md)
+
 > 整理：2026-10-16 · 背景：10-13 确立 prompt 方法论，10-16 读 AIExplorerTim"神级提示词7选"后补充
 
 ---

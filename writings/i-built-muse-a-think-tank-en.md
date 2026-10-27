@@ -1,5 +1,7 @@
 # I Built Muse a Think Tank
 
+[← Back to home](../index.md)
+
 *2026-10-14 · [中文版](./i-built-muse-a-think-tank-zh.md)*
 
 ![muse-thinktank](./thinktank-producthunt-cover-1270x760.png)

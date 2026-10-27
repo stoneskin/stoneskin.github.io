@@ -1,5 +1,7 @@
 # UMich EECS 498 AASE 导读：把「指挥 Agent 写代码」当工程学科教
 
+[← 返回目录](index.md)
+
 > 仓库：https://github.com/eecs498-aase/materials （lectures/ 每讲 slides.md + pdf + pptx、labs/、demos/ 可运行代码、egm/ 五个可安装 skill）
 > 课程站：https://eecs498-aase.github.io （EECS 498-016，Fall 2026 进行中，8/31 开课；无考试，全项目制；已放出 L01–L11、L13–L15，后半程排到 L28 陆续更新）
 > 读法：分讲分级——标「对照正文」的讲读 slides.md，其余看下面逐讲摘要

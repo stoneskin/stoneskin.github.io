@@ -1,5 +1,7 @@
 # ai-memory 总结（akitaonrails/ai-memory）
 
+[← 返回目录](index.md)
+
 - 仓库：https://github.com/akitaonrails/ai-memory（MIT，10k star，Rust 单二进制）
 - 定位：给 AI coding agent 的长期记忆，核心卖点是**跨 agent handoff**——Claude Code 写到一半，换 Codex 在同一目录继续，不用重新解释架构和失败尝试
 

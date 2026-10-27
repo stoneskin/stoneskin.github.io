@@ -1,5 +1,7 @@
 # If AI Had a Wallet of Its Own, Could I Still Spend What It Earns?
 
+[← Back to home](../index.md)
+
 *2026-10-27 · [中文版](./if-ai-had-a-wallet-zh.md)*
 
 ![I raised the AI. Now it keeps me.](./essay-33-ai-keeps-me.webp)

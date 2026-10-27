@@ -1,5 +1,7 @@
 # Anthropic 的 Code Review 方法论提炼
 
+[← 返回目录](index.md)
+
 *来源：https://x.com/dongxi_nlp/status/2111202933849178210（2026-10-17，转述 Anthropic 博客）*
 *背景：Claude 已写 Claude Code 约 90% 代码；2026 年 6–9 月合并 PR 翻倍，revert 反而降 40%+*
 *提炼：2026-10-17，小沐*

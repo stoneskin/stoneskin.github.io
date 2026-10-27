@@ -1,5 +1,7 @@
 # Agentic RAG 总结（ByteByteGo《How Agentic RAG Works?》）
 
+[← 返回目录](index.md)
+
 > 来源（一手原文）：Alex Xu / ByteByteGo《How Agentic RAG Works?》，2026-03-23
 > https://blog.bytebytego.com/p/how-agentic-rag-works
 > 起因：Alex Xu 的 X 图帖《RAG vs Agentic RAG》（2026-10-19）是本文的对照图，本文因它而读。
