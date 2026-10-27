@@ -49,6 +49,7 @@ Three things, unpacked: clear intent — know what you want, so you can spot whe
 - 30. What trading is for: the index handles wealth, the satellite handles trying
 - 31. First principles set the frame, simplest-first searches inside it
 - 32. Clones can copy the gameplay, not why you made it this way
+- 33. Once AI has an identity of its own, can I still spend what it earns?
 
 **[Part Four: Outside Input — Cases and Readings](human-ai-relationship-notes-part4-en.md)** — cases and articles I've read, distilled, with source links.
 
