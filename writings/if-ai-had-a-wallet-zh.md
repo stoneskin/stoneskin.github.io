@@ -1,5 +1,7 @@
 # 如果 AI 有了自己的钱包，我还能花它挣的钱吗？
 
+[← 返回首页](../index.md)
+
 *2026-10-27 · [English Version](./if-ai-had-a-wallet-en.md)*
 
 ![I raised the AI. Now it keeps me.](./essay-33-ai-keeps-me.webp)

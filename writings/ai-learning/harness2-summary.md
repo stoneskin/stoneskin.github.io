@@ -1,5 +1,7 @@
 # Google Harness² 总结
 
+[← 返回目录](index.md)
+
 > 来源：@AISuperDomain 推文（2026-10-18）https://x.com/AISuperDomain/status/2111642569654378716
 > 仓库：https://github.com/google-research/harness2（刚开源，10 star 起步）
 > 一句话：不改模型权重，只靠自动重构外围工程系统，Agent 基准最高提升 11.8 个百分点。

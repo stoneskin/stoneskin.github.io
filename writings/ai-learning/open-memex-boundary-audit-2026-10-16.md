@@ -1,5 +1,7 @@
 # open-memex 边界审计：tool / skill / MCP 职责划分
 
+[← 返回目录](index.md)
+
 *2026-10-16，小沐。方法：kafkaup《tool、skill 和 MCP 的区别以及选型》三个选型问题。审计对象：`src/tools/ops.ts` TOOL_DESCRIPTIONS，11 个 MCP tools。*
 
 ## 三个选型问题（原文转述）

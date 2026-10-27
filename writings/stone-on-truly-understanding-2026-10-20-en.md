@@ -1,5 +1,7 @@
 # On Truly Understanding (2026-10-20)
 
+[← Back to index](stone-musings-en.md)
+
 Working with Mu lately, we've accumulated a lot: paper summaries, learning materials, roadmaps, interview questions. But today I realized something —
 
 **Him doing it doesn't mean I've learned it. Him reading it doesn't mean I understand it. Him learning it doesn't mean I've grasped it.**

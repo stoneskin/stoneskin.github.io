@@ -1,5 +1,7 @@
 # 我给 Muse 写了个智囊团
 
+[← 返回首页](../index.md)
+
 *2026-10-14 · [English Version](./i-built-muse-a-think-tank-en.md)*
 
 ![muse-thinktank](./thinktank-producthunt-cover-1270x760.png)

@@ -1,5 +1,7 @@
 # AGENTS.md（可迁移重构版 v0.2）
 
+[← 返回目录](index.md)
+
 *2026-10-17，从 v0.1 升级。新增 6 条通用原则（premise-first、red-team-opinions、review-round-cap、driver-owns-it、incident-to-eval、fresh-eyes），修复 v0.1 两处排版错乱。结构不变：A 部分是通用原则（任何 agent、任何人可直接用）；B 部分是环境绑定实现（仅供参考，换环境时重写）。*
 
 ---

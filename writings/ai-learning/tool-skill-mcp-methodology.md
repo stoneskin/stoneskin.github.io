@@ -1,5 +1,7 @@
 # Tool / Skill / MCP 选型方法论
 
+[← 返回目录](index.md)
+
 *来源：卡夫卡 @kafkaup《讲一下 tool、skill 和 MCP 的区别以及选型的问题》（2026-10-16）。原文：https://x.com/kafkaup/status/2111063860757057677。小沐整理为方法论文档。*
 
 ## 一、三分法：它们分别是什么

@@ -1,5 +1,7 @@
 # Stone on the Second Brain (2026-10-18)
 
+[← Back to index](stone-musings-en.md)
+
 > Reflections after reading Westenberg's "I Deleted My Second Brain."
 
 Deleting ten thousand notes feels liberating, but I think it's swinging from one extreme to the other. Neither hyper-complexity nor hyper-minimalism is the answer.

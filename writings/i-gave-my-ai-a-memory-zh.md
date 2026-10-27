@@ -1,5 +1,7 @@
 # 我给 AI 配了个记忆
 
+[← 返回首页](../index.md)
+
 *2026-10-04 · [English Version](./i-gave-my-ai-a-memory-en.md)*
 
 最烦人的不是 AI 写错代码，是它记性差。

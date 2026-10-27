@@ -1,5 +1,7 @@
 # I Gave My AI a Memory
 
+[← Back to home](../index.md)
+
 *2026-10-04 · [中文版](./i-gave-my-ai-a-memory-zh.md)*
 
 The most annoying thing about AI coding assistants isn't wrong code. It's amnesia.

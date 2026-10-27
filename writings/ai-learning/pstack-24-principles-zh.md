@@ -1,5 +1,7 @@
 # pstack 24 条工程原则（中英对照）
 
+[← 返回目录](index.md)
+
 *来源：https://github.com/cursor/plugins `pstack/skills/principle-*/SKILL.md`，2026-10-16 抓取。每条约 10-20 行，此处为名称 + 一句话中文释义。Uncle Bob 评价其为"把经典工程智慧重编码给 AI agent"。*
 
 | # | 英文名 | 中文释义 |

@@ -1,5 +1,7 @@
 # FDE-Gym 论文详解：AI 交付的最后一公里
 
+[← 返回目录](index.md)
+
 > 原文：FDE-Gym: The Last Mile of AI Delivery，arXiv:2610.22350，2026-10-15 提交
 > 原文链接：https://arxiv.org/abs/2610.22350 （全文 HTML：https://arxiv.org/html/2610.22350v1）
 > 作者：Dongxu Yang 等 26 人，第一单位 DeepLethe，含清华、上交、华为、Meta、Microsoft Research Asia 等

@@ -1,5 +1,7 @@
 # Stone on AI Engineering (2026-10-19)
 
+[← Back to index](stone-musings-en.md)
+
 > Prompted by a tweet from @UPing123zzz (Ethan). https://x.com/UPing123zzz/status/2111708069768167751
 
 He observes that AI concepts arrive in waves: Prompt Engineering, Context Engineering, Workflow, Agent, Skills, Loop Engineering, Harness Engineering. Yet open Codex or Claude Code, and the way you actually get them to work is still typing a natural-language prompt — still writing prompts, in other words.

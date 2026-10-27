@@ -1,5 +1,7 @@
 # Stone 谈亲手造（2026-10-19）
 
+[← 返回目录](stone-musings.md)
+
 > 背景：研究 akitaonrails/ai-memory（10k star，功能覆盖远超 open-memex）后的反思。
 
 如果一开始就看到 ai-memory，我还会从头写 open-memex 吗？我不知道。

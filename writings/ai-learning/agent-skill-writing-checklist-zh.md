@@ -1,5 +1,7 @@
 # 给 Agent 写文档的检查清单
 
+[← 返回目录](index.md)
+
 译自 mattpocock/skills 的 `writing-for-agents`（SKILL.md + SKILL-MECHANICS.md），按原文结构整理，
 措辞尽量贴原文。原文是英文，这里翻成中文检查项，写 skill / AGENTS.md / CLAUDE.md 时逐条过。
 
