@@ -52,6 +52,7 @@ Three things, unpacked: clear intent — know what you want, so you can spot whe
 - 31. First principles set the frame, simplest-first searches inside it
 - 32. Clones can copy the gameplay, not why you made it this way
 - 33. [If AI Had a Wallet of Its Own, Could I Still Spend What It Earns?](if-ai-had-a-wallet-en.md)
+- 34. [If AI Can Do It, Let AI Do It](if-ai-can-do-it-en.md)
 
 **[Part Four: Outside Input — Cases and Readings](human-ai-relationship-notes-part4-en.md)** — cases and articles I've read, distilled, with source links.
 
