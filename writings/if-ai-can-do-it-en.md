@@ -1,5 +1,7 @@
 # If AI Can Do It, Let AI Do It
 
+[← Back to home](../index.md)
+
 *2026-10-31 · [中文版](./if-ai-can-do-it-zh.md)*
 
 ![If AI can do it, let AI do it.](./essay-34-let-ai-do-it.webp)

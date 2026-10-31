@@ -1,5 +1,7 @@
 # 如果 AI 能干，就让 AI 干
 
+[← 返回首页](../index.md)
+
 *2026-10-31 · [English Version](./if-ai-can-do-it-en.md)*
 
 ![If AI can do it, let AI do it.](./essay-34-let-ai-do-it.webp)
