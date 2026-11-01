@@ -4,7 +4,7 @@
 
 *2026-11-01 · [中文版](./eve-of-ai-prosperity-zh.md)*
 
-![On the eve of AI prosperity.](./essay-35-eve-of-ai-prosperity.webp)
+![On the eve of AI prosperity.](./essay-35-eve-of-ai-prosperity-en.webp)
 
 A few days ago I read an article by a big account on X, titled "On the Eve of the AI Bubble Bursting." It was well written, and the facts were solid: Intel fell 28% in a single day, Google lost $500 billion in market value in a day, SanDisk fell 13% despite beating earnings, Reddit lost 29% because Google's AI Mode answers questions directly and sends no traffic. His core argument is this: AI has raised productivity enormously — a year of coding now matches the past ten — but as of October 31, 2026, he sees no genuine "incremental value" that AI has created. Intelligence is no longer scarce, and what is not scarce has no value; with no middlemen earning a spread, the cycle of trade stalls; the money earned all flows back into AI infrastructure. So AI is neither 2B nor 2C, but 2me — a self-pleasing economy.
 
