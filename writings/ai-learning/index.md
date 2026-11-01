@@ -97,5 +97,5 @@
 
 ---
 
-*注：随笔（人与 AI 的关系 part4 等）见 [human-ai-relationship-notes-part4.md](../human-ai-relationship-notes-part4.md)，另计。*
+*注：随笔（人与 AI 的关系等）见 [人与 AI 的关系目录](../human-ai-relationship/)，另计。*
 *以后新增 AI 资料时同步更新此目录。*

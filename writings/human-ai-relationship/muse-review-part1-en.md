@@ -1,53 +1,8 @@
-# Part One: Foundations
+# Muse's review (2026-10-08)
 
-*The four starting points beneath the thesis, plus Muse's first review.*
-
-*[中文版](./human-ai-relationship-notes-part1.md)*
-
-[← Back to index](./human-ai-relationship-notes-en.md)
-
+[← Back to index](./index-en.md) · [中文版](./muse-review-part1.md)
 
 ---
-
-## 1. AI won't replace humans, but it will replace human grunt work
-
-
-AI's value is in eating the repetitive, mechanical, physical parts. What remains — judgment, decisions, taste — still belongs to humans.
-
----
-
-## 2. AI's "creativity" isn't true creativity — it's just sentence-meaning you haven't seen before
-
-
-AI innovation is often like dropping ten thousand ants into a maze — a few will always find the way out. That's brute force producing miracles, not a genuine flash of insight. It's just exhaustively searching and recombining a vast space, occasionally stumbling onto a path you haven't seen.
-
----
-
-## 3. The migration of accomplishment
-
-
-Accomplishment used to mean **writing a program myself, shipping an app myself**.
-Now it means **building more projects together with AI**.
-And the greatest accomplishment is this: **being able to challenge the AI — making the project follow my intent and my decisions, instead of being led by the nose by AI.**
-
-The human is the driver, not the passenger. AI should execute your direction, not give you directions.
-
----
-
-## 4. AI makes mistakes: in familiar territory you can catch them; in unfamiliar territory you get led by the nose
-
-
-Where you know the terrain, you spot AI's mistakes immediately and correct them.
-Where you don't, you're flying blind — whatever the AI says, goes.
-
-**The fix: use a different AI to review and catch errors.** Cross-validate across models to cover the blind spots.
-
----
-
----
-
-## Muse's review (2026-10-08)
-
 
 ### On "AI won't replace humans, but it will replace grunt work"
 
@@ -68,5 +23,3 @@ Pragmatic, but with a limitation: many models share training data, so their blin
 ### Summary
 
 The four points add up to a complete worldview: **AI is an amplifier, not a replacement; human value lies in direction and taste.**
-
----
