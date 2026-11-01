@@ -126,7 +126,7 @@ Stone 是动手型学习者，这 19 篇全是文章、没有动手项。建议�
 
 > 原文：https://arxiv.org/abs/2610.22350（2026-10-15，DeepLethe + 清华/上交等）
 > 解读帖：https://x.com/Xudong07452910/status/2111306709318951189
-> 详解：~/workspace/your_files/fde-gym-paper-summary.md
+> 详解：[fde-gym-paper-summary.md](./fde-gym-paper-summary.md)
 > 一句话：会写代码 ≠ 会交付——在 Terminal-Bench 拿 88% 的模型，真实客户交付只能拿 0.56 分；FDE 的核心（挖隐性约束、把事实变成贴合组织的系统）正是 AI 最弱、人类最强的部分。
 
 ### 测什么
@@ -200,7 +200,7 @@ Stone 是动手型学习者，这 19 篇全是文章、没有动手项。建议�
 ## 补：龙井《2小时从零看懂AI》（2026-10-17 补）
 
 > 原文：https://x.com/long_jingai/status/2111356255889723723（X Article，约2.5万字）
-> 详解：~/workspace/your_files/longjing-ai-primer-summary.md
+> 详解：[longjing-ai-primer-summary.md](./longjing-ai-primer-summary.md)
 > 一句话：8000元/小时企业内训同款公开版——大模型通识→提示词方法→Agent入门→Agent实操，四段式AI认知体系。
 
 ### 四部分要点
@@ -282,7 +282,7 @@ Stone 是动手型学习者，这 19 篇全是文章、没有动手项。建议�
 
 ## 补：Suraj Sharma《AI Agent 工程师 12 步学习路线图》（2026-10-20 补）
 
-来源：[英文原帖](https://x.com/suraj_sharma14/status/2111789399176335412)（@suraj_sharma14，10/18，14 万浏览）· [中文解读](https://x.com/UPing123zzz/status/2112157681729564861)（Ethan 恩宇 @UPing123zzz，10/19）· 图：`~/workspace/your_files/agent-roadmap/roadmap-12steps.jpg`
+来源：[英文原帖](https://x.com/suraj_sharma14/status/2111789399176335412)（@suraj_sharma14，10/18，14 万浏览）· [中文解读](https://x.com/UPing123zzz/status/2112157681729564861)（Ethan 恩宇 @UPing123zzz，10/19）· 图：[roadmap-12steps.jpg](./roadmap-12steps.jpg)
 
 **是什么**：12 步学习路线，每步三列（学什么 / 练手项目 / 为什么）。核心观点：Demo 和生产系统的分水岭是稳定运行、安全执行、故障恢复、交付客户。
 
