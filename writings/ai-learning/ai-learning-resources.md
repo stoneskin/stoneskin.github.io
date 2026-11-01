@@ -1,60 +1,149 @@
-
-# AI 工程学习资源（2026-10-16，来自 @0xSilver_Time 推文整理）
+# AI 工程学习资源清单
 
 [← 返回目录](index.md)
 
-> 来源：https://x.com/0xSilver_Time/status/2110546705838117326
-> 19 篇 systemdesign.one 深度文章，每篇一句话要点，不用点进去就知道讲什么
+> 共 49 份（基础 19 篇 + 专题 30 条）。专题里带"第 N 份"的编号是陆续补入时的流水号，沿用不重编。
+> 分级：【对照正文】重要，对照原文读；【摘要即可】摘要已写到能独立成立，只看摘要、跳过原文（旧版导读的精读层同此标准）；【查阅型】工具书，按需翻；【概念即可】知道概念为止。
+> 重心（Stone 定）：全部涉猎、FDE 与 Agent 为重点；深度押三处——FDE 落地方法、Agent 跑稳（Ops）、Evals 体系。
+> 本站：导读与摘要见本目录各文件，学习笔记见 ../learning-notes/。流水号与外部引用（站点计数）保持一致。
+> 库内自足（Stone 2026-10-31 定）：重要资料的摘要写到不依赖原文站点也能学到精髓——库里有足够的学习内容及概要，不只留链接；旧资料缺摘要的，学习时补。
 
-## Agent 核心
+## 总目录
 
-1. **Agent vs ChatGPT 的区别** — agent 把 LLM 接上工具，形成"行动→观察→重试"循环；ChatGPT 是单轮问答，agent 是能自己调工具、看结果、调策略的多步任务系统
-2. **9 种 Agentic Patterns** — reflection（自我检查）、tool use、planning、ReAct（边想边干）等 9 种模式，搭 agent 时的"设计模式手册"
-3. **Multi-Agent 架构** — supervisor/worker、串行 pipeline、并行 fan-out、辩论共识；thinktank 的 panel+judge 就是 supervisor 模式的一种
-4. **从零搭 Incident Response Agent 的血泪史** — 实战：工具怎么选、规划策略（ReAct vs 先规划后执行）、记忆怎么管、guardrails 怎么设
-
-## 记忆与状态
-
-5. **Agent State / Memory / Consistency** — 短期记忆（context 内）vs 长期记忆（跨 session）；多步任务怎么保证 agent 不"失忆"不自相矛盾；open-memex 解的就是长期记忆这块
-
-## 检索与 RAG
-
-6. **RAG Deep Dive** — 查询时先检索外部文档拼进 prompt；解决知识截止+私有数据问题；关键在切分、检索、重排
-7. **Vector Database Deep Dive** — 存 embedding 做语义检索；选型（Pinecone/Milvus/Qdrant/pgvector）；什么时候该用什么时候不该用
-8. **HNSW 十亿向量毫秒检索** — 分层图索引，不用全量扫描；理解向量库底层的必看
-
-## 协议
-
-9. **MCP Deep Dive** — Anthropic 的开放协议，统一模型接工具/数据的接口；一次适配，到处可用
-10. **A2A Protocol** — 不同厂商 agent 之间怎么通信协作；MCP 是 agent 接工具，A2A 是 agent 接 agent
-11. **用 MCP 搭 Research Agent** — 实战端到端：规划研究问题→搜索资料→综合结论
-
-## LLM 基础
-
-12. **LLM 到底怎么工作** — token、embedding、attention、context window；理解模型怎么"看"字，才能写好 prompt
-13. **Context Engineering 101** — 窗口里放什么怎么放：system prompt、示例、检索结果、历史、工具定义；核心是取舍
-14. **垂直领域小模型** — 特定任务上小模型+好数据能打败大模型；成本低延迟低可本地部署
-
-## 生产与评估
-
-15. **AI App 扩到 100 万用户** — 缓存、batch、小模型处理简单任务大模型只处理复杂；跟 router 三层架构一个思路
-16. **29 个 LLM 评测概念** — 测试集、打分标准、LLM-as-judge（跟 thinktank judge 同思路）、人工评估
-17. **设计个人 AI 助手** — 流式输出、会话历史、检索增强；偏产品向
-
-## 训练
-
-18. **Fine Tuning Deep Dive** — 领域数据微调提准确率；什么时候该微调 vs RAG/prompt 就够（多数情况后者就够）
-19. **21 个强化学习概念** — agent 在环境里行动靠 reward 调策略；RLHF 就是 RL 的一种应用
+- **第一编 · 基础十九篇**（systemdesign.one）：对照正文 6 篇——#2 Patterns、#3 Multi-Agent、#5 Memory、#9 MCP、#13 Context Engineering、#16 Evaluation；其余摘要或概念即可。
+- **第二编 · 专题进阶**（按主题组合）：
+  - 组一 路由与编排：Router/调度（kafkaup）、Thin Orchestrator（Meta）、决策模型与 Jev
+  - 组二 记忆与检索进阶：Agentic RAG、Generative Agents、Karpathy《LLM Wiki》（第 49 份）
+  - 组三 Harness 与课程：MIT 6.S950 Lec 5、MIT 6.S950 课程全景、UMich AASE、walkinglabs《Learn Harness Engineering》（第 42 份，动手搭完整 harness）、namiai《从零手写 Agent》（第 48 份，动手从零写 Agent + 拆解主流 Agent）
+  - 组四 框架与平台：Pi、Strands、Bedrock AgentCore、阿里云 AI Agent Handbook
+  - 组五 教材与路线：Gulli《Agentic Design Patterns》、Sharma 12 步路线图、龙井《2 小时从零看懂 AI》
+  - 组六 交付与职业：FDE-Gym + OpenAI FDE、码良面试题单、Karpathy 理解漏斗
+  - 组七 FDE 深挖 / Agent Ops / 安全与治理（第 33–41 份）：FDE 深挖（Pragmatic Engineer、PostHog、RevenueBrew）、Agent Ops（Databricks、Temporal、Cresta）、安全与治理（OWASP ASI、NIST AI RMF、欧盟 GPAI Code）
+- **附**：评价与缺口状态（2026-10-16 评价原文 + 2026-10-24 缺口状态更新）
+- **变更记录**：按日期记每次增补与重整。
 
 ---
 
-## 小沐的评价与补充（2026-10-16）
+## 第一编：基础十九篇
+
+> 来源：https://x.com/0xSilver_Time/status/2110546705838117326 （19 篇 systemdesign.one 深度文章）
+
+## Agent 核心
+
+1. **Agent vs ChatGPT 的区别**【摘要】 — agent 把 LLM 接上工具，形成"行动→观察→重试"循环；ChatGPT 是单轮问答，agent 是能自己调工具、看结果、调策略的多步任务系统
+2. **9 种 Agentic Patterns**【对照正文】 — reflection（自我检查）、tool use、planning、ReAct（边想边干）等 9 种模式，搭 agent 时的"设计模式手册"
+3. **Multi-Agent 架构**【对照正文】 — supervisor/worker、串行 pipeline、并行 fan-out、辩论共识；thinktank 的 panel+judge 就是 supervisor 模式的一种
+4. **从零搭 Incident Response Agent 的血泪史**【摘要】 — 实战：工具怎么选、规划策略（ReAct vs 先规划后执行）、记忆怎么管、guardrails 怎么设
+
+## 记忆与状态
+
+5. **Agent State / Memory / Consistency**【对照正文】 — 短期记忆（context 内）vs 长期记忆（跨 session）；多步任务怎么保证 agent 不"失忆"不自相矛盾；open-memex 解的就是长期记忆这块
+
+## 检索与 RAG
+
+6. **RAG Deep Dive**【摘要 · 与 Agentic RAG 合读】 — 查询时先检索外部文档拼进 prompt；解决知识截止+私有数据问题；关键在切分、检索、重排
+7. **Vector Database Deep Dive**【摘要】 — 存 embedding 做语义检索；选型（Pinecone/Milvus/Qdrant/pgvector）；什么时候该用什么时候不该用
+8. **HNSW 十亿向量毫秒检索**【摘要】 — 分层图索引，不用全量扫描；理解向量库底层的必看
+
+## 协议
+
+9. **MCP Deep Dive**【对照正文】 — Anthropic 的开放协议，统一模型接工具/数据的接口；一次适配，到处可用
+10. **A2A Protocol**【摘要】 — 不同厂商 agent 之间怎么通信协作；MCP 是 agent 接工具，A2A 是 agent 接 agent
+11. **用 MCP 搭 Research Agent**【摘要】 — 实战端到端：规划研究问题→搜索资料→综合结论
+
+## LLM 基础
+
+12. **LLM 到底怎么工作**【摘要】 — token、embedding、attention、context window；理解模型怎么"看"字，才能写好 prompt
+13. **Context Engineering 101**【对照正文】 — 窗口里放什么怎么放：system prompt、示例、检索结果、历史、工具定义；核心是取舍
+14. **垂直领域小模型**【摘要】 — 特定任务上小模型+好数据能打败大模型；成本低延迟低可本地部署
+
+## 生产与评估
+
+15. **AI App 扩到 100 万用户**【摘要】 — 缓存、batch、小模型处理简单任务大模型只处理复杂；跟 router 三层架构一个思路
+16. **29 个 LLM 评测概念**【对照正文】 — 测试集、打分标准、LLM-as-judge（跟 thinktank judge 同思路）、人工评估
+17. **设计个人 AI 助手**【摘要 · 低优先】 — 流式输出、会话历史、检索增强；偏产品向
+
+## 训练
+
+18. **Fine Tuning Deep Dive**【概念即可】 — 领域数据微调提准确率；什么时候该微调 vs RAG/prompt 就够（多数情况后者就够）
+19. **21 个强化学习概念**【概念即可】 — agent 在环境里行动靠 reward 调策略；RLHF 就是 RL 的一种应用
+
+---
+
+## 第二编：专题进阶（按主题分类）
+
+### 路由与编排
+
+- **Router/调度**【摘要即可】 — router 是 AI 产品的"调度台"——决定请求进哪个能力、花多少成本；信息不足或高风险时追问/降级/拒绝/转人工。 [原文](https://x.com/kafkaup/status/2110500904868757542) [导读](./router-scheduling-summary.md)
+- **Meta《The Thin Orchestrator》**【摘要即可】 — Meta 数据列接入系统的 Agent 架构复盘：第一版"全知单 agent"上生产幻觉（概念互相污染），重构成 1,300 行薄编排器 + 14 个隔离上下文的专家子 agent。 [原文](https://engineering.fb.com/2026/10/19/ml-applications/thin-orchestrator-ai-agent-architecture/) [导读](./thin-orchestrator-summary.md)
+- **决策模型（Decision Models）与 Jev**【摘要即可】 — 2026 年 9 月起的新品类——模型不写文本，只输出概率/选项/分数，当 LLM-as-a-Judge 的替代。Jev（TypeSafe，9/15）开创，一个月内 14 个跟进（Perplexity Decider、Cloudflare Clef、OpenAI Decisions API、Microsoft Decision-1 等），多数是小开源模型后训练的"打分头"。 [原文](https://hamel.dev) [导读](./decision-models-and-jev-summary.md)
+
+### 记忆与检索进阶
+
+- **Agentic RAG**【摘要即可】 — 标准 RAG 的病在中间没人验货；Agentic RAG 把"检索→生成"的直线改成"检索→评估→决定回答还是重试"的循环。 [原文](https://blog.bytebytego.com/p/how-agentic-rag-works) [导读](./agentic-rag-summary.md)
+- **Generative Agents / Smallville 论文**【摘要即可】 — Agent 记忆系统的开山之作。25 个 agent 在 Smallville 小镇里生活两天， emergent 出传派对邀请、约会、协调到场等社会行为。 [原文](https://arxiv.org/abs/2304.03442) [导读](./generative-agents-summary.md)
+- **Karpathy《LLM Wiki》**【摘要即可】 — RAG 每次都从头找答案、不积累；LLM Wiki 让 LLM 把知识一次编译进持久 wiki，越用越富；摘要含 Graphify 实现。 [原文](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) [导读](./karpathy-llm-wiki-guide.md) [摘要](./karpathy-llm-wiki-summary.md)
+
+### Harness 与课程
+
+- **MIT 6.S950 Lecture 5《The Harness》**【对照正文】 — Agent = LLM + Harness；这一讲不教新机制，教三件事——怎么看清它（可观测性）、怎么管住它（可控性）、到底需要多少它（无通用最优），且每条做法都追到几十年前的系统原则。 [原文](https://agencyai.mit.edu/w5/) [导读](./mit-6s950-harness-lecture-summary.md)
+- **MIT 6.S950《Agency with AI》课程全景**【对照正文】 — 整门课只教一件事——Agency，即"什么该委托、什么该验证、什么该留给自己做"的判断力；第 27 份是其中 Lec 5 一讲，本份是全景地图。 [原文](https://agencyai.mit.edu/) [导读](./mit-6s950-course-panorama-guide.md)
+- **UMich EECS 498 AASE《Applied Agentic Software Engineering》**【分讲分级】 — 把"指挥 agent 写代码"当工程学科教的大学课程——先学开（Aider），再拆真 harness（Claude Code / Codex / Aider 的 loop、skills、guardrails、subagents、compaction），最后在现成 harness 上做东西。与 MIT 6.S950（第 28 份）互补：MIT 偏原理，这门偏工程实践与拆解。 [原文](https://github.com/eecs498-aase/materials) [导读](./umich-aase-summary.md)
+- **walkinglabs《Learn Harness Engineering》**【分讲分级】 — 清单里第一份“从零亲手搭一个完整 harness”的动手课程——同一个 Electron 知识库应用，从纯 prompt 一步步走到完整 harness，每步测弱 harness vs 强 harness 的实测差。 [原文](https://github.com/walkinglabs/learn-harness-engineering) [导读](./learn-harness-engineering-summary.md)
+- **namiai《从零手写 Agent》**【分课分级】 — 中文动手系列——从 100 行循环亲手搭出一个完整 Agent，配可运行代码（到 EP11 共 49 个测试），再拿 11 个零件当尺子拆 7 个主流 Agent；Gulli 那本是模式教材，这份是“亲手搭一遍”的对照。 [原文](https://namiai.tech/agent/?v=1) [导读](./namiai-agent-summary.md)
+
+### 框架与平台
+
+- **Pi（Pi Coding Agent）**【对照正文】 — 把 agent harness 做到最薄的开源样本——内核只留工具循环 + 状态管理，plan mode、子智能体、权限系统全不内置，想要自己以 package 形式装。 [原文](https://x.com/xaiwind/status/2113084544375304503) [导读](./pi-coding-agent-summary.md)
+- **Strands Agents SDK**【对照正文】 — AWS 的开源 agent 框架——「是库不是平台」：Agent 对象 + @tool 装饰器，模型默认 Bedrock、一行可换；现分两层：harness（create_harness 一行整装）与 SDK（自己拼 loop）。 [原文](https://strandsagents.com/) [导读](./strands-agents-sdk-summary.md)
+- **Amazon Bedrock AgentCore**【对照正文】 — Bedrock 的 agent 托管基础设施：Runtime / Memory / Gateway / Identity / Observability / Evaluations / Policy / Browser / Code Interpreter 可组合取用——Pi 故意不做的企业件，AWS 做成了服务。 [原文](https://aws.amazon.com/bedrock/agentcore/faqs/) [导读](./bedrock-agentcore-summary.md)
+- **阿里云 AI Agent Handbook**【查阅型】 — 企业级 AI Agent 全生命周期实战指南——30 章 + 2026 Agent 开发者调研；从"怎么搭"转向工程化/规模化/组织化三大挑战。 [原文](https://github.com/aliyun/ai-agent-handbook) [导读](./aliyun-ai-agent-handbook-summary.md)
+
+### 教材与路线
+
+- **Antonio Gulli《Agentic Design Patterns》**【查阅型】 — Google Antonio Gulli 写的开源教材，21 章 + 7 个附录，每章配可运行的 Jupyter Notebook。版税全部捐给 Save the Children。 [原文](https://github.com/evoiz/Agentic-Design-Patterns) [导读](./agentic-design-patterns-summary.md) [摘要](./agentic-design-patterns-summary.md)
+- **Suraj Sharma《AI Agent 工程师 12 步学习路线图》**【摘要即可】 — 12 步学习路线，每步三列（学什么 / 练手项目 / 为什么）。核心观点：Demo 和生产系统的分水岭是稳定运行、安全执行、故障恢复、交付客户。 [原文](https://x.com/suraj_sharma14/status/2111789399176335412) [导读](./sharma-agent-roadmap-summary.md)
+- **龙井《2小时从零看懂AI》**【摘要即可】 — 8000元/小时企业内训同款公开版——大模型通识→提示词方法→Agent入门→Agent实操，四段式AI认知体系。 [原文](https://x.com/long_jingai/status/2111356255889723723) [导读](./longjing-ai-primer-summary.md)
+
+### 交付与职业
+
+- **FDE-Gym / AI 交付最后一公里**【对照正文】 — 会写代码 ≠ 会交付——在 Terminal-Bench 拿 88% 的模型，真实客户交付只能拿 0.56 分；FDE 的核心（挖隐性约束、把事实变成贴合组织的系统）正是 AI 最弱、人类最强的部分。 [原文](https://arxiv.org/abs/2610.22350) [导读](./fde-gym-paper-summary.md)
+- **码良《Agent 高频面试题单》**【查阅型 · 自测】 — 从牛客网 343 篇 Agent 岗面经（180 作者、~80 家公司，8/18–10/18）统计出的 29 道高频题，每道带作者数、场次数、公司/轮次分布、原帖例问和牛客链接。另有算法岗、低频题、面试结构、月度趋势、方法论/局限性章节。 [原文](https://x.com/cxjwin/status/2111644503341953409) [导读](./maliang-interview-questions-summary.md)
+- **Karpathy "AI 理解漏斗"**【摘要即可】 — 你眼里的 AI 和别人眼里的不是同一个东西——差距不再是"两拨人各说各话"，而是一个四层漏斗，而且在变陡。 [原文](https://x.com/karpathy/status/2109361) [导读](./karpathy-ai-funnel-summary.md)
+> 三路各补最硬的 3 份，均逐条验过 URL 与原文；验货时删掉三处未核实说法（见各条备注），不硬凑。FDE、Agent Ops、安全与治理三组角度不重叠。
+
+
+### FDE 深挖
+
+- **Pragmatic Engineer《What are Forward Deployed Engineers, and why are they so in demand?》**【对照正文】 — 采访了 OpenAI 的 FDE 负责人、Ramp 的 FDE 负责人和一位 7 年 Palantir FDE，把起源、日常、三段工作法和两个真实案例都讲透了。 [原文](https://newsletter.pragmaticengineer.com/p/forward-deployed-engineers) [导读](./pragmatic-engineer-fde-summary.md)
+- **PostHog《WTF is a forward deployed engineer?》**【摘要即可】 — FDE 与普通工程师的对照表、"什么时候该用 FDE"的判断条件讲得最清楚。 [原文](https://posthog.com/blog/forward-deployed-engineer) [导读](./posthog-fde-summary.md)
+- **RevenueBrew《What it's like to work in tech's hottest new role》**【摘要即可】 — Superhuman 的 Thomas Baucom，讲 FDE 一天之内在完全不同客户之间切换、以及"把线从头 carry 到尾"是什么意思。 [原文](https://www.revenuebrew.com/stories/forward-deployed-engineer-role) [导读](./revenuebrew-fde-summary.md)
+
+### Agent Ops
+
+- **Databricks《AgentOps on Databricks: Operating Production AI Agents》**【对照正文】 — 评估门禁 + 可观测性闭环 + 提示词版本化 + 治理，是一张完整的 Agent Ops 全图。 [原文](https://community.databricks.com/t5/technical-blog/agentops-on-databricks-operating-production-ai-agents/ba-p/163602) [导读](./databricks-agentops-summary.md)
+- **AWS Builders《Orchestrating Our Agents SDLC on Temporal》**【对照正文】 — 把人工 prompt-by-prompt 的 AI 编码流水线改成 Temporal 编排的持久化 SDLC 后踩过的坑——确定性、载荷、重试、心跳、成本、观测——以及每个坑的 fix。 [原文](https://dev.to/aws-builders/orchestrating-our-agents-sdlc-on-temporal-the-hard-parts-nobody-warns-you-about-1mgc) [导读](./temporal-agents-sdlc-summary.md)
+- **Cresta《Observability for AI Agents: Tracing Multi-Service LLM Pipelines with Langfuse》**【摘要即可】 — 一家真实跑多服务 agent 管线的公司，讲它怎么用自托管 Langfuse 把跨服务的 LLM 追踪、租户隔离与故障回放落到生产——正好补上前两份没展开的一角。 [原文](https://cresta.com/blog/observability-for-ai-agents-tracing-multi-service-llm-pipelines-with-langfuse) [导读](./cresta-agent-observability-summary.md)
+
+### 安全与治理
+
+- **OWASP《Top 10 for Agentic Applications 2026》**【对照正文】 — 每条配真实攻击场景与可落地的缓解措施，是目前最贴合"会自己调工具、多步执行"的 Agent 安全基线。 [原文](https://genai.owasp.org) [导读](./owasp-agentic-top10-summary.md)
+- **NIST《AI Risk Management Framework 1.0》+ Playbook + 生成式 AI Profile**【摘要即可】 — 美国官方的 AI 风险管理框架：自愿性、跨行业，用 Govern / Map / Measure / Manage 四个职能 + Playbook 建议动作，把"可信 AI"变成可执行的管理循环。 [原文](https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf) [导读](./nist-ai-rmf-summary.md)
+- **欧盟《通用人工智能行为准则》最终版（GPAI Code of Practice）+ EU AI Act 部署者义务**【摘要即可】 — 欧盟 AI 法案下通用模型合规的操作化文件：自愿签署、换取合规推定与较低行政负担；三章结构，GPAI 义务 2025 年 8 月 2 日生效。 [原文](https://digital-strategy.ec.europa.eu/en/news/general-purpose-ai-code-practice-now-available) [导读](./eu-gpai-code-summary.md)
+
+---
+
+## 附：评价与缺口状态
+
+## 评价与补充（2026-10-16）
+
+> 状态（2026-10-31）：本节是 2026-10-16 的评价原文，"缺的东西"所列 5 个缺口已于 2026-10-24 全部补上——Prompt Engineering→龙井第二部分；安全→阿里云治理篇 + OWASP/NIST/EU；可观测性→阿里云 13 章 + MIT Lec 5 + Cresta/Databricks；Human-in-the-loop→阿里云 6 章 + AASE L09/L11；Router→kafkaup 篇 + 决策模型/Jev。详见本节末"缺口补足完成"与末尾变更记录。优点、"不太值的几篇"、"如果只读 5 篇"、学习方法建议仍有效。
 
 ### 优点
 
 覆盖面全：agent、RAG、协议、LLM 原理、生产、评测、训练一条线；systemdesign.one 质量靠谱，适合系统性补课。
 
-### 缺的东西（按重要性）
+### 缺的东西（2026-10-16 原文，现已全部补足）
 
 1. **Prompt Engineering 没有**：有 context engineering 但没有专门的 prompt 工程，对做 agent 的人这是地基
 2. **安全只字未提**：prompt injection、jailbreak、工具调用的数据外泄——生产级 agent 必修，完全缺席
@@ -86,289 +175,23 @@ Stone 是动手型学习者，这 19 篇全是文章、没有动手项。建议�
 
 ---
 
-## 补：Router/调度（@kafkaup，2026-10-16 补）
+### 缺口状态（2026-10-24 更新）
 
-> 原文：https://x.com/kafkaup/status/2110500904868757542（2026-10-14，长帖）
-> 一句话：router 是 AI 产品的"调度台"——决定请求进哪个能力、花多少成本；信息不足或高风险时追问/降级/拒绝/转人工。
+上面点的 5 个缺口已全部补上：Prompt Engineering → 龙井 primer 第二部分；安全 → 阿里云手册治理篇（13–16 章）；可观测性 → 阿里云 13 章 + MIT Lec 5；Human-in-the-loop → 阿里云 6 章 + AASE 的 L09/L11；Router → kafkaup 篇 + 阿里云 Jev 专题。当前短板不在输入在转化：新材料默认轻处理，唯一观察项 = 企业 AI 治理/合规。
 
-### 三层级联（由便宜到贵，按确定性/置信度上浮）
+### 缺口补足完成（2026-10-24 晚更新）
 
-1. **规则层**：确定性高的请求（按钮点击、文件上传、明确关键词）+ 安全拦截与权限判断前置。快、便宜、可解释。
-2. **小模型层**：BERT/Embedding 做语义分类，处理规则抓不到但可归类的高频意图（例："整理成给领导看的材料"→报告生成）。
-3. **大模型层**：多意图/混合意图、结合上下文判断、槽位（slots）抽取、是否追问、是否进 agent workflow。
-
-### 路由决策四问
-
-用户要完成什么任务？交给哪个能力模块？当前信息够不够？有没有风险？
-
-- 意图从**产品能力**出发定义（先看产品能做什么、各模块输入输出与适用边界），不是只从 query 归纳标签——query 只提供表达方式。
-- 边界划分标准：路由错了之后**后续执行逻辑是否明显不同**——走同一 workflow、输出形态差不多就不拆；流程/输入/风险/输出明显不同就必须拆。
-- 意图分层："**两级 + 槽位**"——一级意图（任务大类：问答/检索/文件分析/工具执行/无法处理）、二级意图（具体能力模块）、槽位（执行参数）。
-
-### Fallback / 降级触发
-
-- 置信度不足 → 追问或 fallback 兜底；信息不足/高风险 → 追问、降级、拒绝、转人工。
-- 评论区实践经验（@KakaluoteW45042）：router 是搭 agent 时最容易被低估的环节；单独训练分类器做路由一直不太稳，反而把能力描述塞给主模型让它自己决策效果更好；**真正难的不是第一跳分对，是中途发现走错了还能回退和自救**。
-
-### 评估五指标
-
-路由准确率、任务成功率、Fallback 率、用户重试率/追问率、人工改派率。目标不是最强模型，而是 token/延时/准确率三者平衡；router prompt 要短（只放意图定义+边界+输出 schema）、输出结构化、安全前置、常见 query 缓存结果。
-
-### 跟你项目的咬合
-
-- opencode-fuse 三档模型自动选档 = "由便宜到贵"的级联；"说不行自动升档" = 低置信度上浮；D13 的 fallback 率/升级率/任务成功率正好是这里的评估指标。
-- D14 三个"事中请示"触发点 = 追问/转人工的触发条件，口径一致。
-- thinktank Phase 3 的"Router 视角"（judge 低置信追问/降级）直接对应这篇的降级触发——"路由错了，大模型救不回来"有了理论背书。
+2026-10-24 晚，FDE 深挖、Agent Ops、安全与治理三组 9 份（第 33–41 份）已并入。企业 AI 治理/合规观察项至此有 NIST + EU 两份可讲的材料与 OWASP 安全基线支撑，"唯一观察项"状态更新为：治理从"知道"升到"能讲"已有材料，待 Stone 读后验收。当前短板仍在转化不在输入。
 
 ---
 
-## 补：FDE-Gym / AI 交付最后一公里（2026-10-17 补）
-
-> 原文：https://arxiv.org/abs/2610.22350（2026-10-15，DeepLethe + 清华/上交等）
-> 解读帖：https://x.com/Xudong07452910/status/2111306709318951189
-> 详解：[fde-gym-paper-summary.md](./fde-gym-paper-summary.md)
-> 一句话：会写代码 ≠ 会交付——在 Terminal-Bench 拿 88% 的模型，真实客户交付只能拿 0.56 分；FDE 的核心（挖隐性约束、把事实变成贴合组织的系统）正是 AI 最弱、人类最强的部分。
-
-### 测什么
-
-- 95 个端到端交付任务，20 个客户场景、18 个行业，由行业专家从真实交付项目改造
-- Agent 起手只有 sponsor 的一句话需求（可能指向错误问题），得自己读文档、查系统、找 stakeholder 确认
-- 评分 = 客户业务指标改善（0=没动，1=专家参考方案）− stakeholder 接触成本（问问题/试运行/等待都收费）
-- 四个指令级别 L0→L3：规则全给 → 规则自己挖 → 需求含糊 → sponsor 原始需求（可能跑偏）
-
-### 五个发现
-
-1. 最好模型（Claude Opus 5.5）平均 0.56，95 个任务只解决 14 个
-2. **挖隐性约束是最大断崖**：L0→L1 掉 0.28，L1→L3 只再掉 0.04——瓶颈不是"需求跑偏"，是"约束没写出来"
-3. 拿到 72–85% 关键事实 ≠ 交出系统：只有参考方案 60–70% 的业务提升；contact cost 再扣 0.14–0.22
-4. 弱模型不如不做：Haiku 4.5 在 79/95 个任务上不如 do-nothing（期望贡献为负）
-5. 没有全能选手；花钱多 ≠ 分高；"知道何时算做完"本身就是能力
-
-### 跟你的咬合
-
-- **职业**：0.56 vs 1.0 的差距 = "有经验的工程师" vs "AI" 的价值差，可量化进 AI Solutions Architect 的面试框架（需求澄清/约束发现/系统交付/业务指标导向/stakeholder 管理）
-- **thinktank**：judge 评交付类任务时，业务指标改善 + 接触成本是现成的评分维度
-- **open-memex**：企业版 pitch 话术——"90 分的模型真实交付 56 分，弱的还不如不做，所以需要人把最后一公里走完"
-- fde-gym.com 在线平台：人类可同场练习，等人类基线出来值得做几个任务
-
-### 深读补充（2026-10-21）
-
-- **信息拿全 ≠ 做成**：23 个"最佳模型已从 stakeholder 拿到全部关键事实"的任务里，只有 10 个达到 ≥0.8 的业务提升——需求澄清只是必要条件，真正的鸿沟在拿到信息之后的业务判断、取舍和执行（详解见 fde-gym-paper-summary.md）
-- **姊妹论文收敛证据**：FDE-Bench https://arxiv.org/abs/2610.14539 （中科院自动化所 / Baidu，2026-10-15 同日发表）——49 个真实客户项目案例（29 个组合优化 + 20 个机器学习），最佳配置平均分 0.5510（人类 FDE 参考 1.0），成功率仅 6.12%。两拨独立团队、同一周、同一个结论：0.55 分这条线是收敛的，不是单篇论文的偶然
-- 深读方法说明：本节补充基于两篇论文的 abstract 核实整理，未读正文；FDE-Gym 正文细节已在详解文件里
-
----
-
-## 补：阿里云 AI Agent Handbook（2026-10-17 补）
-
-> 原文：https://github.com/aliyun/ai-agent-handbook（Apache-2.0，~1.6k star，2026-10-16 仍在更新）
-> 一句话：企业级 AI Agent 全生命周期实战指南——30 章 + 2026 Agent 开发者调研；从"怎么搭"转向工程化/规模化/组织化三大挑战。
-
-### 结构（8 大部分）
-
-- **架构**（1–2）：AI 原生应用新阶段、Agentic 应用参考架构
-- **构建**（3–6）：Harness 构建模式、任务编排与长程协作、Context/状态/可复用资产、受控执行与验证（Function Calling、MCP、A2A、HITL）
-- **运行时**（7–12）：Agent Runtime 与沙箱、状态存储、AI 网关与统一流量治理、异步任务、多智能体协同、分布式通信
-- **治理**（13–16）：可观测性、安全（prompt 注入、逐动作校验、数据外泄控制）、AI 资产发现与管理、行为生成与质量验证
-- **优化**（17–24）：模型调优、Trajectory 数据、Golden 数据集、坏 case 改进、受控自进化、边缘运行时
-- **实战**（25–29）：20 个企业案例——内核补丁测试（ABACI/PatchPilot）、PolarDB-X 告警自愈、吉利/塔斯汀智能运维、B 站内容洞察、MiniMax 长程记忆
-- **Jev 专题**：结构化决策（含 HiRoute 智能模型路由）
-- **结论**（30）：从 Agentic 应用到 Agentic OS
-
-### 正好补上清单里点的缺口
-
-10-16 小沐评价里点的 5 个缺口，这本直接补上 3 个半：
-- **安全**（13–16 章·治理）：prompt 注入、逐动作校验、数据外泄控制
-- **可观测性**（13 章）：tracing/日志、行为质量验证
-- **Human-in-the-loop**（6 章·构建）：受控执行与验证（Function Calling、MCP、A2A、HITL）
-- **Router/调度**（Jev 专题）：HiRoute 智能模型路由——kafkaup 那篇的理论版
-- 仍缺：**Prompt Engineering** 仍无专门章节
-
-### 建议阅读顺序
-
-实战案例（25–29，有体感）→ 构建（3–6，动手用得上）→ 治理（13–16，企业版必备）→ 优化（17–24，进阶）
-
-### 跟你的咬合
-
-- **职业**：README 明确目标读者含"架构师和平台工程师"（架构/运行时/治理）、"技术管理者"（架构/治理/实战）——就是 AI Solutions Architect 的知识地图
-- **thinktank**：Harness 构建模式、Trajectory→Golden 数据集飞轮可直接借鉴（judge 评测、eval harness）
-- **open-memex**：AI 网关、agent 可观测性、安全治理是企业版必备件
-- 20 个企业案例是面试弹药；PolarDB-X 告警自愈等"最后一公里"案例与 FDE-Gym 结论互相印证
-
----
-
-## 补：龙井《2小时从零看懂AI》（2026-10-17 补）
-
-> 原文：https://x.com/long_jingai/status/2111356255889723723（X Article，约2.5万字）
-> 详解：[longjing-ai-primer-summary.md](./longjing-ai-primer-summary.md)
-> 一句话：8000元/小时企业内训同款公开版——大模型通识→提示词方法→Agent入门→Agent实操，四段式AI认知体系。
-
-### 四部分要点
-
-1. **大模型通识**："超级图书管理员"原理解释LLM（预测下一个token、不懂装懂）；AI软件=大模型（心）+产品界面（皮）；三种优化方式（提示词/微调/RAG）；选模型框架+自建测试用例
-2. **提示词工程**（⭐最有价值）：公式=清晰指令+必要上下文；"提示词工程已死"是伪命题（被普及+形态进化）；六技巧 Task/Context/Examples/Persona/Format/Tone；**核心方法论"升维提问，逐级降维"**；"先出60分再迭代"
-3. **Agent入门**：定义=自主规划+调工具+执行；三维度评估（厂商/产品形态/任务类型）；"工具决定能做什么，大脑决定做得多好"；学习路径：说清需求→GUI agent实战→按需深入
-4. **Agent实操**：WorkBuddy上手（工作区/完全访问权限/选模型）+ 宠物猫烘焙粮市场调研完整案例
-
-### 关键意义
-
-- **prompt工程缺口清零**：10-16点的5个缺口全部补完（安全/可观测性/HITL/router/prompt工程）
-- 方法论互文："60分先出再迭代"=surgical-edits+breakpoint-feedback；"升维提问"=think-before-code实操版；"真实任务实测"=run-dont-read
-- 企业内训框架可直接借鉴（以后给团队/客户讲AI用）
-
----
-
-## 补：Karpathy "AI 理解漏斗"（2026-10-18 补）
-
-> 原文：https://x.com/karpathy/status/2109361（2026-10-11 19:12 UTC 发布，4 月旧帖翻新，77 万浏览）
-> 解读参考：https://cellcog.ai/blog/karpathy-llm-understanding-funnel/
-> 一句话：你眼里的 AI 和别人眼里的不是同一个东西——差距不再是"两拨人各说各话"，而是一个四层漏斗，而且在变陡。
-
-### 四层（都是他自称的 napkin math，无出处）
-
-1. **约 60 亿人（75%）**：几乎没接触过 LLM
-2. **10–20 亿（约 20%）**：免费层 casual 用户——把 AI 当"更好用的搜索/写作助手"用，很多高管也在这一层
-3. **约 2000 万（0.2%）**：数学/代码领域的专业用户——亲眼看到 agent 一句话完成过去几周/几个月的工作（Karpathy 把自己放这一层：不到一年前他还在手写代码）
-4. **约 5000 人（0.00006%）**：实验室内部——看到的是"成群的 agent 为大项目连续工作几周"
-
-### 漏斗为什么存在：三个原因
-
-1. **Ambition（问题水位）**："You need a reservoir of big, difficult problems that you really care about." 一段话能答完的问题，测不出系统的上限
-2. **Jaggedness（能力锯齿）**：能力在"数字化、可验证、有经济价值"的领域最先爆发——这就是为什么数学和代码先行（RL on verifiable rewards）
-3. **Access（访问层级）**：免费层 / 付费层 / 内部
-
-### 跟你的咬合
-
-- **你的位置**：第三层，而且是第三层里动手造 harness 的那一小撮（thinktank 陪审团、opencode-fuse 三档路由 = 在造"让 agent 干几周活"的工具链）
-- **第四层是路线图方向**：实验室内部看到的是"agent 群连续工作几周"——thinktank Phase 3 的"judge 低置信追问/降级"、opencode-fuse 的"常驻"形态，都是往这个方向摸
-- **Jaggedness 解释了你的选型**：为什么你的 agent 工具先从代码/评审切入——可验证的领域 RL 效果最好，judge 才有判据
-- 他 4 月说"两拨人各说各话"，10 月改口"漏斗在变陡"：顺带解释了为什么你跟 iPipeline 同事聊 AI 时总觉得鸡同鸭讲——你们字面不在同一层
-- 警句："Meanwhile, human review and comprehension are starting to fall behind."（指 OpenAI/HF 密钥事件 + 数学手稿撤稿）——这正是你 incident-to-eval / mistake-class 机制要挡的东西
-
-## 补：码良《Agent 高频面试题单》（2026-10-19 补）
-
-来源：https://x.com/cxjwin/status/2111644503341953409（X Article，18 分钟）
-
-**是什么**：从牛客网 343 篇 Agent 岗面经（180 作者、~80 家公司，8/18–10/18）统计出的 29 道高频题，每道带作者数、场次数、公司/轮次分布、原帖例问和牛客链接。另有算法岗、低频题、面试结构、月度趋势、方法论/局限性章节。
-
-**考得最多的**：
-1. **RAG pipeline** 和 **"你怎么用 AI Coding 工具"**——各超 1/3 作者被问
-2. **Skill / MCP / Function Calling 边界**、**Agent 评测**——9–10 月热度陡升
-3. **Harness**——1/4 作者被问，已成常规题
-4. 手撕代码基本还是 LeetCode，极少数现场手写 Agent Loop；30% 有项目深挖
-
-**方法论**（作者自述局限）：1818 候选 → 1138 全文精读，排除水军号和合集帖；关键词归类可能有误、发帖日期≠面试日期、纯图片帖和小红书未纳入。
-
-### 跟你的咬合
-
-- 这份题单≈你最近三个月在造的东西的目录：RAG（open-memex 检索）/ Skill+MCP（opencode-fuse D18）/ Agent 评测（thinktank Phase 3）/ Harness（Harness² 学习资料）
-- 市场在考的正好是你手里有的——这份题单可以当"能力对标清单"用：每道题问自己"能不能讲清楚"，讲不清的就是学习缺口
-- Harness 从"新概念"变成"1/4 面试官会问的常规题"只用了两个月——佐证了《谈 AI 工程化》里"概念一波波"的判断
-
-## 补：Antonio Gulli《Agentic Design Patterns》（2026-10-19 补）
-
-来源：https://github.com/evoiz/Agentic-Design-Patterns（LanfAI @Huahuazo 推荐，https://x.com/Huahuazo/status/2112037776044749145）
-
-**是什么**：Google Antonio Gulli 写的开源教材，21 章 + 7 个附录，每章配可运行的 Jupyter Notebook。版税全部捐给 Save the Children。
-
-**目录**：
-① Prompt Chain、路由、反思 ② 多 Agent、记忆管理、RAG ③ 安全护栏与 Agent 设计模式
-
-### 跟你的咬合
-
-- 清单里缺"系统教材"这一块——之前全是论文和帖子，这是第一本从基础到进阶的完整教材
-- 可以当"查漏"的底：按目录过一遍，哪章讲的东西你没亲手做过，哪就是缺口
-- 记忆管理那章可以直接对照 open-memex 的三区设计看，看人家怎么讲的
-
-## 补：Suraj Sharma《AI Agent 工程师 12 步学习路线图》（2026-10-20 补）
-
-来源：[英文原帖](https://x.com/suraj_sharma14/status/2111789399176335412)（@suraj_sharma14，10/18，14 万浏览）· [中文解读](https://x.com/UPing123zzz/status/2112157681729564861)（Ethan 恩宇 @UPing123zzz，10/19）· 图：[roadmap-12steps.jpg](./roadmap-12steps.jpg)
-
-**是什么**：12 步学习路线，每步三列（学什么 / 练手项目 / 为什么）。核心观点：Demo 和生产系统的分水岭是稳定运行、安全执行、故障恢复、交付客户。
-
-**12 步**：
-01 架构和状态机（DAG/LangGraph/Temporal）→ 02 工具调用和 MCP → 03 操作电脑界面（Playwright）→ 04 记忆和上下文 → 05 多 Agent 协作（A2A）→ 06 沙箱执行（E2B/gVisor）→ 07 Agent 安全防护 → 08 人工审批 → 09 自我纠错 → 10 执行轨迹评测（作者注：最常被跳过）→ 11 降级兜底 → 12 公开复盘
-
-### 跟你的咬合（2026-10-20 盘点）
-
-12 步中已亲手做过 8 步：04（open-memex 三区记忆）、05（thinktank 陪审团）、10（thinktank PR #23 评测）、08（estimate go/no-go）、11（opencode-fuse fail-closed）、02（open-memex MCP）、12（site 双语写作）、09（升档重跑）。
-
-**两个缺口**：03 操作电脑界面（Playwright/DOM/Set-of-Mark）、06 沙箱执行（E2B/gVisor/Docker-in-Docker）——都是"让 Agent 真正动手"的执行层。
-
-## 补：Generative Agents / Smallville 论文（2026-10-20 补）
-
-来源：https://arxiv.org/abs/2304.03442（Park et al.，Stanford/Google，UIST '23）
-
-**是什么**：Agent 记忆系统的开山之作。25 个 agent 在 Smallville 小镇里生活两天， emergent 出传派对邀请、约会、协调到场等社会行为。
-
-**三件套架构**：
-1. **Memory Stream**：每条记忆 = 自然语言 + 创建时间戳 + 最后访问时间戳；检索 = recency（0.995 指数衰减）+ importance（写入时 LLM 打 1–10 分）+ relevance（embedding 余弦），等权重
-2. **Reflection**：最近事件 importance 总分 >150 触发（一天 2–3 次）；生成问题 → 检索 → 提炼 5 条带引用的高层洞察；可递归成树
-3. **Planning**：一天 5–8 大块 → 每小时 → 每 5–15 分钟递归分解；感知新事件时重排计划
-
-**实验**：派对消息 1→13 人（52%），5/12 到场；消融 TrueSkill 29.89 vs 21.21，Cohen's d = 8.16；代价：两天烧几千美元 token。
-
-### 跟你的咬合
-
-- Hot/Warm/Cold 三区 ≈ 他们的 recency/importance/relevance 三维打分的显式分区版
-- 他们没解决你解决的：importance 每条调一次 LLM 太贵；你的 top 8+5 是更省的工程实现
-- 可借鉴：reflection 触发机制（攒够 importance 分量再批量反思）→ auto-capture 的"攒够分量"触发
-
-## 补：Meta《The Thin Orchestrator》（2026-10-20 补）
-
-来源：https://engineering.fb.com/2026/10/19/ml-applications/thin-orchestrator-ai-agent-architecture/（Meta Engineering，2026-10-19）
-本地总结：thin-orchestrator-summary.md
-
-**是什么**：Meta 数据列接入系统的 Agent 架构复盘：第一版"全知单 agent"上生产幻觉（概念互相污染），重构成 1,300 行薄编排器 + 14 个隔离上下文的专家子 agent。
-
-**核心机制**：
-1. 编排器零领域工作：固定 7 步协议（读指令/查存在/收字段/自动发现/可靠性门/委派/处理结果），只有委派那一步涉及 LLM 推理，且发生在子 agent 隔离上下文里
-2. 子 agent 结构统一：知识源（运行时按需加载）+ 预收集清单 + 分步工作流 + 发现模式 + 排错映射，加新专家是模板活
-3. 新用例不造新 agent，只写 workflow template（确定性状态机定义阶段顺序）；Pipeline Migration 全新场景新 agent 代码为零
-
-**数据**：引用研究 80 任务批量下多 agent 65.3% vs 单 agent 16.6%、token 最高降 65 倍；列配置准备 3–4 天 → 不到 1 小时；约 2/3 变更无需人工大改。
-
-### 跟你的咬合
-
-- 12 步路线图缺口 01（状态机）的生产级样本：workflow template = 确定性状态机，编排层不推理恰是可靠性来源
-- thinktank 陪审（隔离推理 + 汇总层只聚合）、opencode-fuse 三档路由（路由器只决定给谁、不替模型想）与此同源
-- 共同思想：harness 层越克制，模型层越自由；可靠性来自边界，不来自更聪明的 prompt
-
-## 补：决策模型（Decision Models）与 Jev（2026-10-21 补）
-
-来源：https://hamel.dev（Hamel Husain & Antaripa Saha《How To Use Decision Models for Evals》，2026-10-21）；经 @dongxi_nlp 推文 https://x.com/dongxi_nlp/status/2112652766997103016 推荐，扒原文
-本地总结：decision-models-and-jev-summary.md
-
-**是什么**：2026 年 9 月起的新品类——模型不写文本，只输出概率/选项/分数，当 LLM-as-a-Judge 的替代。Jev（TypeSafe，9/15）开创，一个月内 14 个跟进（Perplexity Decider、Cloudflare Clef、OpenAI Decisions API、Microsoft Decision-1 等），多数是小开源模型后训练的"打分头"。
-
-**Hamel 方法论四点**：① 阈值自己调不用默认 0.5（交叉验证 + F1/F-beta，按 precision/recall 要求量出来）② 选型看 Pareto 前沿：Perplexity 最便宜（0.82 美分/100 次，F1 0.79），OpenAI F1 最高（0.87）贵 4.5 倍 ③ 概率当置信度前先验校准（Platt scaling 帮了三家、害了 OpenAI）④ 一个失败模式一个 judge，先调 prompt 再换模型。
-
-**Jev 画像**：输入状态 + 类型化问题（Noul 是非概率 / Choice ≤255 选项 / Score 量表），一次前向并行判完，$0.042/百万输入 token、输出免费；实测校准好（置信 ≥0.9 时对 94–96%）、审核强，但选项顺序敏感（颠倒改 8.5% 答案）、数学与质量评分弱；最佳用法是当大模型的前置过滤器（38–45% 成本打平准确率）。
-
-### 跟你的咬合
-
-- thinktank judge 层新选项：成员出意见 + 决策模型出概率做加权/熔断
-- 冷静派纪律：类别稳定 + 有几千条标注，先训分类器（Banking77 逻辑回归 94.7% 胜零样本决策模型）；决策模型甜区 = 零样本、类别常变、判"以上都不是"
-- 5070 可 DIY：Qwen3.5-0.8B + 决策头 + LoRA，4GB 显存 42 分钟（Unsloth 教程）
-
-**追问答疑（2026-10-21）**：不用自己训——托管 API / 开源权重（Apache 2.0）/ OpenRouter 三条现成路；Jev 在 OpenRouter 的型号是 typesafe/jev-1.14（专用 decisions 端点，非 chat 接口），家里 key 现成。厂商做法 = 小底座 + 决策头 + 微调（大模型生成标签，半蒸馏）+ RLCD 校准训练。**回国后练手**：5070 上按 Unsloth 路线自训一个小决策模型（素材 = thinktank 历史评审），计划与验收标准见总结文档第六、七节。
-
----
-
-## 补：Agentic RAG（2026-10-21 补）
-
-> 来源：Alex Xu / ByteByteGo《How Agentic RAG Works?》（2026-03-23）https://blog.bytebytego.com/p/how-agentic-rag-works ；起因是他的 X 图帖《RAG vs Agentic RAG》https://x.com/alexxubyte/status/2112204626921762987
-> 本地总结：agentic-rag-summary.md
-> 一句话：标准 RAG 的病在中间没人验货；Agentic RAG 把"检索→生成"的直线改成"检索→评估→决定回答还是重试"的循环。
-
-- 标准 RAG 三种死法：歧义问题（不澄清、不改写，原样检索）、证据分散（答案跨多份文档，只查一个源）、虚假自信（相似 ≠ 正确，话题对但版本旧）——同一个根：系统不反思检索结果
-- Agentic 三能力一一对应：工具使用与路由（按问题选源、可多源并查）、问题改写（检索前改具体、检索后结果弱再换问法，图帖标注循环上限 5 次）、自我评估（相关吗 / 完整吗 / 冲突吗，不过关就换问法或换源重试）
-- 不是开关，是光谱：路由器（在 2–3 个库里选一个）→ ReAct（推理-行动交替、步步评估）→ 多 agent 协作 + 编排器；另有记忆与语义缓存
-- 代价：延迟从 1–2 秒变 10 秒+、成本 3–10 倍、决策路径不确定难调试；**评估者悖论**（用一个 LLM 监督另一个 LLM，评估员弱则全盘弱）和**过度纠正**（把有用的首轮结果丢了越找越差）
-- 选型三问：源对不对？能评估检索结果够不够好？不够好能不能重试？三个都是"否"且查询复杂才上 agentic；查询简单、知识库干净，标准 RAG 就是正解；现有系统失败若来自切分差/数据旧，先修数据
-
-### 跟你的咬合
-
-- 清单 #6（RAG Deep Dive）讲检索本身（切分/检索/重排），这篇讲检索外面的控制层，两篇合起来是 RAG 完整图景
-- open-memex 现在是标准 RAG 形态，升级路径 = 先加路由、再加评估 + 重试环，恰是它的 opt-in 哲学（默认简单、复杂按需开）
-- 自我评估 = 把 judge 搬到检索层；评估者悖论正是 thinktank 用多模型陪审、而非单 judge 自评的理由
+## 变更记录
+- **2026-10-31**：补第 49 份 Karpathy《LLM Wiki》（组二，Stone 批入——X 帖 @awe0_io 推 Graphify 时提到 Karpathy 的三层知识库文章，Stone 让找原文、要原理与实现思路）。三层编译式知识库：raw（不可改原文）/ wiki（LLM 写的 markdown）/ schema（纪律文件）；三操作 ingest / query / lint；index.md + log.md 规模化到 ~100 份资料。用途三处：open-memex（编译式记忆）、本地文件组织、WorkBuddy harness。**结构升级：学习资料分三部分——导读 + 摘要（写到不看原文能学到精髓）+ 学习笔记；新资料按三部分走，旧资料的导读已含精读层、暂不拆。** 新增后清单共 49 份（基础 19 + 专题 30）。同日补：摘要加第 10 节 Graphify 实现（代码库上的编译式知识图谱）；并立新规矩——以后重要资料都要有详细摘要，库内自足、不依赖原文站点；旧资料缺摘要的，学习时补。
+
+- **2026-10-15/16**：清单初建（基础 19 篇 systemdesign.one + 专题补编起步）。
+- **2026-10-24**：按新标准重整——每份材料标分级（对照正文 / 摘要即可 / 查阅型 / 概念即可）；MIT 6.S950 Lec 5 重复收录并为一份；主题相邻条目互标合读关系；重心定为全部涉猎、FDE 与 Agent 为重点，深度押 FDE 落地、Agent 跑稳（Ops）、Evals 三处；安全与治理从"知道"升到"能讲"。缺口补足完成（FDE、Agent Ops、安全与治理三组各补最硬的 3 份，第 33–41 份，均逐条验过 URL 与原文）。
+- **2026-10-25**：补第 42 份 walkinglabs《Learn Harness Engineering》（组三）。
+- **2026-10-29**：补第 48 份 namiai《从零手写 Agent》（组三，Stone 批入）。此前动手线只有 walkinglabs 一份（搭 harness），这份补"搭 Agent 本体 + 拆解对照"：18 课已完结、配可运行代码，EP03/EP05/EP11/EP18 对照正文、其余摘要即可。新增后清单共 48 份（基础 19 + 补编 29）。Gulli《Agentic Design Patterns》仍未读完，晚间提醒优先接着推其未读章节，第 48 份排在其后。
+- **2026-10-31**：第三编 18 条详解各拆为单独文件，目录第二编 29 条全部链到导读文件；"补"字标签退役——"专题补编"改名"专题进阶"，按 7 个主题组归类（路由与编排 / 记忆与检索 / Harness 与课程 / 框架与平台 / 教材与路线 / 交付与职业 / FDE·Agent Ops·安全治理），不再按"后补的"分；流水号（第 N 份）保留在总目录与变更记录里。
+- **2026-10-31**：附"评价与补充（2026-10-16）"标注为历史原文——"缺的东西" 5 个缺口已于 2026-10-24 全部补上（各缺口的补法见该节顶状态注），优点、"不太值的几篇"、"如果只读 5 篇"、学习方法建议仍有效。
+- **2026-10-31**：重写本文件为干净目录——目录（第一、二编）只留每份一行 + 导读链接；无单独导读文件的条目详解移入第三编；变更记录集中到本节。内容一字未删，只搬了位置。
