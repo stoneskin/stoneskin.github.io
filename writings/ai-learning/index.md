@@ -3,8 +3,8 @@
 [← 返回首页](../../index.md)
 
 
-*整理：2026-11-01 · 共 49 条*
-*文件名链到本地总结，原文链到出处；49 条 = 下表条目数，也是学习清单总数（基础 19 + 专题 30）的口径，本站 .md 文件现为 49 个*
+*整理：2026-11-02 · 共 50 份*
+*文件名链到本地总结，原文链到出处；50 份 = 学习清单总数（基础 19 + 专题 31）；下表 51 行（DeepSeek 与 Karpathy 各占导读 + 摘要两行），本站 .md 文件现为 51 个*
 
 
 ---
@@ -17,7 +17,7 @@
 | [ai-learning-resources.md](./ai-learning-resources.md) | —（自建清单） | **总清单**：共 49 份（基础 19 + 专题 30），分级标注，专题按 7 组归类。本文件是旧版快照（只有基础 19 篇 + 补节），49 份完整版待下一步同步更新。 |
 
 
-## 二、论文 / 长文详解（15）
+## 二、论文 / 长文详解（17）
 
 | 本地总结 | 原文 | 说明 |
 |---|---|---|
@@ -36,6 +36,8 @@
 | [revenuebrew-fde-summary.md](./revenuebrew-fde-summary.md) | [RevenueBrew](https://revenuebrew.com) | RevenueBrew《What it's like to work in tech's hottest new role》：唯一一份在职 FDE 本人出镜讲日常的报道 |
 | [karpathy-llm-wiki-guide.md](./karpathy-llm-wiki-guide.md) | [GitHub Gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) | Karpathy《LLM Wiki》导读（第 49 份）：把知识一次编译进 wiki，而不是每次重算；三层架构 + 三个操作 |
 | [karpathy-llm-wiki-summary.md](./karpathy-llm-wiki-summary.md) | [GitHub Gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) | Karpathy《LLM Wiki》详细摘要：三层架构与三个操作，写到不看原文能学到精髓；含 Graphify 实现 |
+| [deepseek-super-agent-guide.md](./deepseek-super-agent-guide.md) | [全文转贴](https://www.uied.cn/posts/922127) · [原型](https://github.com/deepseek-ai/dsh-superagent-prototype) | DeepSeek《Super-agent 设计探索》导读（第 50 份）：多任务的上限是人的注意力；Router + Worker、事件直通、Watchdog 五大模块 |
+| [deepseek-super-agent-summary.md](./deepseek-super-agent-summary.md) | [全文转贴](https://www.uied.cn/posts/922127) · [原型](https://github.com/deepseek-ai/dsh-superagent-prototype) | DeepSeek《Super-agent 设计探索》详细摘要：五大模块、实验数据（p50 12.4 分钟）、安全局限、原型档案；写到不看原文能学到精髓 |
 
 ## 三、方法论文档（15，X 帖提炼）
 
