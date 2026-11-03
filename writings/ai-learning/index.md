@@ -3,8 +3,8 @@
 [← 返回首页](../../index.md)
 
 
-*整理：2026-11-02 · 共 50 份*
-*文件名链到本地总结，原文链到出处；50 份 = 学习清单总数（基础 19 + 专题 31）；下表 51 行（DeepSeek 与 Karpathy 各占导读 + 摘要两行），本站 .md 文件现为 51 个*
+*整理：2026-11-03 · 共 51 份*
+*文件名链到本地总结，原文链到出处；51 份 = 学习清单总数（基础 19 + 专题 32）；下表 52 行（DeepSeek 与 Karpathy 各占导读 + 摘要两行），本站 .md 文件现为 52 个*
 
 
 ---
@@ -38,6 +38,7 @@
 | [karpathy-llm-wiki-summary.md](./karpathy-llm-wiki-summary.md) | [GitHub Gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) | Karpathy《LLM Wiki》详细摘要：三层架构与三个操作，写到不看原文能学到精髓；含 Graphify 实现 |
 | [deepseek-super-agent-guide.md](./deepseek-super-agent-guide.md) | [全文转贴](https://www.uied.cn/posts/922127) · [原型](https://github.com/deepseek-ai/dsh-superagent-prototype) | DeepSeek《Super-agent 设计探索》导读（第 50 份）：多任务的上限是人的注意力；Router + Worker、事件直通、Watchdog 五大模块 |
 | [deepseek-super-agent-summary.md](./deepseek-super-agent-summary.md) | [全文转贴](https://www.uied.cn/posts/922127) · [原型](https://github.com/deepseek-ai/dsh-superagent-prototype) | DeepSeek《Super-agent 设计探索》详细摘要：五大模块、实验数据（p50 12.4 分钟）、安全局限、原型档案；写到不看原文能学到精髓 |
+| [claude-fold-subagents-guide.md](./claude-fold-subagents-guide.md) | [原文](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop) · [迁移 kit](https://github.com/anthropics/single-agent-loop-kit) | Anthropic《When to fold subagents into your main agent loop》导读（第 51 份）：单 Agent + Skills 常打赢多 subagent；subagent 只留三处；迁移凭任务完成 eval、一次折一个；与 DeepSeek Super-agent 互补（任务内精简 vs 任务间组织） |
 
 ## 三、方法论文档（15，X 帖提炼）
 
