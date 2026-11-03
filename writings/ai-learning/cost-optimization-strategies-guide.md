@@ -3,7 +3,7 @@
 [← 返回目录](index.md)
 
 > 来源：ByteByteGo（Alex Xu），X 帖《Top 6 Cost Optimization Strategies in AI Systems》，2026-11-02。原文：https://x.com/alexxubyte/status/2117302471156781430
-> 本篇是导读 + 重绘图；清单第 52 份，组七 Agent Ops。原图为 GIF，本页的图是矢量重绘（文字可选中、可任意缩放），原图未转载。
+> 本篇是导读 + 重绘图；清单第 52 份，组七 Agent Ops。上方是矢量重绘（文字可选中、可任意缩放），下方附 ByteByteGo 原图供对照。
 
 ## 一句话结论
 
@@ -190,4 +190,10 @@ td.why { font-size:13px; line-height:1.65; }
     </tbody>
   </table>
 
-来源：ByteByteGo（Alex Xu）2026-11-02 X 帖《Top 6 Cost Optimization Strategies in AI Systems》，[原帖](https://x.com/alexxubyte/status/2117302471156781430)。原图为 GIF，本版为矢量重绘：六条策略与流程步骤忠实原图，效果说明改写为中文；删去原图品牌配色与动画。4-bit 约保留 99% 准确率是原图说法，适用于窄任务，不宜外推到所有任务。
+## 原图对照
+
+![ByteByteGo 原图：Top 6 Cost Optimization Strategies in AI Systems](./cost-optimization-strategies-original.jpg)
+
+原图：ByteByteGo（Alex Xu）2026-11-02 X 帖附图（GIF 大图）。重绘版与原图逐条对照：流程步骤一致，重绘版把每条的效果说明改写为中文，并删去了原图的品牌配色与动画。
+
+来源：ByteByteGo（Alex Xu）2026-11-02 X 帖《Top 6 Cost Optimization Strategies in AI Systems》，[原帖](https://x.com/alexxubyte/status/2117302471156781430)。原图为 ByteByteGo 的 GIF（见上方原图对照）；重绘版六条策略与流程步骤忠实原图，效果说明改写为中文；删去原图品牌配色与动画。4-bit 约保留 99% 准确率是原图说法，适用于窄任务，不宜外推到所有任务。
