@@ -85,7 +85,7 @@
 | [mit-6s950-harness-lecture-summary.md](./mit-6s950-harness-lecture-summary.md)（附海报 mit-6s950-harness-lecture-poster.jpg） | [MIT 讲义原文](https://agencyai.mit.edu/w5/) · [shao__meng 介绍推](https://x.com/shao__meng/status/2112821429121204275) | MIT 6.S950 Lecture 5《The Harness》导读（第 27 份）：Baby Anigans 300 行教学 Agent；可观测性五维检查与厂商封存（正补清单自评缺口）；可控性三原则的经典谱系（1965/1968/1972/1975）；无通用最优 harness 与校准数据（±2%~±5%、成本 2 倍）——Harness² 的反面教材 |
 | [mit-6s950-course-panorama-guide.md](./mit-6s950-course-panorama-guide.md) | [课程官网原文](https://agencyai.mit.edu/) · [shao__meng 全景导读](https://x.com/shao__meng/status/2103461095566676365) | MIT 6.S950《Agency with AI》课程全景（第 28 份，原文 + 导读成对）：Agency = 委托/验证/保留的判断力；官网明列 spec-driven development；Lec 4 "Specs before prompts"；评测即实验设计、审计产出物与评判者；导读 Lec 3–12 解读含作者推断，已标注——与第 27 份配套 |
 
-## 七、框架与课程（9）
+## 七、框架与课程（10）
 
 | 本地总结 | 原文 | 说明 |
 |---|---|---|
@@ -98,6 +98,7 @@
 | [cresta-agent-observability-summary.md](./cresta-agent-observability-summary.md) | [Cresta](https://cresta.com) | Cresta《Observability for AI Agents》：trace 跨服务、多租户隔离、故障回放 |
 | [learn-harness-engineering-summary.md](./learn-harness-engineering-summary.md) | [GitHub](https://github.com/walkinglabs/learn-harness-engineering) | walkinglabs《Learn Harness Engineering》（第 42 份）：从零亲手搭一个完整 harness 的动手课程 |
 | [namiai-agent-summary.md](./namiai-agent-summary.md) | [namiai](https://namiai.tech/agent/?v=1) | namiai《从零手写 Agent》（第 48 份）：中文动手系列，从 100 行循环亲手搭出完整 Agent，再拆 7 个主流 Agent |
+| — | [GitHub 仓库](https://github.com/microsoft/ai-agents-for-beginners) | Microsoft《AI Agents for Beginners》（第 53 份，查阅型）：18 课入门课程，七成内容与在册材料重复且更浅；只标 4 课值得看——第 14 课 Microsoft Agent Framework（清单里唯一的微软 Agent 栈）、第 15 课 Computer Use Agents（补 Sharma 路线图缺口 03 操作电脑界面）、第 17 课本地 Agent、第 9 课元认知；代码示例须 Azure 账号 + Microsoft Foundry 才能跑全 |
 
 ---
 
