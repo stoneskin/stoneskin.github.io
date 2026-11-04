@@ -4,59 +4,69 @@
 
 *2026-11-04 · [中文版](./index.md)*
 
-Only tools and skills I have actually used or seriously evaluated. Ratings reflect how much I use them, not an objective ranking: ★★★★★ daily use, ★★★★☆ regular use, ★★★☆☆ in progress or worth trying, ★★☆☆☆ evaluated, not adopted. Continuously updated; v1 has 16 entries.
+Only tools and skills I have used, seriously evaluated, or that are popular enough to be worth knowing. **Usage and rating are scored separately**: usage is how much I actually use a tool; rating is my recommendation — for tools I haven't used, the rating is based on reputation and public material, not hands-on testing. ★★★★★ highly recommended, ★★★★☆ worth using/trying, ★★★☆☆ worth a look, ★★☆☆☆ evaluated, not adopted. At most 5 full entries per category; overflow goes in an "Others" line with names only. Continuously updated; v2 has 24 entries, plus 3 more listed under "Others".
 
 ## 1. Code Understanding & Graphs
 
-| Tool | Rating | One-line verdict |
-|---|---|---|
-| [Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) | ★★★☆☆ | Code knowledge-graph plugin: Tree-sitter + LLM multi-agent pipeline builds the graph; interactive dashboard, guided tours, semantic search, diff impact analysis; 90k stars; evaluated, not yet tried — best for getting oriented in a large unfamiliar codebase before reading code. |
-| [Graphify (inside thinktank)](https://github.com/stoneskin/muse-thinktank) | ★★★★☆ | Curated code graph built into thinktank: 1,029 nodes / 1,701 edges / 61 communities; read the graph before a review to see what a change touches. |
+| Tool | Usage | Rating | Comment |
+|---|---|---|---|
+| [Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) | Not used yet — popular, want to try | ★★★☆☆ | 90k-star code knowledge-graph plugin, Tree-sitter + LLM graph building; best for getting oriented in a large unfamiliar codebase before reading code; not yet tested, in the queue. |
+| [Graphify (inside thinktank)](https://github.com/stoneskin/muse-thinktank) | Regular use | ★★★★☆ | Curated code graph built into thinktank: 1,029 nodes / 1,701 edges / 61 communities; read the graph before a review to see what a change touches. |
 
-## 2. Multi-Model Orchestration & Review
+## 2. Multi-Model & Multi-Agent Orchestration
 
-| Tool | Rating | One-line verdict |
-|---|---|---|
-| [muse-thinktank](https://github.com/stoneskin/muse-thinktank) | ★★★★★ | My multi-model jury: one question to N models in parallel, dual judges cross-validate, synth merges a verdict; used in weekly reviews — disagreement is signal. |
-| model-fuse | ★★★☆☆ | My opencode plugin: one question to many models, merge the best; three auto tiers; in private development; D10/D11 direction settled (not replacing with Copilot Fusion). |
-| GitHub Copilot Fusion | ★★☆☆☆ | Evaluated, not adopted: D10 adversarial review is roughly Critique, D11 verdict differs from Cascade quality gates — not equivalent. |
+| Tool | Usage | Rating | Comment |
+|---|---|---|---|
+| [muse-thinktank](https://github.com/stoneskin/muse-thinktank) | Daily use | ★★★★★ | One question to N models in parallel, dual judges cross-validate, synth merges a verdict; used in weekly reviews — disagreement is signal. |
+| model-fuse | In development | ★★★☆☆ | My opencode plugin: one question to many models, merge the best; direction for D10/D11 settled, not replacing with Copilot Fusion. |
+| GitHub Copilot Fusion | Evaluated, not adopted | ★★☆☆☆ | D10 adversarial review is roughly Critique, D11 verdict differs from Cascade quality gates — not equivalent; worth knowing, that's it. |
+| [LangGraph](https://github.com/langchain-ai/langgraph) | Not used yet — popular, want to try | ★★★★☆ | Graph orchestration framework; state-machine agent flows are a production-grade pattern; Meta's Thin Orchestrator paper describes the same idea — worth reading side by side. |
+| [AutoGen](https://github.com/microsoft/autogen) | Not used yet — popular, want to try | ★★★☆☆ | Microsoft's multi-agent framework, the classic conversational agent orchestration; conceptually comparable to thinktank's jury review, but a different job. |
 
 ## 3. Memory & Knowledge
 
-| Tool | Rating | One-line verdict |
-|---|---|---|
-| [open-memex](https://github.com/stoneskin/open-memex) | ★★★★★ | My local-first memory layer: Markdown as source of truth, SQLite FTS5 search, MCP + CLI; npm 0.8.2; long-term memory for AI coding assistants. |
+| Tool | Usage | Rating | Comment |
+|---|---|---|---|
+| [open-memex](https://github.com/stoneskin/open-memex) | Daily use | ★★★★★ | Local-first memory layer: Markdown as source of truth, SQLite FTS5 search, MCP + CLI; npm 0.8.2. |
+| [Mem0](https://github.com/mem0ai/mem0) | Not used yet — popular, want to try | ★★★☆☆ | Memory layer for agents, marketed as pluggable long-term memory; same space as open-memex, useful as a design reference. |
 
 ## 4. AI Coding Assistants
 
-| Tool | Rating | One-line verdict |
-|---|---|---|
-| [Claude Code](https://claude.com/product/claude-code) | ★★★★★ | My primary coding agent; native host for plugins like Understand-Anything. |
-| [GitHub Copilot CLI](https://docs.github.com/en/copilot) | ★★★★☆ | Company-approved AI tool; WorkBuddy's main execution backend, called through AgentAdapter. |
-| [OpenCode](https://github.com/opencode-ai/opencode) | ★★★★☆ | Open-source AI coding CLI; WorkBuddy's personal hand, interchangeable with Copilot CLI. |
+| Tool | Usage | Rating | Comment |
+|---|---|---|---|
+| [Claude Code](https://claude.com/product/claude-code) | Daily use | ★★★★★ | My primary coding agent; native host for plugins like Understand-Anything. |
+| [GitHub Copilot CLI](https://docs.github.com/en/copilot) | Regular use | ★★★★☆ | Company-approved AI tool; WorkBuddy's main execution backend, called through AgentAdapter. |
+| [OpenCode](https://github.com/opencode-ai/opencode) | Regular use | ★★★★☆ | Open-source AI coding CLI; WorkBuddy's personal hand, interchangeable with Copilot CLI. |
+| [Cursor](https://www.cursor.com) | Not used yet — popular, want to try | ★★★★☆ | The most popular AI editor, completion + agent mode in one; never used it, but too popular not to know — worth trying side by side when there's time. |
+| [Codex](https://github.com/openai/codex) | Not used yet — popular, want to try | ★★★★☆ | OpenAI's coding agent, CLI + cloud in parallel; same space as Claude Code, try before comparing. |
+
+Others: Gemini CLI, Cline, Aider (names only, no rating).
 
 ## 5. Agent Frameworks & Runtimes
 
-| Tool | Rating | One-line verdict |
-|---|---|---|
-| [DeepSeek Harness (dsh)](https://github.com/deepseek-ai/deepseek-harness) | ★★★☆☆ | v0.2.2-alpha.2, plugin-based micro-kernel agent runtime; high borrowing value (skill catalog lazy loading, flow skills, "model-visible <=> logged"), not adopted directly. |
+| Tool | Usage | Rating | Comment |
+|---|---|---|---|
+| [DeepSeek Harness (dsh)](https://github.com/deepseek-ai/deepseek-harness) | Evaluated (borrowed ideas) | ★★★☆☆ | v0.2.2-alpha.2, plugin-based micro-kernel agent runtime; high borrowing value (skill catalog lazy loading, flow skills, "model-visible <=> logged"), not adopted directly. |
+| [LangChain](https://github.com/langchain-ai/langchain) | Not used yet — popular, want to try | ★★★★☆ | The oldest agent framework, the biggest ecosystem; new projects rarely start from it, but reading it is reading the industry consensus. |
+| [CrewAI](https://github.com/crewAIInc/crewAI) | Not used yet — popular, want to try | ★★★☆☆ | Role-based multi-agent orchestration (Role + Task + Crew), easier to start than AutoGen; a reference for small-team multi-agent prototypes. |
+| [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) | Not used yet — popular, want to try | ★★★☆☆ | OpenAI's official lightweight agent SDK; worth a look if you want to stay close to the OpenAI ecosystem. |
 
 ## 6. Investing
 
-| Tool | Rating | One-line verdict |
-|---|---|---|
-| [Ainvest Amie](https://www.ainvest.com) | ★★★★☆ | Daily three questions as an outside reference: take the framework, never the numbers; holdings are never disclosed; answers must be re-checked against our own closing prices. |
-| [moomoo OpenD](https://www.moomoo.com) | ★★★★☆ | The only real API for quotes + paper trading; 1024-bit RSA encrypted handshake, laptop listening on 0.0.0.0 over Tailscale; live-trading unlock expires ~Dec 1. |
-| Sector Navigator | ★★★☆☆ | In-app AI sector navigator in moomoo: sector rotation analysis only, no trade recommendations, no orders; once picked it can't be changed. |
-| tt/stock_context.py | ★★★★☆ | Homegrown: pull technicals before writing any investment analysis; every number needs a source; a draft with framework but no data is half-baked. |
+| Tool | Usage | Rating | Comment |
+|---|---|---|---|
+| [Ainvest Amie](https://www.ainvest.com) | Daily use | ★★★★☆ | Daily three questions as an outside reference: take the framework, never the numbers; holdings are never disclosed; answers must be re-checked against our own closing prices. |
+| [moomoo OpenD](https://www.moomoo.com) | Regular use | ★★★★☆ | The only real API for quotes + paper trading; 1024-bit RSA encrypted handshake, laptop listening on 0.0.0.0 over Tailscale; live-trading unlock expires ~Dec 1. |
+| Sector Navigator | Regular use | ★★★☆☆ | In-app AI sector navigator in moomoo: sector rotation analysis only, no trade recommendations, no orders; once picked it can't be changed. |
+| tt/stock_context.py | Regular use | ★★★★☆ | Homegrown: pull technicals before writing any investment analysis; every number needs a source; a draft with framework but no data is half-baked. |
 
 ## 7. Homegrown Workflow Tools
 
-| Tool | Rating | One-line verdict |
-|---|---|---|
-| gh-sync-check.py / gh-api-push.py / gh-post-merge.py | ★★★★☆ | The publishing chain: sync with remote before starting, push branches via API, clean up after merge; used daily. |
-| backup-sync.py | ★★★★☆ | Nightly 22:00 backup of the muse-agent-harness private repo straight to main; the only exception to the branch + PR rule. |
+| Tool | Usage | Rating | Comment |
+|---|---|---|---|
+| gh-sync-check.py / gh-api-push.py / gh-post-merge.py | Daily use | ★★★★☆ | The publishing chain: sync with remote before starting, push branches via API, clean up after merge; used daily. |
+| backup-sync.py | Daily use | ★★★★☆ | Nightly 22:00 backup of the muse-agent-harness private repo straight to main; the only exception to the branch + PR rule. |
 
 ---
 
-*Admission rule: a tool enters this list only after I've used it or seriously evaluated it; entries are hands-on notes, not vendor copy. Send me a link if you want me to try something.*
+*Admission rule: I decide what enters and leaves this list; a tool gets in after I've used it, seriously evaluated it, or because it's popular enough to be worth knowing; entries are hands-on notes, not vendor copy. Send me a link if you want me to try something.*

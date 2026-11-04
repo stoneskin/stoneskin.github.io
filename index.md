@@ -51,7 +51,7 @@ Seasoned software architect and tech leader with **20+ years** of experience in 
 
 ## AI Toolbox
 
-[AI Toolbox](./writings/ai-toolbox/index-en.md) / [AI 工具箱](./writings/ai-toolbox/index.md) — tools and skills I actually use or have seriously evaluated: code graphs, multi-model juries, memory layers, coding agents, investing aids, each with a usage-based rating. 16 entries, continuously updated. / 我用过或认真评估过的 AI 工具与技能：代码图谱、多模型评审、记忆层、编程助手、投资分析，按使用强度打分；16 项，持续补充。(2026-11)
+[AI Toolbox](./writings/ai-toolbox/index-en.md) / [AI 工具箱](./writings/ai-toolbox/index.md) — tools and skills I actually use or have seriously evaluated: code graphs, multi-model juries, memory layers, coding agents, investing aids, each with usage and rating scored separately. 24 entries plus 3 more listed under "Others", continuously updated. / 我用过或认真评估过的 AI 工具与技能：代码图谱、多模型评审、记忆层、编程助手、投资分析，使用强度与评价分开打分；24 项，另有 3 项列在“其他”，持续补充。(2026-11)
 
 ## Experience
 
