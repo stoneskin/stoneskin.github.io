@@ -14,7 +14,7 @@ Agent Skills are capability packs for AI: a prompt + scripts + reference docs, l
 | [thinktank writing](https://github.com/stoneskin/muse-thinktank) | Regular use | ★★★★☆ | thinktank seed skill: structures bilingual writing context (LinkedIn articles, docs), triggered by 写作/write/article; where essay and tech-article writing context comes from. |
 | [thinktank stock-analysis](https://github.com/stoneskin/muse-thinktank) | Regular use | ★★★★☆ | thinktank seed skill: pulls technicals via tt/stock_context.py into shared context before the jury reviews; the execution layer of "data before draft". |
 | [thinktank code-review](https://github.com/stoneskin/muse-thinktank) | Regular use | ★★★★☆ | thinktank seed skill: the standing pre-review step, its output feeds shared context for the jury. |
-| local-questioning | Regular use | ★★★★☆ | Homegrown questioning method (local version of grill-me): auto-triggers while learning, asks round after round from the edge of understanding, each with a recommended answer, until principle/implementation/trade-offs are all clear; never uses the word "grill". |
+| local-questioning | Regular use | ★★★★☆ | Homegrown questioning method (local version of grill-me): auto-triggers for learning check-ins and for clarifying requirements before building — learning until principle/implementation/trade-offs are all clear, requirements until there is nothing left to guess, so review does not surface a wrong build; never uses the word "grill". |
 
 ## 2. Popular Skills: Discovery, Questioning & Handoff
 
