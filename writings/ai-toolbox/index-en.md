@@ -4,7 +4,7 @@
 
 *2026-11-04 · [中文版](./index.md)*
 
-Only AI tools I have used, seriously evaluated, or that are popular enough to be worth knowing. **Usage and rating are scored separately**: usage is how much I actually use a tool; rating is my recommendation — for tools I haven't used, the rating is based on reputation and public material, not hands-on testing. ★★★★★ highly recommended, ★★★★☆ worth using/trying, ★★★☆☆ worth a look, ★★☆☆☆ evaluated, not adopted. At most 5 full entries per category; overflow goes in an "Others" line with names only. Continuously updated; v3 has 21 entries, plus 3 more listed under "Others". Skills live on their own page: [AI Skills](./skills-en.md).
+Only AI tools I have used, seriously evaluated, or that are popular enough to be worth knowing. **Usage and rating are scored separately**: usage is how much I actually use a tool; rating is my recommendation — for tools I haven't used, the rating is based on reputation and public material, not hands-on testing. ★★★★★ highly recommended, ★★★★☆ worth using/trying, ★★★☆☆ worth a look, ★★☆☆☆ evaluated, not adopted. At most 5 full entries per category; overflow goes in an "Others" line with names only. Continuously updated; v4 has 21 entries, plus 6 more listed under "Others". Skills live on their own page: [AI Skills](./skills-en.md).
 
 ## 1. Code Understanding & Graphs
 
@@ -34,13 +34,13 @@ Only AI tools I have used, seriously evaluated, or that are popular enough to be
 
 | Tool | Usage | Rating | Comment |
 |---|---|---|---|
-| [Claude Code](https://claude.com/product/claude-code) | Daily use | ★★★★★ | My primary coding agent; native host for plugins like Understand-Anything. |
+| [Claude Code](https://claude.com/product/claude-code) | Not used | ★★★★★ | Not used; native host for plugins like Understand-Anything, highly regarded — worth trying. |
 | [GitHub Copilot CLI](https://docs.github.com/en/copilot) | Regular use | ★★★★☆ | Company-approved AI tool; WorkBuddy's main execution backend, called through AgentAdapter. |
-| [OpenCode](https://github.com/opencode-ai/opencode) | Regular use | ★★★★☆ | Open-source AI coding CLI; WorkBuddy's personal hand, interchangeable with Copilot CLI. |
-| [Cursor](https://www.cursor.com) | Not used yet — popular, want to try | ★★★★☆ | The most popular AI editor, completion + agent mode in one; never used it, but too popular not to know — worth trying side by side when there's time. |
+| [OpenCode](https://github.com/opencode-ai/opencode) | Daily use | ★★★★☆ | Open-source AI coding CLI; WorkBuddy's personal hand, interchangeable with Copilot CLI. |
+| [Cursor](https://www.cursor.com) | Used | ★★★★☆ | The most popular AI editor, completion + agent mode in one; used it. |
 | [Codex](https://github.com/openai/codex) | Not used yet — popular, want to try | ★★★★☆ | OpenAI's coding agent, CLI + cloud in parallel; same space as Claude Code, try before comparing. |
 
-Others: Gemini CLI, Cline, Aider (names only, no rating).
+Others: Gemini CLI, Cline, RooCode, VSCode, Antigravity, Aider (Gemini CLI, Cline, RooCode, VSCode and Antigravity used; names only, no rating).
 
 ## 5. Agent Frameworks & Runtimes
 

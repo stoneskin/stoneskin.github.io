@@ -4,7 +4,7 @@
 
 *2026-11-04 · [English Version](./index-en.md)*
 
-只收我用过、认真评估过、或热门到值得知道的 AI 工具。**使用强度与评价分开算**：使用强度是我的实际用量，评价是推荐度——没用过的按口碑与公开资料给分，不是实测。★★★★★ 强烈推荐，★★★★☆ 值得用/试，★★★☆☆ 可以看看，★★☆☆☆ 评估过、没采用。每类最多 5 个完整条目，多出的放“其他”一行，只列名字。持续补充中，v3 共 21 项，另有 3 项列在“其他”。Skills 单独一页：[AI Skills](./skills.md)。
+只收我用过、认真评估过、或热门到值得知道的 AI 工具。**使用强度与评价分开算**：使用强度是我的实际用量，评价是推荐度——没用过的按口碑与公开资料给分，不是实测。★★★★★ 强烈推荐，★★★★☆ 值得用/试，★★★☆☆ 可以看看，★★☆☆☆ 评估过、没采用。每类最多 5 个完整条目，多出的放“其他”一行，只列名字。持续补充中，v4 共 21 项，另有 6 项列在“其他”。Skills 单独一页：[AI Skills](./skills.md)。
 
 ## 一、代码理解与图谱
 
@@ -34,13 +34,13 @@
 
 | 工具 | 使用强度 | 评价 | 点评 |
 |---|---|---|---|
-| [Claude Code](https://claude.com/product/claude-code) | 每天在用 | ★★★★★ | 主力 coding agent；Understand-Anything 等插件的原生宿主。 |
+| [Claude Code](https://claude.com/product/claude-code) | 未用过 | ★★★★★ | 没用过；Understand-Anything 等插件的原生宿主，业界口碑很好，值得一试。 |
 | [GitHub Copilot CLI](https://docs.github.com/en/copilot) | 常用 | ★★★★☆ | 公司批准的 AI 工具；WorkBuddy 主力执行后端，走 AgentAdapter 调用。 |
-| [OpenCode](https://github.com/opencode-ai/opencode) | 常用 | ★★★★☆ | 开源 AI 编程 CLI；WorkBuddy 的个人手，与 Copilot CLI 可换。 |
-| [Cursor](https://www.cursor.com) | 未用 · 热门想试 | ★★★★☆ | 最火的 AI 编辑器，补全 + agent 模式一体；没用过，但热门到不能不知道，有空值得上手比一比。 |
+| [OpenCode](https://github.com/opencode-ai/opencode) | 每天在用 | ★★★★☆ | 开源 AI 编程 CLI；WorkBuddy 的个人手，与 Copilot CLI 可换。 |
+| [Cursor](https://www.cursor.com) | 用过 | ★★★★☆ | 最火的 AI 编辑器，补全 + agent 模式一体；用过。 |
 | [Codex](https://github.com/openai/codex) | 未用 · 热门想试 | ★★★★☆ | OpenAI 的 coding agent，CLI + 云端并行；与 Claude Code 同赛道，值得试了再比。 |
 
-其他：Gemini CLI、Cline、Aider（只列名字，无评价）
+其他：Gemini CLI、Cline、RooCode、VSCode、Antigravity、Aider（Gemini CLI、Cline、RooCode、VSCode、Antigravity 用过；只列名字，无评价）
 
 ## 五、Agent 框架与运行时
 
