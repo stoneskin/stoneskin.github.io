@@ -4,7 +4,7 @@
 
 *2026-11-04 · [中文版](./index.md)*
 
-Only tools and skills I have used, seriously evaluated, or that are popular enough to be worth knowing. **Usage and rating are scored separately**: usage is how much I actually use a tool; rating is my recommendation — for tools I haven't used, the rating is based on reputation and public material, not hands-on testing. ★★★★★ highly recommended, ★★★★☆ worth using/trying, ★★★☆☆ worth a look, ★★☆☆☆ evaluated, not adopted. At most 5 full entries per category; overflow goes in an "Others" line with names only. Continuously updated; v2 has 24 entries, plus 3 more listed under "Others".
+Only AI tools I have used, seriously evaluated, or that are popular enough to be worth knowing. **Usage and rating are scored separately**: usage is how much I actually use a tool; rating is my recommendation — for tools I haven't used, the rating is based on reputation and public material, not hands-on testing. ★★★★★ highly recommended, ★★★★☆ worth using/trying, ★★★☆☆ worth a look, ★★☆☆☆ evaluated, not adopted. At most 5 full entries per category; overflow goes in an "Others" line with names only. Continuously updated; v3 has 20 entries, plus 4 more listed under "Others". Skills live on their own page: [AI Skills](./skills-en.md).
 
 ## 1. Code Understanding & Graphs
 
@@ -18,7 +18,7 @@ Only tools and skills I have used, seriously evaluated, or that are popular enou
 | Tool | Usage | Rating | Comment |
 |---|---|---|---|
 | [muse-thinktank](https://github.com/stoneskin/muse-thinktank) | Daily use | ★★★★★ | One question to N models in parallel, dual judges cross-validate, synth merges a verdict; used in weekly reviews — disagreement is signal. |
-| model-fuse | In development | ★★★☆☆ | My opencode plugin: one question to many models, merge the best; direction for D10/D11 settled, not replacing with Copilot Fusion. |
+| [model-fuse](https://github.com/stoneskin/model-fuse-private) | In development | ★★★☆☆ | My opencode plugin (private repo): one question to many models, merge the best; direction for D10/D11 settled, not replacing with Copilot Fusion. |
 | GitHub Copilot Fusion | Evaluated, not adopted | ★★☆☆☆ | D10 adversarial review is roughly Critique, D11 verdict differs from Cascade quality gates — not equivalent; worth knowing, that's it. |
 | [LangGraph](https://github.com/langchain-ai/langgraph) | Not used yet — popular, want to try | ★★★★☆ | Graph orchestration framework; state-machine agent flows are a production-grade pattern; Meta's Thin Orchestrator paper describes the same idea — worth reading side by side. |
 | [AutoGen](https://github.com/microsoft/autogen) | Not used yet — popular, want to try | ★★★☆☆ | Microsoft's multi-agent framework, the classic conversational agent orchestration; conceptually comparable to thinktank's jury review, but a different job. |
@@ -38,9 +38,9 @@ Only tools and skills I have used, seriously evaluated, or that are popular enou
 | [GitHub Copilot CLI](https://docs.github.com/en/copilot) | Regular use | ★★★★☆ | Company-approved AI tool; WorkBuddy's main execution backend, called through AgentAdapter. |
 | [OpenCode](https://github.com/opencode-ai/opencode) | Regular use | ★★★★☆ | Open-source AI coding CLI; WorkBuddy's personal hand, interchangeable with Copilot CLI. |
 | [Cursor](https://www.cursor.com) | Not used yet — popular, want to try | ★★★★☆ | The most popular AI editor, completion + agent mode in one; never used it, but too popular not to know — worth trying side by side when there's time. |
-| [Codex](https://github.com/openai/codex) | Not used yet — popular, want to try | ★★★★☆ | OpenAI's coding agent, CLI + cloud in parallel; same space as Claude Code, try before comparing. |
+| [Pi](https://github.com/badlogic/pi) | Not used yet — personal project | ★★★★☆ | 117k-star thinnest coding-agent harness: the kernel only connects model/tools/persistence, deliberately without permissions, Plan mode, or sub-agents; can't enter company production, kept for personal projects to learn harness design. |
 
-Others: Gemini CLI, Cline, Aider (names only, no rating).
+Others: Codex, Gemini CLI, Cline, Aider (names only, no rating).
 
 ## 5. Agent Frameworks & Runtimes
 
@@ -55,18 +55,9 @@ Others: Gemini CLI, Cline, Aider (names only, no rating).
 
 | Tool | Usage | Rating | Comment |
 |---|---|---|---|
-| [Ainvest Amie](https://www.ainvest.com) | Daily use | ★★★★☆ | Daily three questions as an outside reference: take the framework, never the numbers; holdings are never disclosed; answers must be re-checked against our own closing prices. |
 | [moomoo OpenD](https://www.moomoo.com) | Regular use | ★★★★☆ | The only real API for quotes + paper trading; 1024-bit RSA encrypted handshake, laptop listening on 0.0.0.0 over Tailscale; live-trading unlock expires ~Dec 1. |
-| Sector Navigator | Regular use | ★★★☆☆ | In-app AI sector navigator in moomoo: sector rotation analysis only, no trade recommendations, no orders; once picked it can't be changed. |
-| tt/stock_context.py | Regular use | ★★★★☆ | Homegrown: pull technicals before writing any investment analysis; every number needs a source; a draft with framework but no data is half-baked. |
-
-## 7. Homegrown Workflow Tools
-
-| Tool | Usage | Rating | Comment |
-|---|---|---|---|
-| gh-sync-check.py / gh-api-push.py / gh-post-merge.py | Daily use | ★★★★☆ | The publishing chain: sync with remote before starting, push branches via API, clean up after merge; used daily. |
-| backup-sync.py | Daily use | ★★★★☆ | Nightly 22:00 backup of the muse-agent-harness private repo straight to main; the only exception to the branch + PR rule. |
+| [tt/stock_context.py](https://github.com/stoneskin/muse-thinktank) | Regular use | ★★★★☆ | Homegrown (inside thinktank): pull technicals before writing any investment analysis; every number needs a source; a draft with framework but no data is half-baked. |
 
 ---
 
-*Admission rule: I decide what enters and leaves this list; a tool gets in after I've used it, seriously evaluated it, or because it's popular enough to be worth knowing; entries are hands-on notes, not vendor copy. Send me a link if you want me to try something.*
+*Admission rule: I decide what enters and leaves this list; a tool gets in after I've used it, seriously evaluated it, or because it's popular enough to be worth knowing; entries are hands-on notes, not vendor copy; homegrown tools need a repo link to enter, third-party AIs don't enter. Send me a link if you want me to try something.*

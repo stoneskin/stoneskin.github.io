@@ -4,7 +4,7 @@
 
 *2026-11-04 · [English Version](./index-en.md)*
 
-只收我用过、认真评估过、或热门到值得知道的 AI 工具与技能。**使用强度与评价分开算**：使用强度是我的实际用量，评价是推荐度——没用过的按口碑与公开资料给分，不是实测。★★★★★ 强烈推荐，★★★★☆ 值得用/试，★★★☆☆ 可以看看，★★☆☆☆ 评估过、没采用。每类最多 5 个完整条目，多出的放“其他”一行，只列名字。持续补充中，v2 共 24 项，另有 3 项列在“其他”。
+只收我用过、认真评估过、或热门到值得知道的 AI 工具。**使用强度与评价分开算**：使用强度是我的实际用量，评价是推荐度——没用过的按口碑与公开资料给分，不是实测。★★★★★ 强烈推荐，★★★★☆ 值得用/试，★★★☆☆ 可以看看，★★☆☆☆ 评估过、没采用。每类最多 5 个完整条目，多出的放“其他”一行，只列名字。持续补充中，v3 共 20 项，另有 4 项列在“其他”。Skills 单独一页：[AI Skills](./skills.md)。
 
 ## 一、代码理解与图谱
 
@@ -18,7 +18,7 @@
 | 工具 | 使用强度 | 评价 | 点评 |
 |---|---|---|---|
 | [muse-thinktank](https://github.com/stoneskin/muse-thinktank) | 每天在用 | ★★★★★ | 一题发 N 模型，双裁判交叉验证合成 verdict；每周评审在用，分歧即信号。 |
-| model-fuse | 在研 | ★★★☆☆ | 自研 opencode 插件，一题多模型、汇总取最优；D10/D11 已定方向，不改用 Copilot Fusion。 |
+| [model-fuse](https://github.com/stoneskin/model-fuse-private) | 在研 | ★★★☆☆ | 自研 opencode 插件（私有仓），一题多模型、汇总取最优；D10/D11 已定方向，不改用 Copilot Fusion。 |
 | GitHub Copilot Fusion | 评估过未采用 | ★★☆☆☆ | D10 对抗评审约等于 Critique、D11 verdict 与 Cascade 质量门机制不同，不能等同；知道就行。 |
 | [LangGraph](https://github.com/langchain-ai/langgraph) | 未用 · 热门想试 | ★★★★☆ | 图编排框架，状态机式 agent 流程是生产级样本；Meta Thin Orchestrator 那篇讲的是同类思路，值得对照读。 |
 | [AutoGen](https://github.com/microsoft/autogen) | 未用 · 热门想试 | ★★★☆☆ | 微软多 agent 框架，对话式 agent 编排的代表；概念上可与 thinktank 的陪审团评审对照，但定位不同。 |
@@ -38,9 +38,9 @@
 | [GitHub Copilot CLI](https://docs.github.com/en/copilot) | 常用 | ★★★★☆ | 公司批准的 AI 工具；WorkBuddy 主力执行后端，走 AgentAdapter 调用。 |
 | [OpenCode](https://github.com/opencode-ai/opencode) | 常用 | ★★★★☆ | 开源 AI 编程 CLI；WorkBuddy 的个人手，与 Copilot CLI 可换。 |
 | [Cursor](https://www.cursor.com) | 未用 · 热门想试 | ★★★★☆ | 最火的 AI 编辑器，补全 + agent 模式一体；没用过，但热门到不能不知道，有空值得上手比一比。 |
-| [Codex](https://github.com/openai/codex) | 未用 · 热门想试 | ★★★★☆ | OpenAI 的 coding agent，CLI + 云端并行；与 Claude Code 同赛道，值得试了再比。 |
+| [Pi](https://github.com/badlogic/pi) | 未用 · 个人项目 | ★★★★☆ | 117k stars 的最薄 coding-agent harness：内核只连模型/工具/持久化，刻意不做权限/Plan mode/Sub-agents；进不了公司生产，归个人项目学 harness 设计。 |
 
-其他：Gemini CLI、Cline、Aider（只列名字，无评价）
+其他：Codex、Gemini CLI、Cline、Aider（只列名字，无评价）
 
 ## 五、Agent 框架与运行时
 
@@ -55,18 +55,9 @@
 
 | 工具 | 使用强度 | 评价 | 点评 |
 |---|---|---|---|
-| [Ainvest Amie](https://www.ainvest.com) | 每天在用 | ★★★★☆ | 每日三题的外部参照：只取框架、不取数字，持仓绝不透露；回答须经我方收盘价复核。 |
 | [moomoo OpenD](https://www.moomoo.com) | 常用 | ★★★★☆ | 行情 + 模拟交易唯一真 API；1024 位 RSA 加密握手，笔记本监听 0.0.0.0 走 Tailscale；实盘解锁至约 12/01。 |
-| Sector Navigator | 常用 | ★★★☆☆ | moomoo App 内 AI 板块导航员：只给板块轮动分析，不给具体买卖建议、不下单；选了不能改。 |
-| tt/stock_context.py | 常用 | ★★★★☆ | 自研：投资分析前先拉技术面数据，每个数字有来源；空有框架没有数据的初稿是半成品。 |
-
-## 七、自研效率工具
-
-| 工具 | 使用强度 | 评价 | 点评 |
-|---|---|---|---|
-| gh-sync-check.py / gh-api-push.py / gh-post-merge.py | 每天在用 | ★★★★☆ | 发布链路三件套：开工前同步远端、走 API 推分支、merge 后收尾；每天在用。 |
-| backup-sync.py | 每天在用 | ★★★★☆ | 每晚 22:00 把 muse-agent-harness 私仓当完全备份直推 main；是 branch + PR 规矩的唯一例外。 |
+| [tt/stock_context.py](https://github.com/stoneskin/muse-thinktank) | 常用 | ★★★★☆ | 自研（thinktank 内）：投资分析前先拉技术面数据，每个数字有来源；空有框架没有数据的初稿是半成品。 |
 
 ---
 
-*补充规则：进表与出表都由我定；新工具先用过、认真评估过、或是热门到值得知道再进表；只写用后感或试后感，不转述官网文案。想让我试哪个，发我链接。*
+*补充规则：进表与出表都由我定；新工具先用过、认真评估过、或是热门到值得知道再进表；只写用后感或试后感，不转述官网文案；自研工具须有 repo 链接才进表，第三方 AI 不进表。想让我试哪个，发我链接。*
