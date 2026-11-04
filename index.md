@@ -49,6 +49,10 @@ Seasoned software architect and tech leader with **20+ years** of experience in 
 | [AI Learning Resources](./writings/ai-learning/) / [AI 学习资料](./writings/ai-learning/) | Paper deep-dives and methodology docs: FDE-Gym, Alibaba Agent Handbook, 51 in total in the learning catalog / 论文详解、方法论文档、工程原则：FDE-Gym、阿里云 Agent 手册等，学习清单共 51 份 (2026-11) |
 | [Learning Notes](./writings/learning-notes/) / [学习笔记](./writings/learning-notes/) | Daily learning notes: the three-layer test (principle/implementation/trade-offs) / 每日学习笔记：三层验收（原理/实现/trade-off）(2026-10 起) |
 
+## AI Toolbox
+
+[AI Toolbox](./writings/ai-toolbox/index-en.md) / [AI 工具箱](./writings/ai-toolbox/index.md) — tools and skills I actually use or have seriously evaluated: code graphs, multi-model juries, memory layers, coding agents, investing aids, each with a usage-based rating. 16 entries, continuously updated. / 我用过或认真评估过的 AI 工具与技能：代码图谱、多模型评审、记忆层、编程助手、投资分析，按使用强度打分；16 项，持续补充。(2026-11)
+
 ## Experience
 
 - **iPipeline, Inc. (Roper Technologies), PA** — Expert Software Engineer, Tech Lead R&D, *2013–present* (Lead Developer → Solution Architect → Expert Software Engineer). Lead a team of 6 developers + 2 QA across 40+ applications. AWS serverless architectures, blue-green deployments. Key projects: Quote AI Agent (LLM prototype), Calc-Engine AWS migration (+70% quote speed), iSolve (iPipeline's first cloud-native app), Quote Client & Web API (React/.NET Core).
