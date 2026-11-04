@@ -14,7 +14,7 @@ Agent Skills 是给 AI 用的能力包：一段提示词 + 脚本 + 参考文档
 | [thinktank writing](https://github.com/stoneskin/muse-thinktank) | 常用 | ★★★★☆ | thinktank 种子 skill：搭双语写作上下文（LinkedIn 文章、文档），触发词写作/write/文章；随笔与技术文章的写作上下文从这里来。 |
 | [thinktank stock-analysis](https://github.com/stoneskin/muse-thinktank) | 常用 | ★★★★☆ | thinktank 种子 skill：跑 tt/stock_context.py 拉技术面，输出进共享 context 再喂给评审团；投资分析先拉数据再动笔的执行层。 |
 | [thinktank code-review](https://github.com/stoneskin/muse-thinktank) | 常用 | ★★★★☆ | thinktank 种子 skill：评审的固定前置动作，输出进共享 context 再喂给评审团。 |
-| local-questioning | 常用 | ★★★★☆ | 本地自研追问方法（grill-me 的本地版）：学习场景自动激发，按理解前沿一轮轮出题，每题附推荐理解，问到原理/实现/trade-off 三层讲清为止；不用 "grill" 这个词。 |
+| local-questioning | 常用 | ★★★★☆ | 本地自研追问方法（grill-me 的本地版）：学习验收与需求澄清两处自动激发——学习时问到原理/实现/trade-off 三层讲清为止，动手前先把需求问清、免得 review 才发现做错；不用 "grill" 这个词。 |
 
 ## 二、热门 Skills：发现、追问与协作
 
