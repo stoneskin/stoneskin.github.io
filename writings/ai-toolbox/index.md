@@ -4,7 +4,7 @@
 
 *2026-11-04 · [English Version](./index-en.md)*
 
-只收我用过、认真评估过、或热门到值得知道的 AI 工具。**使用强度与评价分开算**：使用强度是我的实际用量，评价是推荐度——没用过的按口碑与公开资料给分，不是实测。★★★★★ 强烈推荐，★★★★☆ 值得用/试，★★★☆☆ 可以看看，★★☆☆☆ 评估过、没采用。每类最多 5 个完整条目，多出的放“其他”一行，只列名字。持续补充中，v3 共 20 项，另有 4 项列在“其他”。Skills 单独一页：[AI Skills](./skills.md)。
+只收我用过、认真评估过、或热门到值得知道的 AI 工具。**使用强度与评价分开算**：使用强度是我的实际用量，评价是推荐度——没用过的按口碑与公开资料给分，不是实测。★★★★★ 强烈推荐，★★★★☆ 值得用/试，★★★☆☆ 可以看看，★★☆☆☆ 评估过、没采用。每类最多 5 个完整条目，多出的放“其他”一行，只列名字。持续补充中，v3 共 21 项，另有 3 项列在“其他”。Skills 单独一页：[AI Skills](./skills.md)。
 
 ## 一、代码理解与图谱
 
@@ -38,9 +38,9 @@
 | [GitHub Copilot CLI](https://docs.github.com/en/copilot) | 常用 | ★★★★☆ | 公司批准的 AI 工具；WorkBuddy 主力执行后端，走 AgentAdapter 调用。 |
 | [OpenCode](https://github.com/opencode-ai/opencode) | 常用 | ★★★★☆ | 开源 AI 编程 CLI；WorkBuddy 的个人手，与 Copilot CLI 可换。 |
 | [Cursor](https://www.cursor.com) | 未用 · 热门想试 | ★★★★☆ | 最火的 AI 编辑器，补全 + agent 模式一体；没用过，但热门到不能不知道，有空值得上手比一比。 |
-| [Pi](https://github.com/badlogic/pi) | 未用 · 个人项目 | ★★★★☆ | 117k stars 的最薄 coding-agent harness：内核只连模型/工具/持久化，刻意不做权限/Plan mode/Sub-agents；进不了公司生产，归个人项目学 harness 设计。 |
+| [Codex](https://github.com/openai/codex) | 未用 · 热门想试 | ★★★★☆ | OpenAI 的 coding agent，CLI + 云端并行；与 Claude Code 同赛道，值得试了再比。 |
 
-其他：Codex、Gemini CLI、Cline、Aider（只列名字，无评价）
+其他：Gemini CLI、Cline、Aider（只列名字，无评价）
 
 ## 五、Agent 框架与运行时
 
@@ -50,6 +50,7 @@
 | [LangChain](https://github.com/langchain-ai/langchain) | 未用 · 热门想试 | ★★★★☆ | 最老牌的 agent 开发框架，生态最全；新项目一般不从它起手，但读它等于读行业共识。 |
 | [CrewAI](https://github.com/crewAIInc/crewAI) | 未用 · 热门想试 | ★★★☆☆ | 角色化多 agent 编排（Role + Task + Crew），上手比 AutoGen 直观；小团队做多 agent 原型可参考。 |
 | [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) | 未用 · 热门想试 | ★★★☆☆ | OpenAI 官方轻量 agent SDK；想跟 OpenAI 生态走得近可以看看。 |
+| [Pi](https://github.com/badlogic/pi) | 未用 · 个人项目 | ★★★★☆ | 117k stars 的最薄 agent harness：内核只连模型/工具/持久化，刻意不做权限/Plan mode/Sub-agents；不少 FDE 直接拿它当 harness 用；进不了公司生产，归个人项目学 harness 设计。 |
 
 ## 六、投资分析
 

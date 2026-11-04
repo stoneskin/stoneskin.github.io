@@ -4,7 +4,7 @@
 
 *2026-11-04 · [中文版](./index.md)*
 
-Only AI tools I have used, seriously evaluated, or that are popular enough to be worth knowing. **Usage and rating are scored separately**: usage is how much I actually use a tool; rating is my recommendation — for tools I haven't used, the rating is based on reputation and public material, not hands-on testing. ★★★★★ highly recommended, ★★★★☆ worth using/trying, ★★★☆☆ worth a look, ★★☆☆☆ evaluated, not adopted. At most 5 full entries per category; overflow goes in an "Others" line with names only. Continuously updated; v3 has 20 entries, plus 4 more listed under "Others". Skills live on their own page: [AI Skills](./skills-en.md).
+Only AI tools I have used, seriously evaluated, or that are popular enough to be worth knowing. **Usage and rating are scored separately**: usage is how much I actually use a tool; rating is my recommendation — for tools I haven't used, the rating is based on reputation and public material, not hands-on testing. ★★★★★ highly recommended, ★★★★☆ worth using/trying, ★★★☆☆ worth a look, ★★☆☆☆ evaluated, not adopted. At most 5 full entries per category; overflow goes in an "Others" line with names only. Continuously updated; v3 has 21 entries, plus 3 more listed under "Others". Skills live on their own page: [AI Skills](./skills-en.md).
 
 ## 1. Code Understanding & Graphs
 
@@ -38,9 +38,9 @@ Only AI tools I have used, seriously evaluated, or that are popular enough to be
 | [GitHub Copilot CLI](https://docs.github.com/en/copilot) | Regular use | ★★★★☆ | Company-approved AI tool; WorkBuddy's main execution backend, called through AgentAdapter. |
 | [OpenCode](https://github.com/opencode-ai/opencode) | Regular use | ★★★★☆ | Open-source AI coding CLI; WorkBuddy's personal hand, interchangeable with Copilot CLI. |
 | [Cursor](https://www.cursor.com) | Not used yet — popular, want to try | ★★★★☆ | The most popular AI editor, completion + agent mode in one; never used it, but too popular not to know — worth trying side by side when there's time. |
-| [Pi](https://github.com/badlogic/pi) | Not used yet — personal project | ★★★★☆ | 117k-star thinnest coding-agent harness: the kernel only connects model/tools/persistence, deliberately without permissions, Plan mode, or sub-agents; can't enter company production, kept for personal projects to learn harness design. |
+| [Codex](https://github.com/openai/codex) | Not used yet — popular, want to try | ★★★★☆ | OpenAI's coding agent, CLI + cloud in parallel; same space as Claude Code, try before comparing. |
 
-Others: Codex, Gemini CLI, Cline, Aider (names only, no rating).
+Others: Gemini CLI, Cline, Aider (names only, no rating).
 
 ## 5. Agent Frameworks & Runtimes
 
@@ -50,6 +50,7 @@ Others: Codex, Gemini CLI, Cline, Aider (names only, no rating).
 | [LangChain](https://github.com/langchain-ai/langchain) | Not used yet — popular, want to try | ★★★★☆ | The oldest agent framework, the biggest ecosystem; new projects rarely start from it, but reading it is reading the industry consensus. |
 | [CrewAI](https://github.com/crewAIInc/crewAI) | Not used yet — popular, want to try | ★★★☆☆ | Role-based multi-agent orchestration (Role + Task + Crew), easier to start than AutoGen; a reference for small-team multi-agent prototypes. |
 | [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) | Not used yet — popular, want to try | ★★★☆☆ | OpenAI's official lightweight agent SDK; worth a look if you want to stay close to the OpenAI ecosystem. |
+| [Pi](https://github.com/badlogic/pi) | Not used yet — personal project | ★★★★☆ | 117k-star thinnest agent harness: the kernel only connects model/tools/persistence, deliberately without permissions, Plan mode, or sub-agents; many FDEs use it directly as their harness; can't enter company production, kept for personal projects to learn harness design. |
 
 ## 6. Investing
 

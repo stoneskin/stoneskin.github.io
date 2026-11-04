@@ -51,7 +51,7 @@ Seasoned software architect and tech leader with **20+ years** of experience in 
 
 ## AI Toolbox
 
-[AI Toolbox](./writings/ai-toolbox/index-en.md) / [AI 工具箱](./writings/ai-toolbox/index.md) — tools I actually use or have seriously evaluated, usage and rating scored separately. 20 entries plus 4 more listed under "Others". Skills live on their own page: [AI Skills](./writings/ai-toolbox/skills-en.md) / [AI 技能](./writings/ai-toolbox/skills.md) — skills I use plus the 10 most popular AI Skills. / 我用过或认真评估过的 AI 工具，使用强度与评价分开打分；20 项，另有 4 项列在“其他”。Skills 单独一页：[AI Skills](./writings/ai-toolbox/skills-en.md) / [AI 技能](./writings/ai-toolbox/skills.md)，含自用 skills 与全球最热门 10 个 AI Skills。(2026-11)
+[AI Toolbox](./writings/ai-toolbox/index-en.md) / [AI 工具箱](./writings/ai-toolbox/index.md) — tools I actually use or have seriously evaluated, usage and rating scored separately. 21 entries plus 3 more listed under "Others". Skills live on their own page: [AI Skills](./writings/ai-toolbox/skills-en.md) / [AI 技能](./writings/ai-toolbox/skills.md) — skills I use plus the 10 most popular AI Skills. / 我用过或认真评估过的 AI 工具，使用强度与评价分开打分；21 项，另有 3 项列在“其他”。Skills 单独一页：[AI Skills](./writings/ai-toolbox/skills-en.md) / [AI 技能](./writings/ai-toolbox/skills.md)，含自用 skills 与全球最热门 10 个 AI Skills。(2026-11)
 
 ## Experience
 
