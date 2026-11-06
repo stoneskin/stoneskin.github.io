@@ -97,7 +97,7 @@
 | [temporal-agents-sdlc-summary.md](./temporal-agents-sdlc-summary.md) | [AWS Builders](https://aws.amazon.com/blogs/) | AWS Builders《Orchestrating Our Agents SDLC on Temporal》：三份 Agent Ops 里最值得细读的一篇，纯实战 | ★★★★☆ |
 | [cresta-agent-observability-summary.md](./cresta-agent-observability-summary.md) | [Cresta](https://cresta.com) | Cresta《Observability for AI Agents》：trace 跨服务、多租户隔离、故障回放 | ★★★☆☆ |
 | [learn-harness-engineering-summary.md](./learn-harness-engineering-summary.md) | [GitHub](https://github.com/walkinglabs/learn-harness-engineering) | walkinglabs《Learn Harness Engineering》（第 42 份）：从零亲手搭一个完整 harness 的动手课程 | ★★★★☆ |
-| [namiai-agent-summary.md](./namiai-agent-summary.md) | [namiai](https://namiai.tech/agent/?v=1) | namiai《从零手写 Agent》（第 48 份）：中文动手系列，从 100 行循环亲手搭出完整 Agent，再拆 7 个主流 Agent | ★★★★☆ |
+| [namiai-agent-summary.md](./namiai-agent-summary.md) · [学习笔记](../learning-notes/namiai-agent-notes.md) | [namiai](https://namiai.tech/agent/?v=1) | namiai《从零手写 Agent》（第 48 份）：中文动手系列，从 100 行循环亲手搭出完整 Agent，再拆 7 个主流 Agent | ★★★★☆ |
 | — | [GitHub 仓库](https://github.com/microsoft/ai-agents-for-beginners) | Microsoft《AI Agents for Beginners》（第 53 份，查阅型）：18 课入门课程，七成内容与在册材料重复且更浅；只标 4 课值得看——第 14 课 Microsoft Agent Framework（清单里唯一的微软 Agent 栈）、第 15 课 Computer Use Agents（补 Sharma 路线图缺口 03 操作电脑界面）、第 17 课本地 Agent、第 9 课元认知；代码示例须 Azure 账号 + Microsoft Foundry 才能跑全 | ★★☆☆☆ |
 
 ---
