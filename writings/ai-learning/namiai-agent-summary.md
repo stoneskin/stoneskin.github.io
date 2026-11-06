@@ -21,4 +21,4 @@
 - **muse-agent-harness**：EP05 技能只读 + AGENTS.md 分层，与规则导出思路同源；model-fuse 关系最弱，只有 EP02 工具注册表与 EP08 MCP 客户端能借鉴路由/注册思路。
 - 三个关键问题：EP03 硬规则 + 分级 + 确认，拿到 WorkBuddy 的审批门怎么定、确认疲劳拿什么解 / EP11 逐条确认 vs Hermes 自动写，open-memex 的 capture 规则站哪边 / EP18 四条分歧里安全边界放“问人”还是“沙箱”，你的 harness 选哪层硬边界。
 
-学习笔记：[Stone 的 EP01–07 学习笔记](./namiai-agent-notes.md)（个人理解与延伸，非原文内容）。
+学习笔记：[Stone 的 EP01–07 学习笔记](../learning-notes/namiai-agent-notes.md)（个人理解与延伸，非原文内容）。
