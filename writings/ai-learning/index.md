@@ -3,8 +3,8 @@
 [← 返回首页](../../index.md)
 
 
-*整理：2026-11-04 · 共 53 份*
-*文件名链到本地总结，原文链到出处；53 份 = 学习清单总数（基础 19 + 专题 34）；下表 54 行（DeepSeek 与 Karpathy 各占导读 + 摘要两行），本站 .md 文件现为 53 个；推荐度按对 AI Solutions Architect 目标的重要性与价值打分（中立，不按个人喜好）：★★★★★ 核心必读、★★★★☆ 值得精读、★★★☆☆ 值得一读、★★☆☆☆ 查阅参考、★☆☆☆☆ 了解即可，总纲行不打分*
+*整理：2026-11-07 · 共 54 份*
+*文件名链到本地总结，原文链到出处；54 份 = 学习清单总数（基础 19 + 专题 35）；下表 55 行（DeepSeek 与 Karpathy 各占导读 + 摘要两行），本站 .md 文件现为 54 个；推荐度按对 AI Solutions Architect 目标的重要性与价值打分（中立，不按个人喜好）：★★★★★ 核心必读、★★★★☆ 值得精读、★★★☆☆ 值得一读、★★☆☆☆ 查阅参考、★☆☆☆☆ 了解即可，总纲行不打分*
 
 
 ---
@@ -40,7 +40,7 @@
 | [deepseek-super-agent-summary.md](./deepseek-super-agent-summary.md) | [全文转贴](https://www.uied.cn/posts/922127) · [原型](https://github.com/deepseek-ai/dsh-superagent-prototype) | DeepSeek《Super-agent 设计探索》详细摘要：五大模块、实验数据（p50 12.4 分钟）、安全局限、原型档案；写到不看原文能学到精髓 | ★★★★☆ |
 | [claude-fold-subagents-guide.md](./claude-fold-subagents-guide.md) | [原文](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop) · [迁移 kit](https://github.com/anthropics/single-agent-loop-kit) | Anthropic《When to fold subagents into your main agent loop》导读（第 51 份）：单 Agent + Skills 常打赢多 subagent；subagent 只留三处；迁移凭任务完成 eval、一次折一个；与 DeepSeek Super-agent 互补（任务内精简 vs 任务间组织） | ★★★★★ |
 
-## 三、方法论文档（16，X 帖提炼）
+## 三、方法论文档（17，X 帖提炼）
 
 | 本地总结 | 原文 | 说明 | 推荐度 |
 |---|---|---|---|
@@ -60,6 +60,7 @@
 | [eu-gpai-code-summary.md](./eu-gpai-code-summary.md) | [欧盟](https://digital-strategy.ec.europa.eu/en/news/general-purpose-ai-code-practice-now-available) | 欧盟《通用人工智能行为准则》最终版 + EU AI Act 部署者义务 | ★★★☆☆ |
 | [agentic-design-patterns-summary.md](./agentic-design-patterns-summary.md) | [GitHub](https://github.com/evoiz/Agentic-Design-Patterns) | Antonio Gulli《Agentic Design Patterns》导读（全书 21 章）：模式教材，学习笔记见 learning-notes | ★★★★★ |
 | [cost-optimization-strategies-guide.md](./cost-optimization-strategies-guide.md) | [X 原帖](https://x.com/alexxubyte/status/2117302471156781430) | ByteByteGo《Top 6 Cost Optimization Strategies in AI Systems》导读（第 52 份）：AI 系统成本优化六策——提示词缓存、模型路由、批量接口、语义缓存、精简上下文、用小模型；原图 GIF 已重绘为矢量图 | ★★★☆☆ |
+| [xiaohui-verification-skill-summary.md](./xiaohui-verification-skill-summary.md) | [X 原帖](https://x.com/xiaohuiyuan/status/2118496773706797338) | 晓辉博士《Skill 自迭代能力改造指南》导读（第 54 份）：先验证再迭代——黄金样例 + 脚本检查 + 反馈日志，skill 自迭代的操作手册；与 yetone Agent Loop 咬合 | ★★★★☆ |
 
 ## 四、工程原则与习惯（4）
 
