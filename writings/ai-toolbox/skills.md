@@ -2,7 +2,7 @@
 
 [← 返回首页](../../index.md)
 
-*2026-11-04 · [English Version](./skills-en.md)*
+*2026-11-08 · [English Version](./skills-en.md)*
 
 Agent Skills 是给 AI 用的能力包：一段提示词 + 脚本 + 参考文档，agent 按需加载，不用时不占上下文。只收我自用、认真评估过、或热门到值得知道的。**使用强度与评价分开算**：使用强度是我的实际用量，评价是推荐度——没用过的按口碑与公开资料给分，不是实测。★★★★★ 强烈推荐，★★★★☆ 值得用/试，★★★☆☆ 可以看看，★★☆☆☆ 评估过、没采用。每类最多 5 个完整条目，多出的放“其他”一行，只列名字。工具在另一页：[AI 工具箱](./index.md)。
 
@@ -38,6 +38,18 @@ Agent Skills 是给 AI 用的能力包：一段提示词 + 脚本 + 参考文档
 | [frontend-design](https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md) | 未用 · 暂无落点 | ★★★☆☆ | 约 96.9 万安装：Anthropic 官方前端设计 skill，减少模板化 UI；质量不差，但站点是 Markdown 静态站、图有 diagram-design，暂无落点，备查。 |
 | [triage](https://github.com/mattpocock/skills/blob/main/skills/engineering/triage/SKILL.md) | 未用 · 等量上来 | ★★★☆☆ | 约 91.7 万安装：GitHub Issues 自动分类；邮件分诊已在用，issue 分诊等 open-memex issue 量上来再说。 |
 
+## 四、热门 Skills：开发流程与原则
+
+*出自 @DtDt666 2026-11-08 X 帖《世界上前20的Skill必装榜》（[原文](https://x.com/DtDt666/status/2119422431689687253)），星标为帖子口径；20 个里 3 个已收（diagram-design、mattpocock/skills 合集、anthropics/skills 合集），本次新增 5 个。*
+
+| Skill | 使用强度 | 评价 | 点评 |
+|---|---|---|---|
+| [superpowers](https://github.com/obra/superpowers) | 未用 · 想吸收 | ★★★★☆ | 约 30.2 万星，榜首：开发拆四步——头脑风暴、写计划、测试驱动、代码审查；跟我的 think-before-code、unit-tests、评审纪律同一条线，中大型功能前值得装。 |
+| [andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | 未用 · 理念已落地 | ★★★★☆ | 约 22.1 万星：一份项目规则——AI 先想清楚再动手，只改该改的地方；我写代码四原则的对照源就是它（与 AGENTS.md 引用的 forrestchang 版是同一份内容），原则已落地，repo 本身还没装进来。 |
+| [ponytail](https://github.com/DietrichGebert/ponytail) | 未用 · 想吸收 | ★★★★☆ | 约 16.8 万星：让 AI 像最懒的资深工程师一样思考，能不加的抽象就不加；simplest-first 与 surgical-edits 的执行层，写完过一遍挑过度设计和技术债。 |
+| [agent-skills](https://github.com/addyosmani/agent-skills) | 未用 · 想吸收 | ★★★★☆ | 约 10.9 万星：Addy Osmani 整理的工程规范，覆盖接口设计、上下文管理和质量检查；团队一起写项目，用它统一写法。 |
+| [graphify](https://github.com/Graphify-Labs/graphify) | 未用 · 思路已在用 | ★★★☆☆ | 约 12.9 万星：把代码、文档和数据库结构转成可查询的知识图谱；接手陌生项目先建图，再问"这个函数被谁调用"。thinktank 里跑的 graphify 钩子是另一实现，思路相通。 |
+
 ---
 
-*补充规则：进表与出表都由我定；参考不直装，吸收重写自维护（2026-10-14 原则）；只写用后感或试后感，不转述官网文案。榜单安装量为 Ethan 帖子口径（2026-10-21），不是实时数。*
+*补充规则：进表与出表都由我定；参考不直装，吸收重写自维护（2026-10-14 原则）；只写用后感或试后感，不转述官网文案。榜单数字为帖子口径（Ethan 2026-10-21 安装量；DtDt666 2026-11-08 星标），不是实时数。*
