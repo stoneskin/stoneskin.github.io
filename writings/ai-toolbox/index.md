@@ -11,7 +11,7 @@
 | 工具 | 使用强度 | 评价 | 点评 |
 |---|---|---|---|
 | [Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) | 未用 · 热门想试 | ★★★☆☆ | 90k stars 的代码知识图谱插件，Tree-sitter + LLM 建图；适合刚接手大仓先看图再读码。 |
-| [Graphify（thinktank 内）](https://github.com/stoneskin/muse-thinktank) | 常用 | ★★★★☆ | thinktank 自带 curated 图谱，1,029 节点 / 1,701 边 / 61 社群；改动牵连一目了然。 |
+| [Graphify（thinktank 内）](https://github.com/Graphify-Labs/graphify) | 常用 | ★★★★☆ | thinktank 里跑的 graphifyy 图谱（curated，1,037 节点 / 1,720 边 / 70 社群，2026-11-07）：代码 + 有用的文档，git 钩子自动重建，改动牵连一目了然。 |
 
 ## 二、多模型与多 Agent 编排
 

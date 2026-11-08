@@ -48,7 +48,7 @@ Agent Skills 是给 AI 用的能力包：一段提示词 + 脚本 + 参考文档
 | [andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | 未用 · 理念已落地 | ★★★★☆ | 约 22.1 万星：一份项目规则——AI 先想清楚再动手，只改该改的地方；我写代码四原则的对照源就是它（与 AGENTS.md 引用的 forrestchang 版是同一份内容），原则已落地，repo 本身还没装进来。 |
 | [ponytail](https://github.com/DietrichGebert/ponytail) | 未用 · 想吸收 | ★★★★☆ | 约 16.8 万星：让 AI 像最懒的资深工程师一样思考，能不加的抽象就不加；simplest-first 与 surgical-edits 的执行层，写完过一遍挑过度设计和技术债。 |
 | [agent-skills](https://github.com/addyosmani/agent-skills) | 未用 · 想吸收 | ★★★★☆ | 约 10.9 万星：Addy Osmani 整理的工程规范，覆盖接口设计、上下文管理和质量检查；团队一起写项目，用它统一写法。 |
-| [graphify](https://github.com/Graphify-Labs/graphify) | 未用 · 思路已在用 | ★★★☆☆ | 约 12.9 万星：把代码、文档和数据库结构转成可查询的知识图谱；接手陌生项目先建图，再问"这个函数被谁调用"。thinktank 里跑的 graphify 钩子是另一实现，思路相通。 |
+| [graphify](https://github.com/Graphify-Labs/graphify) | 未用 · 思路已在用 | ★★★☆☆ | 约 12.9 万星：把代码、文档和数据库结构转成可查询的知识图谱；接手陌生项目先建图，再问"这个函数被谁调用"。就是 thinktank 里跑的同一个 graphifyy——thinktank 是靠 git 钩子在 AST-only 模式下跑它（0 token、不用 key），不跑语义抽取。 |
 
 ## 五、热门 Skills：界面与视觉设计
 
