@@ -50,6 +50,20 @@ Agent Skills are capability packs for AI: a prompt + scripts + reference docs, l
 | [agent-skills](https://github.com/addyosmani/agent-skills) | Not used — want to absorb | ★★★★☆ | ~109K stars: Addy Osmani's engineering standards, covering interface design, context management and quality checks; unifies how a team writes a project together. |
 | [graphify](https://github.com/Graphify-Labs/graphify) | Not used — idea already in use | ★★★☆☆ | ~129K stars: turns code, docs and database structure into a queryable knowledge graph; build the graph first when taking over an unfamiliar project, then ask "who calls this function". The graphify hooks in my thinktank are a different implementation of the same idea. |
 
+## 5. Popular Skills: UI & Visual Design
+
+*From the same @DtDt666 Nov 8, 2026 X post; UI and visual skills listed separately — I might use them, and can recommend them to Annabelle (game art; useful for her portfolio site). Star counts are the post's figures.*
+
+| Skill | Usage | Rating | Comment |
+|---|---|---|---|
+| [ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | Not used — might use | ★★★☆☆ | ~138K stars: full color, typography and interaction specs in one place; install before a landing page, admin panel or app UI and the page looks designer-made. Also useful for Annabelle's portfolio site. |
+| [taste-skill](https://github.com/LeonxLnx/taste-skill) | Not used — to recommend to Annabelle | ★★★☆☆ | ~99K stars: gives AI taste — layout, reference images, motion; use for a homepage or portfolio so the page stops looking templated. Annabelle's game-art background makes her portfolio site a fit. |
+| [impeccable](https://github.com/pbakaus/impeccable) | Not used — to recommend to Annabelle | ★★★☆☆ | ~83K stars: lifts AI design quality, checking spacing, hierarchy and details; have it review a finished page before polishing. |
+
+## 6. Others: Worth a Mention
+
+*Listed by name only: [caveman](https://github.com/JuliusBrussee/caveman) (terse answers, saves tokens), [awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) (800+ collection), [last30days-skill](https://github.com/mvanhorn/last30days-skill) (last-30-days buzz summary), [i-have-adhd](https://github.com/ayghri/i-have-adhd) (conclusion first), [Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) (interactive code graph, once considered for open-memex).*
+
 ---
 
 *Admission rule: I decide what enters and leaves this list; borrow, don't install verbatim — absorb and rewrite for self-maintenance (Oct 14, 2026 principle); entries are hands-on notes, not vendor copy. List figures are the posts' figures (Ethan's install counts, Oct 21, 2026; DtDt666's star counts, Nov 8, 2026), not live numbers.*

@@ -50,6 +50,20 @@ Agent Skills 是给 AI 用的能力包：一段提示词 + 脚本 + 参考文档
 | [agent-skills](https://github.com/addyosmani/agent-skills) | 未用 · 想吸收 | ★★★★☆ | 约 10.9 万星：Addy Osmani 整理的工程规范，覆盖接口设计、上下文管理和质量检查；团队一起写项目，用它统一写法。 |
 | [graphify](https://github.com/Graphify-Labs/graphify) | 未用 · 思路已在用 | ★★★☆☆ | 约 12.9 万星：把代码、文档和数据库结构转成可查询的知识图谱；接手陌生项目先建图，再问"这个函数被谁调用"。thinktank 里跑的 graphify 钩子是另一实现，思路相通。 |
 
+## 五、热门 Skills：界面与视觉设计
+
+*出自同一篇 @DtDt666 2026-11-08 X 帖；界面与视觉类单列——我可能会用上，也可以推荐给 Annabelle（游戏美术，作品集网站用得上）。星标为帖子口径。*
+
+| Skill | 使用强度 | 评价 | 点评 |
+|---|---|---|---|
+| [ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 未用 · 可能用上 | ★★★☆☆ | 约 13.8 万星：整套配色、字体搭配和交互规范都在里面；做落地页、后台和 APP 界面之前装上，页面更像设计师做的。Annabelle 作品集网站也用得上。 |
+| [taste-skill](https://github.com/LeonxLnx/taste-skill) | 未用 · 可推荐给 Annabelle | ★★★☆☆ | 约 9.9 万星：给 AI 补上审美，排版、参考图和动效都有讲究；做官网首页和作品集的时候用，页面不再像套模板。Annabelle 游戏美术背景，作品集站可用。 |
+| [impeccable](https://github.com/pbakaus/impeccable) | 未用 · 可推荐给 Annabelle | ★★★☆☆ | 约 8.3 万星：专门提升 AI 的设计能力，会检查间距、层级和细节；页面做完先让它审一遍，再按建议打磨。 |
+
+## 六、其他：提一句值得知道的
+
+*以下未进表，只列名字：[caveman](https://github.com/JuliusBrussee/caveman)（极简回答省 token）、[awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)（800+ 合集）、[last30days-skill](https://github.com/mvanhorn/last30days-skill)（30 天热点汇总）、[i-have-adhd](https://github.com/ayghri/i-have-adhd)（结论先行）、[Understand-Anything](https://github.com/Egonex-AI/Understand-Anything)（代码交互图谱，曾考虑用于 open-memex）。*
+
 ---
 
 *补充规则：进表与出表都由我定；参考不直装，吸收重写自维护（2026-10-14 原则）；只写用后感或试后感，不转述官网文案。榜单数字为帖子口径（Ethan 2026-10-21 安装量；DtDt666 2026-11-08 星标），不是实时数。*
