@@ -11,7 +11,7 @@ Only AI tools I have used, seriously evaluated, or that are popular enough to be
 | Tool | Usage | Rating | Comment |
 |---|---|---|---|
 | [Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) | Not used yet — popular, want to try | ★★★☆☆ | 90k-star code knowledge-graph plugin, Tree-sitter + LLM graph building; best for getting oriented in a large unfamiliar codebase before reading code. |
-| [Graphify (inside thinktank)](https://github.com/stoneskin/muse-thinktank) | Regular use | ★★★★☆ | Curated code graph built into thinktank: 1,029 nodes / 1,701 edges / 61 communities; shows what a change touches at a glance. |
+| [Graphify (inside thinktank)](https://github.com/Graphify-Labs/graphify) | Regular use | ★★★★☆ | The graphifyy graph inside thinktank (curated, 1,037 nodes / 1,720 edges / 70 communities, Nov 7, 2026): code plus useful docs, rebuilt by git hooks; shows what a change touches at a glance. |
 
 ## 2. Multi-Model & Multi-Agent Orchestration
 
