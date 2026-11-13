@@ -1,192 +1,84 @@
 # Mr. Sun
 
-**AI Solutions Architect | Tech Lead | AWS Cloud Specialist**
+**Tech Lead | Software Architect | AWS Cloud Specialist**
 
-📧 stoneskin@gmail.com | 🔗 [linkedin.com/in/stoneskin](https://www.linkedin.com/in/stoneskin/) | 💻 [github.com/stoneskin](https://github.com/stoneskin/)
+stoneskin@gmail.com | [linkedin.com/in/stoneskin](https://www.linkedin.com/in/stoneskin/) | [github.com/stoneskin](https://github.com/stoneskin/)
 
 ---
 
 ## Professional Summary
 
-Seasoned Software Architect and Tech Leader with **20+ years** of experience in .NET web development, system architecture, and cloud solutions. Expertise in full-stack development, DevOps, and SaaS solutions. Proven track record in leading teams, driving innovation, and optimizing system performance.
-
-**Currently leading:** AWS Migration Initiative at iPipeline (Tiger Team) - migrating legacy on-prem applications to AWS with modern CI/CD pipelines.
-
-**Open source:** Creator of [open-memex](https://github.com/stoneskin/open-memex), a local-first memory layer for AI coding agents (MCP server + CLI, published on npm).
+Software Architect and Tech Lead with **20+ years** of experience in .NET, full-stack, and AWS cloud solutions — now focused on taking AI agents from demo to production: memory, evaluation, and human-in-the-loop control. iPipeline's Ping/OAuth identity expert. Recently led the **Tiger Team Ping Identity AWS migration** — moved PingAccess, PingFederate, PingDirectory, and PingDelegatedAdmin from on-prem to a dedicated AWS account with GitHub Actions CI/CD, dual-layer IaC (Terraform + CloudFormation), and blue/green cut-over; production cut-over completed November 7, 2026.
 
 ---
 
-## Core Competencies
+## Core Skills
 
-- ✅ AI/ML Integration (LLM, NLP, RAG, AI Agent Systems)
-- ✅ Software Architecture & Cloud Solutions (AWS)
-- ✅ Full-Stack Development (C#, React, Node.js, Python)
-- ✅ DevOps & CI/CD Automation (AWS CodePipeline, Jenkins, Docker)
-- ✅ Team Leadership & Technical Mentorship
-- ✅ System Integration & Performance Optimization
-
----
-
-## Technical Skills
-
-| Category | Skills |
-|----------|--------|
-| **Programming** | C#, JavaScript/TypeScript, Python, Java, SQL |
-| **Web** | ASP.NET Core, React.js, Redux, HTML5/CSS, REST APIs |
-| **Cloud** | AWS (Lambda, EC2, S3, DynamoDB, SAM, CloudFormation, Fargate) |
-| **Databases** | MS SQL Server, MongoDB, Redis, PostgreSQL, Oracle, MySQL |
-| **DevOps** | GitHub Actions, Jenkins, Docker, Terraform, CI/CD |
-| **Tools** | Git, Jira, Docker, Jenkins, Postman, VSCode |
-| **Auth** | SAML, OAuth, PingFederate, Ping Access, Ping Directory |
-| **AI/ML** | LLM, NLP, RAG, MCP, OpenAI, HuggingFace, MS Copilot Studio, Google Colab |
-| **Methodologies** | Agile, Scrum, TDD, CI/CD, SOLID, Design Patterns |
+- **Cloud:** AWS (EC2, ASG, ECS Fargate, Lambda, S3, EFS, ECR, ALB/NLB, Route 53, SSM, KMS, CloudFormation, Image Builder, SAM)
+- **CI/CD:** GitHub Actions (OIDC), Jenkins, Docker, blue/green deployment
+- **Languages:** C#, TypeScript/JavaScript, Python, Java, SQL, Bash, PowerShell
+- **Web:** ASP.NET Core, React.js, Redux, Node.js, REST APIs
+- **Auth:** SAML, OAuth, PingFederate, PingAccess, PingDirectory
+- **AI/ML:** LLM, NLP, RAG, MCP, agent frameworks (Strands), evals, OpenAI, HuggingFace, MS Copilot Studio
+- **Leadership:** Team lead (6 devs + 2 QA), architecture, mentorship
 
 ---
 
-## Professional Experience
+## Experience
 
-### iPipeline, Inc. (A Roper Technologies Company) — PA
-**Expert Software Engineer (Tech Lead, Tiger Team), R&D** | *April 2013 – Present (12+ years)*
+### iPipeline, Inc. (Roper Technologies) — Expert Software Engineer (Tech Lead, Tiger Team)
+*April 2013 – Present (12+ years)*
 *Title progression: Lead Developer → Solution Architect → Expert Software Engineer*
 
-- Lead a team of 6 developers and 2 QA engineers, managing and building **40+ applications** (legacy and new)
-- Architect and deploy multiple AWS serverless solutions, reducing operational costs
-- Design and implement blue-green deployment strategy, reducing downtime and release risks
-- iPipeline's Ping/OAuth identity expert — go-to resource for PingFederate, PingAccess, PingDirectory, and enterprise SSO (SAML/OAuth) integrations across teams
+Lead a team of 6 developers and 2 QA managing **40+ applications**. Architect AWS cloud-native and serverless solutions. iPipeline's Ping/OAuth identity expert — go-to resource for PingFederate, PingAccess, PingDirectory, and enterprise SSO (SAML/OAuth) integrations across teams.
 
-**🚀 Key Projects:**
+**Tiger Team — Ping Identity AWS Migration (2025–2026):**
+- Technical lead for all Ping-Configuration IaC (Terraform base layer + CloudFormation), CI/CD, and migration architecture. Production cut-over completed November 7, 2026 — the new AWS platform fully replaced the on-prem environment.
+- Retired Jenkins + Octopus; delivered **GitHub Actions + OIDC** pipeline with a **3-workflow release architecture** (infrastructure / Golden AMI image build / application) and one-click bootstrap orchestrator.
+- Designed **blue/green topology** (primary/secondary slots `DEV→QD0`, `QA→{TD0→STG, UAT→PROD}`) with Route 53 DNS cut-over and manual active-pointer flip for zero-downtime migration.
+- Authored **CloudFormation** stacks for the full Ping stack (PingFederate, PingAccess, PingDirectory, PingDelegator, EFS, NLB, S3, OIDC CI worker role); built a **500-user load-test harness** with on-prem vs AWS baseline and autoscaling policies; fixed a customer (NYL) SAML session-timeout issue with a PingFederate path rewriter.
 
-| Project | Description | Tech Stack | Impact |
-|---------|-------------|------------|--------|
-| **Quote AI Agent** | NLP-powered prototype using LLMs and prompt engineering for Quote Web UI | OpenAI, LLM, Prompt Engineering | Prototype |
-| **Calc-Engine AWS Serverless** | Migrated quote engine to AWS SAM with GitHub Actions CI/CD | AWS SAM, Lambda, DynamoDB, GitHub Actions | **70% performance improvement** |
-| **iSolve Quoting Solution** | iPipeline's **first cloud-native application** | AWS (EC2, S3, Lambda, API Gateway, DynamoDB, SQS, CloudFormation) | Pioneering cloud adoption |
-| **Quote Client & Web API** | SPA with modern deployment | React.js, Redux, .NET Core, Docker | Blue-Green deployment |
-| **Next-Gen Quote Engine (CalcStorm)** | Node.js-based calculation engine | Node.js, React.js, MongoDB, JWT, Webpack | Modern architecture |
-| **Auth/PingFederate** | Enterprise SSO integration | SAML, OAuth, PingFederate | Secure authentication |
-| **Tiger Team - Ping Identity AWS Migration** (2025-2026) | Lift-and-shift PingAccess, PingFederate, PingDirectory, PingDelegatedAdmin from on-prem to a dedicated AWS account | CloudFormation, EC2/ASG, ECS Fargate, EFS, ECR, ALB/NLB, Route 53, SSM, KMS, EC2 Image Builder, GitHub Actions (OIDC) | In Progress |
+**Other Key Projects:**
+- **Calc-Engine AWS Serverless** — Migrated to AWS SAM + Lambda + DynamoDB with GitHub Actions CI/CD (**70% performance improvement**).
+- **iSolve Quoting Solution** — iPipeline's **first cloud-native application** on AWS.
+- **Quote Client & Web API** — React/Redux SPA + .NET Core with blue/green deployment.
+- **Next-Gen Quote Engine (CalcStorm)** — Node.js/React/MongoDB.
+- **Quote AI Agent** — LLM/prompt-engineering prototype for Quote Web UI.
 
----
+### Comcast Corp (via Turnberry) — Senior .NET Lead Developer
+*Sep 2012 – Apr 2013* — Led CI/CD implementation; delivered widget-based customer management GUI (MVC3 + jQuery) and auto-deployment tooling.
 
-### Comcast Corp (via Turnberry Solutions) — PA
-**Senior .NET Lead Developer** | *Sep 2012 – Apr 2013*
+### Kemper Corporation — Senior Web Application Developer
+*May 2010 – Aug 2012* — Built New Policy Holder Service (ASP.NET 4 / MVC3); refactored UDILibrary to 3-tier IoC/WCF; led source-control and auto-build revolution.
 
-- Designed, developed, and maintained .NET (C#) web applications
-- Led CI/CD pipeline implementation, reducing deployment time
-
-**🚀 Key Projects:**
-- **Café:** Widget-based customer management GUI using .NET MVC3 & jQuery
-- **Auto Deployment Solution:** Windows Service & Web GUI for automated deployments
+### Broadview Networks — Web Application Developer
+*Apr 2003 – May 2010* — Independently designed internal web apps across MS SQL Server, Oracle, and MySQL; built billing management and jeopardy reporting GUIs (ASP.NET, C#, nHibernate, J2EE/JSP).
 
 ---
 
-### Kemper Corporation — PA
-**Senior Web Application Developer** | *May 2010 – Aug 2012*
+## AI Projects & Open Source
 
-- Designed and maintained .NET web applications with mobile app & API integrations
-- Led source control & auto-build deployment revolution, improving development efficiency
-
-**🚀 Key Projects:**
-- **New Policy Holder Service:** Built with ASP.NET 4 & MVC3, optimizing user experience
-- **UDILibrary (3-Tier Architecture):** Refactored using IoC & WCF, improving modularity
+- **open-memex** — Creator of a local-first memory layer for AI coding agents (MCP server + CLI, published on npm). Markdown as source of truth, SQLite search, human-reviewed capture. [Repo](https://github.com/stoneskin/open-memex)
+- **PingPilot** — Leading the design of an AI agent that triages identity-platform service-desk requests: case grouping, precedent matching, deterministic execution with human approval.
+- **WorkBuddy / AiHarness** — Personal AI assistant orchestrating GitHub Copilot CLI (plan–execute–verify loop, scheduled work, Teams command); multi-model harness with trust labels and injection scanning.
+- **muse-thinktank** — Open-source multi-model deliberation jury console: one question goes to a panel of models, then judge → synth, with human final review. [Repo](https://github.com/stoneskin/muse-thinktank)
 
 ---
 
-### Broadview Networks — PA
-**Web Application Developer** | *Apr 2003 – May 2010 (7+ years)*
+## Education
 
-- Independently designed and developed multiple internal web applications
-- Developed applications across MS SQL Server, Oracle, MySQL
-- Built J2EE/JSP-based solutions
-
-**🚀 Key Projects:**
-- **Billing Management Web GUI:** Architected using ASP.NET 3.5 & MVC Frameworks
-- **Jeopardy Reporting & Management GUI:** ASP.NET 2.0, C#, JavaScript, nHibernate, SQL Server
+- **MS Computer Science** — Villanova University (GPA 3.85/4.00)
+- **Software Engineering Certificate** — Villanova University
+- **Sun Certified Programmer for Java 2**; **OCA Oracle 9i DBA (SQL)**
 
 ---
 
-## Current Focus (2025-2026)
+## Community
 
-### Tiger Team - Ping Identity AWS Migration
-
-**Objective:** Lift-and-shift iPipeline's on-prem Ping Identity stack (PingAccess, PingFederate, PingDirectory, PingDelegatedAdmin) into a dedicated AWS account (us-east-1, multi-AZ), with zero-downtime blue/green cut-over across Dev, QA, UAT, and Production.
-
-**Role:** Technical lead for migration architecture, infrastructure-as-code, and CI/CD — owner of the migration guideline and cross-team coordination (IT/Ops, security, application teams) on network segmentation, secrets management, and cut-over rehearsals.
-
-**Key deliverables:**
-- Retired Jenkins + Octopus Deploy; built GitHub Actions pipelines with OIDC federation (no long-lived AWS keys) and environment-gated approvals (Dev / QA / UAT / Prod). Designed a three-workflow release architecture (infrastructure / Golden AMI image build / application) plus a one-click bootstrap orchestrator for fresh AWS accounts.
-- Designed blue/green topology with parallel primary/secondary slots and Route 53 DNS cut-over for zero-downtime migration.
-- Authored CloudFormation IaC for the full Ping stack: PingFederate (Admin/Runtime on EC2 + ASG), PingAccess (Admin EC2 + engines on ECS Fargate with self-built Docker images and per-account ECR fallback), PingDirectory, PingDelegator on Fargate — plus networking and security (IAM, KMS cross-account grants, SSM).
-- Built a 500-concurrent-user load-test harness; delivered an on-prem vs AWS comparative baseline report and autoscaling policies for PingAccess/PingFederate runtime services.
-- Resolved customer-facing issues surfaced during migration, including a PingFederate path rewriter that fixed a NYL SAML session-timeout.
+- **MLCCC Chinese Characters Recognition App** (2023–present) — Donated web app to Mainline Chinese Culture Center; mentors high-school/college contributors. [Repo](https://github.com/MlcccCodingClass/ChineseCharactersRecognitionApp)
+- **Minecraft-Python** (2019–2020) — Created tutorials on learning Python through Minecraft; developed multiple Minecraft plugins using Python. [Repo](https://github.com/stoneskin/python-minecraft)
+- **Programming Classes (MLCCC)** — Teach Scratch (G2-5) and Java + AP CSA (G8+); taught Python (G6+) until July 2026.
 
 ---
 
-## Open Source & Community
-
-### open-memex
-*2026 – Present*
-
-- Open-source project: a local-first memory layer for AI coding agents.
-- Markdown as source of truth with SQLite FTS5 search; MCP server + CLI + editor integrations; human-reviewed memory capture; team knowledge sharing through git PRs.
-- Published on npm with public development on GitHub.
-- 🌐 [Repository](https://github.com/stoneskin/open-memex)
-
-### MLCCC Chinese Characters Recognition App
-*July 2023 – Present*
-
-- Developed and donated a web application to the Mainline Chinese Culture Center for community use
-- **Tech:** JavaScript, HTML (responsive), PHP, MySQL, Google Dictionary API, Hugging Face OpenAI API (LLM)
-- Open-sourced project and mentored multiple high school and college students
-- 🌐 [Repository](https://github.com/MlcccCodingClass/ChineseCharactersRecognitionApp)
-
-### Minecraft-Python
-*2019-2020*
-
-- Created tutorials on learning Python through Minecraft, making programming engaging and interactive
-- Developed multiple Minecraft plugins using Python
-- Enhanced gameplay and customization for educational purposes
-- 🌐 [Repository](https://github.com/stoneskin/python-minecraft)
-
-### Programming Classes (MLCCC)
-Teaching programming to K-12 students:
-
-| Class | Grade | Tech | Schedule |
-|-------|-------|------|----------|
-| Scratch | G2-5 | Scratch Animation & Game | Sunday 3-4PM |
-| Python | G6+ | Python syntax, algorithms, web | Ended July 2026 |
-| Java | G8+ | Java + AP CSA prep | Private/Online |
-
----
-
-## Education & Certifications
-
-| Credential | Institution/Organization | Details |
-|------------|------------------------|---------|
-| 🎓 **MS Computer Science** | Villanova University, PA | GPA: 3.85/4.00 |
-| 🏆 **Software Engineering Certificate** | Villanova University | |
-| 🏆 **Sun Certified Programmer for Java 2** | Sun Microsystems | |
-| 🏆 **OCA Oracle 9i DBA Certification (SQL)** | Oracle | |
-
----
-
-## Career History Summary
-
-```
-2003 ───► 2010 ───► 2012 ───► 2013 ───► 2025
-   │         │         │         │         │
-Broadview  Kemper   Comcast  iPipeline  Present
-  7年       2年      7月      12+年
-```
-
----
-
-## Additional Links
-
-- 🌐 Personal Site: [stoneskin.github.io](https://stoneskin.github.io/)
-- 💻 GitHub: [github.com/stoneskin](https://github.com/stoneskin/)
-- 🔗 LinkedIn: [linkedin.com/in/stoneskin](https://www.linkedin.com/in/stoneskin/)
-
----
-
-*Updated: October 2026*
+*Updated: November 2026*
