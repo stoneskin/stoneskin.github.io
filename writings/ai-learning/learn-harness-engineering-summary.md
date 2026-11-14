@@ -1,4 +1,4 @@
-# walkinglabs《Learn Harness Engineering》导读（2026-10-25 补，第 42 份）
+# walkinglabs《Learn Harness Engineering》导读（2026-10-25 补，第 32 份）
 
 [← 返回目录](index.md)
 
@@ -62,7 +62,7 @@
 - **补 1：从零搭完整 harness 的动手路径（最大缺口）。** MIT Lec 5 讲原理与判断力（可观测性、可控性、无通用最优），UMich AASE 讲拆解真 harness（Claude Code / Codex / Aider 的 loop、skills、guardrails、compaction），Pi 是“最薄 harness”的参考实现，阿里云手册 3–6 章是企业级构建模式——全是“看懂”或“拆开”，没有一份“同一个应用、一步步从 prompt-only 走到完整 harness、每步测弱 vs 强差异”的动手课程。这份就是那份。
 - **补 2：可直接抄的模板与可审计的清单。** 四文件 Quick Start、Resource Library、audit-harness.sh 都是“今天就能放进自己仓库”的东西；清单里此前没有可运行的 harness 审计工具。
 - **补 3：Loop → Graph 的递进。** L13（goal / timer / maker-checker 三种循环）到 L14（节点、边、共享状态、路由、回滚、人工审批）是一条完整的“循环长成图”路径；清单里 Temporal 篇讲的是耐久执行引擎那一侧（crash 续跑、单步重跑），12 步路线图的第 1 步讲状态机/DAG 是纲要，都不是这条从 loop 到 graph 的教学线。
-- **补 4：四个生产 harness 的同框架对比。** Pi 你已有（第 29 份，薄内核参考实现），AASE 也拆过 Claude Code / Codex，但“同一五子系统框架横评 Pi / Claude Code / Codex / DeepSeek”此前没有；这部分可当横评材料读，不必重读 Pi 本体。
+- **补 4：四个生产 harness 的同框架对比。** Pi 你已有（第 36 份，薄内核参考实现），AASE 也拆过 Claude Code / Codex，但“同一五子系统框架横评 Pi / Claude Code / Codex / DeepSeek”此前没有；这部分可当横评材料读，不必重读 Pi 本体。
 
 ## 它不补什么（别指望它解决的）
 

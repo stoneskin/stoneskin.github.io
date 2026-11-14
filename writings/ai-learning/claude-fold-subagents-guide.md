@@ -3,7 +3,7 @@
 [← 返回目录](index.md)
 
 > 来源（一手原文）：Anthropic Applied AI 团队，Diane Sarkis，《Building agents: When to fold subagents into your main agent loop》，2026-10-22，claude.com。原文：https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop ；配套迁移 kit（Apache 2.0）：https://github.com/anthropics/single-agent-loop-kit
-> 本篇是导读（为什么值得看、主线、怎么读）；清单第 51 份，组一 路由与编排。
+> 本篇是导读（为什么值得看、主线、怎么读）；清单第 24 份，组一 路由与编排。
 
 ## 一句话结论
 

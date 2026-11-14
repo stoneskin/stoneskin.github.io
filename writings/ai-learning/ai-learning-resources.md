@@ -13,12 +13,12 @@
 - **第一编 · 基础十九篇**（systemdesign.one）：对照正文 6 篇——#2 Patterns、#3 Multi-Agent、#5 Memory、#9 MCP、#13 Context Engineering、#16 Evaluation；其余摘要或概念即可。
 - **第二编 · 专题进阶**（按主题组合）：
   - 组一 路由与编排：Router/调度（kafkaup）、Thin Orchestrator（Meta）、决策模型与 Jev
-  - 组二 记忆与检索进阶：Agentic RAG、Generative Agents、Karpathy《LLM Wiki》（第 49 份）
-  - 组三 Harness 与课程：MIT 6.S950 Lec 5、MIT 6.S950 课程全景、UMich AASE、walkinglabs《Learn Harness Engineering》（第 42 份，动手搭完整 harness）、namiai《从零手写 Agent》（第 48 份，动手从零写 Agent + 拆解主流 Agent）
+  - 组二 记忆与检索进阶：Agentic RAG、Generative Agents、Karpathy《LLM Wiki》（第 27 份）
+  - 组三 Harness 与课程：MIT 6.S950 Lec 5、MIT 6.S950 课程全景、UMich AASE、walkinglabs《Learn Harness Engineering》（第 32 份，动手搭完整 harness）、namiai《从零手写 Agent》（第 33 份，动手从零写 Agent + 拆解主流 Agent）
   - 组四 框架与平台：Pi、Strands、Bedrock AgentCore、阿里云 AI Agent Handbook
   - 组五 教材与路线：Gulli《Agentic Design Patterns》、Sharma 12 步路线图、龙井《2 小时从零看懂 AI》
   - 组六 交付与职业：FDE-Gym + OpenAI FDE、码良面试题单、Karpathy 理解漏斗
-  - 组七 FDE 深挖 / Agent Ops / 安全与治理（第 33–41 份）：FDE 深挖（Pragmatic Engineer、PostHog、RevenueBrew）、Agent Ops（Databricks、Temporal、Cresta）、安全与治理（OWASP ASI、NIST AI RMF、欧盟 GPAI Code）
+  - 组七 FDE 深挖 / Agent Ops / 安全与治理（新号第 46–51、55–57 份）：FDE 深挖（Pragmatic Engineer、PostHog、RevenueBrew）、Agent Ops（Databricks、Temporal、Cresta）、安全与治理（OWASP ASI、NIST AI RMF、欧盟 GPAI Code）
 - **附**：评价与缺口状态（2026-10-16 评价原文 + 2026-10-24 缺口状态更新）
 - **变更记录**：按日期记每次增补与重整。
 
@@ -87,8 +87,8 @@
 ### Harness 与课程
 
 - **MIT 6.S950 Lecture 5《The Harness》**【对照正文】 — Agent = LLM + Harness；这一讲不教新机制，教三件事——怎么看清它（可观测性）、怎么管住它（可控性）、到底需要多少它（无通用最优），且每条做法都追到几十年前的系统原则。 [原文](https://agencyai.mit.edu/w5/) [导读](./mit-6s950-harness-lecture-summary.md)
-- **MIT 6.S950《Agency with AI》课程全景**【对照正文】 — 整门课只教一件事——Agency，即"什么该委托、什么该验证、什么该留给自己做"的判断力；第 27 份是其中 Lec 5 一讲，本份是全景地图。 [原文](https://agencyai.mit.edu/) [导读](./mit-6s950-course-panorama-guide.md)
-- **UMich EECS 498 AASE《Applied Agentic Software Engineering》**【分讲分级】 — 把"指挥 agent 写代码"当工程学科教的大学课程——先学开（Aider），再拆真 harness（Claude Code / Codex / Aider 的 loop、skills、guardrails、subagents、compaction），最后在现成 harness 上做东西。与 MIT 6.S950（第 28 份）互补：MIT 偏原理，这门偏工程实践与拆解。 [原文](https://github.com/eecs498-aase/materials) [导读](./umich-aase-summary.md)
+- **MIT 6.S950《Agency with AI》课程全景**【对照正文】 — 整门课只教一件事——Agency，即"什么该委托、什么该验证、什么该留给自己做"的判断力；第 29 份是其中 Lec 5 一讲，本份是全景地图。 [原文](https://agencyai.mit.edu/) [导读](./mit-6s950-course-panorama-guide.md)
+- **UMich EECS 498 AASE《Applied Agentic Software Engineering》**【分讲分级】 — 把"指挥 agent 写代码"当工程学科教的大学课程——先学开（Aider），再拆真 harness（Claude Code / Codex / Aider 的 loop、skills、guardrails、subagents、compaction），最后在现成 harness 上做东西。与 MIT 6.S950（第 30 份）互补：MIT 偏原理，这门偏工程实践与拆解。 [原文](https://github.com/eecs498-aase/materials) [导读](./umich-aase-summary.md)
 - **walkinglabs《Learn Harness Engineering》**【分讲分级】 — 清单里第一份“从零亲手搭一个完整 harness”的动手课程——同一个 Electron 知识库应用，从纯 prompt 一步步走到完整 harness，每步测弱 harness vs 强 harness 的实测差。 [原文](https://github.com/walkinglabs/learn-harness-engineering) [导读](./learn-harness-engineering-summary.md)
 - **namiai《从零手写 Agent》**【分课分级】 — 中文动手系列——从 100 行循环亲手搭出一个完整 Agent，配可运行代码（到 EP11 共 49 个测试），再拿 11 个零件当尺子拆 7 个主流 Agent；Gulli 那本是模式教材，这份是“亲手搭一遍”的对照。 [原文](https://namiai.tech/agent/?v=1) [导读](./namiai-agent-summary.md)
 
@@ -181,7 +181,7 @@ Stone 是动手型学习者，这 19 篇全是文章、没有动手项。建议�
 
 ### 缺口补足完成（2026-10-24 晚更新）
 
-2026-10-24 晚，FDE 深挖、Agent Ops、安全与治理三组 9 份（第 33–41 份）已并入。企业 AI 治理/合规观察项至此有 NIST + EU 两份可讲的材料与 OWASP 安全基线支撑，"唯一观察项"状态更新为：治理从"知道"升到"能讲"已有材料，待 Stone 读后验收。当前短板仍在转化不在输入。
+2026-10-24 晚，FDE 深挖、Agent Ops、安全与治理三组 9 份（新号第 46–51、55–57 份）已并入。企业 AI 治理/合规观察项至此有 NIST + EU 两份可讲的材料与 OWASP 安全基线支撑，"唯一观察项"状态更新为：治理从"知道"升到"能讲"已有材料，待 Stone 读后验收。当前短板仍在转化不在输入。
 
 ---
 
