@@ -3,7 +3,7 @@
 [← 返回目录](index.md)
 
 > 来源（一手原文）：Anthropic Applied AI 团队，Diane Sarkis，《Building agents: When to fold subagents into your main agent loop》，2026-10-22，claude.com。原文：https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop ；配套迁移 kit（Apache 2.0）：https://github.com/anthropics/single-agent-loop-kit
-> 本篇是导读（为什么值得看、主线、怎么读）；清单第 51 份，组一 路由与编排。
+> 本篇是导读（为什么值得看、主线、怎么读）；清单第 24 份，组一 路由与编排。
 
 ## 一句话结论
 
@@ -29,7 +29,7 @@
 
 ## 与 DeepSeek Super-agent 的对照（重点）
 
-两篇讲的不是同一个维度，互补不冲突：Claude 这篇讲**一个任务内部**怎么精简推理结构——减少 subagent 反复交接丢信息、加延迟；DSH 那篇讲**一组任务长期并行**怎么组织执行——Router + Worker、事件直通、让人少操心。单 loop 是任务内的组织原则，Router + Worker 是任务间的组织原则。cxuan 的解读把这个区分点出来了（他的推文见 #50 摘要 §8），原文两边各读一遍，这个区分自己就立住了。
+两篇讲的不是同一个维度，互补不冲突：Claude 这篇讲**一个任务内部**怎么精简推理结构——减少 subagent 反复交接丢信息、加延迟；DSH 那篇讲**一组任务长期并行**怎么组织执行——Router + Worker、事件直通、让人少操心。单 loop 是任务内的组织原则，Router + Worker 是任务间的组织原则。cxuan 的解读把这个区分点出来了（他的推文见 #23 摘要 §8），原文两边各读一遍，这个区分自己就立住了。
 
 ## 跟你的咬合
 

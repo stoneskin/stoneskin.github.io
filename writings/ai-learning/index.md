@@ -34,12 +34,12 @@
 | [posthog-fde-summary.md](./posthog-fde-summary.md) | [PostHog 博客](https://posthog.com/blog/what-is-a-forward-deployed-engineer) | PostHog《WTF is a forward deployed engineer?》：一家自己也在招 FDE 的公司写的最佳速查地图 | ★★★☆☆ |
 | [pragmatic-engineer-fde-summary.md](./pragmatic-engineer-fde-summary.md) | [Pragmatic Engineer](https://newsletter.pragmaticengineer.com/p/what-are-forward-deployed-engineers) | Pragmatic Engineer《What are Forward Deployed Engineers?》：关于 FDE 最扎实的一手深挖，定义、日常、方法、案例、反哺五件套齐全 | ★★★★★ |
 | [revenuebrew-fde-summary.md](./revenuebrew-fde-summary.md) | [RevenueBrew](https://revenuebrew.com) | RevenueBrew《What it's like to work in tech's hottest new role》：唯一一份在职 FDE 本人出镜讲日常的报道 | ★★★☆☆ |
-| [karpathy-llm-wiki-guide.md](./karpathy-llm-wiki-guide.md) | [GitHub Gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) | Karpathy《LLM Wiki》导读（第 49 份）：把知识一次编译进 wiki，而不是每次重算；三层架构 + 三个操作 | ★★★★☆ |
+| [karpathy-llm-wiki-guide.md](./karpathy-llm-wiki-guide.md) | [GitHub Gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) | Karpathy《LLM Wiki》导读（第 27 份）：把知识一次编译进 wiki，而不是每次重算；三层架构 + 三个操作 | ★★★★☆ |
 | [karpathy-llm-wiki-summary.md](./karpathy-llm-wiki-summary.md) | [GitHub Gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) | Karpathy《LLM Wiki》详细摘要：三层架构与三个操作，写到不看原文能学到精髓；含 Graphify 实现 | ★★★★☆ |
-| [deepseek-super-agent-guide.md](./deepseek-super-agent-guide.md) | [全文转贴](https://www.uied.cn/posts/922127) · [原型](https://github.com/deepseek-ai/dsh-superagent-prototype) | DeepSeek《Super-agent 设计探索》导读（第 50 份）：多任务的上限是人的注意力；Router + Worker、事件直通、Watchdog 五大模块 | ★★★★☆ |
+| [deepseek-super-agent-guide.md](./deepseek-super-agent-guide.md) | [全文转贴](https://www.uied.cn/posts/922127) · [原型](https://github.com/deepseek-ai/dsh-superagent-prototype) | DeepSeek《Super-agent 设计探索》导读（第 23 份）：多任务的上限是人的注意力；Router + Worker、事件直通、Watchdog 五大模块 | ★★★★☆ |
 | [deepseek-super-agent-summary.md](./deepseek-super-agent-summary.md) | [全文转贴](https://www.uied.cn/posts/922127) · [原型](https://github.com/deepseek-ai/dsh-superagent-prototype) | DeepSeek《Super-agent 设计探索》详细摘要：五大模块、实验数据（p50 12.4 分钟）、安全局限、原型档案；写到不看原文能学到精髓 | ★★★★☆ |
-| [claude-fold-subagents-guide.md](./claude-fold-subagents-guide.md) | [原文](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop) · [迁移 kit](https://github.com/anthropics/single-agent-loop-kit) | Anthropic《When to fold subagents into your main agent loop》导读（第 51 份）：单 Agent + Skills 常打赢多 subagent；subagent 只留三处；迁移凭任务完成 eval、一次折一个；与 DeepSeek Super-agent 互补（任务内精简 vs 任务间组织） | ★★★★★ |
-| [sag2-guide.md](./sag2-guide.md) | [arXiv 论文](https://arxiv.org/abs/2610.22588) · [评测代码](https://github.com/Zleap-AI/SAG-Benchmark) | SAG2《无 embedding 多跳检索》导读（第 57 份）：本地只剩 SQLite + BM25 索引，Jev 在查询时逐段判证据、供词扩下一轮；Jev 第一个公开实战用法 | ★★★★☆ |
+| [claude-fold-subagents-guide.md](./claude-fold-subagents-guide.md) | [原文](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop) · [迁移 kit](https://github.com/anthropics/single-agent-loop-kit) | Anthropic《When to fold subagents into your main agent loop》导读（第 24 份）：单 Agent + Skills 常打赢多 subagent；subagent 只留三处；迁移凭任务完成 eval、一次折一个；与 DeepSeek Super-agent 互补（任务内精简 vs 任务间组织） | ★★★★★ |
+| [sag2-guide.md](./sag2-guide.md) | [arXiv 论文](https://arxiv.org/abs/2610.22588) · [评测代码](https://github.com/Zleap-AI/SAG-Benchmark) | SAG2《无 embedding 多跳检索》导读（第 28 份）：本地只剩 SQLite + BM25 索引，Jev 在查询时逐段判证据、供词扩下一轮；Jev 第一个公开实战用法 | ★★★★☆ |
 | [sag2-summary.md](./sag2-summary.md) | [arXiv 论文](https://arxiv.org/abs/2610.22588) · [评测代码](https://github.com/Zleap-AI/SAG-Benchmark) | SAG2《无 embedding 多跳检索》详细摘要：三轮检索流程、Recall@10 三项第一（86.62% / 97.43% / 99.00%）、消融与成本、局限与二手文章纠正；写到不看原文能学到精髓 | ★★★★☆ |
 
 ## 三、方法论文档（17，X 帖提炼）
@@ -62,7 +62,7 @@
 | [eu-gpai-code-summary.md](./eu-gpai-code-summary.md) | [欧盟](https://digital-strategy.ec.europa.eu/en/news/general-purpose-ai-code-practice-now-available) | 欧盟《通用人工智能行为准则》最终版 + EU AI Act 部署者义务 | ★★★☆☆ |
 | [agentic-design-patterns-summary.md](./agentic-design-patterns-summary.md) | [GitHub](https://github.com/evoiz/Agentic-Design-Patterns) | Antonio Gulli《Agentic Design Patterns》导读（全书 21 章）：模式教材，学习笔记见 learning-notes | ★★★★★ |
 | [cost-optimization-strategies-guide.md](./cost-optimization-strategies-guide.md) | [X 原帖](https://x.com/alexxubyte/status/2117302471156781430) | ByteByteGo《Top 6 Cost Optimization Strategies in AI Systems》导读（第 52 份）：AI 系统成本优化六策——提示词缓存、模型路由、批量接口、语义缓存、精简上下文、用小模型；原图 GIF 已重绘为矢量图 | ★★★☆☆ |
-| [xiaohui-verification-skill-summary.md](./xiaohui-verification-skill-summary.md) | [X 原帖](https://x.com/xiaohuiyuan/status/2118496773706797338) | 晓辉博士《Skill 自迭代能力改造指南》导读（第 54 份）：先验证再迭代——黄金样例 + 脚本检查 + 反馈日志，skill 自迭代的操作手册；与 yetone Agent Loop 咬合 | ★★★★☆ |
+| [xiaohui-verification-skill-summary.md](./xiaohui-verification-skill-summary.md) | [X 原帖](https://x.com/xiaohuiyuan/status/2118496773706797338) | 晓辉博士《Skill 自迭代能力改造指南》导读（第 53 份）：先验证再迭代——黄金样例 + 脚本检查 + 反馈日志，skill 自迭代的操作手册；与 yetone Agent Loop 咬合 | ★★★★☆ |
 
 ## 四、工程原则与习惯（4）
 
@@ -85,23 +85,23 @@
 |---|---|---|---|
 | [open-memex-boundary-audit-2026-10-16.md](./open-memex-boundary-audit-2026-10-16.md) | —（小沐审计） | open-memex 边界审计：tool description 瘦身、pipeline tools 定位、企业版约束 | ★★★☆☆ |
 | [ai-memory-summary.md](./ai-memory-summary.md) | [GitHub akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory) | akitaonrails/ai-memory（10k star，Rust）：跨 agent handoff 杀手功能、20+ harness 集成、零 LLM 记忆老化（access-weighted retention 正是三区换入换出策略的工程答案） | ★★★☆☆ |
-| [mit-6s950-harness-lecture-summary.md](./mit-6s950-harness-lecture-summary.md)（附海报 mit-6s950-harness-lecture-poster.jpg） | [MIT 讲义原文](https://agencyai.mit.edu/w5/) · [shao__meng 介绍推](https://x.com/shao__meng/status/2112821429121204275) | MIT 6.S950 Lecture 5《The Harness》导读（第 27 份）：Baby Anigans 300 行教学 Agent；可观测性五维检查与厂商封存（正补清单自评缺口）；可控性三原则的经典谱系（1965/1968/1972/1975）；无通用最优 harness 与校准数据（±2%~±5%、成本 2 倍）——Harness² 的反面教材 | ★★★★★ |
-| [mit-6s950-course-panorama-guide.md](./mit-6s950-course-panorama-guide.md) | [课程官网原文](https://agencyai.mit.edu/) · [shao__meng 全景导读](https://x.com/shao__meng/status/2103461095566676365) | MIT 6.S950《Agency with AI》课程全景（第 28 份，原文 + 导读成对）：Agency = 委托/验证/保留的判断力；官网明列 spec-driven development；Lec 4 "Specs before prompts"；评测即实验设计、审计产出物与评判者；导读 Lec 3–12 解读含作者推断，已标注——与第 27 份配套 | ★★★★☆ |
+| [mit-6s950-harness-lecture-summary.md](./mit-6s950-harness-lecture-summary.md)（附海报 mit-6s950-harness-lecture-poster.jpg） | [MIT 讲义原文](https://agencyai.mit.edu/w5/) · [shao__meng 介绍推](https://x.com/shao__meng/status/2112821429121204275) | MIT 6.S950 Lecture 5《The Harness》导读（第 29 份）：Baby Anigans 300 行教学 Agent；可观测性五维检查与厂商封存（正补清单自评缺口）；可控性三原则的经典谱系（1965/1968/1972/1975）；无通用最优 harness 与校准数据（±2%~±5%、成本 2 倍）——Harness² 的反面教材 | ★★★★★ |
+| [mit-6s950-course-panorama-guide.md](./mit-6s950-course-panorama-guide.md) | [课程官网原文](https://agencyai.mit.edu/) · [shao__meng 全景导读](https://x.com/shao__meng/status/2103461095566676365) | MIT 6.S950《Agency with AI》课程全景（第 30 份，原文 + 导读成对）：Agency = 委托/验证/保留的判断力；官网明列 spec-driven development；Lec 4 "Specs before prompts"；评测即实验设计、审计产出物与评判者；导读 Lec 3–12 解读含作者推断，已标注——与第 29 份配套 | ★★★★☆ |
 
 ## 七、框架与课程（10）
 
 | 本地总结 | 原文 | 说明 | 推荐度 |
 |---|---|---|---|
-| [pi-coding-agent-summary.md](./pi-coding-agent-summary.md) | [教程](https://x.com/xaiwind/status/2113084544375304503) · [仓库](https://github.com/earendil-works/pi) | Pi Coding Agent 导读（第 29 份）：把 harness 做到最薄的开源样本——内核只留工具循环 + 状态管理；分包、会话树、扩展点四种模型；无权限 / 审计是设计决定 | ★★★★☆ |
-| [strands-agents-sdk-summary.md](./strands-agents-sdk-summary.md) | [官方文档](https://strandsagents.com/) · [仓库](https://github.com/strands-agents/harness-sdk) | Strands Agents SDK 导读（第 30 份）：AWS 开源 agent 框架，「是库不是平台」；hooks 拦截 loop、guardrails 与 context 管理内置；与 AgentCore 配套 | ★★★★☆ |
-| [bedrock-agentcore-summary.md](./bedrock-agentcore-summary.md) | [AWS 官方 FAQ](https://aws.amazon.com/bedrock/agentcore/faqs/) | Bedrock AgentCore 导读（第 31 份）：agent 托管基础设施九件可组合取用；重点看 Policy / Identity / Observability 三件 | ★★★★☆ |
-| [umich-aase-summary.md](./umich-aase-summary.md) | [仓库](https://github.com/eecs498-aase/materials) · [课程站](https://eecs498-aase.github.io) | UMich EECS 498 AASE 导读（第 32 份）：把「指挥 agent 写代码」当工程学科教；分讲分级（6 讲对照正文）；Big Three、停止条件、EGM 五个 skill | ★★★★☆ |
+| [pi-coding-agent-summary.md](./pi-coding-agent-summary.md) | [教程](https://x.com/xaiwind/status/2113084544375304503) · [仓库](https://github.com/earendil-works/pi) | Pi Coding Agent 导读（第 36 份）：把 harness 做到最薄的开源样本——内核只留工具循环 + 状态管理；分包、会话树、扩展点四种模型；无权限 / 审计是设计决定 | ★★★★☆ |
+| [strands-agents-sdk-summary.md](./strands-agents-sdk-summary.md) | [官方文档](https://strandsagents.com/) · [仓库](https://github.com/strands-agents/harness-sdk) | Strands Agents SDK 导读（第 37 份）：AWS 开源 agent 框架，「是库不是平台」；hooks 拦截 loop、guardrails 与 context 管理内置；与 AgentCore 配套 | ★★★★☆ |
+| [bedrock-agentcore-summary.md](./bedrock-agentcore-summary.md) | [AWS 官方 FAQ](https://aws.amazon.com/bedrock/agentcore/faqs/) | Bedrock AgentCore 导读（第 38 份）：agent 托管基础设施九件可组合取用；重点看 Policy / Identity / Observability 三件 | ★★★★☆ |
+| [umich-aase-summary.md](./umich-aase-summary.md) | [仓库](https://github.com/eecs498-aase/materials) · [课程站](https://eecs498-aase.github.io) | UMich EECS 498 AASE 导读（第 31 份）：把「指挥 agent 写代码」当工程学科教；分讲分级（6 讲对照正文）；Big Three、停止条件、EGM 五个 skill | ★★★★☆ |
 | [databricks-agentops-summary.md](./databricks-agentops-summary.md) | [Databricks](https://www.databricks.com) | Databricks《AgentOps on Databricks》：把 MLOps 的 deploy-code 模式搬到 agent 世界的一张完整全图 | ★★★★☆ |
 | [temporal-agents-sdlc-summary.md](./temporal-agents-sdlc-summary.md) | [AWS Builders](https://aws.amazon.com/blogs/) | AWS Builders《Orchestrating Our Agents SDLC on Temporal》：三份 Agent Ops 里最值得细读的一篇，纯实战 | ★★★★☆ |
 | [cresta-agent-observability-summary.md](./cresta-agent-observability-summary.md) | [Cresta](https://cresta.com) | Cresta《Observability for AI Agents》：trace 跨服务、多租户隔离、故障回放 | ★★★☆☆ |
-| [learn-harness-engineering-summary.md](./learn-harness-engineering-summary.md) | [GitHub](https://github.com/walkinglabs/learn-harness-engineering) | walkinglabs《Learn Harness Engineering》（第 42 份）：从零亲手搭一个完整 harness 的动手课程 | ★★★★☆ |
-| [namiai-agent-summary.md](./namiai-agent-summary.md) · [学习笔记](../learning-notes/namiai-agent-notes.md) | [namiai](https://namiai.tech/agent/?v=1) | namiai《从零手写 Agent》（第 48 份）：中文动手系列，从 100 行循环亲手搭出完整 Agent，再拆 7 个主流 Agent | ★★★★☆ |
-| — | [GitHub 仓库](https://github.com/microsoft/ai-agents-for-beginners) | Microsoft《AI Agents for Beginners》（第 53 份，查阅型）：18 课入门课程，七成内容与在册材料重复且更浅；只标 4 课值得看——第 14 课 Microsoft Agent Framework（清单里唯一的微软 Agent 栈）、第 15 课 Computer Use Agents（补 Sharma 路线图缺口 03 操作电脑界面）、第 17 课本地 Agent、第 9 课元认知；代码示例须 Azure 账号 + Microsoft Foundry 才能跑全 | ★★☆☆☆ |
+| [learn-harness-engineering-summary.md](./learn-harness-engineering-summary.md) | [GitHub](https://github.com/walkinglabs/learn-harness-engineering) | walkinglabs《Learn Harness Engineering》（第 32 份）：从零亲手搭一个完整 harness 的动手课程 | ★★★★☆ |
+| [namiai-agent-summary.md](./namiai-agent-summary.md) · [学习笔记](../learning-notes/namiai-agent-notes.md) | [namiai](https://namiai.tech/agent/?v=1) | namiai《从零手写 Agent》（第 33 份）：中文动手系列，从 100 行循环亲手搭出完整 Agent，再拆 7 个主流 Agent | ★★★★☆ |
+| — | [GitHub 仓库](https://github.com/microsoft/ai-agents-for-beginners) | Microsoft《AI Agents for Beginners》（第 34 份，查阅型）：18 课入门课程，七成内容与在册材料重复且更浅；只标 4 课值得看——第 14 课 Microsoft Agent Framework（清单里唯一的微软 Agent 栈）、第 15 课 Computer Use Agents（补 Sharma 路线图缺口 03 操作电脑界面）、第 17 课本地 Agent、第 9 课元认知；代码示例须 Azure 账号 + Microsoft Foundry 才能跑全 | ★★☆☆☆ |
 
 ---
 
