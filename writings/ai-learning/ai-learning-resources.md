@@ -6,6 +6,7 @@
 > 分级：【对照正文】重要，对照原文读；【摘要即可】摘要已写到能独立成立，只看摘要、跳过原文（旧版导读的精读层同此标准）；【查阅型】工具书，按需翻；【概念即可】知道概念为止。
 > 重心（Stone 定）：全部涉猎、FDE 与 Agent 为重点；深度押三处——FDE 落地方法、Agent 跑稳（Ops）、Evals 体系。
 > 本站：导读与摘要见本目录各文件，学习笔记见 ../learning-notes/。编号与外部引用（站点计数）保持一致。
+> 总索引（按编号找文件）：见 [站内目录](./index.md)——每表首列即编号；基础十九篇原文链接见目录第二节。
 > 库内自足（Stone 2026-10-31 定）：重要资料的摘要写到不依赖原文站点也能学到精髓——库里有足够的学习内容及概要，不只留链接；旧资料缺摘要的，学习时补。
 
 ## 总目录
@@ -30,43 +31,43 @@
 
 ## Agent 核心
 
-1. **Agent vs ChatGPT 的区别**【摘要】 — agent 把 LLM 接上工具，形成"行动→观察→重试"循环；ChatGPT 是单轮问答，agent 是能自己调工具、看结果、调策略的多步任务系统
-2. **9 种 Agentic Patterns**【对照正文】 — reflection（自我检查）、tool use、planning、ReAct（边想边干）等 9 种模式，搭 agent 时的"设计模式手册"
-3. **Multi-Agent 架构**【对照正文】 — supervisor/worker、串行 pipeline、并行 fan-out、辩论共识；thinktank 的 panel+judge 就是 supervisor 模式的一种
-4. **从零搭 Incident Response Agent 的血泪史**【摘要】 — 实战：工具怎么选、规划策略（ReAct vs 先规划后执行）、记忆怎么管、guardrails 怎么设
+1. **Agent vs ChatGPT 的区别**【摘要】 — agent 把 LLM 接上工具，形成"行动→观察→重试"循环；ChatGPT 是单轮问答，agent 是能自己调工具、看结果、调策略的多步任务系统 [原文](https://newsletter.systemdesign.one/p/ai-agents-explained)
+2. **9 种 Agentic Patterns**【对照正文】 — reflection（自我检查）、tool use、planning、ReAct（边想边干）等 9 种模式，搭 agent 时的"设计模式手册" [原文](https://newsletter.systemdesign.one/p/agentic-design-patterns)
+3. **Multi-Agent 架构**【对照正文】 — supervisor/worker、串行 pipeline、并行 fan-out、辩论共识；thinktank 的 panel+judge 就是 supervisor 模式的一种 [原文](https://newsletter.systemdesign.one/p/multi-agent-system)
+4. **从零搭 Incident Response Agent 的血泪史**【摘要】 — 实战：工具怎么选、规划策略（ReAct vs 先规划后执行）、记忆怎么管、guardrails 怎么设 [原文](https://newsletter.systemdesign.one/p/how-do-ai-agents-work)
 
 ## 记忆与状态
 
-5. **Agent State / Memory / Consistency**【对照正文】 — 短期记忆（context 内）vs 长期记忆（跨 session）；多步任务怎么保证 agent 不"失忆"不自相矛盾；open-memex 解的就是长期记忆这块
+5. **Agent State / Memory / Consistency**【对照正文】 — 短期记忆（context 内）vs 长期记忆（跨 session）；多步任务怎么保证 agent 不"失忆"不自相矛盾；open-memex 解的就是长期记忆这块 [原文](https://newsletter.systemdesign.one/p/ai-agent-memory)
 
 ## 检索与 RAG
 
-6. **RAG Deep Dive**【摘要 · 与 Agentic RAG 合读】 — 查询时先检索外部文档拼进 prompt；解决知识截止+私有数据问题；关键在切分、检索、重排
-7. **Vector Database Deep Dive**【摘要】 — 存 embedding 做语义检索；选型（Pinecone/Milvus/Qdrant/pgvector）；什么时候该用什么时候不该用
-8. **HNSW 十亿向量毫秒检索**【摘要】 — 分层图索引，不用全量扫描；理解向量库底层的必看
+6. **RAG Deep Dive**【摘要 · 与 Agentic RAG 合读】 — 查询时先检索外部文档拼进 prompt；解决知识截止+私有数据问题；关键在切分、检索、重排 [原文](https://newsletter.systemdesign.one/p/how-rag-works)
+7. **Vector Database Deep Dive**【摘要】 — 存 embedding 做语义检索；选型（Pinecone/Milvus/Qdrant/pgvector）；什么时候该用什么时候不该用 [原文](https://newsletter.systemdesign.one/p/what-is-a-vector-database)
+8. **HNSW 十亿向量毫秒检索**【摘要】 — 分层图索引，不用全量扫描；理解向量库底层的必看 [原文](https://newsletter.systemdesign.one/p/hnsw-vector-search-explained)
 
 ## 协议
 
-9. **MCP Deep Dive**【对照正文】 — Anthropic 的开放协议，统一模型接工具/数据的接口；一次适配，到处可用
-10. **A2A Protocol**【摘要】 — 不同厂商 agent 之间怎么通信协作；MCP 是 agent 接工具，A2A 是 agent 接 agent
-11. **用 MCP 搭 Research Agent**【摘要】 — 实战端到端：规划研究问题→搜索资料→综合结论
+9. **MCP Deep Dive**【对照正文】 — Anthropic 的开放协议，统一模型接工具/数据的接口；一次适配，到处可用 [原文](https://newsletter.systemdesign.one/p/how-mcp-works)
+10. **A2A Protocol**【摘要】 — 不同厂商 agent 之间怎么通信协作；MCP 是 agent 接工具，A2A 是 agent 接 agent [原文](https://newsletter.systemdesign.one/p/agent-to-agent-protocol)
+11. **用 MCP 搭 Research Agent**【摘要】 — 实战端到端：规划研究问题→搜索资料→综合结论 [原文](https://newsletter.systemdesign.one/p/how-to-build-an-ai-research-agent-with-mcp)
 
 ## LLM 基础
 
-12. **LLM 到底怎么工作**【摘要】 — token、embedding、attention、context window；理解模型怎么"看"字，才能写好 prompt
-13. **Context Engineering 101**【对照正文】 — 窗口里放什么怎么放：system prompt、示例、检索结果、历史、工具定义；核心是取舍
-14. **垂直领域小模型**【摘要】 — 特定任务上小模型+好数据能打败大模型；成本低延迟低可本地部署
+12. **LLM 到底怎么工作**【摘要】 — token、embedding、attention、context window；理解模型怎么"看"字，才能写好 prompt [原文](https://newsletter.systemdesign.one/p/llm-concepts)
+13. **Context Engineering 101**【对照正文】 — 窗口里放什么怎么放：system prompt、示例、检索结果、历史、工具定义；核心是取舍 [原文](https://newsletter.systemdesign.one/p/what-is-context-engineering)
+14. **垂直领域小模型**【摘要】 — 特定任务上小模型+好数据能打败大模型；成本低延迟低可本地部署 [原文](https://newsletter.systemdesign.one/p/fine-tuning-small-language-models)
 
 ## 生产与评估
 
-15. **AI App 扩到 100 万用户**【摘要】 — 缓存、batch、小模型处理简单任务大模型只处理复杂；跟 router 三层架构一个思路
-16. **29 个 LLM 评测概念**【对照正文】 — 测试集、打分标准、LLM-as-judge（跟 thinktank judge 同思路）、人工评估
-17. **设计个人 AI 助手**【摘要 · 低优先】 — 流式输出、会话历史、检索增强；偏产品向
+15. **AI App 扩到 100 万用户**【摘要】 — 缓存、batch、小模型处理简单任务大模型只处理复杂；跟 router 三层架构一个思路 [原文](https://newsletter.systemdesign.one/p/llm-inference-cost-optimization)
+16. **29 个 LLM 评测概念**【对照正文】 — 测试集、打分标准、LLM-as-judge（跟 thinktank judge 同思路）、人工评估 [原文](https://newsletter.systemdesign.one/p/llm-evals)
+17. **设计个人 AI 助手**【摘要 · 低优先】 — 流式输出、会话历史、检索增强；偏产品向 [原文](https://newsletter.systemdesign.one/p/ai-chat-assistant)
 
 ## 训练
 
-18. **Fine Tuning Deep Dive**【概念即可】 — 领域数据微调提准确率；什么时候该微调 vs RAG/prompt 就够（多数情况后者就够）
-19. **21 个强化学习概念**【概念即可】 — agent 在环境里行动靠 reward 调策略；RLHF 就是 RL 的一种应用
+18. **Fine Tuning Deep Dive**【概念即可】 — 领域数据微调提准确率；什么时候该微调 vs RAG/prompt 就够（多数情况后者就够） [原文](https://newsletter.systemdesign.one/p/llm-fine-tuning-guide-with-lora-and-qlora)
+19. **21 个强化学习概念**【概念即可】 — agent 在环境里行动靠 reward 调策略；RLHF 就是 RL 的一种应用 [原文](https://newsletter.systemdesign.one/p/what-is-reinforcement-learning)
 
 ---
 
@@ -194,6 +195,7 @@ Stone 是动手型学习者，这 19 篇全是文章、没有动手项。建议�
 ---
 
 ## 变更记录
+- **2026-11-14**：补全第一编 19 篇原文链接（原帖逐条核对，newsletter.systemdesign.one）；站内目录重整——加编号列、第二节新增基础十九篇 19 行（原文直链），总纲行 49 份旧注修正，各节计数核对。
 - **2026-11-14**：同步私仓清单，补 8 份——#23 DeepSeek《Super-agent 设计探索》（2026-11-02 批入）、#24 Anthropic《When to fold subagents into your main agent loop》（2026-11-03 批入）、#28 SAG2《Embedding-Free Multi-Hop Retrieval with BM25 and JEV》（2026-11-09 批入）、#34 Microsoft《AI Agents for Beginners》（2026-11-03 批入）、#35 xiaonancs《Codex 与同类对比》（2026-11-08 批入）、#52 ByteByteGo《Top 6 Cost Optimization Strategies in AI Systems》（2026-11-03 批入）、#53 晓辉博士《Skill 自迭代能力改造指南》（2026-11-07 批入）、#54 南晚《构建自己的 Agent 至少需要完成这些》（2026-11-08 批入）。同日编号按新表重排（旧流水号作废，新旧对照见私仓清单变更记录）。新增后清单共 57 份（基础 19 + 专题 38）。
 - **2026-10-31**：补第 49 份 Karpathy《LLM Wiki》（组二，Stone 批入——X 帖 @awe0_io 推 Graphify 时提到 Karpathy 的三层知识库文章，Stone 让找原文、要原理与实现思路）。三层编译式知识库：raw（不可改原文）/ wiki（LLM 写的 markdown）/ schema（纪律文件）；三操作 ingest / query / lint；index.md + log.md 规模化到 ~100 份资料。用途三处：open-memex（编译式记忆）、本地文件组织、WorkBuddy harness。**结构升级：学习资料分三部分——导读 + 摘要（写到不看原文能学到精髓）+ 学习笔记；新资料按三部分走，旧资料的导读已含精读层、暂不拆。** 新增后清单共 49 份（基础 19 + 专题 30）。同日补：摘要加第 10 节 Graphify 实现（代码库上的编译式知识图谱）；并立新规矩——以后重要资料都要有详细摘要，库内自足、不依赖原文站点；旧资料缺摘要的，学习时补。
 
