@@ -36,7 +36,7 @@ Lead a team of 6 developers and 2 QA managing **40+ applications**. Architect AW
 - Technical lead for all Ping-Configuration IaC (Terraform base layer + CloudFormation), CI/CD, and migration architecture. Production cut-over completed November 7, 2026 — the new AWS platform fully replaced the on-prem environment.
 - Retired Jenkins + Octopus; delivered **GitHub Actions + OIDC** pipeline with a **3-workflow release architecture** (infrastructure / Golden AMI image build / application) and one-click bootstrap orchestrator.
 - Designed **blue/green topology** (primary/secondary slots `DEV→QD0`, `QA→{TD0→STG, UAT→PROD}`) with Route 53 DNS cut-over and manual active-pointer flip for zero-downtime migration.
-- Authored **CloudFormation** stacks for the full Ping stack (PingFederate, PingAccess, PingDirectory, PingDelegator, EFS, NLB, S3, OIDC CI worker role); built a **500-user load-test harness** with on-prem vs AWS baseline and autoscaling policies; fixed a customer (NYL) SAML session-timeout issue with a PingFederate path rewriter.
+- Authored **CloudFormation** stacks for the full Ping stack (PingFederate, PingAccess, PingDirectory, PingDelegator, EFS, NLB, S3, OIDC CI worker role); built a **500-user load-test harness** with on-prem vs AWS baseline and autoscaling policies.
 
 **Other Key Projects:**
 - **Calc-Engine AWS Serverless** — Migrated to AWS SAM + Lambda + DynamoDB with GitHub Actions CI/CD (**70% performance improvement**).
