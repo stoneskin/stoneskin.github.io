@@ -2,7 +2,7 @@
 
 [← Home](../../index.md)
 
-*2026-11-08 · [中文版](./skills.md)*
+*2026-11-15 · [中文版](./skills.md)*
 
 Agent Skills are capability packs for AI: a prompt + scripts + reference docs, loaded on demand, costing no context when unused. Only skills I actually use, have seriously evaluated, or that are popular enough to be worth knowing. **Usage and rating are scored separately**: usage is how much I actually use a skill; rating is my recommendation — for skills I haven't used, the rating is based on reputation and public material, not hands-on testing. ★★★★★ highly recommended, ★★★★☆ worth using/trying, ★★★☆☆ worth a look, ★★☆☆☆ evaluated, not adopted. At most 5 full entries per category; overflow goes in an "Others" line with names only. Tools are on the other page: [AI Toolbox](./index-en.md).
 
@@ -56,13 +56,23 @@ Agent Skills are capability packs for AI: a prompt + scripts + reference docs, l
 
 | Skill | Usage | Rating | Comment |
 |---|---|---|---|
-| [ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | Not used — might use | ★★★☆☆ | ~138K stars: full color, typography and interaction specs in one place; install before a landing page, admin panel or app UI and the page looks designer-made. Also useful for Annabelle's portfolio site. |
+| [ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | Not used — might use | ★★★☆☆ | ~138K stars: full color, typography and interaction specs in one place; install before a landing page, admin panel or app UI and the page looks designer-made. Also useful for Annabelle's portfolio site. (Added Nov 15, 2026: ~150K stars, ~452K installs; one install pulls in 6 sibling skills, plus a paid Premium tier; a third-party audit once rated it high-risk — fixed in PR #417, merged Jul 10, 2026.) |
 | [taste-skill](https://github.com/LeonxLnx/taste-skill) | Not used — to recommend to Annabelle | ★★★☆☆ | ~99K stars: gives AI taste — layout, reference images, motion; use for a homepage or portfolio so the page stops looking templated. Annabelle's game-art background makes her portfolio site a fit. |
 | [impeccable](https://github.com/pbakaus/impeccable) | Not used — to recommend to Annabelle | ★★★☆☆ | ~83K stars: lifts AI design quality, checking spacing, hierarchy and details; have it review a finished page before polishing. |
 
 ## 6. Others: Worth a Mention
 
-*Listed by name only: [caveman](https://github.com/JuliusBrussee/caveman) (terse answers, saves tokens), [awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) (800+ collection), [last30days-skill](https://github.com/mvanhorn/last30days-skill) (last-30-days buzz summary), [i-have-adhd](https://github.com/ayghri/i-have-adhd) (conclusion first), [Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) (interactive code graph, once considered for open-memex).*
+*Listed by name only: [caveman](https://github.com/JuliusBrussee/caveman) (terse answers, saves tokens; the author admits it saves only ~3% more output tokens at the median than a plain "Answer concisely." — while the rules cost ~1,160 input tokens per call; clashes with my detailed-reporting preference, not promoted), [ego-browser](https://github.com/citrolabs/ego-lite) (logged-in Chromium for local desktop agents, same slot as agent-browser; the app itself is closed source and a third-party trust audit failed it), [capcut-edit](https://github.com/renezander030/capcut-cli) (edits CapCut/JianYing draft JSON directly; ToS note: synced content grants ByteDance a perpetual license — NDA material stays local-only), [awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) (800+ collection), [last30days-skill](https://github.com/mvanhorn/last30days-skill) (last-30-days buzz summary), [i-have-adhd](https://github.com/ayghri/i-have-adhd) (conclusion first), [Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) (interactive code graph, once considered for open-memex).*
+
+## 7. Popular Skills: Research & Distillation
+
+*Added Nov 15, 2026: three skills on one line — distilling outside knowledge into callable skills. deep-research gates source quality, Cangjie distills books, Nuwa distills people.*
+
+| Skill | Usage | Rating | Comment |
+|---|---|---|---|
+| [deep-research](https://github.com/robertnowell/deep-research) | Not used — worth trying | ★★★★☆ | Six-phase research pipeline with source quality gates: every claim must cite a source, sources tiered into four levels, no fabricated URLs; same discipline as my data-before-draft and primary-source-first. The local wide-research skill covers parallel search, not source quality — it can't fill this gap. |
+| [cangjie-skill](https://github.com/kangarooking/cangjie-skill) | Not used — worth trying | ★★★★☆ | Distills books, long videos and podcasts into callable atomic skills (RIA-TV++: whole-text understanding, five parallel extractors, triple verification), with ready-made packs like the Buffett letters; the automated version of my "compile knowledge" principle. Caveats: the license is reported inconsistently — check the repo LICENSE before installing; one distillation run costs a lot of tokens, so it fits books and long-form material only. |
+| [nuwa-skill](https://github.com/alchaincyf/nuwa-skill) | Not used — worth trying | ★★★★☆ | ~34K stars: give it a name and six parallel agents research, triple-verify and dual-refine it into a perspective skill (mental models, decision heuristics, voice DNA); over a dozen figures distilled (Jobs, Munger, Feynman, Musk, Karpathy and more). The sibling of Cangjie — Cangjie distills books, Nuwa distills people; add the darwin skill for iteration and the three form a pipeline. The author's own honest boundary: it can't distill intuition, it's a snapshot as of research time, and public statements are not real thoughts. |
 
 ---
 

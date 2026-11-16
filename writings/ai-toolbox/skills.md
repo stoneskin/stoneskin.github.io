@@ -2,7 +2,7 @@
 
 [← 返回首页](../../index.md)
 
-*2026-11-08 · [English Version](./skills-en.md)*
+*2026-11-15 · [English Version](./skills-en.md)*
 
 Agent Skills 是给 AI 用的能力包：一段提示词 + 脚本 + 参考文档，agent 按需加载，不用时不占上下文。只收我自用、认真评估过、或热门到值得知道的。**使用强度与评价分开算**：使用强度是我的实际用量，评价是推荐度——没用过的按口碑与公开资料给分，不是实测。★★★★★ 强烈推荐，★★★★☆ 值得用/试，★★★☆☆ 可以看看，★★☆☆☆ 评估过、没采用。每类最多 5 个完整条目，多出的放“其他”一行，只列名字。工具在另一页：[AI 工具箱](./index.md)。
 
@@ -56,13 +56,23 @@ Agent Skills 是给 AI 用的能力包：一段提示词 + 脚本 + 参考文档
 
 | Skill | 使用强度 | 评价 | 点评 |
 |---|---|---|---|
-| [ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 未用 · 可能用上 | ★★★☆☆ | 约 13.8 万星：整套配色、字体搭配和交互规范都在里面；做落地页、后台和 APP 界面之前装上，页面更像设计师做的。Annabelle 作品集网站也用得上。 |
+| [ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 未用 · 可能用上 | ★★★☆☆ | 约 13.8 万星：整套配色、字体搭配和交互规范都在里面；做落地页、后台和 APP 界面之前装上，页面更像设计师做的。Annabelle 作品集网站也用得上。（2026-11-15 补：星标约 15 万、安装约 45 万；一次安装带 6 个姊妹 skill，另有付费 Premium 层；曾被第三方审计标高风险，PR #417 已修，2026-07-10 合并。） |
 | [taste-skill](https://github.com/LeonxLnx/taste-skill) | 未用 · 可推荐给 Annabelle | ★★★☆☆ | 约 9.9 万星：给 AI 补上审美，排版、参考图和动效都有讲究；做官网首页和作品集的时候用，页面不再像套模板。Annabelle 游戏美术背景，作品集站可用。 |
 | [impeccable](https://github.com/pbakaus/impeccable) | 未用 · 可推荐给 Annabelle | ★★★☆☆ | 约 8.3 万星：专门提升 AI 的设计能力，会检查间距、层级和细节；页面做完先让它审一遍，再按建议打磨。 |
 
 ## 六、其他：提一句值得知道的
 
-*以下未进表，只列名字：[caveman](https://github.com/JuliusBrussee/caveman)（极简回答省 token）、[awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)（800+ 合集）、[last30days-skill](https://github.com/mvanhorn/last30days-skill)（30 天热点汇总）、[i-have-adhd](https://github.com/ayghri/i-have-adhd)（结论先行）、[Understand-Anything](https://github.com/Egonex-AI/Understand-Anything)（代码交互图谱，曾考虑用于 open-memex）。*
+*以下未进表，只列名字：[caveman](https://github.com/JuliusBrussee/caveman)（极简回答省 token；作者自承中位数只比一句“Answer concisely.”多省 3% 输出，规则本身每次约 1,160 输入 token；与详细汇报的偏好冲突，不升表）、[ego-browser](https://github.com/citrolabs/ego-lite)（本地桌面 agent 的登录态 Chromium，与 agent-browser 同类；app 本体闭源，第三方信任审计 Fail）、[capcut-edit](https://github.com/renezander030/capcut-cli)（直接改 CapCut/剪映草稿 JSON；ToS 注意：上传/同步内容给 ByteDance 永久许可，NDA 素材只本地剪）、[awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)（800+ 合集）、[last30days-skill](https://github.com/mvanhorn/last30days-skill)（30 天热点汇总）、[i-have-adhd](https://github.com/ayghri/i-have-adhd)（结论先行）、[Understand-Anything](https://github.com/Egonex-AI/Understand-Anything)（代码交互图谱，曾考虑用于 open-memex）。*
+
+## 七、热门 Skills：研究与蒸馏
+
+*2026-11-15 新增：三条同线——把外部知识蒸馏成可调用的 skill；deep-research 管来源质量，仓颉蒸馏书，女娲蒸馏人。*
+
+| Skill | 使用强度 | 评价 | 点评 |
+|---|---|---|---|
+| [deep-research](https://github.com/robertnowell/deep-research) | 未用 · 值得试 | ★★★★☆ | 6 阶段研究流水线 + source quality gates：每条结论必须引源，来源分 4 档，不许编 URL；和 data-before-draft、primary-source-first 一个路数。本地 wide-research 只管并行、不管引源质量，补不上这一块。 |
+| [仓颉 skill](https://github.com/kangarooking/cangjie-skill) | 未用 · 值得试 | ★★★★☆ | 把书、长视频、播客蒸馏成可调用的原子 skill（RIA-TV++：整文理解 → 5 路并行提取 → 三重验证），自带 Buffett 信件等成品包；就是“知识要编译”的自动化版。提醒：许可证口径不一，装前以仓库 LICENSE 为准；蒸馏一次 token 不少，只适合书和长文。 |
+| [女娲 skill](https://github.com/alchaincyf/nuwa-skill) | 未用 · 值得试 | ★★★★☆ | 约 3.4 万星：给个名字，6 个 agent 并行调研 + 三重验证 + 双 agent 精炼，产出这个人的视角 skill（心智模型 + 决策启发式 + 表达 DNA）；已蒸馏十余位（乔布斯、芒格、费曼、马斯克、Karpathy 等）。和仓颉是姊妹关系：仓颉蒸馏书，女娲蒸馏人；再加达尔文 skill 迭代，正好是一条线。作者自划的诚实边界：蒸馏不了直觉，只是调研时间的快照，公开表达不等于真实想法。 |
 
 ---
 
