@@ -2,7 +2,7 @@
 
 [← 返回目录](index.html)
 
-> 共 58 份（基础 19 篇 + 专题 39 条）。编号按清单呈现顺序：第一编 1–19，第二编按组顺序（组一 20–24、组二 25–28、组三 29–35、组四 36–39、组五 40–42、组六 43–45、组七 46–57）。2026-11-14 Stone 定重排，旧流水号作废；新增取下一个号（58、59…）。
+> 共 59 份（基础 19 篇 + 专题 40 条）。编号按清单呈现顺序：第一编 1–19，第二编按组顺序（组一 20–24、组二 25–28、组三 29–35、组四 36–39、组五 40–42、组六 43–45、组七 46–57）。2026-11-14 Stone 定重排，旧流水号作废；新增取下一个号（58、59…）。
 > 分级：【对照正文】重要，对照原文读；【摘要即可】摘要已写到能独立成立，只看摘要、跳过原文（旧版导读的精读层同此标准）；【查阅型】工具书，按需翻；【概念即可】知道概念为止。
 > 重心（Stone 定）：全部涉猎、FDE 与 Agent 为重点；深度押三处——FDE 落地方法、Agent 跑稳（Ops）、Evals 体系。
 > 本站：导读与摘要见本目录各文件，学习笔记见 ../learning-notes/。编号与外部引用（站点计数）保持一致。
@@ -15,7 +15,7 @@
 - **第二编 · 专题进阶**（按主题组合）：
   - 组一 路由与编排：Router/调度（kafkaup）、Thin Orchestrator（Meta）、决策模型与 Jev、DeepSeek《Super-agent 设计探索》（第 23 份）、Anthropic《When to fold subagents into your main agent loop》（第 24 份）
   - 组二 记忆与检索进阶：Agentic RAG、Generative Agents、Karpathy《LLM Wiki》（第 27 份）、SAG2《无 embedding 多跳检索》（第 28 份，Jev 实战首例）
-  - 组三 Harness 与课程：MIT 6.S950 Lec 5、MIT 6.S950 课程全景、UMich AASE、walkinglabs《Learn Harness Engineering》（第 32 份，动手搭完整 harness）、namiai《从零手写 Agent》（第 33 份，动手从零写 Agent + 拆解主流 Agent）、Microsoft《AI Agents for Beginners》（第 34 份，查阅型，只标 4 课）、xiaonancs《Codex 与同类对比》（第 35 份）、OpenAI《Harness engineering》（第 58 份）
+  - 组三 Harness 与课程：MIT 6.S950 Lec 5、MIT 6.S950 课程全景、UMich AASE、walkinglabs《Learn Harness Engineering》（第 32 份，动手搭完整 harness）、namiai《从零手写 Agent》（第 33 份，动手从零写 Agent + 拆解主流 Agent）、Microsoft《AI Agents for Beginners》（第 34 份，查阅型，只标 4 课）、xiaonancs《Codex 与同类对比》（第 35 份）、OpenAI《Harness engineering》（第 58 份）、Anthropic《Harness design for long-running apps》（第 59 份）
   - 组四 框架与平台：Pi、Strands、Bedrock AgentCore、阿里云 AI Agent Handbook
   - 组五 教材与路线：Gulli《Agentic Design Patterns》、Sharma 12 步路线图、龙井《2 小时从零看懂 AI》
   - 组六 交付与职业：FDE-Gym + OpenAI FDE、码良面试题单、Karpathy 理解漏斗
@@ -98,7 +98,7 @@
 - **Microsoft《AI Agents for Beginners》**【查阅型】 — 微软的 18 课入门课程（文字 + 短视频 + Python 代码，简体中文译本齐全）；七成内容是清单已有材料的入门版（设计模式、RAG、记忆、多 Agent 均有更深的在册版本），只标 4 课值得看：第 14 课 Microsoft Agent Framework（清单里唯一的微软 Agent 栈）、第 15 课 Computer Use Agents（补 Sharma 路线图缺口 03 操作电脑界面）、第 17 课本地 Agent、第 9 课元认知；代码示例须 Azure 账号 + Microsoft Foundry 才能跑全。 [原文](https://github.com/microsoft/ai-agents-for-beginners)
 - **xiaonancs《Codex 与同类对比》**【摘要即可】 — Codex/Claude Code/Opencode 七维架构对比（《OpenAI Codex 源码深度研究》第 24 章）：governance 层位是根本差异（内核沙箱 vs 26 种 hook vs HTTP 后端）；Codex 协议中枢 app-server + 双轨持久化是真优势，Hook 运行时只有 AfterAgent 是最大债；附任务矩阵与"入口对象→主循环→安全边界"三步评估法。注意：全系列 AI 写作，数字为 2026 年 5 月快照，Codex 行号未逐条核验。 [原文](https://github.com/xiaonancs/codex-source-analysis/blob/main/Part%20III%20Comparative%20Analysis/24-Codex%E4%B8%8E%E5%90%8C%E7%B1%BB%E5%AF%B9%E6%AF%94.md)
 - **OpenAI《Harness engineering：leveraging Codex in an agent-first world》**【摘要即可】（第 58 份，Stone 2026-11-15 批入） — 5 个月、0 行手写代码、约 100 万行、约 1,500 PR 的 agent-first 实战记录；“harness engineering”这个词推成主流的那篇（词是 2025-11-04 Dex Horthy 先造，Anthropic 2025-11-26 先出成体系做法）；核心：AGENTS.md 当目录、docs/ 当 system of record、enforce invariants 不 micromanage、golden principles + 定期清理当垃圾回收；人 steering、agent 执行，稀缺资源是人的时间注意力。 [原文](https://openai.com/index/harness-engineering/) [导读](./openai-harness-engineering-guide.html)
-
+- **Anthropic《Harness design for long-running apps》**【分节分级】（第 59 份，Stone 2026-11-15 批入） — 长任务 harness 第二篇（续篇；第一篇《Effective harnesses》Stone 未收）：context anxiety 与 context reset、自评失灵 → 生成与评价拆开、怀疑型 evaluator（四条标准 + few-shot 校准 + Playwright 实测 + 硬阈值）、planner + generator + evaluator 三 agent、sprint contract；模型一强就拆 harness（Opus 4.6 拆掉 sprint 结构）；贵 20 倍以上但单 agent 版核心玩法是坏的，DAW 约 4 小时、$124。 [原文](https://www.anthropic.com/research/harness-design-long-running-apps) [导读](./anthropic-harness-design-guide.html)
 ### 框架与平台
 
 - **Pi（Pi Coding Agent）**【对照正文】 — 把 agent harness 做到最薄的开源样本——内核只留工具循环 + 状态管理，plan mode、子智能体、权限系统全不内置，想要自己以 package 形式装。 [原文](https://x.com/xaiwind/status/2113084544375304503) [导读](./pi-coding-agent-summary.html)
@@ -197,6 +197,7 @@ Stone 是动手型学习者，这 19 篇全是文章、没有动手项。建议�
 
 ## 变更记录
 - **2026-11-15**：同步私仓清单，补第 58 份 OpenAI《Harness engineering》（组三）+ 导读页；新增后清单共 58 份（基础 19 + 专题 39）。
+- **2026-11-15**：同步私仓清单，补第 59 份 Anthropic《Harness design for long-running apps》（组三）+ 导读页；新增后清单共 59 份（基础 19 + 专题 40）。
 - **2026-11-14**：补全第一编 19 篇原文链接（原帖逐条核对，newsletter.systemdesign.one）；站内目录重整——加编号列、第二节新增基础十九篇 19 行（原文直链），总纲行 49 份旧注修正，各节计数核对。
 - **2026-11-14**：同步私仓清单，补 8 份——#23 DeepSeek《Super-agent 设计探索》（2026-11-02 批入）、#24 Anthropic《When to fold subagents into your main agent loop》（2026-11-03 批入）、#28 SAG2《Embedding-Free Multi-Hop Retrieval with BM25 and JEV》（2026-11-09 批入）、#34 Microsoft《AI Agents for Beginners》（2026-11-03 批入）、#35 xiaonancs《Codex 与同类对比》（2026-11-08 批入）、#52 ByteByteGo《Top 6 Cost Optimization Strategies in AI Systems》（2026-11-03 批入）、#53 晓辉博士《Skill 自迭代能力改造指南》（2026-11-07 批入）、#54 南晚《构建自己的 Agent 至少需要完成这些》（2026-11-08 批入）。同日编号按新表重排（旧流水号作废，新旧对照见私仓清单变更记录）。新增后清单共 57 份（基础 19 + 专题 38）。
 - **2026-10-31**：补第 49 份 Karpathy《LLM Wiki》（组二，Stone 批入——X 帖 @awe0_io 推 Graphify 时提到 Karpathy 的三层知识库文章，Stone 让找原文、要原理与实现思路）。三层编译式知识库：raw（不可改原文）/ wiki（LLM 写的 markdown）/ schema（纪律文件）；三操作 ingest / query / lint；index.md + log.md 规模化到 ~100 份资料。用途三处：open-memex（编译式记忆）、本地文件组织、WorkBuddy harness。**结构升级：学习资料分三部分——导读 + 摘要（写到不看原文能学到精髓）+ 学习笔记；新资料按三部分走，旧资料的导读已含精读层、暂不拆。** 新增后清单共 49 份（基础 19 + 专题 30）。同日补：摘要加第 10 节 Graphify 实现（代码库上的编译式知识图谱）；并立新规矩——以后重要资料都要有详细摘要，库内自足、不依赖原文站点；旧资料缺摘要的，学习时补。
