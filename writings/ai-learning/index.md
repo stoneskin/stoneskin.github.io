@@ -3,8 +3,8 @@
 [← 返回首页](../../index.md)
 
 
-*整理：2026-11-14 · 共 57 份（基础 19 + 专题 38）*
-*文件名链到本地总结，原文链到出处；下表 76 行：总纲 1 行、基础十九篇 19 行（无本地文件、原文直链）、其余 56 行；清单 57 份里 55 份有行（#35、#54 只在清单；#23、#27、#28 各占导读 + 摘要两行），其余为站内补充（非清单，不编号）；本站 .md 文件现为 56 个；编号 = 清单编号（第 N 份）；推荐度按对 AI Solutions Architect 目标的重要性与价值打分（中立，不按个人喜好）：★★★★★ 核心必读、★★★★☆ 值得精读、★★★☆☆ 值得一读、★★☆☆☆ 查阅参考、★☆☆☆☆ 了解即可，总纲行不打分；基础十九篇推荐度按分级折算（对照正文 ★★★★☆、摘要 ★★★☆☆、摘要（低优先）★★☆☆☆、概念即可 ★☆☆☆☆）*
+*整理：2026-11-15 · 共 58 份（基础 19 + 专题 39）*
+*文件名链到本地总结，原文链到出处；下表 77 行：总纲 1 行、基础十九篇 19 行（无本地文件、原文直链）、其余 57 行；清单 58 份里 56 份有行（#35、#54 只在清单；#23、#27、#28 各占导读 + 摘要两行），其余为站内补充（非清单，不编号）；本站 .md 文件现为 57 个；编号 = 清单编号（第 N 份）；推荐度按对 AI Solutions Architect 目标的重要性与价值打分（中立，不按个人喜好）：★★★★★ 核心必读、★★★★☆ 值得精读、★★★☆☆ 值得一读、★★☆☆☆ 查阅参考、★☆☆☆☆ 了解即可，总纲行不打分；基础十九篇推荐度按分级折算（对照正文 ★★★★☆、摘要 ★★★☆☆、摘要（低优先）★★☆☆☆、概念即可 ★☆☆☆☆）*
 
 
 ---
@@ -14,7 +14,7 @@
 | 编号 | 本地总结 | 原文 | 说明 | 推荐度 |
 |---|---|---|---|---|
 
-| — | [ai-learning-resources.md](./ai-learning-resources.md) | —（自建清单） | **总清单**：共 57 份（基础 19 + 专题 38），分级标注，专题按 7 组归类；与私仓清单同步。 | — |
+| — | [ai-learning-resources.md](./ai-learning-resources.md) | —（自建清单） | **总清单**：共 58 份（基础 19 + 专题 39），分级标注，专题按 7 组归类；与私仓清单同步。 | — |
 
 
 ## 二、基础十九篇（19）
@@ -43,7 +43,7 @@ systemdesign.one 19 篇深度文章（@0xSilver_Time 2026-10-14 推文串），�
 | 18 | — | [Fine Tuning: A Deep Dive](https://newsletter.systemdesign.one/p/llm-fine-tuning-guide-with-lora-and-qlora) | Fine Tuning Deep Dive：领域数据微调提准确率；什么时候该微调 vs RAG/prompt 就够 | ★☆☆☆☆ |
 | 19 | — | [21 Reinforcement Learning (RL) Concepts Explained Simply](https://newsletter.systemdesign.one/p/what-is-reinforcement-learning) | 21 个强化学习概念：agent 在环境里行动、靠 reward 调策略；RLHF 就是 RL 的一种应用 | ★☆☆☆☆ |
 
-## 三、论文 / 长文详解（20）
+## 三、论文 / 长文详解（21）
 
 | 编号 | 本地总结 | 原文 | 说明 | 推荐度 |
 |---|---|---|---|---|
@@ -67,6 +67,7 @@ systemdesign.one 19 篇深度文章（@0xSilver_Time 2026-10-14 推文串），�
 | 24 | [claude-fold-subagents-guide.md](./claude-fold-subagents-guide.md) | [原文](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop) · [迁移 kit](https://github.com/anthropics/single-agent-loop-kit) | Anthropic《When to fold subagents into your main agent loop》导读：单 Agent + Skills 常打赢多 subagent；subagent 只留三处；迁移凭任务完成 eval、一次折一个；与 DeepSeek Super-agent 互补（任务内精简 vs 任务间组织） | ★★★★★ |
 | 28 | [sag2-guide.md](./sag2-guide.md) | [arXiv 论文](https://arxiv.org/abs/2610.22588) · [评测代码](https://github.com/Zleap-AI/SAG-Benchmark) | SAG2《无 embedding 多跳检索》导读：本地只剩 SQLite + BM25 索引，Jev 在查询时逐段判证据、供词扩下一轮；Jev 第一个公开实战用法 | ★★★★☆ |
 | 28 | [sag2-summary.md](./sag2-summary.md) | [arXiv 论文](https://arxiv.org/abs/2610.22588) · [评测代码](https://github.com/Zleap-AI/SAG-Benchmark) | SAG2《无 embedding 多跳检索》详细摘要：三轮检索流程、Recall@10 三项第一（86.62% / 97.43% / 99.00%）、消融与成本、局限与二手文章纠正；写到不看原文能学到精髓 | ★★★★☆ |
+| 58 | [openai-harness-engineering-guide.md](./openai-harness-engineering-guide.md) | [原文](https://openai.com/index/harness-engineering/) | OpenAI《Harness engineering》导读：5 个月、0 行手写代码的 agent-first 实战记录；“harness engineering”推成主流的那篇；纪律不在代码里，在脚手架里 | ★★★★☆ |
 
 ## 四、方法论文档（17，X 帖提炼）
 
