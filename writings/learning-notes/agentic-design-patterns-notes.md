@@ -1,9 +1,9 @@
 # Antonio Gulli《Agentic Design Patterns》学习笔记：第 12–17 章
 
-[← 返回目录](index.md)
+[← 返回目录](index.html)
 
 > Antonio Gulli 著，https://github.com/evoiz/Agentic-Design-Patterns（21 章 + 7 个附录，每章配可运行的 Jupyter Notebook）
-> 全书导读见 [agentic-design-patterns-summary.md](../ai-learning/agentic-design-patterns-summary.md)；本篇是我的学习笔记（讲回）。
+> 全书导读见 [agentic-design-patterns-summary.md](../ai-learning/agentic-design-patterns-summary.html)；本篇是我的学习笔记（讲回）。
 
 ## 一句话
 

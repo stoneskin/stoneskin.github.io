@@ -1,6 +1,6 @@
 # NIST《AI Risk Management Framework 1.0》+ Playbook + 生成式 AI Profile
 
-[← 返回目录](index.md)
+[← 返回目录](index.html)
 
 分级：【摘要即可】（框架概念、四职能、七特征、GenAI Profile 的 12 类风险）；Playbook 本身按查阅型工具书用——按项目查子类别的建议动作，不通读。
 

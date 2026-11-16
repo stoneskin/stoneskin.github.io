@@ -1,9 +1,9 @@
 # DeepSeek《Super-agent 设计探索》导读：瓶颈不在模型，在人的注意力
 
-[← 返回目录](index.md)
+[← 返回目录](index.html)
 
 > 来源（一手原文）：DeepSeek Harness 团队《Super-agent 设计探索：迈向更自主的 Agent 系统》，DeepSeek 官方微信公众号（"DeepSeek 产品部"），2026-10-31 晚。全文转贴：https://www.uied.cn/posts/922127 ；另一转贴：http://www.uml.org.cn/ai/202611023.asp?artid=27640 。英文讲解（带原图）：https://agentspulse.github.io/tutorials/deepseek-super-agent-architecture/
-> 详细摘要见 [deepseek-super-agent-summary.md](./deepseek-super-agent-summary.md)；本篇是导读（为什么值得看、主线、怎么读）。
+> 详细摘要见 [deepseek-super-agent-summary.md](./deepseek-super-agent-summary.html)；本篇是导读（为什么值得看、主线、怎么读）。
 > 注意：微信原文链接（mp.weixin.qq.com）未取到，不编造；网上传的英文标题 "Scheduling Beyond the Conversation" 原文里没有，是转述的提法；"1.4 万字"这个长度也没法核实。
 
 ## 一句话结论

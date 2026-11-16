@@ -1,6 +1,6 @@
 # OpenSRE 总结分析
 
-[← 返回目录](index.md)
+[← 返回目录](index.html)
 
 *仓库：https://github.com/Tracer-Cloud/opensre（Apache-2.0）*
 *状态：12k star / 1.8k fork，2026-01 建库，2026-10-18 仍在 public alpha*

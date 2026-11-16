@@ -1,6 +1,6 @@
 # RevenueBrew《What it's like to work in tech's hottest new role》
 
-[← 返回目录](index.md)
+[← 返回目录](index.html)
 
 分级：【摘要即可】——唯一一份在职 FDE 本人出镜讲日常的报道。
 

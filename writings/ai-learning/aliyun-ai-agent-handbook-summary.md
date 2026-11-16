@@ -1,6 +1,6 @@
 # 阿里云 AI Agent Handbook 总结分析
 
-[← 返回目录](index.md)
+[← 返回目录](index.html)
 
 *仓库：https://github.com/aliyun/ai-agent-handbook（Apache-2.0）*
 *状态：1.7k star / 244 fork，2026-10-16 仍在更新*
@@ -122,4 +122,4 @@ README 明确列了目标读者，其中两类就是你：
 ---
 
 *原文：https://github.com/aliyun/ai-agent-handbook*
-*清单位置：[学习清单"补：阿里云 AI Agent Handbook"节](./ai-learning-resources.md)*
+*清单位置：[学习清单"补：阿里云 AI Agent Handbook"节](./ai-learning-resources.html)*

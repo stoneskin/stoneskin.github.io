@@ -1,6 +1,6 @@
 # PostHog《WTF is a forward deployed engineer?》
 
-[← 返回目录](index.md)
+[← 返回目录](index.html)
 
 分级：【摘要即可】——一家自己也在招 FDE 的公司写的最佳速查地图。
 

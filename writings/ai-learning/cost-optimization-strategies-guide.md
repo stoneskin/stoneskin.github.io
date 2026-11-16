@@ -1,6 +1,6 @@
 # ByteByteGo《Top 6 Cost Optimization Strategies in AI Systems》导读：AI 系统成本优化六策
 
-[← 返回目录](index.md)
+[← 返回目录](index.html)
 
 > 来源：ByteByteGo（Alex Xu），X 帖《Top 6 Cost Optimization Strategies in AI Systems》，2026-11-02。原文：https://x.com/alexxubyte/status/2117302471156781430
 > 本篇是导读 + 重绘图；清单第 52 份，组七 Agent Ops。上方是矢量重绘（文字可选中、可任意缩放），下方附 ByteByteGo 原图供对照。

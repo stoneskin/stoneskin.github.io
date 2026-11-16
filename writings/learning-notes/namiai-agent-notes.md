@@ -1,11 +1,11 @@
 # namiai《从零手写 Agent》学习笔记（EP01–07）
 
-[← 返回目录](index.md)
+[← 返回目录](index.html)
 
 Stone 的学习笔记，2026-11-06。
 
 
-> 说明：以下是我读完 EP01–07 后的个人理解与延伸，**不是 namiai 原文的内容**。原文导读见 [《从零手写 Agent》导读](../ai-learning/namiai-agent-summary.md)。记录于 2026-11-06。
+> 说明：以下是我读完 EP01–07 后的个人理解与延伸，**不是 namiai 原文的内容**。原文导读见 [《从零手写 Agent》导读](../ai-learning/namiai-agent-summary.html)。记录于 2026-11-06。
 
 ## 一、最小循环就是一个 double loop
 

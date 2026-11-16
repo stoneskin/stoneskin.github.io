@@ -1,6 +1,6 @@
 # Meta《The Thin Orchestrator》总结：让路由器少做事，Agent 反而更可靠
 
-[← 返回目录](index.md)
+[← 返回目录](index.html)
 
 > 一手来源：Meta Engineering 博客《The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do》，2026-10-19
 > https://engineering.fb.com/2026/10/19/ml-applications/thin-orchestrator-ai-agent-architecture/

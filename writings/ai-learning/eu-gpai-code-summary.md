@@ -1,6 +1,6 @@
 # 欧盟《通用人工智能行为准则》最终版（GPAI Code of Practice）+ EU AI Act 部署者义务
 
-[← 返回目录](index.md)
+[← 返回目录](index.html)
 
 分级：【摘要即可】（对 Stone 这种部署者/架构师：重点是 provider / deployer 分界 + 部署者自己的义务与审计证据架构，而不是通读 Code 全文；Code 本身是写给模型提供者的）。
 

@@ -1,6 +1,6 @@
 # 《2小时从零看懂AI》总结收藏
 
-[← 返回目录](index.md)
+[← 返回目录](index.html)
 
 *原文：https://x.com/long_jingai/status/2111356255889723723（X Article）*
 *作者：龙井longjing（@long_jingai，企业AI落地/AI自媒体；给3家国内头部公司做过AI培训）*
@@ -101,4 +101,4 @@
 3. **给团队讲AI的现成教材**：8000元/小时的企业内训稿，结构完整（通识→提示词→Agent→实操），以后你给iPipeline团队或客户讲AI可以直接借鉴这个框架
 4. **时效性**：模型对照表截至2026年10月（GPT-6、Claude 5.5、DeepSeek V4.1），是新鲜的
 
-*相关收藏：[FDE-Gym论文详解](./fde-gym-paper-summary.md)；[阿里云AI Agent Handbook总结](./aliyun-ai-agent-handbook-summary.md)*
+*相关收藏：[FDE-Gym论文详解](./fde-gym-paper-summary.html)；[阿里云AI Agent Handbook总结](./aliyun-ai-agent-handbook-summary.html)*

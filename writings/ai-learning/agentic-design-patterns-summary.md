@@ -1,11 +1,11 @@
 # Antonio Gulli《Agentic Design Patterns》导读（全书 21 章）
 
-[← 返回目录](index.md)
+[← 返回目录](index.html)
 
 > Antonio Gulli 著，https://github.com/evoiz/Agentic-Design-Patterns（21 章 + 7 个附录，每章配可运行的 Jupyter Notebook；版税全部捐给 Save the Children）
 > 结构：全书 21 章，每章一个模式，按由浅入深排列；示例多用 LangChain / LangGraph 与 Google ADK。
 > 覆盖范围：第 1–17 章已读，逐章要点；第 18–21 章未读，只有一句话简介。
-> 我的学习笔记（第三部分讲回）见 [agentic-design-patterns-notes.md](../learning-notes/agentic-design-patterns-notes.md)。
+> 我的学习笔记（第三部分讲回）见 [agentic-design-patterns-notes.md](../learning-notes/agentic-design-patterns-notes.html)。
 > 阅读建议：先读第三部分（生产模式，与 AI 平台工作最直接相关），再补第一部分打底，第四部分按需读。
 
 ## 一句话
