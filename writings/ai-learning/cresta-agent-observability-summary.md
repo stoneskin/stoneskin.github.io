@@ -1,6 +1,6 @@
 # Cresta《Observability for AI Agents: Tracing Multi-Service LLM Pipelines with Langfuse》
 
-[← 返回目录](index.md)
+[← 返回目录](index.html)
 
 分级：【摘要即可】——三份里唯一讲"trace 跨服务、多租户隔离、故障回放"的。
 

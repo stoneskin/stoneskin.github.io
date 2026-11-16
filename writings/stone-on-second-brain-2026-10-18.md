@@ -1,8 +1,8 @@
 # Stone 谈第二大脑（2026-10-18）
 
-[← 返回目录](stone-musings.md)
+[← 返回目录](stone-musings.html)
 
-> 背景：读 Westenberg《I Deleted My Second Brain》后的感悟。原文见 [second-brain-deleted-summary.md](./ai-learning/second-brain-deleted-summary.md)。
+> 背景：读 Westenberg《I Deleted My Second Brain》后的感悟。原文见 [second-brain-deleted-summary.md](./ai-learning/second-brain-deleted-summary.html)。
 
 删光一万条笔记，看着解气，但我觉得这是从一个极端摆到另一个极端。极繁和极简都不是答案。
 

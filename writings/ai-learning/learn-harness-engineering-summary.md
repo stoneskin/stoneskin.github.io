@@ -1,6 +1,6 @@
 # walkinglabs《Learn Harness Engineering》导读（2026-10-25 补，第 32 份）
 
-[← 返回目录](index.md)
+[← 返回目录](index.html)
 
 > 仓库：https://github.com/walkinglabs/learn-harness-engineering （MIT 协议）
 > 课程站：https://walkinglabs.github.io/learn-harness-engineering （README 指向的 Documentation Website）

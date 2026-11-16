@@ -1,9 +1,9 @@
 # SAG2 详细摘要：无 embedding 多跳检索，BM25 + Jev 在查询时现找现连
 
-[← 返回目录](index.md)
+[← 返回目录](index.html)
 
 > 来源（一手原文）：Yuchao Wu《SAG2: Embedding-Free Multi-Hop Retrieval with BM25 and JEV》，arXiv:2610.22588，2026-10-15，Zleap AI。论文：https://arxiv.org/abs/2610.22588 ；评测代码：https://github.com/Zleap-AI/SAG-Benchmark
-> 导读见 [sag2-guide.md](./sag2-guide.md)。本篇是详细摘要（机制、数据、增量、保留条件），写到不看原文能学到精髓。
+> 导读见 [sag2-guide.md](./sag2-guide.html)。本篇是详细摘要（机制、数据、增量、保留条件），写到不看原文能学到精髓。
 > 二手引子：袋鼠帝 @aikangarooking 2026-11-09 X Article，https://x.com/aikangarooking/status/2119717912546304048 。其“悟空的师傅”例子是二手文章自己的举例，不是论文实验；其 JEV 展开与数字见第 6 节纠正。
 
 ## 1. 核心机制：三样东西，分工写死

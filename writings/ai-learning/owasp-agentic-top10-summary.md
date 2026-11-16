@@ -1,6 +1,6 @@
 # OWASP《Top 10 for Agentic Applications 2026》
 
-[← 返回目录](index.md)
+[← 返回目录](index.html)
 
 分级：【对照正文】（核心十条 + 每条的缓解措施；附录 A–E 查阅型即可）——Agent 专用的十大风险分类。
 

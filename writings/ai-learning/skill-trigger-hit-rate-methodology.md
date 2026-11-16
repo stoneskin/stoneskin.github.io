@@ -1,6 +1,6 @@
 # Skill 触发命中率：kafkaup 方法论提炼
 
-[← 返回目录](index.md)
+[← 返回目录](index.html)
 
 *来源：https://x.com/kafkaup/status/2110964963284033978（2026-10-16）*
 *提炼：2026-10-17，小沐*

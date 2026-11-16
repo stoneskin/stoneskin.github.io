@@ -1,6 +1,6 @@
 # MIT 6.S950 讲义导读：Lecture 5《The Harness》
 
-[← 返回目录](index.md)
+[← 返回目录](index.html)
 
 > **学习清单第 29 份**（2026-10-22 Stone 批准正式收录）。
 > 一手来源：MIT 6.S950 *Agency with AI*（Shen Shen，MIT EECS），Lecture 5: The Harness，https://agencyai.mit.edu/w5/ （2026 年秋季课程；该页正文为嵌入的 slides.com 讲义幻灯片）。

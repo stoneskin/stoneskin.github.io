@@ -1,9 +1,9 @@
 # Karpathy《LLM Wiki》导读：把知识一次编译进 wiki，而不是每次重算
 
-[← 返回目录](index.md)
+[← 返回目录](index.html)
 
 > 来源（一手原文）：Andrej Karpathy《LLM Wiki》，GitHub Gist，2026-04-04，https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
-> 详细摘要见 [karpathy-llm-wiki-summary.md](./karpathy-llm-wiki-summary.md)；本篇是导读（为什么值得看、主线、怎么读）。
+> 详细摘要见 [karpathy-llm-wiki-summary.md](./karpathy-llm-wiki-summary.html)；本篇是导读（为什么值得看、主线、怎么读）。
 > 背景：Karpathy 2026-04-03 先发推"LLM Knowledge Bases"，次日贴出这份 gist。他称之为 idea file——不是代码，是拿去贴给自己的 agent 的想法文件；48 小时内 5,000+ stars。
 
 ## 一句话结论

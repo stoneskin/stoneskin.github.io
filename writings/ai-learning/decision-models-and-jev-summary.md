@@ -1,6 +1,6 @@
 # 决策模型（Decision Models）与 Jev 总结：裁判开始输出概率，不写判决书
 
-[← 返回目录](index.md)
+[← 返回目录](index.html)
 
 > 主要来源：
 > - Hamel Husain & Antaripa Saha《How To Use Decision Models for Evals》，hamel.dev，2026-10-21（经 @dongxi_nlp 推文推荐，扒原文）

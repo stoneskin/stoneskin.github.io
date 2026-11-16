@@ -1,9 +1,9 @@
 # Karpathy《LLM Wiki》详细摘要：三层架构与三个操作
 
-[← 返回目录](index.md)
+[← 返回目录](index.html)
 
 > 来源（一手原文）：Andrej Karpathy《LLM Wiki》，GitHub Gist，2026-04-04，https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
-> 导读见 [karpathy-llm-wiki-guide.md](./karpathy-llm-wiki-guide.md)。本篇是详细摘要——原理、三层、三操作、索引/日志、落地步骤、一个现成的实现（Graphify），写到不看原文也能学到精髓。
+> 导读见 [karpathy-llm-wiki-guide.md](./karpathy-llm-wiki-guide.html)。本篇是详细摘要——原理、三层、三操作、索引/日志、落地步骤、一个现成的实现（Graphify），写到不看原文也能学到精髓。
 > 原文 174 行，是一份 idea file（想法文件），不是代码：它只讲模式，不规定具体实现。目录结构、schema 写法、页面格式、工具选择都由你和你的 agent 按自己的域定。
 
 ## 1. 核心思想：从"每次重算"到"编译一次"

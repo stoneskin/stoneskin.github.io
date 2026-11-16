@@ -1,6 +1,6 @@
 # AWS Builders《Orchestrating Our Agents SDLC on Temporal》
 
-[← 返回目录](index.md)
+[← 返回目录](index.html)
 
 分级：【对照正文】——三份里最值得细读的一篇，纯实战。
 

@@ -1,6 +1,6 @@
 # OpenAI《Harness engineering》导读：纪律不在代码里，在脚手架里
 
-[← 返回目录](index.md)
+[← 返回目录](index.html)
 
 > 来源（一手原文）：OpenAI，Ryan Lopopolo《Harness engineering: leveraging Codex in an agent-first world》，2026-02-11。原文：https://openai.com/index/harness-engineering/
 > 本篇是导读（为什么值得看、主线、怎么读）；详细摘要学习时补。

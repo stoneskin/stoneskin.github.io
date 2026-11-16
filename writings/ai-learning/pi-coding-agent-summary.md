@@ -1,6 +1,6 @@
 # Pi Coding Agent 导读：把 Agent Harness 做到最薄的开源样本
 
-[← 返回目录](index.md)
+[← 返回目录](index.html)
 
 > 教程：@xaiwind X 长文《超简单 PI Agent，入门到精通》
 > https://x.com/xaiwind/status/2113084544375304503

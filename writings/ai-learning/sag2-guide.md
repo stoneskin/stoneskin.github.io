@@ -1,9 +1,9 @@
 # SAG2 导读：Jev 第一次有了实战——检索不用 embedding，靠一个只会判是非的小模型
 
-[← 返回目录](index.md)
+[← 返回目录](index.html)
 
 > 来源（一手原文）：Yuchao Wu《SAG2: Embedding-Free Multi-Hop Retrieval with BM25 and JEV》，arXiv:2610.22588，2026-10-15，Zleap AI。论文：https://arxiv.org/abs/2610.22588 ；评测代码：https://github.com/Zleap-AI/SAG-Benchmark
-> 详细摘要见 [sag2-summary.md](./sag2-summary.md)；本篇是导读（为什么值得看、主线、怎么读）。
+> 详细摘要见 [sag2-summary.md](./sag2-summary.html)；本篇是导读（为什么值得看、主线、怎么读）。
 > 引子是二手：袋鼠帝 @aikangarooking 2026-11-09 的 X Article《RAG这次真死了！SAG2才是本地知识库的神》，https://x.com/aikangarooking/status/2119717912546304048 。这篇转述有硬伤——它把 JEV 展开成“Junction Edge Value”，还给了一组跟论文对不上的数字（8.36%→61.48%），这两处都不要信，详见摘要第 6 节。
 
 ## 一句话结论

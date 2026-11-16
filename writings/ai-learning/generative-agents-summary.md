@@ -1,6 +1,6 @@
 # Generative Agents / Smallville 论文
 
-[← 返回目录](index.md)
+[← 返回目录](index.html)
 
 分级：【摘要即可】——三件套参数与实验数字条内齐全，原文备查。
 

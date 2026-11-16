@@ -1,7 +1,7 @@
 # DeepSeek《Super-agent 设计探索》详细摘要：五大模块、实验数据与局限
 
 > 来源（一手原文）：DeepSeek Harness 团队《Super-agent 设计探索：迈向更自主的 Agent 系统》，DeepSeek 官方微信公众号（"DeepSeek 产品部"），2026-10-31 晚。全文转贴：https://www.uied.cn/posts/922127 ；另一转贴：http://www.uml.org.cn/ai/202611023.asp?artid=27640 。英文讲解（带原图）：https://agentspulse.github.io/tutorials/deepseek-super-agent-architecture/
-> 导读见 [deepseek-super-agent-guide.md](./deepseek-super-agent-guide.md)。本篇是详细摘要——论点、五大模块、实验数据、局限、原型档案，写到不看原文也能学到精髓。
+> 导读见 [deepseek-super-agent-guide.md](./deepseek-super-agent-guide.html)。本篇是详细摘要——论点、五大模块、实验数据、局限、原型档案，写到不看原文也能学到精髓。
 > 原文开篇声明：这是一篇面向工程实践的架构思路探讨，并非对 DeepSeek Harness 现有产品功能的介绍。作者：Yujia Qiao（系统实现与写作）。
 
 ## 1. 核心论点：多任务的上限是人的注意力
@@ -158,7 +158,7 @@
 
 来源：cxuan《通了个宵，终于把 Super-Agent 架构玩明白了》（X Article，2026-11-02，https://x.com/criscxuan/status/2117139890957861046 ）——对本文的精读解读；以下四条是他带来的新角度，机制本身见上文各节，不重复。
 
-- **与 Claude 的对照：任务内 vs 任务间。** Anthropic 同期文章《When to fold subagents into your main agent loop》（2026-10-22，清单第 24 份，导读见 [claude-fold-subagents-guide.md](./claude-fold-subagents-guide.md)）讲的是**一个任务内部**怎么精简推理结构——减少 subagent 反复交接丢信息、加延迟；DSH 这篇讲的是**一组任务长期并行**怎么组织执行——Router + Worker、事件直通、让人少操心。单 loop 是任务内的组织原则，Router + Worker 是任务间的组织原则；两篇互补，不冲突。
+- **与 Claude 的对照：任务内 vs 任务间。** Anthropic 同期文章《When to fold subagents into your main agent loop》（2026-10-22，清单第 24 份，导读见 [claude-fold-subagents-guide.md](./claude-fold-subagents-guide.html)）讲的是**一个任务内部**怎么精简推理结构——减少 subagent 反复交接丢信息、加延迟；DSH 这篇讲的是**一组任务长期并行**怎么组织执行——Router + Worker、事件直通、让人少操心。单 loop 是任务内的组织原则，Router + Worker 是任务间的组织原则；两篇互补，不冲突。
 - **Inline / Spill 的分页类比，加一个关键差别。** 机制见 §7（窗口当缓存）：像操作系统的内存页换入换出——窗口就那么大，常用的换进来、不常用的换出去，只在窗口里维护一个页码对照。差别在"谁来换"：操作系统的缺页是硬件和内核自动处理的，程序根本不知道；LLM 没有这个机制——东西被 Spill 出去后，模型得自己意识到手里还有个引用、主动调工具把它读回来。读不读、读多少，全靠它自己判断。所以这套机制对模型能力有依赖：同样一套 Inline / Spill，换个模型，效果能差出来很多。这是 cxuan 的洞见，非原文表述。
 - **Chain of Recall 是地图，不是仓库。** 机制见 §7：系统给 Trigger、Thread、Worker 这些对象编 ID，注入时顺手把下一跳的 ID 带上，于是在底层连成一张引用图。cxuan 的说法是：这个玩法靠的不是一个巨大的记忆库，而是一张能实时渲染的地图。跟 open-memex 对照：记忆是地图还是仓库，是两种不同的设计取舍。
 - **"Session 不能成为用户负担"。** DSH 把 Session 从用户侧淡化掉——Router 层既是用户侧的交互入口、又是底层侧的入口，用户始终看到的是一个 Super-agent，不用自己当项目经理去管几个 Session。很多多 Agent 开源项目反其道而行之，让用户当项目经理协调各路 agent；这条原则说那条路是错的。跟"人是纠偏位不是瓶颈"同义。

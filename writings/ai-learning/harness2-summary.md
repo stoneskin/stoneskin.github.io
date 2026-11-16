@@ -1,6 +1,6 @@
 # Google Harness² 总结
 
-[← 返回目录](index.md)
+[← 返回目录](index.html)
 
 > 来源：@AISuperDomain 推文（2026-10-18）https://x.com/AISuperDomain/status/2111642569654378716
 > 补充：@shao__meng 深度解读（2026-10-18）https://x.com/shao__meng/status/2111730826308452600 —— 补了 harnessing 级递归细节、parallel/sequential 模式、组件功能分组、实证发现
