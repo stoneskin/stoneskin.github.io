@@ -4,7 +4,7 @@
 
 
 *整理：2026-11-23 · 共 61 份（基础 19 + 专题 42）*
-*文件名链到本地总结，原文链到出处；下表 80 行：总纲 1 行、基础十九篇 19 行（无本地文件、原文直链）、其余 60 行；清单 61 份里 59 份有行（#35、#54 只在清单；#23、#27、#28 各占导读 + 摘要两行），其余为站内补充（非清单，不编号）；本站 .md 文件现为 60 个；编号 = 清单编号（第 N 份）；推荐度按对 AI Solutions Architect 目标的重要性与价值打分（中立，不按个人喜好）：★★★★★ 核心必读、★★★★☆ 值得精读、★★★☆☆ 值得一读、★★☆☆☆ 查阅参考、★☆☆☆☆ 了解即可，总纲行不打分；基础十九篇推荐度按分级折算（对照正文 ★★★★☆、摘要 ★★★☆☆、摘要（低优先）★★☆☆☆、概念即可 ★☆☆☆☆）*
+*文件名链到本地总结，原文链到出处；下表 81 行：总纲 1 行、基础十九篇 19 行（无本地文件、原文直链）、其余 61 行；清单 61 份里 59 份有行（#35、#54 只在清单；#23、#27、#28 各占导读 + 摘要两行），其余为站内补充（非清单，不编号）；本站 .md 文件现为 61 个；编号 = 清单编号（第 N 份）；推荐度按对 AI Solutions Architect 目标的重要性与价值打分（中立，不按个人喜好）：★★★★★ 核心必读、★★★★☆ 值得精读、★★★☆☆ 值得一读、★★☆☆☆ 查阅参考、★☆☆☆☆ 了解即可，总纲行不打分；基础十九篇推荐度按分级折算（对照正文 ★★★★☆、摘要 ★★★☆☆、摘要（低优先）★★☆☆☆、概念即可 ★☆☆☆☆）*
 
 
 ---
@@ -41,7 +41,7 @@ systemdesign.one 19 篇深度文章（@0xSilver_Time 2026-10-14 推文串），�
 | 18 | — | [Fine Tuning: A Deep Dive](https://newsletter.systemdesign.one/p/llm-fine-tuning-guide-with-lora-and-qlora) | Fine Tuning Deep Dive：领域数据微调提准确率；什么时候该微调 vs RAG/prompt 就够 | ★☆☆☆☆ |
 | 19 | — | [21 Reinforcement Learning (RL) Concepts Explained Simply](https://newsletter.systemdesign.one/p/what-is-reinforcement-learning) | 21 个强化学习概念：agent 在环境里行动、靠 reward 调策略；RLHF 就是 RL 的一种应用 | ★☆☆☆☆ |
 
-## 三、论文 / 长文详解（23）
+## 三、论文 / 长文详解（25）
 
 | 编号 | 本地总结 | 原文 | 说明 | 推荐度 |
 |---|---|---|---|---|
@@ -69,6 +69,7 @@ systemdesign.one 19 篇深度文章（@0xSilver_Time 2026-10-14 推文串），�
 | 59 | [anthropic-harness-design-guide.md](./anthropic-harness-design-guide.html) | [原文](https://www.anthropic.com/research/harness-design-long-running-apps) | Anthropic《Harness design for long-running apps》导读：别让 agent 给自己打分；怀疑型 evaluator 与“模型一强就拆 harness” | ★★★★☆ |
 | 60 | [ethan-rag-eval-guide.md](./ethan-rag-eval-guide.html) | [X 长文](https://x.com/UPing123zzz/status/2123245117930942775) | Ethan《RAG 评测》导读：答错先问错在哪一层——检索、忠实度还是旧版内容；评测是持续验证机制，不是仪表盘；直接对上 open-memex 0.11.0 的 rerank 与 memory_recall | ★★★★☆ |
 | 61 | [iron-giant-grok-harness-guide.md](./iron-giant-grok-harness-guide.html) | [X 长文](https://x.com/irongiantXBT/status/2122662343306059780) | Iron Giant《Grok Bot 烧钱，Harness 治它》导读：贵模型写字、便宜模型做决策；Chief、五字段合同、三道关卡、HANDOFF 与 Swarm 五规则 | ★★★★☆ |
+| — | [harness-comparison-linkedin.md](./harness-comparison-linkedin.html) | [Iron Giant #61](https://x.com/irongiantXBT/status/2122662343306059780) · [Meta #21](https://engineering.fb.com/2026/10/19/ml-applications/thin-orchestrator-ai-agent-architecture/) · [Anthropic #24](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop) · [DeepSeek #23](https://www.uied.cn/posts/922127) | Harness 设计比较（LinkedIn 版）：Iron Giant #61、Meta #21、Anthropic #24、DeepSeek #23 四篇对照——四篇都是主 agent 带子 agent，差别在主 agent 该多瘦、子 agent 留多少、主 agent 能活多久；附 3 张图与“Agent 越少，模型越要强”一节 | ★★★★☆ |
 ## 四、方法论文档（17，X 帖提炼）
 
 | 编号 | 本地总结 | 原文 | 说明 | 推荐度 |
