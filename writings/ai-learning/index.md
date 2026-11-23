@@ -57,9 +57,6 @@ systemdesign.one 19 篇深度文章（@0xSilver_Time 2026-10-14 推文串），�
 | 25 | [agentic-rag-summary.md](./agentic-rag-summary.html) | [ByteByteGo 原文](https://blog.bytebytego.com/p/how-agentic-rag-works) · [X 图帖](https://x.com/alexxubyte/status/2112204626921762987) | Agentic RAG 总结：标准 RAG 三种死法（歧义/证据分散/虚假自信）与 agentic 三能力（路由/改写/自评）一一对应；光谱不是开关；评估者悖论与过度纠正；选型三问；open-memex 升级路径 + thinktank 咬合 | ★★★★☆ |
 | 47 | [posthog-fde-summary.md](./posthog-fde-summary.html) | [PostHog 博客](https://posthog.com/blog/what-is-a-forward-deployed-engineer) | PostHog《WTF is a forward deployed engineer?》：一家自己也在招 FDE 的公司写的最佳速查地图 | ★★★☆☆ |
 | 46 | [pragmatic-engineer-fde-summary.md](./pragmatic-engineer-fde-summary.html) | [Pragmatic Engineer](https://newsletter.pragmaticengineer.com/p/what-are-forward-deployed-engineers) | Pragmatic Engineer《What are Forward Deployed Engineers?》：关于 FDE 最扎实的一手深挖，定义、日常、方法、案例、反哺五件套齐全 | ★★★★★ |
-
-| 编号 | 本地总结 | 原文 | 说明 | 推荐度 |
-|---|---|---|---|---|
 | 48 | [revenuebrew-fde-summary.md](./revenuebrew-fde-summary.html) | [RevenueBrew](https://revenuebrew.com) | RevenueBrew《What it's like to work in tech's hottest new role》：唯一一份在职 FDE 本人出镜讲日常的报道 | ★★★☆☆ |
 | 27 | [karpathy-llm-wiki-guide.md](./karpathy-llm-wiki-guide.html) | [GitHub Gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) | Karpathy《LLM Wiki》导读：把知识一次编译进 wiki，而不是每次重算；三层架构 + 三个操作 | ★★★★☆ |
 | 27 | [karpathy-llm-wiki-summary.md](./karpathy-llm-wiki-summary.html) | [GitHub Gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) | Karpathy《LLM Wiki》详细摘要：三层架构与三个操作，写到不看原文能学到精髓；含 Graphify 实现 | ★★★★☆ |
