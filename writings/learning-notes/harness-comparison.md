@@ -1,6 +1,6 @@
 # Agent 拆还是合？四份一线 Harness 笔记的对照
 
-[← 返回目录](index.html)
+[← 返回目录](index.html) · [English Version](./harness-comparison-en.md)
 
 你正在搭一个 Agent 系统。第一个架构问题很快就来了：拆成多个 agent，还是一个 agent 干到底？
 
