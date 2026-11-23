@@ -3,8 +3,8 @@
 [← 返回首页](../../index.html)
 
 
-*整理：2026-11-19 · 共 60 份（基础 19 + 专题 41）*
-*文件名链到本地总结，原文链到出处；下表 79 行：总纲 1 行、基础十九篇 19 行（无本地文件、原文直链）、其余 59 行；清单 60 份里 58 份有行（#35、#54 只在清单；#23、#27、#28 各占导读 + 摘要两行），其余为站内补充（非清单，不编号）；本站 .md 文件现为 59 个；编号 = 清单编号（第 N 份）；推荐度按对 AI Solutions Architect 目标的重要性与价值打分（中立，不按个人喜好）：★★★★★ 核心必读、★★★★☆ 值得精读、★★★☆☆ 值得一读、★★☆☆☆ 查阅参考、★☆☆☆☆ 了解即可，总纲行不打分；基础十九篇推荐度按分级折算（对照正文 ★★★★☆、摘要 ★★★☆☆、摘要（低优先）★★☆☆☆、概念即可 ★☆☆☆☆）*
+*整理：2026-11-23 · 共 61 份（基础 19 + 专题 42）*
+*文件名链到本地总结，原文链到出处；下表 80 行：总纲 1 行、基础十九篇 19 行（无本地文件、原文直链）、其余 60 行；清单 61 份里 59 份有行（#35、#54 只在清单；#23、#27、#28 各占导读 + 摘要两行），其余为站内补充（非清单，不编号）；本站 .md 文件现为 60 个；编号 = 清单编号（第 N 份）；推荐度按对 AI Solutions Architect 目标的重要性与价值打分（中立，不按个人喜好）：★★★★★ 核心必读、★★★★☆ 值得精读、★★★☆☆ 值得一读、★★☆☆☆ 查阅参考、★☆☆☆☆ 了解即可，总纲行不打分；基础十九篇推荐度按分级折算（对照正文 ★★★★☆、摘要 ★★★☆☆、摘要（低优先）★★☆☆☆、概念即可 ★☆☆☆☆）*
 
 
 ---
@@ -13,7 +13,7 @@
 
 | 编号 | 本地总结 | 原文 | 说明 | 推荐度 |
 |---|---|---|---|---|
-| — | [ai-learning-resources.md](./ai-learning-resources.html) | —（自建清单） | **总清单**：共 60 份（基础 19 + 专题 41），分级标注，专题按 7 组归类；与私仓清单同步。 | — |
+| — | [ai-learning-resources.md](./ai-learning-resources.html) | —（自建清单） | **总清单**：共 61 份（基础 19 + 专题 42），分级标注，专题按 7 组归类；与私仓清单同步。 | — |
 
 ## 二、基础十九篇（19）
 
@@ -68,6 +68,7 @@ systemdesign.one 19 篇深度文章（@0xSilver_Time 2026-10-14 推文串），�
 | 58 | [openai-harness-engineering-guide.md](./openai-harness-engineering-guide.html) | [原文](https://openai.com/index/harness-engineering/) | OpenAI《Harness engineering》导读：5 个月、0 行手写代码的 agent-first 实战记录；“harness engineering”推成主流的那篇；纪律不在代码里，在脚手架里 | ★★★★☆ |
 | 59 | [anthropic-harness-design-guide.md](./anthropic-harness-design-guide.html) | [原文](https://www.anthropic.com/research/harness-design-long-running-apps) | Anthropic《Harness design for long-running apps》导读：别让 agent 给自己打分；怀疑型 evaluator 与“模型一强就拆 harness” | ★★★★☆ |
 | 60 | [ethan-rag-eval-guide.md](./ethan-rag-eval-guide.html) | [X 长文](https://x.com/UPing123zzz/status/2123245117930942775) | Ethan《RAG 评测》导读：答错先问错在哪一层——检索、忠实度还是旧版内容；评测是持续验证机制，不是仪表盘；直接对上 open-memex 0.11.0 的 rerank 与 memory_recall | ★★★★☆ |
+| 61 | [iron-giant-grok-harness-guide.md](./iron-giant-grok-harness-guide.html) | [X 长文](https://x.com/irongiantXBT/status/2122662343306059780) | Iron Giant《Grok Bot 烧钱，Harness 治它》导读：贵模型写字、便宜模型做决策；Chief、五字段合同、三道关卡、HANDOFF 与 Swarm 五规则 | ★★★★☆ |
 ## 四、方法论文档（17，X 帖提炼）
 
 | 编号 | 本地总结 | 原文 | 说明 | 推荐度 |
