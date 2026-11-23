@@ -52,7 +52,7 @@ DeepSeek 也站在"拆"这一边——Router + Worker 本身就是主 agent 带�
 
 决策放哪一层，四篇给了三个做法——DeepSeek 的 Router 走的是 Meta 那条确定性派活的路：
 
-- **Iron Giant 把决策交给便宜模型**：Jev 只答类型化问题——选择、1–5 评分、0–1 概率，不写散文；阈值升级兜底。决策量大、格式固定的循环，这是最实在的省钱办法。提醒一句：Jev 是 TypeSafe AI 的 hosted 模型，用它等于引入一家厂商依赖。若想避免锁定，可用本地小模型或规则引擎做同样的类型化决策层。
+- **Iron Giant 把决策交给便宜模型**：Jev 只答类型化问题——选择、1–5 评分、0–1 概率，不写散文；阈值升级兜底。决策量大、格式固定的循环，这是最实在的省钱办法。提醒一句：Jev 是 TypeSafe AI 的 hosted 模型，用它等于引入一家厂商依赖。若想避免锁定，可用本地小模型或规则引擎做同样的类型化决策层；同类里也有开源权重可自己跑的，比如 [AWS Strands Decider](https://stoneskin.github.io/writings/ai-learning/decision-models-and-jev-summary.html)（Apache 2.0）。
 - **Meta 把决策写成确定性规则**：路由本身就是确定性决策，不用 LLM；推理全下放。7 步协议里只有委派那一步涉及 LLM 推理，且发生在子 agent 的隔离上下文内。
 - **Anthropic 让模型自己做决策**：模型变强，决策权从 harness 回到模型手里。硬规则不写进散文，写进 tools——校验、审批、前置条件、权限由代码强制。
 - **DeepSeek 的 Router 也是确定性派活那一路**：它一次批量处理多个任务的派活，把单次决策成本摊薄了（批量后单次决策时间从 6.4 秒降到 1.6 秒，合成负载实验）。
