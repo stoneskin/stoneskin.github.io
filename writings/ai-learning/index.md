@@ -3,8 +3,8 @@
 [← 返回首页](../../index.html)
 
 
-*整理：2026-11-23 · 共 61 份（基础 19 + 专题 42）*
-*文件名链到本地总结，原文链到出处；下表 80 行：总纲 1 行、基础十九篇 19 行（无本地文件、原文直链）、其余 60 行；清单 61 份里 59 份有行（#35、#54 只在清单；#23、#27、#28 各占导读 + 摘要两行），其余为站内补充（非清单，不编号）；本站 .md 文件现为 60 个；编号 = 清单编号（第 N 份）；推荐度按对 AI Solutions Architect 目标的重要性与价值打分（中立，不按个人喜好）：★★★★★ 核心必读、★★★★☆ 值得精读、★★★☆☆ 值得一读、★★☆☆☆ 查阅参考、★☆☆☆☆ 了解即可，总纲行不打分；基础十九篇推荐度按分级折算（对照正文 ★★★★☆、摘要 ★★★☆☆、摘要（低优先）★★☆☆☆、概念即可 ★☆☆☆☆）*
+*整理：2026-11-25 · 共 61 份（基础 19 + 专题 42）*
+*文件名链到本地总结，原文链到出处；下表 80 行：总纲 1 行、基础十九篇 19 行（无本地文件、原文直链）、其余 60 行；清单 61 份里 59 份有行（#35、#54 只在清单；#23、#27、#28 各占导读 + 摘要两行），其余为站内补充（非清单，不编号）；本站 .md 文件现为 61 个；编号 = 清单编号（第 N 份）；推荐度按对 AI Solutions Architect 目标的重要性与价值打分（中立，不按个人喜好）：★★★★★ 核心必读、★★★★☆ 值得精读、★★★☆☆ 值得一读、★★☆☆☆ 查阅参考、★☆☆☆☆ 了解即可，总纲行不打分；基础十九篇推荐度按分级折算（对照正文 ★★★★☆、摘要 ★★★☆☆、摘要（低优先）★★☆☆☆、概念即可 ★☆☆☆☆）*
 
 
 ---
@@ -99,7 +99,7 @@ systemdesign.one 19 篇深度文章（@0xSilver_Time 2026-10-14 推文串），�
 | — | [pstack-24-principles-zh.md](./pstack-24-principles-zh.html) | [GitHub cursor/plugins](https://github.com/cursor/plugins) | pstack 24 条工程原则（中英对照，Uncle Bob：把经典工程智慧重编码给 AI agent） | ★★★☆☆ |
 | — | [ai-habits-as-institution-design.md](./ai-habits-as-institution-design.html) | —（小沐整理） | 把 AI 使用习惯做成可迁移的制度（含"白盒生产，黑盒交付"） | ★★★☆☆ |
 | — | [agent-skill-writing-checklist-zh.md](./agent-skill-writing-checklist-zh.html) | mattpocock/skills（writing-for-agents） | 给 Agent 写文档的检查清单（译自原文） | ★★★☆☆ |
-| — | [agents-md-portable-v02.md](./agents-md-portable-v02.html) | —（自建） | AGENTS.md 便携版 v0.2（最新；v0.1 为冻结快照） | ★★★☆☆ |
+| — | [agents-md-portable-v03.md](./agents-md-portable-v03.html) | —（自建） | AGENTS.md 便携版 v0.3（最新；v0.2 为冻结快照） | ★★★☆☆ |
 
 ## 六、阅读筛选（1）
 
