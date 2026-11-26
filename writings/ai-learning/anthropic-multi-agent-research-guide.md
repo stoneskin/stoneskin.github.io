@@ -1,0 +1,91 @@
+# Anthropic《How we built our multi-agent research system》导读
+
+[← 返回 AI 学习资料目录](./index.md)
+
+> 原文：Anthropic Engineering，2025-06-13（2026-10-09 更新），作者 Jeremy Hadfield、Barry Zhang、Kenneth Lien、Florian Scholz、Jeremy Fox、Daniel Ford。发现线索：hayato @hayatomaruu 2026-11-25 的 X 帖总结（他那篇总结忠实，但漏了成本和适用边界两句，见精读层）。
+>
+> 原文：<https://www.anthropic.com/engineering/multi-agent-research-system>
+>
+> 发现帖：<https://x.com/hayatomaruu/status/2125682774199697662>
+
+## 导读层
+
+**一句话结论：多 agent 赢，不是因为"人多力量大"，而是因为它能花更多 token、占更多并行上下文——代价是 15 倍 token，不是谁都付得起。**
+
+这篇是 Anthropic 自己复盘 Claude Research 功能从原型到生产的文章，值得收的理由有三条。第一，它是第一手：六个作者就是搭这个系统的人，数字、失败模式、修复方法都来自生产系统，不是转述。第二，它把"多 agent 什么时候赢、什么时候不赢"的分界线写死了——这条线正好补上清单第 24 份（Anthropic 折叠 subagent：单 agent + skills 往往打赢多 agent）留下的缺口，两篇合起来才是完整的判断。第三，它的很多做法能直接平移到你手里的三个项目：thinktank 本身就是 lead + panelist 的 orchestrator-worker；PingPilot 的工具描述质量、Verifier 校准、会话续跑，都是原文的第 5 点、第 7 点和生产可靠性一节；open-memex 的"计划落盘"就是原文的 memory 持久化。
+
+**为什么值得看：** 你早上给 Helix 重读留的问题——"Helix 在多 agent 并行上是领先还是落后"——这篇给了判断标尺：能拆成彼此独立的并行块、信息量超过一个上下文窗口、工具多又复杂，三个条件齐了多 agent 才赢；共享上下文、依赖多、要实时协调的任务，单 agent + skills 反而赢。拿这把尺子去量 Helix 的 implement 阶段，比空想要准。
+
+**叙事主线：** 研究任务是开放式、路径不可预测的——先有一个 lead agent 写计划、拆任务，再派一群 subagent 并行去搜，最后 lead 综合。整篇文章就是讲这个结构怎么搭（架构）、怎么调（prompt 八条原则）、怎么验（评测）、怎么在生产里不翻车（可靠性）。
+
+---
+
+## 精读层
+
+### 核心结论：架构与数字
+
+- **架构：orchestrator-worker。** LeadResearcher（Opus 4）分析问题、定策略、派 subagent；subagent（Sonnet 4）并行探索不同侧面，起"智能过滤器"的作用——先在自己的上下文窗口里压缩，再把最重要的 token 交回 lead。搜索的本质是压缩（compression），subagent 让压缩并行发生。
+- **headline 数字：多 agent 比单 agent Opus 4 在内部研究评测上好 90.2%。** 适用范围要讲清楚：这是**广度优先（breadth-first）查询**上的结果。原文的例子是"找出标普 500 信息技术板块所有公司的全部董事"——多 agent 拆成子任务找到了，单 agent 顺序搜直接搜不到。
+- **赢的机制主要是"花了更多 token"。** BrowseComp 评测上，token 用量一个因素就解释了 80% 的方差；三个因素（token 量、工具调用数、模型选择）合起来解释 95%。多 agent 的本质是"用更多 token、更多并行上下文去解决问题"。换更强的模型比单纯加 token 划算（Sonnet 4 相对 Sonnet 3.7 的提升，大于 token 预算翻倍）。
+- **代价：token 用量大约是普通聊天的 15 倍、单 agent 的 4 倍。** 原文原话：只有任务价值高到付得起这个价，才划算。这是 hayato 的总结帖没放进去的一句，也是最重要的一句。
+- **适用边界（原文明确写了）：** 多 agent 擅长的是重并行、信息超过单个上下文窗口、对接大量复杂工具的任务；**不适合**需要所有 agent 共享同一上下文、agent 之间依赖多的领域——"大多数编码任务真正能并行的部分比研究少"，LLM 目前也不擅长实时协调和委派。
+
+### 六个做法：prompt 的八条原则里最硬的几条
+
+1. **计划先落盘。** LeadResearcher 先想好方案、把计划存进 Memory 再开始搜——上下文超过 20 万 token 会被截断，计划不落盘就活不下来。这就是"plan survives"。
+2. **Brief 要写死。** 每个 subagent 拿到目标、输出格式、用什么工具和来源、以及清晰的任务边界，还要有一条"不要覆盖什么"。没写死就会重复劳动：原文的例子里，一个 subagent 去查 2021 年汽车芯片危机，另两个重复查 2025 年供应链。
+3. **按问题规模配资源。** 简单事实：1 个 agent、3–10 次工具调用；对比类：2–4 个 subagent、各 10–15 次调用；深度研究：10+ 个 subagent、职责明确分开。早期版本最常见的失败就是在简单问题上过度投入（有一次派了 50 个 subagent 去查一个简单问题）。
+4. **工具设计和选择是关键。** 工具接口跟人机界面一样重要；工具描述写得差会把 agent 带进死路。做法：让 agent 先看一遍所有可用工具、按意图匹配、优先用专用工具而不用通用工具。
+5. **让 agent 自己修工具。** 一个 tester agent 拿着有缺陷的 MCP 工具跑了几十遍，重写了工具描述；之后所有用新描述的 agent 完成任务快了 40%。Claude 4 模型本身就是很好的 prompt 工程师：给它一个 prompt 和一个失败模式，它能诊断原因并给出改进建议。
+6. **文件 + 引用，少传话。** Subagent 把结果存成文件、只交回路径，不用口头转述（"no game of telephone"）；发报告前再过一遍引用检查，逐条核对每个主张。附录补充：对结构化输出（代码、报告、数据可视化），subagent 的输出可以直接绕过 lead 落到外部系统，只把轻量引用交回去，既保真又省 token。
+7. **先宽后窄 + 引导思考。** 搜索策略学专家的做法：先用短而宽的查询摸清地形，再逐步收窄。Lead 用 extended thinking 做计划（评估工具、定复杂度、定 subagent 数量和角色）；subagent 在工具结果后用 interleaved thinking 评估质量、找缺口、调整下一次查询。
+8. **并行分两层。** Lead 一次派 3–5 个 subagent（而不是串行），subagent 一次调 3+ 个工具；复杂查询的研究时间最多省 90%，"几分钟而不是几小时"。
+
+### 评测怎么做
+
+- **从小样本立刻开始。** 早期改动效果巨大（一个 prompt 调整能把成功率从 30% 提到 80%），20 个左右真实使用模式的查询就能看出改动的影响；不要等"几百条的大评测"才开始。
+- **LLM-as-judge，单次调用最稳。** 评测维度：事实准确性（主张与来源是否相符）、引用准确性、完整性、来源质量（优先一手来源还是低质量二手来源）、工具效率。用一个 LLM 调一次、一个 prompt、输出 0.0–1.0 的分数加 pass/fail，比多个 judge 分项打分更一致、更接近人类判断。
+- **人工评测抓得到自动化漏掉的东西。** 早期 agent 总是选 SEO 优化过的内容农场，而不选权威但排名低的学术 PDF 和个人博客；加了来源质量启发式才解决。自动化评测再全，手动测试仍然必要。
+- **多 agent 系统有涌现行为。** Lead 上一个小改动会不可预测地改变 subagent 的行为；最好的 prompt 不是严格指令，而是协作框架——分工、解题方法、 effort 预算。原文开源了系统里的示例 prompt（Claude Cookbook）。
+
+### 生产可靠性：最后那一里路最长
+
+- **Agent 是有状态的，错误会复合。** 跑很久、跨很多次工具调用攒状态；小故障不处理会是灾难性的。做法：不能从头重启（贵、用户烦），要从出错的地方续跑；让 agent 知道工具正在失败、让它自己适应；再配确定性保障（重试逻辑、定期 checkpoint）。
+- **调试靠全量追踪。** Agent 每次跑的决策都不一样，复现不了；做法是生产全量 tracing 加高层可观测性——监控 agent 的决策模式和交互结构，**不监控对话内容本身**（保隐私）。
+- **部署要彩虹发布（rainbow deployment）。** Agent 是 prompt、工具、执行逻辑交织的有状态系统，几乎一直在跑；更新时 agent 可能处在流程的任何位置。做法是新旧版本同时跑、逐步切流量，不一次性全量替换。
+- **同步执行的瓶颈。** 目前 lead 是同步等 subagent 跑完再继续：lead 不能中途指挥 subagent，subagent 之间不能协调，一个慢的 subagent 会卡住整个系统。异步执行能进一步并行，但会带来结果协调、状态一致、错误传播的新难题；原文认为随着模型能处理更长更复杂的任务，收益会盖过复杂度。
+- **结论原话：最后一里路往往占了大半旅程。** 开发者机器上能跑的代码，要变成可靠的生产系统需要大量工程；agent 系统里错误的复合性意味着传统软件里的小问题能彻底带偏 agent。原型到生产的鸿沟比预想的宽。
+
+### 附录三条（容易漏，但很实用）
+
+- **会改状态的 agent 要做终态评测（end-state evaluation）。** 每一步都可能改变后续环境，逐轮评流程走不通；改成评最终状态对不对，复杂流程拆成离散 checkpoint（每个 checkpoint 应该发生什么状态变化）。
+- **长对话管理。** 几百轮的对话要靠智能压缩和外部 memory：把已完成的阶段总结后存进外部 memory，需要时再取回；上下文快满时派新的 subagent、用干净的上下文继续，通过仔细交接保持连续性。
+- **Subagent 输出落文件。** 见上文第 6 条。
+
+### 证据不支持什么
+
+- **90.2% 不是"多 agent 全面碾压单 agent"。** 它是 Anthropic 内部研究评测、广度优先查询上的结果；编码类、强依赖类任务原文明确说不适合。
+- **90.2% 里的大头是 token 花得多。** 机制上不是"协作的魔法"，是"更多 token + 更多并行上下文"；脱离成本谈这个数字会误导。
+- **这篇是 2025 年 6 月的文章，模型是 Opus 4 / Sonnet 4。** 结论的框架（分工、brief、评测、可靠性）不过时，但具体数字（15 倍、40%、90%）是当时的系统测的，别当成现在的定额。
+
+### 与清单已有材料的关系
+
+- **#24 Anthropic 折叠 subagent 的反面拼图。** #24 说单 agent + skills 往往打赢多 agent；这篇说多 agent 在广度优先研究上赢 90.2%。两篇的分界线就是：能拆成独立并行块、信息超一个窗口、工具多又复杂 → 多 agent；共享上下文、依赖多、实时协调 → 单 agent + skills。两篇要对照着读，单看一篇都会走偏。
+- **#58 OpenAI Harness engineering / #59 Anthropic Harness design / #61 Iron Giant。** #58 是 agent-first 实战的组织方式，#59 是长任务 harness 的结构（planner + generator + evaluator），#61 是 harness 强制执行与决策便宜化；这篇补的是多 agent 这一块的架构、prompt、评测、生产可靠性，四份合起来才是 harness 的完整拼图。
+- **#62 Who Verifies the Verifier?。** 这篇的 LLM-as-judge（单次调用、0.0–1.0 + pass/fail、与人类判断最一致）是 #62 的对照面：#62 讲评分器自己进化会塌、需要锚定；这篇讲 judge 在实践里怎么搭才稳。两篇都指向同一个结论：judge 需要自己的锚定集。
+- **#21 Meta Thin Orchestrator / #23 DeepSeek Super-agent。** #21 是 1300 行 orchestrator、零领域工作的薄调度；#23 是 Router 只分发、Worker 隔离执行。这篇的 orchestrator-worker 是同一家族的第三个实现，但它是 Anthropic 生产系统的第一手复盘，三个对照着看能看出"薄调度"在不同场景下的三种长相。
+- **Helix。** 你早上留的问题——Helix 在多 agent 并行上领先还是落后——按这篇的标尺量：Helix 五阶段里，research、review、验证这些能拆块的环节适合并行；implement 阶段如果是一串有依赖的编码任务，硬上多 agent 反而吃亏。Helix 的价值不在"并行得多"，在 specify 和 verify 这两道关卡。
+
+### 小沐的分析与判断
+
+这篇最值钱的不是 90.2%，而是两句话：第一，"多 agent 赢主要是因为花了更多 token"——这是 Anthropic 自己说的，诚实，也把 hype 打回了原形；第二，"最后一里路占了大半旅程"——原型到生产的鸿沟，恰恰是你 Stage 0 定位（"帮企业把 AI 从 demo 做到生产"）要收的钱。
+
+对你手里的项目，我的判断是：thinktank 的评审结构已经是 orchestrator-worker 的形状，值得按这篇的 brief 纪律再检查一遍——每个 panelist 有没有拿到目标、输出格式、"不要覆盖什么"三件套；PingPilot 的工具描述质量和 Verifier 校准，原文第 5 点和评测一节给了现成的做法；DMT 的小时级筛查不需要多 agent——并行度低、任务价值付不起 15 倍 token，按原文的边界线，它属于"单 agent 就够"的场景。
+
+相关阅读：beamnxw《Context vs Prompt vs Loop vs Harness Engineering》（X 长文，2026-11-09）是四层地图——prompt、context、loop、harness 各问一个不同的问题；当索引看可以，料在 Anthropic 原文里。这篇长文我只读了开头，未通读全文。
+
+## 职业启示
+
+- **会拆任务比会写 prompt 更值钱。** Brief 写死（目标、格式、工具、边界、"不要覆盖"）是多 agent 系统里最便宜的质量杠杆；这项能力直接对应 FDE 的"进陌生业务场景、把知识流程工具标准转成能跑的系统"。
+- **评测从小做起，别等大评测。** 20 个真实查询就能看出 prompt 改动的效果；这个习惯对 PingPilot 的 eval 方法论（PR #28）和 thinktank 的 judge 验收都适用。
+- **成本是设计约束，不是事后账单。** 15 倍 token 不是技术细节，是商业判断：任务价值付不起，就别上多 agent。这个判断本身就是 FDE 的核心能力之一。
