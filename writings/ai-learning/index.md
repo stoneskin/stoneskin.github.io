@@ -3,8 +3,8 @@
 [← 返回首页](../../index.html)
 
 
-*整理：2026-11-26 · 共 63 份（基础 19 + 专题 44）*
-*文件名链到本地总结，原文链到出处；下表 82 行：总纲 1 行、基础十九篇 19 行（无本地文件、原文直链）、其余 62 行；清单 63 份里 61 份有行（#35、#54 只在清单；#23、#27、#28 各占导读 + 摘要两行），其余为站内补充（非清单，不编号）；本站 .md 文件现为 63 个；编号 = 清单编号（第 N 份）；推荐度按对 AI Solutions Architect 目标的重要性与价值打分（中立，不按个人喜好）：★★★★★ 核心必读、★★★★☆ 值得精读、★★★☆☆ 值得一读、★★☆☆☆ 查阅参考、★☆☆☆☆ 了解即可，总纲行不打分；基础十九篇推荐度按分级折算（对照正文 ★★★★☆、摘要 ★★★☆☆、摘要（低优先）★★☆☆☆、概念即可 ★☆☆☆☆）*
+*整理：2026-11-26 · 共 64 份（基础 19 + 专题 45）*
+*文件名链到本地总结，原文链到出处；下表 83 行：总纲 1 行、基础十九篇 19 行（无本地文件、原文直链）、其余 63 行；清单 64 份里 62 份有行（#35、#54 只在清单；#23、#27、#28 各占导读 + 摘要两行），其余为站内补充（非清单，不编号）；本站 .md 文件现为 64 个；编号 = 清单编号（第 N 份）；推荐度按对 AI Solutions Architect 目标的重要性与价值打分（中立，不按个人喜好）：★★★★★ 核心必读、★★★★☆ 值得精读、★★★☆☆ 值得一读、★★☆☆☆ 查阅参考、★☆☆☆☆ 了解即可，总纲行不打分；基础十九篇推荐度按分级折算（对照正文 ★★★★☆、摘要 ★★★☆☆、摘要（低优先）★★☆☆☆、概念即可 ★☆☆☆☆）*
 
 
 ---
@@ -13,7 +13,7 @@
 
 | 编号 | 本地总结 | 原文 | 说明 | 推荐度 |
 |---|---|---|---|---|
-| — | [ai-learning-resources.md](./ai-learning-resources.html) | —（自建清单） | **总清单**：共 63 份（基础 19 + 专题 44），分级标注，专题按 7 组归类；与私仓清单同步。 | — |
+| — | [ai-learning-resources.md](./ai-learning-resources.html) | —（自建清单） | **总清单**：共 64 份（基础 19 + 专题 45），分级标注，专题按 7 组归类；与私仓清单同步。 | — |
 
 ## 二、基础十九篇（19）
 
@@ -71,6 +71,7 @@ systemdesign.one 19 篇深度文章（@0xSilver_Time 2026-10-14 推文串），�
 | 61 | [iron-giant-grok-harness-guide.md](./iron-giant-grok-harness-guide.html) | [X 长文](https://x.com/irongiantXBT/status/2122662343306059780) | Iron Giant《Grok Bot 烧钱，Harness 治它》导读：贵模型写字、便宜模型做决策；Chief、五字段合同、三道关卡、HANDOFF 与 Swarm 五规则 | ★★★★☆ |
 | 62 | [who-verifies-the-verifier-guide.md](./who-verifies-the-verifier-guide.html) | [arXiv 论文](https://arxiv.org/abs/2610.11464) | Who Verifies the Verifier? 导读：没有标准答案的任务上，评分器自己进化——可读检测器、10 项锚定、双守卫；塌掉的评分器也能让任务分数涨 | ★★★★☆ |
 | 63 | [ethan-how-llms-generate-tokens-guide.md](./ethan-how-llms-generate-tokens-guide.html) | [X 长文](https://x.com/UPing123zzz/status/2125810811088273806) | Ethan 恩宇《理解大模型如何生成一个 Token》导读：懂一个 Token 怎么生成，比学十个 Agent 框架更保值；Tokenization→Embedding→Transformer→概率分布→解码；幻觉、上下文工程、Prefill/Decode 与 KV Cache | ★★★★☆ |
+| 64 | [ethan-agentic-sdlc-guide.md](./ethan-agentic-sdlc-guide.html) | [X 长文](https://x.com/UPing123zzz/status/2125917481315492084) | Ethan 恩宇《Agentic SDLC：AI 让程序员快十倍，不等于公司交付快十倍》导读：87% 觉得个人交付快了、只有 28% 觉得组织阻力小了；瓶颈从写代码移到审查与验收；Harness 延伸到整个 SDLC；附 Helix 对照 | ★★★★☆ |
 
 ## 四、方法论文档（17，X 帖提炼）
 
