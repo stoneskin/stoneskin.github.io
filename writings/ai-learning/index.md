@@ -69,6 +69,7 @@ systemdesign.one 19 篇深度文章（@0xSilver_Time 2026-10-14 推文串），�
 | 59 | [anthropic-harness-design-guide.md](./anthropic-harness-design-guide.html) | [原文](https://www.anthropic.com/research/harness-design-long-running-apps) | Anthropic《Harness design for long-running apps》导读：别让 agent 给自己打分；怀疑型 evaluator 与“模型一强就拆 harness” | ★★★★☆ |
 | 60 | [ethan-rag-eval-guide.md](./ethan-rag-eval-guide.html) | [X 长文](https://x.com/UPing123zzz/status/2123245117930942775) | Ethan《RAG 评测》导读：答错先问错在哪一层——检索、忠实度还是旧版内容；评测是持续验证机制，不是仪表盘；直接对上 open-memex 0.11.0 的 rerank 与 memory_recall | ★★★★☆ |
 | 61 | [iron-giant-grok-harness-guide.md](./iron-giant-grok-harness-guide.html) | [X 长文](https://x.com/irongiantXBT/status/2122662343306059780) | Iron Giant《Grok Bot 烧钱，Harness 治它》导读：贵模型写字、便宜模型做决策；Chief、五字段合同、三道关卡、HANDOFF 与 Swarm 五规则 | ★★★★☆ |
+
 ## 四、方法论文档（17，X 帖提炼）
 
 | 编号 | 本地总结 | 原文 | 说明 | 推荐度 |
