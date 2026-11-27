@@ -3,8 +3,8 @@
 [← 返回首页](../../index.html)
 
 
-*整理：2026-11-26 · 共 66 份（基础 19 + 专题 47）*
-*文件名链到本地总结，原文链到出处；下表 85 行：总纲 1 行、基础十九篇 19 行（无本地文件、原文直链）、其余 65 行；清单 66 份里 64 份有行（#35、#54 只在清单；#23、#27、#28 各占导读 + 摘要两行），其余为站内补充（非清单，不编号）；本站 .md 文件现为 66 个；编号 = 清单编号（第 N 份）；推荐度按对 AI Solutions Architect 目标的重要性与价值打分（中立，不按个人喜好）：★★★★★ 核心必读、★★★★☆ 值得精读、★★★☆☆ 值得一读、★★☆☆☆ 查阅参考、★☆☆☆☆ 了解即可，总纲行不打分；基础十九篇推荐度按分级折算（对照正文 ★★★★☆、摘要 ★★★☆☆、摘要（低优先）★★☆☆☆、概念即可 ★☆☆☆☆）*
+*整理：2026-11-27 · 共 67 份（基础 19 + 专题 48）*
+*文件名链到本地总结，原文链到出处；下表 86 行：总纲 1 行、基础十九篇 19 行（无本地文件、原文直链）、其余 66 行；清单 67 份里 65 份有行（#35、#54 只在清单；#23、#27、#28 各占导读 + 摘要两行），其余为站内补充（非清单，不编号）；本站 .md 文件现为 67 个；编号 = 清单编号（第 N 份）；推荐度按对 AI Solutions Architect 目标的重要性与价值打分（中立，不按个人喜好）：★★★★★ 核心必读、★★★★☆ 值得精读、★★★☆☆ 值得一读、★★☆☆☆ 查阅参考、★☆☆☆☆ 了解即可，总纲行不打分；基础十九篇推荐度按分级折算（对照正文 ★★★★☆、摘要 ★★★☆☆、摘要（低优先）★★☆☆☆、概念即可 ★☆☆☆☆）*
 
 
 ---
@@ -13,7 +13,7 @@
 
 | 编号 | 本地总结 | 原文 | 说明 | 推荐度 |
 |---|---|---|---|---|
-| — | [ai-learning-resources.md](./ai-learning-resources.html) | —（自建清单） | **总清单**：共 66 份（基础 19 + 专题 47），分级标注，专题按 7 组归类；与私仓清单同步。 | — |
+| — | [ai-learning-resources.md](./ai-learning-resources.html) | —（自建清单） | **总清单**：共 67 份（基础 19 + 专题 48），分级标注，专题按 7 组归类；与私仓清单同步。 | — |
 
 ## 二、基础十九篇（19）
 
@@ -74,6 +74,7 @@ systemdesign.one 19 篇深度文章（@0xSilver_Time 2026-10-14 推文串），�
 | 64 | [ethan-agentic-sdlc-guide.md](./ethan-agentic-sdlc-guide.html) | [X 长文](https://x.com/UPing123zzz/status/2125917481315492084) | Ethan 恩宇《Agentic SDLC：AI 让程序员快十倍，不等于公司交付快十倍》导读：87% 觉得个人交付快了、只有 28% 觉得组织阻力小了；瓶颈从写代码移到审查与验收；Harness 延伸到整个 SDLC；附 Helix 对照 | ★★★★☆ |
 | 65 | [ethan-rag-relearn-guide.md](./ethan-rag-relearn-guide.html) | [X 长文](https://x.com/UPing123zzz/status/2125898218152309243) | Ethan 恩宇《重新学 RAG，别从选工具开始》导读：两条链路（离线索引、在线查询）；分层故障定位六问；语义相似 ≠ 业务相关；SQL / GraphRAG / Agentic RAG 按问题选；评测基线先行 | ★★★★☆ |
 | 66 | [anthropic-multi-agent-research-guide.md](./anthropic-multi-agent-research-guide.html) | [Anthropic 官方博客](https://www.anthropic.com/engineering/multi-agent-research-system) | Anthropic《How we built our multi-agent research system》导读：lead + subagent 的 orchestrator-worker；多 agent 比单 agent 好 90.2%（广度优先查询）；赢的机制主要是花了更多 token；代价 15 倍 token；适用边界：能并行拆块才赢 | ★★★★★ |
+| 67 | [huberman-feifei-li-guide.md](./huberman-feifei-li-guide.html) | [Huberman Lab 官网](https://www.hubermanlab.com/episode/using-ai-to-increase-your-intelligence-and-enrich-humanity-fei-fei-li) | 李飞飞访谈导读：视觉是智能的基石、ImageNet 与 2012、AI 够不着的东西（创造力/直觉/情感）、提示词是技能（苏格拉底）、空间智能是语言之后的下一章 | ★★★★☆ |
 
 ## 四、方法论文档（17，X 帖提炼）
 
