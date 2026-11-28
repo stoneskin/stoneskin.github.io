@@ -12,10 +12,10 @@
 <circle cx="380" cy="330" r="22" fill="#2d3142"/>
 <line x1="315" y1="152" x2="315" y2="283" stroke="#4f5d75" stroke-width="1.5" stroke-dasharray="2 5" opacity="0.5"/>
 <path d="M 523,266 Q 480,330 430,370" fill="none" stroke="#b07d1e" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#arrowLoop)"/>
-<circle r="4.5" fill="#2d3142" opacity="0.75" cx="315" cy="152"><animateMotion dur="3.5s" begin="0s" repeatCount="indefinite" path="M 315,152 L 315,283"/></circle>
-<circle r="4.5" fill="#2d3142" opacity="0.75" cx="315" cy="152"><animateMotion dur="3.5s" begin="1.75s" repeatCount="indefinite" path="M 315,152 L 315,283"/></circle>
-<circle r="5" fill="#b07d1e" cx="523" cy="266"><animateMotion dur="5s" repeatCount="indefinite" path="M 523,266 Q 480,330 430,370"/></circle>
-<circle r="4.5" fill="#2d3142" cx="170" cy="330"><animateMotion dur="7s" begin="0.5s" repeatCount="indefinite" path="M 170,330 L 800,330"/></circle>
+<circle r="4.5" fill="#2d3142" opacity="0.75" cx="0" cy="0"><animateMotion dur="3.5s" begin="0s" repeatCount="indefinite" path="M 315,152 L 315,283"/></circle>
+<circle r="4.5" fill="#2d3142" opacity="0.75" cx="0" cy="0"><animateMotion dur="3.5s" begin="-1.75s" repeatCount="indefinite" path="M 315,152 L 315,283"/></circle>
+<circle r="5" fill="#b07d1e" cx="0" cy="0"><animateMotion dur="5s" repeatCount="indefinite" path="M 523,266 Q 480,330 430,370"/></circle>
+<circle r="4.5" fill="#2d3142" cx="0" cy="0"><animateMotion dur="7s" begin="-0.5s" repeatCount="indefinite" path="M 170,330 L 800,330"/></circle>
 <rect x="800" y="302" width="180" height="56" rx="8" fill="#f5f5f5" stroke="#2d3142" stroke-width="1"/>
 <text x="380" y="330" font-family="'Geist','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#f5f5f5" text-anchor="middle" dominant-baseline="central" font-weight="600">模型</text>
 <text x="380" y="278" font-family="'Geist','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-size="16" fill="#bf4520" text-anchor="middle" dominant-baseline="central" font-weight="600">Prompt</text>
