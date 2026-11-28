@@ -312,6 +312,8 @@ Google 把"agent 该怎么用 Google 产品"写成 200 多个按需加载的 SKI
 
 - **last30days**（[mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill)，MIT）——一个 skill，`/last30days <话题>`，并行搜 Reddit、X、YouTube、TikTok、HN、Polymarket、GitHub 等 30 来个源，按真实互动打分、由 agent 判官合成一份带引用的 markdown 简报。2026-11-28 快照：76,449 star，Agent Skills 生态目前最火的单个 skill。装法：Claude Code 走 `/plugin marketplace add mvanhorn/last30days-skill`，或 `npx skills add mvanhorn/last30days-skill -g`。零配置可用 Reddit、HN、Polymarket、GitHub；X、YouTube、TikTok 要自己的 key。**保留意见：互动量 ≠ 真实性**，它只能当发现工具，不能当验证工具——SKILL.md 自己也写了抓回来的内容是不受信的证据。
 
+- **Petar Ivanov 的 10 个 skill 仓库**（[LinkedIn 帖子](https://lnkd.in/p/efbiNzpz)，2026-11-27）——Agent Skills 生态的地图：1 规范本体（开放格式，40+ 工具已支持）、2 Anthropic 官方 19 个参考 skill（先看 skill-creator 与 webapp-testing）、3 Superpowers（15 个：头脑风暴、规划、先写失败测试）、4 Matt Pocock 的 Skills for Real Engineers（TDD、bug 诊断、领域建模、grill-me——Pocock 就是本站 skill 写作检查清单的来源）、5 Addy Osmani 的 25 个（按开发生命周期排）、6 Vercel 的 70 条 React/Next.js 性能规则、7 Jeffallan 的 67 个角色 skill、8 Trail of Bits 的 80+ 安全 skill、9 Vercel Labs 的 skills CLI（skill 的 npm，一次装 75+ agent 宿主）、10 VoltAgent 的 Awesome 清单（1,000+ skill）。新手顺序：1、2、9，再 6 或 7。**保留意见：10 个仓库的链接都在帖子第一条评论里，本页没逐个验证；"1M+ star"是合计不是单库数字**——它是地图不是教材，装之前先读 SKILL.md（帖子原话：带脚本的 skill 是拿你的权限跑的，装之前当新 npm 包一样审一遍）。
+
 ### 另：Plugins（整包当插件装）
 
 - Claude Code：`claude plugin marketplace add google/skills`，再 `claude plugin install <plugin>@google-plugins`
@@ -320,5 +322,5 @@ Google 把"agent 该怎么用 Google 产品"写成 200 多个按需加载的 SKI
 
 ## 证据不支持什么
 
-- 这份导读只核对了仓库 README 的清单与安装命令，没有逐个读 219 个 skill 的 SKILL.md——重点 skill 的内容以各自原文为准。库外 last30days 一则核对过其 README（2026-11-28），未读其 SKILL.md 与 pipeline 代码。
+- 这份导读只核对了仓库 README 的清单与安装命令，没有逐个读 219 个 skill 的 SKILL.md——重点 skill 的内容以各自原文为准。库外 last30days 一则核对过其 README（2026-11-28），未读其 SKILL.md 与 pipeline 代码。库外 Petar 一则只核对过帖子正文（2026-11-28），10 个仓库链接未逐个验证。
 - star 数、skill 数都是 2026-11-28 的快照，仓库仍在快速长，别把本页的数字当现状引用。

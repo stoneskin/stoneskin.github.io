@@ -3,8 +3,8 @@
 [← 返回首页](../../index.html)
 
 
-*整理：2026-11-28 · 共 70 份（基础 19 + 专题 51）*
-*文件名链到本地总结，原文链到出处；下表 89 行：总纲 1 行、基础十九篇 19 行（无本地文件、原文直链）、其余 69 行；清单 70 份里 68 份有行（#35、#54 只在清单；#23、#27、#28 各占导读 + 摘要两行），其余为站内补充（非清单，不编号）；本站 .md 文件现为 70 个；编号 = 清单编号（第 N 份）；推荐度按对 AI Solutions Architect 目标的重要性与价值打分（中立，不按个人喜好）：★★★★★ 核心必读、★★★★☆ 值得精读、★★★☆☆ 值得一读、★★☆☆☆ 查阅参考、★☆☆☆☆ 了解即可，总纲行不打分；基础十九篇推荐度按分级折算（对照正文 ★★★★☆、摘要 ★★★☆☆、摘要（低优先）★★☆☆☆、概念即可 ★☆☆☆☆）*
+*整理：2026-11-28 · 共 71 份（基础 19 + 专题 52）*
+*文件名链到本地总结，原文链到出处；下表 90 行：总纲 1 行、基础十九篇 19 行（无本地文件、原文直链）、其余 70 行；清单 71 份里 69 份有行（#35、#54 只在清单；#23、#27、#28 各占导读 + 摘要两行），其余为站内补充（非清单，不编号）；本站 .md 文件现为 71 个；编号 = 清单编号（第 N 份）；推荐度按对 AI Solutions Architect 目标的重要性与价值打分（中立，不按个人喜好）：★★★★★ 核心必读、★★★★☆ 值得精读、★★★☆☆ 值得一读、★★☆☆☆ 查阅参考、★☆☆☆☆ 了解即可，总纲行不打分；基础十九篇推荐度按分级折算（对照正文 ★★★★☆、摘要 ★★★☆☆、摘要（低优先）★★☆☆☆、概念即可 ★☆☆☆☆）*
 
 
 ---
@@ -13,7 +13,7 @@
 
 | 编号 | 本地总结 | 原文 | 说明 | 推荐度 |
 |---|---|---|---|---|
-| — | [ai-learning-resources.md](./ai-learning-resources.html) | —（自建清单） | **总清单**：共 70 份（基础 19 + 专题 51），分级标注，专题按 7 组归类；与私仓清单同步。 | — |
+| — | [ai-learning-resources.md](./ai-learning-resources.html) | —（自建清单） | **总清单**：共 71 份（基础 19 + 专题 52），分级标注，专题按 7 组归类；与私仓清单同步。 | — |
 
 ## 二、基础十九篇（19）
 
@@ -78,6 +78,7 @@ systemdesign.one 19 篇深度文章（@0xSilver_Time 2026-10-14 推文串），�
 | 68 | [five-layer-ai-stack-guide.md](./five-layer-ai-stack-guide.html) | [YouTube](https://www.youtube.com/watch?v=Etq_y6CqNh4) | 五层 AI 底层知识点导读：提示词→上下文→Harness→Loop→Graph，逐级递进；价值在框架本身、锚点概念与五维自查清单；五层另有社区依据，但"严格递进"只是其中一种讲法，三个数字未经核实 | ★★★☆☆ |
 | 69 | [google-agent-skills-guide.md](./google-agent-skills-guide.html) | [GitHub](https://github.com/google/skills) | Google 官方 Agent Skills 库导读：219 个第一方 skill（2026-11-28 快照），分类清单全收；写法参照 + Agent Platform 的 eval/registry 组与 PingPilot、智囊团直接相关 | ★★★☆☆ |
 | 70 | [large-agentic-app-architecture-guide.md](./large-agentic-app-architecture-guide.html) | [LinkedIn 帖子](https://lnkd.in/p/eDSgKe-b) | Gaurav Pandey《大型 agentic AI 应用的架构草图》：9 层生产架构（网关、编排、MCP、记忆、异步、信任层、CI/CD）；缺层检查表，kill switch 与 agent 身份两项值得补进 PingPilot/WorkBuddy 设计清单 | ★★★☆☆ |
+| 71 | [ai-agent-evaluation-tools-guide.md](./ai-agent-evaluation-tools-guide.html) | [LinkedIn 帖子](https://lnkd.in/p/eqXkHByS) | Maryam Miradi《AI Agent 评测工具全景》：20 个评测工具按 5 组排（Eval 框架、RAG 评测、追踪可观测、红队、Agent 基准）；PingPilot eval 方法论的工具箱对照 | ★★★☆☆ |
 
 ## 四、方法论文档（17，X 帖提炼）
 
