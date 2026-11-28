@@ -86,10 +86,10 @@ Go around the questions once and where the human stands becomes clear too: not b
 
 **References**
 
-1. Gareth Roberts, "The Prompting Stack," Zenodo, 2026-07-26: https://zenodo.org/records/21586163/files/prompt-stack.pdf
+1. Gareth Roberts, "[The Prompting Stack](https://zenodo.org/records/21586163/files/prompt-stack.pdf)," Zenodo, 2026-07-26
 2. Peter Steinberger, post, 2026-07-17 (via a Data Science Dojo article)
-3. shakti mishra, "Graph Engineering Explained: The Missing Fifth Layer of AI Agent Architecture," dev.to, 2026-08-16: https://dev.to/shakti_mishra_308e9f36b5d/graph-engineering-explained-the-missing-fifth-layer-of-ai-agent-architecture-5ab
-4. Huberman Lab, "Using AI to Increase Your Intelligence & Enrich Humanity | Dr. Fei-Fei Li," 2026-08-10 (prompting as a craft, give detailed context first, shallow intuition is context)
-5. "Who Verifies the Verifier?", arXiv:2610.11464 (the verifier itself needs verifying)
-6. Anthropic, "How we built our multi-agent research system," 2025-06-13 (source of the 90.2% and 15x token figures): https://www.anthropic.com/engineering/multi-agent-research-system
-7. Xigua, "AI Is Hard to Use Not Because of the Model — You're Missing Five Foundational Concepts," YouTube, 2026-08-07: https://www.youtube.com/watch?v=Etq_y6CqNh4
+3. shakti mishra, "[Graph Engineering Explained: The Missing Fifth Layer of AI Agent Architecture](https://dev.to/shakti_mishra_308e9f36b5d/graph-engineering-explained-the-missing-fifth-layer-of-ai-agent-architecture-5ab)," dev.to, 2026-08-16
+4. Huberman Lab, "[Using AI to Increase Your Intelligence & Enrich Humanity | Dr. Fei-Fei Li](https://www.hubermanlab.com/episode/using-ai-to-increase-your-intelligence-and-enrich-humanity-fei-fei-li)," 2026-08-10 (prompting as a craft, give detailed context first, shallow intuition is context)
+5. "[Who Verifies the Verifier?](https://arxiv.org/abs/2610.11464)," arXiv:2610.11464 (the verifier itself needs verifying)
+6. Anthropic, "[How we built our multi-agent research system](https://www.anthropic.com/engineering/multi-agent-research-system)," 2025-06-13 (source of the 90.2% and 15x token figures)
+7. Xigua, "[AI Is Hard to Use Not Because of the Model — You're Missing Five Foundational Concepts](https://www.youtube.com/watch?v=Etq_y6CqNh4)," YouTube, 2026-08-07
