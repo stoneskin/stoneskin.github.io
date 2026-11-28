@@ -89,7 +89,7 @@ Verify 和 Evals 是两回事，我之前也混过。Verify 是 Loop 里的守�
 1. Gareth Roberts《[The Prompting Stack](https://zenodo.org/records/21586163/files/prompt-stack.pdf)》，Zenodo，2026-07-26
 2. Peter Steinberger 推文，2026-07-17（经 Data Science Dojo 文章转引）
 3. shakti mishra《[Graph Engineering Explained: The Missing Fifth Layer of AI Agent Architecture](https://dev.to/shakti_mishra_308e9f36b5d/graph-engineering-explained-the-missing-fifth-layer-of-ai-agent-architecture-5ab)》，dev.to，2026-08-16
-4. Huberman Lab《[Using AI to Increase Your Intelligence & Enrich Humanity | Dr. Fei-Fei Li](https://www.hubermanlab.com/episode/using-ai-to-increase-your-intelligence-and-enrich-humanity-fei-fei-li)》，2026-08-10（提示词是手艺、先给详细的上下文、浅层直觉就是上下文）
+4. Huberman Lab《[Using AI to Increase Your Intelligence & Enrich Humanity - Dr. Fei-Fei Li](https://www.hubermanlab.com/episode/using-ai-to-increase-your-intelligence-and-enrich-humanity-fei-fei-li)》，2026-08-10（提示词是手艺、先给详细的上下文、浅层直觉就是上下文）
 5. 《[Who Verifies the Verifier?](https://arxiv.org/abs/2610.11464)》，arXiv:2610.11464（验证者本身也需要验证）
 6. Anthropic《[How we built our multi-agent research system](https://www.anthropic.com/engineering/multi-agent-research-system)》，2025-06-13（90.2% 与 15 倍 token 的出处）
 7. 西瓜《[AI用不好，不是模型的问题，是你缺5个底层知识点](https://www.youtube.com/watch?v=Etq_y6CqNh4)》，YouTube，2026-08-07
