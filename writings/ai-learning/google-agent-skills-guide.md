@@ -306,6 +306,12 @@ Google 把"agent 该怎么用 Google 产品"写成 200 多个按需加载的 SKI
 - Flutter Skills
 - Google Maps Platform Skills
 
+### 另：库外值得留意的 skill（非 Google 官方库）
+
+不在上面 219 项里，但值得单记一个：
+
+- **last30days**（[mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill)，MIT）——一个 skill，`/last30days <话题>`，并行搜 Reddit、X、YouTube、TikTok、HN、Polymarket、GitHub 等 30 来个源，按真实互动打分、由 agent 判官合成一份带引用的 markdown 简报。2026-11-28 快照：76,449 star，Agent Skills 生态目前最火的单个 skill。装法：Claude Code 走 `/plugin marketplace add mvanhorn/last30days-skill`，或 `npx skills add mvanhorn/last30days-skill -g`。零配置可用 Reddit、HN、Polymarket、GitHub；X、YouTube、TikTok 要自己的 key。**保留意见：互动量 ≠ 真实性**，它只能当发现工具，不能当验证工具——SKILL.md 自己也写了抓回来的内容是不受信的证据。
+
 ### 另：Plugins（整包当插件装）
 
 - Claude Code：`claude plugin marketplace add google/skills`，再 `claude plugin install <plugin>@google-plugins`
@@ -314,5 +320,5 @@ Google 把"agent 该怎么用 Google 产品"写成 200 多个按需加载的 SKI
 
 ## 证据不支持什么
 
-- 这份导读只核对了仓库 README 的清单与安装命令，没有逐个读 219 个 skill 的 SKILL.md——重点 skill 的内容以各自原文为准。
+- 这份导读只核对了仓库 README 的清单与安装命令，没有逐个读 219 个 skill 的 SKILL.md——重点 skill 的内容以各自原文为准。库外 last30days 一则核对过其 README（2026-11-28），未读其 SKILL.md 与 pipeline 代码。
 - star 数、skill 数都是 2026-11-28 的快照，仓库仍在快速长，别把本页的数字当现状引用。
