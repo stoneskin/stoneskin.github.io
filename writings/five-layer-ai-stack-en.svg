@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 660" width="1000" height="660">
+<defs><marker id="arrowLoop" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b07d1e"/></marker></defs>
+<rect x="0" y="0" width="1000" height="660" fill="#f5f5f5"/>
+<text x="60" y="48" font-family="'Instrument Serif','Noto Serif SC','Noto Serif',serif" font-size="22" fill="#2d3142">The Five-Layer AI Stack</text>
+<text x="60" y="72" font-family="'Geist','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-size="12" fill="#4f5d75">Loop and Graph live inside the Harness ring</text>
+<line x1="170" y1="330" x2="800" y2="330" stroke="#2d3142" stroke-width="1.5"/>
+<circle cx="500" cy="335" r="280" fill="#3e7d54" fill-opacity="0.08" stroke="#3e7d54" stroke-width="2"/>
+<circle cx="380" cy="330" r="130" fill="#2e6fb0" fill-opacity="0.08" stroke="#2e6fb0" stroke-width="2"/>
+<circle cx="380" cy="330" r="80" fill="#bf4520" fill-opacity="0.08" stroke="#bf4520" stroke-width="2.5"/>
+<circle cx="625" cy="235" r="105" fill="#b07d1e" fill-opacity="0.08" stroke="#b07d1e" stroke-width="2"/>
+<circle cx="625" cy="435" r="110" fill="#7a4a9e" fill-opacity="0.08" stroke="#7a4a9e" stroke-width="2"/>
+<circle cx="380" cy="330" r="22" fill="#2d3142"/>
+<line x1="315" y1="152" x2="315" y2="283" stroke="#4f5d75" stroke-width="1.5" stroke-dasharray="2 5" opacity="0.5"/>
+<path d="M 523,266 Q 480,330 430,370" fill="none" stroke="#b07d1e" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#arrowLoop)"/>
+<circle r="4.5" fill="#2d3142" opacity="0.75" cx="315" cy="152"><animateMotion dur="3.5s" begin="0s" repeatCount="indefinite" path="M 315,152 L 315,283"/></circle>
+<circle r="4.5" fill="#2d3142" opacity="0.75" cx="315" cy="152"><animateMotion dur="3.5s" begin="1.75s" repeatCount="indefinite" path="M 315,152 L 315,283"/></circle>
+<circle r="5" fill="#b07d1e" cx="523" cy="266"><animateMotion dur="5s" repeatCount="indefinite" path="M 523,266 Q 480,330 430,370"/></circle>
+<circle r="4.5" fill="#2d3142" cx="170" cy="330"><animateMotion dur="7s" begin="0.5s" repeatCount="indefinite" path="M 170,330 L 800,330"/></circle>
+<rect x="800" y="302" width="180" height="56" rx="8" fill="#f5f5f5" stroke="#2d3142" stroke-width="1"/>
+<text x="380" y="330" font-family="'Geist','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-size="12" fill="#f5f5f5" text-anchor="middle" dominant-baseline="central" font-weight="600">LLM</text>
+<text x="380" y="278" font-family="'Geist','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-size="16" fill="#bf4520" text-anchor="middle" dominant-baseline="central" font-weight="600">Prompt</text>
+<text x="380" y="368" font-family="'Geist','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-size="11" fill="#4f5d75" text-anchor="middle" dominant-baseline="central">what to do</text>
+<text x="380" y="386" font-family="'Geist','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-size="11" fill="#4f5d75" text-anchor="middle" dominant-baseline="central">project background</text>
+<text x="380" y="232" font-family="'Geist','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#2e6fb0" text-anchor="middle" dominant-baseline="central" font-weight="600">Context Engineering</text>
+<text x="380" y="428" font-family="'Geist','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-size="10" fill="#4f5d75" text-anchor="middle" dominant-baseline="central">memory · RAG/embed · history</text>
+<text x="380" y="140" font-family="'Geist','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#3e7d54" text-anchor="middle" dominant-baseline="central" font-weight="600">Harness</text>
+<text x="380" y="520" font-family="'Geist','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-size="11" fill="#4f5d75" text-anchor="middle" dominant-baseline="central">tools + skills + rules</text>
+<text x="625" y="195" font-family="'Geist','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-size="15" fill="#b07d1e" text-anchor="middle" dominant-baseline="central" font-weight="600">Loop</text>
+<text x="625" y="215" font-family="'Geist','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-size="11" fill="#4f5d75" text-anchor="middle" dominant-baseline="central">verify output · human/agent in the loop</text>
+<text x="625" y="233" font-family="'Geist','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-size="11" fill="#4f5d75" text-anchor="middle" dominant-baseline="central">evaluate → change 3 layers → re-input</text>
+<text x="625" y="422" font-family="'Geist','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-size="15" fill="#7a4a9e" text-anchor="middle" dominant-baseline="central" font-weight="600">Graph</text>
+<text x="625" y="442" font-family="'Geist','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-size="11" fill="#4f5d75" text-anchor="middle" dominant-baseline="central">serial / parallel · super agent delegates</text>
+<text x="625" y="460" font-family="'Geist','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-size="11" fill="#4f5d75" text-anchor="middle" dominant-baseline="central">Swarm · sub-agents</text>
+<text x="625" y="472" font-family="'Geist','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-size="10" fill="#4f5d75" text-anchor="middle" dominant-baseline="central">node = agent: model call + harness + loop</text>
+<text x="816" y="324" font-family="'Geist','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#2d3142" text-anchor="start" dominant-baseline="central" font-weight="600">Observability</text>
+<text x="816" y="344" font-family="'Geist','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-size="10" fill="#4f5d75" text-anchor="start" dominant-baseline="central">logs · latency · traces</text>
+<line x1="24" y1="600" x2="64" y2="600" stroke="#4f5d75" stroke-width="1.5" stroke-dasharray="2 5" opacity="0.5"/>
+<text x="72" y="600" font-family="'Geist','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-size="11" fill="#4f5d75" text-anchor="start" dominant-baseline="central">input: material flows into the model</text>
+<line x1="24" y1="624" x2="56" y2="624" stroke="#b07d1e" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#arrowLoop)"/>
+<text x="72" y="624" font-family="'Geist','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-size="11" fill="#4f5d75" text-anchor="start" dominant-baseline="central">feedback: change 3 layers, re-input</text>
+<text x="500" y="632" font-family="'Geist','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-size="11" fill="#4f5d75" text-anchor="middle" dominant-baseline="central">Build order is reversed: sketch the graph first, tune the prompt last</text>
+</svg>

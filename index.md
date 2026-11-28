@@ -42,6 +42,7 @@ Seasoned software architect and tech leader with **20+ years** of experience in 
 
 | Article | Description |
 |---------|-------------|
+| [The Five Layers of AI: One Diagram, My Take on AI Engineering](./writings/five-layer-ai-my-take-en.md) / [五层 AI：用一张图，说说我对 AI Engineering 的理解](./writings/five-layer-ai-my-take-zh.md) | Five layers of shipping AI — prompt, context, harness, loop, graph — and the human on the loop / 落地 AI 的五层：提示词、上下文、Harness、Loop、Graph，以及 loop 外守望的人 (2026-11) |
 | [I Built Muse a Think Tank](./writings/i-built-muse-a-think-tank-en.md) / [我给 Muse 写了个智囊团](./writings/i-built-muse-a-think-tank-zh.md) | Multi-model jury for Muse: disagreement as signal, human intuition can't be outsourced / 给 Muse 接入多模型智囊团：分歧即信号，人的直觉无法外包 (2026-10) |
 | [I Gave My AI a Memory](./writings/i-gave-my-ai-a-memory-en.md) / [我给 AI 配了个记忆](./writings/i-gave-my-ai-a-memory-zh.md) | Long-term memory for AI coding assistants: local Markdown + full-text index / 给 AI 编程助手加长期记忆：本地 Markdown + 全文索引 (2026-10) |
 | [The Human-AI Relationship](./writings/human-ai-relationship/index-en.md) / [人与 AI 的关系](./writings/human-ai-relationship/) | Ongoing notes: AI replaces toil not humans, agency × taste, and more — 32 entries, each its own page / 长期记录：AI 取代苦力不取代人类、agency × taste 等，32 条单篇目录 (2026-10 起) |
